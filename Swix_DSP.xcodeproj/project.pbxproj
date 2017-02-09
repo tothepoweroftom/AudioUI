@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353EF5C91E4CA58300EB8041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5C81E4CA58300EB8041 /* AppDelegate.swift */; };
+		353EF5CB1E4CA58300EB8041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5CA1E4CA58300EB8041 /* ViewController.swift */; };
+		353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5CC1E4CA58300EB8041 /* Main.storyboard */; };
+		353EF5D01E4CA58300EB8041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5CF1E4CA58300EB8041 /* Assets.xcassets */; };
+		353EF5D31E4CA58300EB8041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */; };
+		353EF5DE1E4CA58400EB8041 /* Swix_DSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5DD1E4CA58400EB8041 /* Swix_DSPTests.swift */; };
+		353EF5E91E4CA58400EB8041 /* Swix_DSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5E81E4CA58400EB8041 /* Swix_DSPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353EF5DA1E4CA58400EB8041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353EF5BD1E4CA58300EB8041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353EF5C41E4CA58300EB8041;
+			remoteInfo = Swix_DSP;
+		};
+		353EF5E51E4CA58400EB8041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353EF5BD1E4CA58300EB8041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353EF5C41E4CA58300EB8041;
+			remoteInfo = Swix_DSP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353EF5C51E4CA58300EB8041 /* Swix_DSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swix_DSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353EF5C81E4CA58300EB8041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		353EF5CA1E4CA58300EB8041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353EF5CD1E4CA58300EB8041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353EF5CF1E4CA58300EB8041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353EF5D21E4CA58300EB8041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353EF5D41E4CA58300EB8041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353EF5D91E4CA58400EB8041 /* Swix_DSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swix_DSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353EF5DD1E4CA58400EB8041 /* Swix_DSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swix_DSPTests.swift; sourceTree = "<group>"; };
+		353EF5DF1E4CA58400EB8041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353EF5E41E4CA58400EB8041 /* Swix_DSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swix_DSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353EF5E81E4CA58400EB8041 /* Swix_DSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swix_DSPUITests.swift; sourceTree = "<group>"; };
+		353EF5EA1E4CA58400EB8041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353EF5C21E4CA58300EB8041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5D61E4CA58400EB8041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5E11E4CA58400EB8041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353EF5BC1E4CA58300EB8041 = {
+			isa = PBXGroup;
+			children = (
+				353EF5C71E4CA58300EB8041 /* Swix_DSP */,
+				353EF5DC1E4CA58400EB8041 /* Swix_DSPTests */,
+				353EF5E71E4CA58400EB8041 /* Swix_DSPUITests */,
+				353EF5C61E4CA58300EB8041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353EF5C61E4CA58300EB8041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5C51E4CA58300EB8041 /* Swix_DSP.app */,
+				353EF5D91E4CA58400EB8041 /* Swix_DSPTests.xctest */,
+				353EF5E41E4CA58400EB8041 /* Swix_DSPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353EF5C71E4CA58300EB8041 /* Swix_DSP */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5C81E4CA58300EB8041 /* AppDelegate.swift */,
+				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
+				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
+				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
+				353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */,
+				353EF5D41E4CA58300EB8041 /* Info.plist */,
+			);
+			path = Swix_DSP;
+			sourceTree = "<group>";
+		};
+		353EF5DC1E4CA58400EB8041 /* Swix_DSPTests */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5DD1E4CA58400EB8041 /* Swix_DSPTests.swift */,
+				353EF5DF1E4CA58400EB8041 /* Info.plist */,
+			);
+			path = Swix_DSPTests;
+			sourceTree = "<group>";
+		};
+		353EF5E71E4CA58400EB8041 /* Swix_DSPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5E81E4CA58400EB8041 /* Swix_DSPUITests.swift */,
+				353EF5EA1E4CA58400EB8041 /* Info.plist */,
+			);
+			path = Swix_DSPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353EF5C41E4CA58300EB8041 /* Swix_DSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353EF5ED1E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSP" */;
+			buildPhases = (
+				353EF5C11E4CA58300EB8041 /* Sources */,
+				353EF5C21E4CA58300EB8041 /* Frameworks */,
+				353EF5C31E4CA58300EB8041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swix_DSP;
+			productName = Swix_DSP;
+			productReference = 353EF5C51E4CA58300EB8041 /* Swix_DSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353EF5D81E4CA58400EB8041 /* Swix_DSPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353EF5F01E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPTests" */;
+			buildPhases = (
+				353EF5D51E4CA58400EB8041 /* Sources */,
+				353EF5D61E4CA58400EB8041 /* Frameworks */,
+				353EF5D71E4CA58400EB8041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353EF5DB1E4CA58400EB8041 /* PBXTargetDependency */,
+			);
+			name = Swix_DSPTests;
+			productName = Swix_DSPTests;
+			productReference = 353EF5D91E4CA58400EB8041 /* Swix_DSPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353EF5E31E4CA58400EB8041 /* Swix_DSPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353EF5F31E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPUITests" */;
+			buildPhases = (
+				353EF5E01E4CA58400EB8041 /* Sources */,
+				353EF5E11E4CA58400EB8041 /* Frameworks */,
+				353EF5E21E4CA58400EB8041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353EF5E61E4CA58400EB8041 /* PBXTargetDependency */,
+			);
+			name = Swix_DSPUITests;
+			productName = Swix_DSPUITests;
+			productReference = 353EF5E41E4CA58400EB8041 /* Swix_DSPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353EF5BD1E4CA58300EB8041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "MOBGEN:Lab";
+				TargetAttributes = {
+					353EF5C41E4CA58300EB8041 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DWNK4MCTP;
+						ProvisioningStyle = Automatic;
+					};
+					353EF5D81E4CA58400EB8041 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DWNK4MCTP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353EF5C41E4CA58300EB8041;
+					};
+					353EF5E31E4CA58400EB8041 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DWNK4MCTP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353EF5C41E4CA58300EB8041;
+					};
+				};
+			};
+			buildConfigurationList = 353EF5C01E4CA58300EB8041 /* Build configuration list for PBXProject "Swix_DSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353EF5BC1E4CA58300EB8041;
+			productRefGroup = 353EF5C61E4CA58300EB8041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353EF5C41E4CA58300EB8041 /* Swix_DSP */,
+				353EF5D81E4CA58400EB8041 /* Swix_DSPTests */,
+				353EF5E31E4CA58400EB8041 /* Swix_DSPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353EF5C31E4CA58300EB8041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353EF5D31E4CA58300EB8041 /* LaunchScreen.storyboard in Resources */,
+				353EF5D01E4CA58300EB8041 /* Assets.xcassets in Resources */,
+				353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5D71E4CA58400EB8041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5E21E4CA58400EB8041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353EF5C11E4CA58300EB8041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353EF5CB1E4CA58300EB8041 /* ViewController.swift in Sources */,
+				353EF5C91E4CA58300EB8041 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5D51E4CA58400EB8041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353EF5DE1E4CA58400EB8041 /* Swix_DSPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353EF5E01E4CA58400EB8041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353EF5E91E4CA58400EB8041 /* Swix_DSPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353EF5DB1E4CA58400EB8041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353EF5C41E4CA58300EB8041 /* Swix_DSP */;
+			targetProxy = 353EF5DA1E4CA58400EB8041 /* PBXContainerItemProxy */;
+		};
+		353EF5E61E4CA58400EB8041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353EF5C41E4CA58300EB8041 /* Swix_DSP */;
+			targetProxy = 353EF5E51E4CA58400EB8041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353EF5CC1E4CA58300EB8041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353EF5CD1E4CA58300EB8041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353EF5D21E4CA58300EB8041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353EF5EB1E4CA58400EB8041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353EF5EC1E4CA58400EB8041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353EF5EE1E4CA58400EB8041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		353EF5EF1E4CA58400EB8041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		353EF5F11E4CA58400EB8041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swix_DSP.app/Swix_DSP";
+			};
+			name = Debug;
+		};
+		353EF5F21E4CA58400EB8041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swix_DSP.app/Swix_DSP";
+			};
+			name = Release;
+		};
+		353EF5F41E4CA58400EB8041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swix_DSP;
+			};
+			name = Debug;
+		};
+		353EF5F51E4CA58400EB8041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				INFOPLIST_FILE = Swix_DSPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swix_DSP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353EF5C01E4CA58300EB8041 /* Build configuration list for PBXProject "Swix_DSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353EF5EB1E4CA58400EB8041 /* Debug */,
+				353EF5EC1E4CA58400EB8041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353EF5ED1E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353EF5EE1E4CA58400EB8041 /* Debug */,
+				353EF5EF1E4CA58400EB8041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353EF5F01E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353EF5F11E4CA58400EB8041 /* Debug */,
+				353EF5F21E4CA58400EB8041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353EF5F31E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353EF5F41E4CA58400EB8041 /* Debug */,
+				353EF5F51E4CA58400EB8041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353EF5BD1E4CA58300EB8041 /* Project object */;
+}
