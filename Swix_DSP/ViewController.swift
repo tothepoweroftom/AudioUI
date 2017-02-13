@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var x = arange(10)
+        var y = sqrt(x)
+        print(x)
+        print(y)
     }
 
     override func didReceiveMemoryWarning() {

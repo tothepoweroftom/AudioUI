@@ -14,6 +14,34 @@
 		353EF5D31E4CA58300EB8041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */; };
 		353EF5DE1E4CA58400EB8041 /* Swix_DSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5DD1E4CA58400EB8041 /* Swix_DSPTests.swift */; };
 		353EF5E91E4CA58400EB8041 /* Swix_DSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5E81E4CA58400EB8041 /* Swix_DSPUITests.swift */; };
+		353EF6181E4CA5AB00EB8041 /* imshow.py in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5F71E4CA5AB00EB8041 /* imshow.py */; };
+		353EF6191E4CA5AB00EB8041 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5F81E4CA5AB00EB8041 /* io.swift */; };
+		353EF61A1E4CA5AB00EB8041 /* machine_learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5FA1E4CA5AB00EB8041 /* machine_learning.swift */; };
+		353EF61B1E4CA5AB00EB8041 /* m-complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5FC1E4CA5AB00EB8041 /* m-complex-math.swift */; };
+		353EF61C1E4CA5AB00EB8041 /* m-helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5FD1E4CA5AB00EB8041 /* m-helper-functions.swift */; };
+		353EF61D1E4CA5AB00EB8041 /* m-image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5FE1E4CA5AB00EB8041 /* m-image.swift */; };
+		353EF61E1E4CA5AB00EB8041 /* m-initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5FF1E4CA5AB00EB8041 /* m-initing.swift */; };
+		353EF61F1E4CA5AB00EB8041 /* m-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6001E4CA5AB00EB8041 /* m-matrix.swift */; };
+		353EF6201E4CA5AB00EB8041 /* m-operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6011E4CA5AB00EB8041 /* m-operators.swift */; };
+		353EF6211E4CA5AB00EB8041 /* m-simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6021E4CA5AB00EB8041 /* m-simple-math.swift */; };
+		353EF6221E4CA5AB00EB8041 /* numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6031E4CA5AB00EB8041 /* numbers.swift */; };
+		353EF6231E4CA5AB00EB8041 /* conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6051E4CA5AB00EB8041 /* conversion.swift */; };
+		353EF6241E4CA5AB00EB8041 /* machine_learning.mm in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6061E4CA5AB00EB8041 /* machine_learning.mm */; };
+		353EF6251E4CA5AB00EB8041 /* math.m in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6071E4CA5AB00EB8041 /* math.m */; };
+		353EF6261E4CA5AB00EB8041 /* opencv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6091E4CA5AB00EB8041 /* opencv.mm */; };
+		353EF6271E4CA5AB00EB8041 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353EF60A1E4CA5AB00EB8041 /* opencv2.framework */; };
+		353EF6281E4CA5AB00EB8041 /* operations-and-indexing.m in Sources */ = {isa = PBXBuildFile; fileRef = 353EF60B1E4CA5AB00EB8041 /* operations-and-indexing.m */; };
+		353EF6291E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF60D1E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift */; };
+		353EF62A1E4CA5AB00EB8041 /* speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF60F1E4CA5AB00EB8041 /* speed.swift */; };
+		353EF62B1E4CA5AB00EB8041 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6101E4CA5AB00EB8041 /* tests.swift */; };
+		353EF62C1E4CA5AB00EB8041 /* complex-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6121E4CA5AB00EB8041 /* complex-math.swift */; };
+		353EF62D1E4CA5AB00EB8041 /* helper-functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6131E4CA5AB00EB8041 /* helper-functions.swift */; };
+		353EF62E1E4CA5AB00EB8041 /* initing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6141E4CA5AB00EB8041 /* initing.swift */; };
+		353EF62F1E4CA5AB00EB8041 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6151E4CA5AB00EB8041 /* operators.swift */; };
+		353EF6301E4CA5AB00EB8041 /* simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6161E4CA5AB00EB8041 /* simple-math.swift */; };
+		353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6171E4CA5AB00EB8041 /* vector.swift */; };
+		353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6321E4CA72F00EB8041 /* AudioEngine.swift */; };
+		353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6341E4CA7B200EB8041 /* DSP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +75,36 @@
 		353EF5E41E4CA58400EB8041 /* Swix_DSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swix_DSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		353EF5E81E4CA58400EB8041 /* Swix_DSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swix_DSPUITests.swift; sourceTree = "<group>"; };
 		353EF5EA1E4CA58400EB8041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353EF5F71E4CA5AB00EB8041 /* imshow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = imshow.py; sourceTree = "<group>"; };
+		353EF5F81E4CA5AB00EB8041 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		353EF5FA1E4CA5AB00EB8041 /* machine_learning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = machine_learning.swift; sourceTree = "<group>"; };
+		353EF5FC1E4CA5AB00EB8041 /* m-complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-complex-math.swift"; sourceTree = "<group>"; };
+		353EF5FD1E4CA5AB00EB8041 /* m-helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-helper-functions.swift"; sourceTree = "<group>"; };
+		353EF5FE1E4CA5AB00EB8041 /* m-image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-image.swift"; sourceTree = "<group>"; };
+		353EF5FF1E4CA5AB00EB8041 /* m-initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-initing.swift"; sourceTree = "<group>"; };
+		353EF6001E4CA5AB00EB8041 /* m-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-matrix.swift"; sourceTree = "<group>"; };
+		353EF6011E4CA5AB00EB8041 /* m-operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-operators.swift"; sourceTree = "<group>"; };
+		353EF6021E4CA5AB00EB8041 /* m-simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-simple-math.swift"; sourceTree = "<group>"; };
+		353EF6031E4CA5AB00EB8041 /* numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = numbers.swift; sourceTree = "<group>"; };
+		353EF6051E4CA5AB00EB8041 /* conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversion.swift; sourceTree = "<group>"; };
+		353EF6061E4CA5AB00EB8041 /* machine_learning.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = machine_learning.mm; sourceTree = "<group>"; };
+		353EF6071E4CA5AB00EB8041 /* math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math.m; sourceTree = "<group>"; };
+		353EF6081E4CA5AB00EB8041 /* OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		353EF6091E4CA5AB00EB8041 /* opencv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = opencv.mm; sourceTree = "<group>"; };
+		353EF60A1E4CA5AB00EB8041 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		353EF60B1E4CA5AB00EB8041 /* operations-and-indexing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "operations-and-indexing.m"; sourceTree = "<group>"; };
+		353EF60C1E4CA5AB00EB8041 /* swix-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "swix-Bridging-Header.h"; sourceTree = "<group>"; };
+		353EF60D1E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScalarArithmetic-bleed.swift"; sourceTree = "<group>"; };
+		353EF60F1E4CA5AB00EB8041 /* speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = speed.swift; sourceTree = "<group>"; };
+		353EF6101E4CA5AB00EB8041 /* tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
+		353EF6121E4CA5AB00EB8041 /* complex-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "complex-math.swift"; sourceTree = "<group>"; };
+		353EF6131E4CA5AB00EB8041 /* helper-functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "helper-functions.swift"; sourceTree = "<group>"; };
+		353EF6141E4CA5AB00EB8041 /* initing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initing.swift; sourceTree = "<group>"; };
+		353EF6151E4CA5AB00EB8041 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		353EF6161E4CA5AB00EB8041 /* simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simple-math.swift"; sourceTree = "<group>"; };
+		353EF6171E4CA5AB00EB8041 /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
+		353EF6321E4CA72F00EB8041 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		353EF6341E4CA7B200EB8041 /* DSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353EF6271E4CA5AB00EB8041 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +156,15 @@
 		353EF5C71E4CA58300EB8041 /* Swix_DSP */ = {
 			isa = PBXGroup;
 			children = (
+				353EF5F61E4CA5AB00EB8041 /* swix */,
 				353EF5C81E4CA58300EB8041 /* AppDelegate.swift */,
 				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
 				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
 				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
 				353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */,
 				353EF5D41E4CA58300EB8041 /* Info.plist */,
+				353EF6321E4CA72F00EB8041 /* AudioEngine.swift */,
+				353EF6341E4CA7B200EB8041 /* DSP.swift */,
 			);
 			path = Swix_DSP;
 			sourceTree = "<group>";
@@ -123,6 +185,81 @@
 				353EF5EA1E4CA58400EB8041 /* Info.plist */,
 			);
 			path = Swix_DSPUITests;
+			sourceTree = "<group>";
+		};
+		353EF5F61E4CA5AB00EB8041 /* swix */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5F71E4CA5AB00EB8041 /* imshow.py */,
+				353EF5F81E4CA5AB00EB8041 /* io.swift */,
+				353EF5F91E4CA5AB00EB8041 /* machine_learning */,
+				353EF5FB1E4CA5AB00EB8041 /* matrix */,
+				353EF6031E4CA5AB00EB8041 /* numbers.swift */,
+				353EF6041E4CA5AB00EB8041 /* objc */,
+				353EF60D1E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift */,
+				353EF60E1E4CA5AB00EB8041 /* tests */,
+				353EF6111E4CA5AB00EB8041 /* vector */,
+			);
+			path = swix;
+			sourceTree = "<group>";
+		};
+		353EF5F91E4CA5AB00EB8041 /* machine_learning */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5FA1E4CA5AB00EB8041 /* machine_learning.swift */,
+			);
+			path = machine_learning;
+			sourceTree = "<group>";
+		};
+		353EF5FB1E4CA5AB00EB8041 /* matrix */ = {
+			isa = PBXGroup;
+			children = (
+				353EF5FC1E4CA5AB00EB8041 /* m-complex-math.swift */,
+				353EF5FD1E4CA5AB00EB8041 /* m-helper-functions.swift */,
+				353EF5FE1E4CA5AB00EB8041 /* m-image.swift */,
+				353EF5FF1E4CA5AB00EB8041 /* m-initing.swift */,
+				353EF6001E4CA5AB00EB8041 /* m-matrix.swift */,
+				353EF6011E4CA5AB00EB8041 /* m-operators.swift */,
+				353EF6021E4CA5AB00EB8041 /* m-simple-math.swift */,
+			);
+			path = matrix;
+			sourceTree = "<group>";
+		};
+		353EF6041E4CA5AB00EB8041 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				353EF6051E4CA5AB00EB8041 /* conversion.swift */,
+				353EF6061E4CA5AB00EB8041 /* machine_learning.mm */,
+				353EF6071E4CA5AB00EB8041 /* math.m */,
+				353EF6081E4CA5AB00EB8041 /* OpenCV.h */,
+				353EF6091E4CA5AB00EB8041 /* opencv.mm */,
+				353EF60A1E4CA5AB00EB8041 /* opencv2.framework */,
+				353EF60B1E4CA5AB00EB8041 /* operations-and-indexing.m */,
+				353EF60C1E4CA5AB00EB8041 /* swix-Bridging-Header.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		353EF60E1E4CA5AB00EB8041 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				353EF60F1E4CA5AB00EB8041 /* speed.swift */,
+				353EF6101E4CA5AB00EB8041 /* tests.swift */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		353EF6111E4CA5AB00EB8041 /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				353EF6121E4CA5AB00EB8041 /* complex-math.swift */,
+				353EF6131E4CA5AB00EB8041 /* helper-functions.swift */,
+				353EF6141E4CA5AB00EB8041 /* initing.swift */,
+				353EF6151E4CA5AB00EB8041 /* operators.swift */,
+				353EF6161E4CA5AB00EB8041 /* simple-math.swift */,
+				353EF6171E4CA5AB00EB8041 /* vector.swift */,
+			);
+			path = vector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +375,7 @@
 				353EF5D31E4CA58300EB8041 /* LaunchScreen.storyboard in Resources */,
 				353EF5D01E4CA58300EB8041 /* Assets.xcassets in Resources */,
 				353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */,
+				353EF6181E4CA5AB00EB8041 /* imshow.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +400,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353EF6251E4CA5AB00EB8041 /* math.m in Sources */,
+				353EF62B1E4CA5AB00EB8041 /* tests.swift in Sources */,
+				353EF62A1E4CA5AB00EB8041 /* speed.swift in Sources */,
+				353EF6221E4CA5AB00EB8041 /* numbers.swift in Sources */,
 				353EF5CB1E4CA58300EB8041 /* ViewController.swift in Sources */,
+				353EF6211E4CA5AB00EB8041 /* m-simple-math.swift in Sources */,
+				353EF61F1E4CA5AB00EB8041 /* m-matrix.swift in Sources */,
+				353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */,
+				353EF62D1E4CA5AB00EB8041 /* helper-functions.swift in Sources */,
+				353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */,
+				353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */,
+				353EF61C1E4CA5AB00EB8041 /* m-helper-functions.swift in Sources */,
+				353EF6281E4CA5AB00EB8041 /* operations-and-indexing.m in Sources */,
+				353EF61D1E4CA5AB00EB8041 /* m-image.swift in Sources */,
+				353EF62E1E4CA5AB00EB8041 /* initing.swift in Sources */,
+				353EF6291E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift in Sources */,
+				353EF61A1E4CA5AB00EB8041 /* machine_learning.swift in Sources */,
+				353EF6231E4CA5AB00EB8041 /* conversion.swift in Sources */,
+				353EF6201E4CA5AB00EB8041 /* m-operators.swift in Sources */,
+				353EF6191E4CA5AB00EB8041 /* io.swift in Sources */,
+				353EF62F1E4CA5AB00EB8041 /* operators.swift in Sources */,
 				353EF5C91E4CA58300EB8041 /* AppDelegate.swift in Sources */,
+				353EF6261E4CA5AB00EB8041 /* opencv.mm in Sources */,
+				353EF61E1E4CA5AB00EB8041 /* m-initing.swift in Sources */,
+				353EF61B1E4CA5AB00EB8041 /* m-complex-math.swift in Sources */,
+				353EF6241E4CA5AB00EB8041 /* machine_learning.mm in Sources */,
+				353EF62C1E4CA5AB00EB8041 /* complex-math.swift in Sources */,
+				353EF6301E4CA5AB00EB8041 /* simple-math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +527,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,6 +570,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "swix/objc/swix-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -416,10 +582,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
+				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swix_DSP/swix/objc/swix-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -429,10 +600,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
+				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swix_DSP/swix/objc/swix-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
