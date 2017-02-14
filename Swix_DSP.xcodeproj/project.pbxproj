@@ -44,6 +44,7 @@
 		353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6341E4CA7B200EB8041 /* DSP.swift */; };
 		3596DA3D1E5335C500FD8562 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */; };
 		3596DA411E53408000FD8562 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA401E53408000FD8562 /* Helpers.swift */; };
+		3596DA451E534FFA00FD8562 /* Doppler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA441E534FFA00FD8562 /* Doppler.swift */; };
 		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -153,6 +154,7 @@
 		353EF6341E4CA7B200EB8041 /* DSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSP.swift; sourceTree = "<group>"; };
 		3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
 		3596DA401E53408000FD8562 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3596DA441E534FFA00FD8562 /* Doppler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doppler.swift; sourceTree = "<group>"; };
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +220,7 @@
 				3596DA401E53408000FD8562 /* Helpers.swift */,
 				3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */,
 				353EF6341E4CA7B200EB8041 /* DSP.swift */,
+				3596DA441E534FFA00FD8562 /* Doppler.swift */,
 			);
 			path = Swix_DSP;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				353EF61F1E4CA5AB00EB8041 /* m-matrix.swift in Sources */,
 				353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */,
 				353EF62D1E4CA5AB00EB8041 /* helper-functions.swift in Sources */,
+				3596DA451E534FFA00FD8562 /* Doppler.swift in Sources */,
 				353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */,
 				353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */,
 				353EF61C1E4CA5AB00EB8041 /* m-helper-functions.swift in Sources */,
@@ -692,6 +696,7 @@
 					"$(PROJECT_DIR)/Swix_DSP",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -713,6 +718,7 @@
 					"$(PROJECT_DIR)/Swix_DSP",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobgen.Swix-DSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
