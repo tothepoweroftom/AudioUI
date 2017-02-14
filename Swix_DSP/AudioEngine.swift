@@ -9,7 +9,9 @@
 import Foundation
 import AVFoundation
 
-let N = 4096
+let N = 2048
+let σ = 1.0/8.0
+
 
 
 class AudioEngine {
@@ -28,6 +30,7 @@ class AudioEngine {
     var fftMagnitudes: vector!
 
     var hanningWindow: vector = 0.5 + 0.5*cos((pi * linspace(-0.5, max: 0.5, num: N))/(N/2))
+    var gaussianWindow: vector = exp(pow(linspace(-0.5, max: 0.5, num: N), power: 2.0)/(-2*pow(σ, 2.0)))
     
     var frameStart: NSDate!
     
@@ -85,7 +88,7 @@ class AudioEngine {
             
 
             //Hanning Windowed FFT
-            self.fftArray = fft(x: self.frame*self.hanningWindow, withSetup: self.fftSetup)
+            self.fftArray = fft(x: self.frame*self.gaussianWindow, withSetup: self.fftSetup)
             let fftLength = 1+Int(self.frameLength)/2
             self.fftMagnitudes = sqrt((pow(self.fftArray.real[0..<fftLength], power: 2.0)) + (pow(self.fftArray.imag[0..<fftLength], power: 2.0)))
             
