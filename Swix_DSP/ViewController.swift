@@ -9,6 +9,7 @@
 import UIKit
 import Charts
 
+
 class ViewController: UIViewController {
     
     var engine: AudioEngine!
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
         engine.start()
         
 
-        
+        engine.sineWave.play()
 
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
     }
@@ -34,8 +35,10 @@ class ViewController: UIViewController {
         
         if (engine.fftMagnitudes != nil) {
         var dataEntries: [BarChartDataEntry] = []
+            
+        var index = freqToIndex(21000, fftSize: N, sampleRate: 44100.0)
 
-        for i in 0..<engine.fftMagnitudes.n {
+        for i in index-300..<index {
             let dataEntry = BarChartDataEntry(x: Double(i), y: engine.fftMagnitudes[i])
             dataEntries.append(dataEntry)
             
@@ -52,6 +55,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
 

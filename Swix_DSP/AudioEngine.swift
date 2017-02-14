@@ -10,11 +10,10 @@ import Foundation
 import AVFoundation
 
 let N = 4096
-let σ = 1.0/8.0
 
 
 class AudioEngine {
-    let audioEngine = AVAudioEngine()
+    let audioEngine: AVAudioEngine!
     let frameLength = UInt32(N)
     let bus = 0
     let subFrameLength = UInt32(N/2)
@@ -35,12 +34,22 @@ class AudioEngine {
     var isSetup = false
     
     //Audio Generation
+    let sineWave: AVTonePlayerUnit!
     
-    let audioPlayer = AVAudioPlayerNode()
     
     
     
     init(){
+        audioEngine = AVAudioEngine()
+        sineWave = AVTonePlayerUnit()
+        sineWave.frequency = 20000.0
+        audioEngine.attach(sineWave)
+        let mixer = audioEngine.mainMixerNode
+        let format = AVAudioFormat(standardFormatWithSampleRate: sineWave.sampleRate, channels: 1)
+        audioEngine.connect(sineWave, to: mixer, format: format)
+        mixer.volume = 1.0
+        
+        sineWave.preparePlaying()
         
     }
     
@@ -51,13 +60,13 @@ class AudioEngine {
             return
         }
         
-        do {
-          var session = AVAudioSession.sharedInstance()
-          try session.setCategory(AVAudioSessionCategoryPlayAndRecord)
-        
-        } catch {
-            print("error setting Category")
-        }
+//        do {
+//          var session = AVAudioSession.sharedInstance()
+//          try session.setCategory(AVAudioSessionCategoryPlayAndRecord)
+//        
+//        } catch {
+//            print("error setting Category")
+//        }
         
         inputNode.installTap(onBus: 0, bufferSize: frameLength, format: nil, block: {
             (buffer, time) in
@@ -83,8 +92,9 @@ class AudioEngine {
             return
         })
         
-        audioEngine.connect(inputNode, to: audioEngine.outputNode, format: inputNode.inputFormat(forBus: bus))
-        audioEngine.disconnectNodeOutput(inputNode)
+//        audioEngine.connect(inputNode, to: audioEngine.outputNode, format: inputNode.inputFormat(forBus: bus))
+//        audioEngine.disconnectNodeOutput(inputNode)
+
         audioEngine.prepare()
         isSetup = true
         
@@ -102,13 +112,17 @@ class AudioEngine {
         
         do {
             try audioEngine.start()
+            sineWave.play()
         } catch {
             print("Audio Engine Start error")
         }
+        
+
     }
     
     func stop() {
-        audioEngine.stop()
+        sineWave.stop()
+
     }
     
     func cleanUp() {

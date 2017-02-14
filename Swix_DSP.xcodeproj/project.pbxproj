@@ -42,10 +42,10 @@
 		353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6171E4CA5AB00EB8041 /* vector.swift */; };
 		353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6321E4CA72F00EB8041 /* AudioEngine.swift */; };
 		353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6341E4CA7B200EB8041 /* DSP.swift */; };
+		3596DA3D1E5335C500FD8562 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */; };
+		3596DA411E53408000FD8562 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA401E53408000FD8562 /* Helpers.swift */; };
 		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35A6E0EF1E532C7E007BBFD3 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0EE1E532C7E007BBFD3 /* AudioKit.framework */; };
-		35E2CD511E5330DD0001D632 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E2CD501E5330DD0001D632 /* AudioKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,9 +151,9 @@
 		353EF6171E4CA5AB00EB8041 /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
 		353EF6321E4CA72F00EB8041 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		353EF6341E4CA7B200EB8041 /* DSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSP.swift; sourceTree = "<group>"; };
+		3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
+		3596DA401E53408000FD8562 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
-		35A6E0EE1E532C7E007BBFD3 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = /Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/AudioKit.framework; sourceTree = "<absolute>"; };
-		35E2CD501E5330DD0001D632 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +161,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E2CD511E5330DD0001D632 /* AudioKit.framework in Frameworks */,
-				35A6E0EF1E532C7E007BBFD3 /* AudioKit.framework in Frameworks */,
 				35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */,
 				353EF6271E4CA5AB00EB8041 /* opencv2.framework in Frameworks */,
 			);
@@ -217,8 +215,9 @@
 				353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */,
 				353EF5D41E4CA58300EB8041 /* Info.plist */,
 				353EF6321E4CA72F00EB8041 /* AudioEngine.swift */,
+				3596DA401E53408000FD8562 /* Helpers.swift */,
+				3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */,
 				353EF6341E4CA7B200EB8041 /* DSP.swift */,
-				35E2CD501E5330DD0001D632 /* AudioKit.framework */,
 			);
 			path = Swix_DSP;
 			sourceTree = "<group>";
@@ -509,6 +508,7 @@
 				353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */,
 				353EF61C1E4CA5AB00EB8041 /* m-helper-functions.swift in Sources */,
 				353EF6281E4CA5AB00EB8041 /* operations-and-indexing.m in Sources */,
+				3596DA411E53408000FD8562 /* Helpers.swift in Sources */,
 				353EF61D1E4CA5AB00EB8041 /* m-image.swift in Sources */,
 				353EF62E1E4CA5AB00EB8041 /* initing.swift in Sources */,
 				353EF6291E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift in Sources */,
@@ -521,6 +521,7 @@
 				353EF6261E4CA5AB00EB8041 /* opencv.mm in Sources */,
 				353EF61E1E4CA5AB00EB8041 /* m-initing.swift in Sources */,
 				353EF61B1E4CA5AB00EB8041 /* m-complex-math.swift in Sources */,
+				3596DA3D1E5335C500FD8562 /* AVTonePlayerUnit.swift in Sources */,
 				353EF6241E4CA5AB00EB8041 /* machine_learning.mm in Sources */,
 				353EF62C1E4CA5AB00EB8041 /* complex-math.swift in Sources */,
 				353EF6301E4CA5AB00EB8041 /* simple-math.swift in Sources */,
