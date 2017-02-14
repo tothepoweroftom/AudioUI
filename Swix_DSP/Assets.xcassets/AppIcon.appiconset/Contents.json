@@ -13,6 +13,11 @@
     {
       "idiom" : "iphone",
       "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
@@ -29,6 +34,17 @@
       "idiom" : "iphone",
       "size" : "40x40",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "57x57",
+      "scale" : "1x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "EarIcon.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "iphone",
@@ -68,6 +84,28 @@
     {
       "idiom" : "ipad",
       "size" : "40x40",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "1x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "EarIcon-Small-50.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "72x72",
+      "scale" : "1x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "EarIcon-72.png",
       "scale" : "2x"
     },
     {
@@ -84,6 +122,125 @@
       "idiom" : "ipad",
       "size" : "83.5x83.5",
       "scale" : "2x"
+    },
+    {
+      "size" : "24x24",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "42mm"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "filename" : "EarIcon-Small.png",
+      "role" : "companionSettings",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "86x86",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "98x98",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "42mm"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "16x16",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "16x16",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "32x32",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "32x32",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "128x128",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "128x128",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "256x256",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "256x256",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "mac",
+      "size" : "512x512",
+      "scale" : "1x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "EariTunesArtwork.png",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "EarIcon-100.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "EarIcon-144.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "EarIcon-Small@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "EarIcon@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "EariTunesArtwork@2x.png",
+      "unassigned" : true
     }
   ],
   "info" : {

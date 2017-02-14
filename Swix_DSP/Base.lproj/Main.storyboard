@@ -34,12 +34,12 @@
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm listening for gestures..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0n-AB-1Zd">
-                                <rect key="frame" x="191" y="43" width="285" height="21"/>
+                                <rect key="frame" x="191" y="43" width="285" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="285" id="gX3-CB-Fgj"/>
-                                    <constraint firstAttribute="height" constant="21" id="kUL-5j-5Ac"/>
+                                    <constraint firstAttribute="height" constant="32" id="kUL-5j-5Ac"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
