@@ -42,6 +42,10 @@
 		353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6171E4CA5AB00EB8041 /* vector.swift */; };
 		353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6321E4CA72F00EB8041 /* AudioEngine.swift */; };
 		353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6341E4CA7B200EB8041 /* DSP.swift */; };
+		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
+		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A6E0EF1E532C7E007BBFD3 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0EE1E532C7E007BBFD3 /* AudioKit.framework */; };
+		35E2CD511E5330DD0001D632 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E2CD501E5330DD0001D632 /* AudioKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +63,49 @@
 			remoteGlobalIDString = 353EF5C41E4CA58300EB8041;
 			remoteInfo = Swix_DSP;
 		};
+		35A6E0E01E53190D007BBFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		35A6E0E21E53190D007BBFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		35A6E0E41E53190D007BBFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		35A6E0E81E53191F007BBFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		358DC2771E53041700379F5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		353EF5C51E4CA58300EB8041 /* Swix_DSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swix_DSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +151,9 @@
 		353EF6171E4CA5AB00EB8041 /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
 		353EF6321E4CA72F00EB8041 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		353EF6341E4CA7B200EB8041 /* DSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSP.swift; sourceTree = "<group>"; };
+		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		35A6E0EE1E532C7E007BBFD3 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = /Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/AudioKit.framework; sourceTree = "<absolute>"; };
+		35E2CD501E5330DD0001D632 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +161,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E2CD511E5330DD0001D632 /* AudioKit.framework in Frameworks */,
+				35A6E0EF1E532C7E007BBFD3 /* AudioKit.framework in Frameworks */,
+				35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */,
 				353EF6271E4CA5AB00EB8041 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +208,7 @@
 		353EF5C71E4CA58300EB8041 /* Swix_DSP */ = {
 			isa = PBXGroup;
 			children = (
+				35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */,
 				353EF5F61E4CA5AB00EB8041 /* swix */,
 				353EF5C81E4CA58300EB8041 /* AppDelegate.swift */,
 				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
@@ -165,6 +218,7 @@
 				353EF5D41E4CA58300EB8041 /* Info.plist */,
 				353EF6321E4CA72F00EB8041 /* AudioEngine.swift */,
 				353EF6341E4CA7B200EB8041 /* DSP.swift */,
+				35E2CD501E5330DD0001D632 /* AudioKit.framework */,
 			);
 			path = Swix_DSP;
 			sourceTree = "<group>";
@@ -262,6 +316,16 @@
 			path = vector;
 			sourceTree = "<group>";
 		};
+		35A6E0DB1E53190D007BBFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35A6E0E11E53190D007BBFD3 /* Charts.framework */,
+				35A6E0E31E53190D007BBFD3 /* ChartsRealm.framework */,
+				35A6E0E51E53190D007BBFD3 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,10 +336,12 @@
 				353EF5C11E4CA58300EB8041 /* Sources */,
 				353EF5C21E4CA58300EB8041 /* Frameworks */,
 				353EF5C31E4CA58300EB8041 /* Resources */,
+				358DC2771E53041700379F5D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				35A6E0E91E53191F007BBFD3 /* PBXTargetDependency */,
 			);
 			name = Swix_DSP;
 			productName = Swix_DSP;
@@ -358,6 +424,12 @@
 			mainGroup = 353EF5BC1E4CA58300EB8041;
 			productRefGroup = 353EF5C61E4CA58300EB8041 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35A6E0DB1E53190D007BBFD3 /* Products */;
+					ProjectRef = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				353EF5C41E4CA58300EB8041 /* Swix_DSP */,
@@ -366,6 +438,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		35A6E0E11E53190D007BBFD3 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 35A6E0E01E53190D007BBFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35A6E0E31E53190D007BBFD3 /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = 35A6E0E21E53190D007BBFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35A6E0E51E53190D007BBFD3 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 35A6E0E41E53190D007BBFD3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		353EF5C31E4CA58300EB8041 /* Resources */ = {
@@ -459,6 +555,11 @@
 			isa = PBXTargetDependency;
 			target = 353EF5C41E4CA58300EB8041 /* Swix_DSP */;
 			targetProxy = 353EF5E51E4CA58400EB8041 /* PBXContainerItemProxy */;
+		};
+		35A6E0E91E53191F007BBFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 35A6E0E81E53191F007BBFD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -580,11 +681,14 @@
 		353EF5EE1E4CA58400EB8041 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
+					"$(PROJECT_DIR)/Swix_DSP",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -598,11 +702,14 @@
 		353EF5EF1E4CA58400EB8041 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DWNK4MCTP;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
+					"$(PROJECT_DIR)/Swix_DSP",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -690,6 +797,7 @@
 				353EF5EF1E4CA58400EB8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353EF5F01E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPTests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +806,7 @@
 				353EF5F21E4CA58400EB8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		353EF5F31E4CA58400EB8041 /* Build configuration list for PBXNativeTarget "Swix_DSPUITests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +815,7 @@
 				353EF5F51E4CA58400EB8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

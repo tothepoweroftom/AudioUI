@@ -7,23 +7,53 @@
 //
 
 import UIKit
+import Charts
 
 class ViewController: UIViewController {
+    
+    var engine: AudioEngine!
+    
+    
+    
+    @IBOutlet weak var barChartView: BarChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        engine = AudioEngine()
+        engine.start()
         
-        var x = arange(10)
-        var y = sqrt(x)
-        print(x)
-        print(y)
+
+        
+
+        Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+    }
+    
+    func update() {
+//        print(engine.fftMagnitudes)
+        
+        if (engine.fftMagnitudes != nil) {
+        var dataEntries: [BarChartDataEntry] = []
+
+        for i in 0..<engine.fftMagnitudes.n {
+            let dataEntry = BarChartDataEntry(x: Double(i), y: engine.fftMagnitudes[i])
+            dataEntries.append(dataEntry)
+            
+        }
+        
+        let chartDataSet = BarChartDataSet(values: dataEntries, label: "FFT Mags")
+            chartDataSet.colors = [UIColor.red]
+        let chartData = BarChartData(dataSet: chartDataSet)
+        barChartView.data = chartData
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
 
 
 }
