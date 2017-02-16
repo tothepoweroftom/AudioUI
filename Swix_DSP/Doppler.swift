@@ -63,7 +63,7 @@ class Doppler {
     
     
     //Booleans
-    var calibrate = false
+    var calibrate = true
     var repeater = false
     
     init(frequency: Double){
@@ -252,8 +252,8 @@ class Doppler {
     }
     
     func optimizeFrequency(minFreq: Double, maxFreq: Double) {
-        let minInd = freqToIndex(minFreq, fftSize: 1024, sampleRate: 44100.0)
-        let maxInd = freqToIndex(maxFreq, fftSize: 1024, sampleRate: 44100.0)
+        let minInd = freqToIndex(minFreq, fftSize: N, sampleRate: 44100.0)
+        let maxInd = freqToIndex(maxFreq, fftSize: N, sampleRate: 44100.0)
         
         var primaryIndex = freqIndex
         
