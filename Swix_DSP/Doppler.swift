@@ -29,7 +29,6 @@ protocol DopplerDelegate: class {
 class Doppler {
     
     //Analysis Variables
-
     var leftBand = 0
     var rightBand = 0
     
@@ -63,7 +62,7 @@ class Doppler {
     
     
     //Booleans
-    var calibrate = true
+    var calibrate = false
     var repeater = false
     
     init(frequency: Double){
