@@ -16,8 +16,10 @@ protocol DopplerDelegate: class {
         //Do stuff when frames are read
     
     //Gestures
-    func onPush(_ sender: Doppler)
-    func onPull(_ sender: Doppler)
+    func onSlowPush(_ sender: Doppler)
+    func onSlowPull(_ sender: Doppler)
+    func onFastPush(_ sender: Doppler)
+    func onFastPull(_ sender: Doppler)
     func onTap(_ sender: Doppler)
     func onDoubleTap(_ sender: Doppler)
     func onNothing(_ sender: Doppler)
@@ -41,7 +43,7 @@ class Doppler {
     
     //Frequency bins are scanned until the amp drops below 1% of the peak amp
     var maxVolRatio = 0.1
-    var RELEVANT_FREQ_WINDOW = 17
+    var RELEVANT_FREQ_WINDOW = 15
     var SECOND_PEAK_RATIO = 0.3
     
 
@@ -62,7 +64,7 @@ class Doppler {
     var directionChanges = 0
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
-    var cyclesToRead = 8
+    var cyclesToRead = 5
     
     
     //Booleans
@@ -80,6 +82,10 @@ class Doppler {
     var referenceEnergy = 0.0
     var refEnergyArray = [Double]()
     var energyCounter = 0
+    
+    
+    //False slow, true fast
+    var speed = false
     
     init(frequency: Double){
         self.frequency = frequency
@@ -231,6 +237,11 @@ class Doppler {
             let difference = leftBand - rightBand
             var direction = difference.sign()
             print("LB = \(leftBand) : RB = \(rightBand)")
+            if(leftBand > 6 || rightBand > 6) {
+                speed = true
+            } else {
+                speed = false
+            }
 
             
             //Gestures
@@ -259,11 +270,18 @@ class Doppler {
             if (directionChanges == 1) {
                 
                 if (previousDirection == -1) {
-                    delegate?.onPush(self)
+                    if(speed) {
+                        delegate?.onFastPush(self)
+                    } else {
+                        delegate?.onSlowPush(self)
+                    }
 //                    print("Push")
                 } else {
-                    delegate?.onPull(self)
-//                    print("LB = \(leftBand) : RB = \(rightBand)")
+                    if(speed) {
+                        delegate?.onFastPull(self)
+                    } else {
+                        delegate?.onSlowPull(self)
+                    }//                    print("LB = \(leftBand) : RB = \(rightBand)")
 
 //                    print("Pull")
 
@@ -289,7 +307,6 @@ class Doppler {
         }
         
 //        energy = 0.0
-
         
     }
     

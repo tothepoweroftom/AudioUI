@@ -104,7 +104,8 @@
                         <outlet property="label" destination="H0n-AB-1Zd" id="A8T-cO-HuK"/>
                         <outlet property="proxLabel" destination="Wem-yV-EXB" id="FeX-aK-LGh"/>
                         <outlet property="proxView" destination="1EF-hD-b1v" id="oJz-yv-vKP"/>
-                        <outlet property="speedLabel" destination="lXu-Ai-Lnw" id="0uy-wc-rcR"/>
+                        <outlet property="speedLabel" destination="XKs-jb-rg4" id="hch-hC-2pX"/>
+                        <outlet property="speedView" destination="lXu-Ai-Lnw" id="P2w-m5-GwF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -20,10 +20,11 @@ class ViewController: UIViewController, DopplerDelegate {
     @IBOutlet weak var barChartView: BarChartView!
     @IBOutlet weak var imageView: UIImageView!
 
+    @IBOutlet weak var speedLabel: UILabel!
+    @IBOutlet weak var speedView: UIImageView!
     @IBOutlet weak var proxView: UIImageView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var proxLabel: UILabel!
-    @IBOutlet weak var speedLabel: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -95,22 +96,53 @@ class ViewController: UIViewController, DopplerDelegate {
         self.label.text = "Tapped"
     }
     
-    func onPull(_ sender: Doppler) {
+    func onSlowPull(_ sender: Doppler) {
 //        print("Pull")
         imageView.image = UIImage(named: "right-arrow")
+        speedView.image = UIImage(named: "slow")
+
         self.label.text = "Pulled"
+        self.speedLabel.text = "Slow"
+
     }
     
-    func onPush(_ sender: Doppler) {
+    func onSlowPush(_ sender: Doppler) {
 //        print("Push")
         imageView.image = UIImage(named: "leftArrow")
+        speedView.image = UIImage(named: "slow")
+
         self.label.text = "Pushed"
+        self.speedLabel.text = "Slow"
+
+    }
+    
+    func onFastPull(_ sender: Doppler) {
+        //        print("Pull")
+        imageView.image = UIImage(named: "right-arrow")
+        speedView.image = UIImage(named: "fast")
+        
+        self.label.text = "Pulled"
+        self.speedLabel.text = "Fast"
+        
+    }
+    
+    func onFastPush(_ sender: Doppler) {
+        //        print("Push")
+        imageView.image = UIImage(named: "leftArrow")
+        speedView.image = UIImage(named: "fast")
+        
+        self.label.text = "Pushed"
+        self.speedLabel.text = "Fast"
+        
     }
     
     func onNothing(_ sender: Doppler) {
 //        print(" ")
         imageView.image = UIImage(named: "ear")
         label.text = "I'm listening for gestures..."
+//        speedView.image = UIImage(named: "ear")
+        proxLabel.text = "..."
+        speedLabel.text = "..."
 
     }
     
