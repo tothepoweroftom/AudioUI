@@ -290,10 +290,11 @@ class Doppler {
         
         energy = calculateEnergy(bandIndex: freqIndex, bandWidth: 5)
 
-        if (energy > 3*referenceEnergy) {
+        if (energy > 5*referenceEnergy) {
             proxState = 1
             if(proxState != proxPrevState) {
                 delegate?.onProximityClose(self)
+                print(energy/referenceEnergy)
 //                print("Hand near")
 
                 
