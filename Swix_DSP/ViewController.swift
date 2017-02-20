@@ -68,6 +68,13 @@ class ViewController: CanvasController, DopplerDelegate {
             
         }
         
+        canvas.addPanGestureRecognizer { locations, center, translation, velocity, state in
+            
+            for hexagon in self.hexagons {
+                hexagon.center = center
+            }
+        }
+        
 
         
 
@@ -91,6 +98,7 @@ class ViewController: CanvasController, DopplerDelegate {
             fftData.append(engine.fftMagnitudes[i])
         }
         doppler.update(fftData: fftData)
+        
         }
     }
 
@@ -250,6 +258,10 @@ class ViewController: CanvasController, DopplerDelegate {
 
     }
     
+    
+    func updateProximity (_ sender: Doppler) {
+
+    }
 
     
 

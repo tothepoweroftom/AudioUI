@@ -49,6 +49,7 @@
 		3596DA451E534FFA00FD8562 /* Doppler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA441E534FFA00FD8562 /* Doppler.swift */; };
 		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +189,7 @@
 		3596DA401E53408000FD8562 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3596DA441E534FFA00FD8562 /* Doppler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doppler.swift; sourceTree = "<group>"; };
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen2.storyboard"; path = "../Launch Screen2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,8 +247,9 @@
 				353EF5F61E4CA5AB00EB8041 /* swix */,
 				353EF5C81E4CA58300EB8041 /* AppDelegate.swift */,
 				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
-				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
 				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
+				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
+				35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */,
 				353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */,
 				353EF5D41E4CA58300EB8041 /* Info.plist */,
 				353EF6321E4CA72F00EB8041 /* AudioEngine.swift */,
@@ -544,6 +547,7 @@
 				353EF5D01E4CA58300EB8041 /* Assets.xcassets in Resources */,
 				353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */,
 				353EF6181E4CA5AB00EB8041 /* imshow.py in Resources */,
+				35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +773,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
 					"$(PROJECT_DIR)/Swix_DSP",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -791,6 +796,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
 					"$(PROJECT_DIR)/Swix_DSP",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

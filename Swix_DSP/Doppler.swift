@@ -21,6 +21,7 @@ protocol DopplerDelegate: class {
     func onTap(_ sender: Doppler)
     func onDoubleTap(_ sender: Doppler)
     func onNothing(_ sender: Doppler)
+    func updateProximity(_ sender: Doppler)
     
 }
 
@@ -59,6 +60,8 @@ class Doppler {
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
     var cyclesToRead = 5
+    
+    var proximity = 0.0
     
     
     //Booleans
@@ -103,6 +106,7 @@ class Doppler {
             
             
             calculateGestures()
+            calculateProximity()
             
         }
         
@@ -248,6 +252,17 @@ class Doppler {
     
     func setFrequency(freq: Double){
         self.frequency = freq
+    }
+    
+    func calculateProximity() {
+        let bin = freqIndex
+        var count = 0.0
+        for i in bin!-5...bin!+5 {
+            count += fftData[i]
+        }
+        print(count)
+        
+        delegate.updateProximity(self)
     }
     
     func optimizeFrequency(minFreq: Double, maxFreq: Double) {

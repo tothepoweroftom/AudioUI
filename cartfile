@@ -1,2 +1,2 @@
 github "i-schuetz/SwiftCharts" ~> 0.5
-github "C4Labs/C4iOS" ~> 1.1.0
+github "kaishin/Gifu"
