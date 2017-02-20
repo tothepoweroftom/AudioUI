@@ -21,6 +21,9 @@ protocol DopplerDelegate: class {
     func onTap(_ sender: Doppler)
     func onDoubleTap(_ sender: Doppler)
     func onNothing(_ sender: Doppler)
+    func onProximityClose(_ sender: Doppler)
+    func onProximityFar(_ sender: Doppler)
+
     
 }
 
@@ -65,6 +68,18 @@ class Doppler {
     //Booleans
     var calibrate = true
     var repeater = false
+    var proxHasChanged = false
+    var proxState = 0
+    var proxPrevState = 0
+    
+    //Energy Accumulator
+    var energy = 0.0
+    var framesToSample = 5
+    
+    
+    var referenceEnergy = 0.0
+    var refEnergyArray = [Double]()
+    var energyCounter = 0
     
     init(frequency: Double){
         self.frequency = frequency
@@ -79,6 +94,7 @@ class Doppler {
     func start(){
  
         delegate?.dopplerDidStart(self)
+        
 
         
     }
@@ -99,14 +115,26 @@ class Doppler {
             let bandwidths = self.getBandwidth()
             self.leftBand = bandwidths[0]
             self.rightBand = bandwidths[1]
-            
-//            print(bandwidths)
-            
-            
+            calibrateEnergy()
             calculateGestures()
             
         }
         
+    }
+    
+    func calibrateEnergy() {
+        if (energyCounter < framesToSample) {
+            refEnergyArray.append(calculateEnergy(bandIndex: freqIndex, bandWidth: 5))
+            energyCounter += 1
+        } else if (energyCounter == framesToSample) {
+            var r = 0.0
+            for elem in refEnergyArray {
+                r += elem
+            }
+            referenceEnergy = r/refEnergyArray.count
+            print("Reference energy = \(referenceEnergy)")
+            energyCounter += 1
+        }
     }
     
     func getBandwidth() -> [Int] {
@@ -188,8 +216,12 @@ class Doppler {
         
         if(cyclesToRefresh>0) {
             cyclesToRefresh -= 1
+
+
+
             return
         }
+        
 
         
         if (leftBand > 4 || rightBand > 4) {
@@ -217,6 +249,8 @@ class Doppler {
         
         
         if (cyclesLeftToRead == 0) {
+            
+
             if (directionChanges == 1) {
                 
                 if (previousDirection == -1) {
@@ -240,11 +274,42 @@ class Doppler {
             previousDirection = 0
             directionChanges = 0
             cyclesToRefresh = cyclesToRead
+//            energy = 0.0
         } else {
             delegate?.onNothing(self)
 //            print("_")
+
         }
         
+//        energy = 0.0
+
+        
+    }
+    
+    func proxUpdate(){
+        
+        energy = calculateEnergy(bandIndex: freqIndex, bandWidth: 5)
+
+        if (energy > 3*referenceEnergy) {
+            proxState = 1
+            if(proxState != proxPrevState) {
+                delegate?.onProximityClose(self)
+//                print("Hand near")
+
+                
+            }
+        } else {
+            proxState = -1
+            if(proxState != proxPrevState) {
+                delegate?.onProximityFar(self)
+//                print("Hand far")
+
+                
+            }
+            
+            
+        }
+        proxPrevState = proxState
     }
     
     func setFrequency(freq: Double){
@@ -268,6 +333,20 @@ class Doppler {
         self.calibrate = false
 
     }
+    
+    func calculateEnergy(bandIndex: Int, bandWidth: Int) -> Double {
+        var energy = 0.0
+        
+        for var i in bandIndex-bandWidth...bandIndex+bandWidth {
+            energy += fftData[i]
+        }
+        
+        return energy
+        
+        
+    }
+    
+
     
     
     

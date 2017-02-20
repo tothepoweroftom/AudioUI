@@ -22,7 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eNR-iu-VpZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1EF-hD-b1v">
+                                <rect key="frame" x="274" y="128" width="119" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eNR-iu-VpZ">
                                 <rect key="frame" x="283" y="137" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="6jf-Ww-Vcv"/>
@@ -60,11 +64,12 @@
                         <outlet property="barChartView" destination="5Ir-AU-KWw" id="Am1-hG-Cel"/>
                         <outlet property="imageView" destination="eNR-iu-VpZ" id="KZz-81-zHk"/>
                         <outlet property="label" destination="H0n-AB-1Zd" id="A8T-cO-HuK"/>
+                        <outlet property="proxView" destination="1EF-hD-b1v" id="oJz-yv-vKP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144" y="201"/>
+            <point key="canvasLocation" x="143.47826086956522" y="200.80000000000001"/>
         </scene>
     </scenes>
 </document>
