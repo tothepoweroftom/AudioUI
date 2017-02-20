@@ -22,6 +22,8 @@ class ViewController: UIViewController, DopplerDelegate {
 
     @IBOutlet weak var proxView: UIImageView!
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var proxLabel: UILabel!
+    @IBOutlet weak var speedLabel: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -44,32 +46,33 @@ class ViewController: UIViewController, DopplerDelegate {
 //        print(engine.fftMagnitudes)
 //        
         if (engine.fftMagnitudes != nil) {
-        var dataEntries: [BarChartDataEntry] = []
-            
-        var index = freqToIndex(22000, fftSize: N, sampleRate: 44100.0)
-
-        for i in index-300..<index {
-            let dataEntry = BarChartDataEntry(x: Double(i), y: engine.fftMagnitudes[i])
-            dataEntries.append(dataEntry)
-            
-        }
-        
-        let chartDataSet = BarChartDataSet(values: dataEntries, label: "FFT Mags")
-            chartDataSet.colors = [UIColor.red]
-        let chartData = BarChartData(dataSet: chartDataSet)
-        barChartView.data = chartData
-        
+//        var dataEntries: [BarChartDataEntry] = []
+//            
+//        var index = freqToIndex(22000, fftSize: N, sampleRate: 44100.0)
+//
+//        for i in index-300..<index {
+//            let dataEntry = BarChartDataEntry(x: Double(i), y: engine.fftMagnitudes[i])
+//            dataEntries.append(dataEntry)
+//            
+//        }
+//        
+//        let chartDataSet = BarChartDataSet(values: dataEntries, label: "FFT Mags")
+//            chartDataSet.colors = [UIColor.red]
+//        let chartData = BarChartData(dataSet: chartDataSet)
+//        barChartView.data = chartData
+//        
         var fftData = [Double]()
         for var i in 0..<engine.fftMagnitudes.n {
             fftData.append(engine.fftMagnitudes[i])
         }
         doppler.update(fftData: fftData)
-        doppler.proxUpdate()
 
         }
     }
     
     func proxUpdate(){
+        doppler.proxUpdate()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -120,10 +123,12 @@ class ViewController: UIViewController, DopplerDelegate {
 
     func onProximityClose(_ sender: Doppler) {
         proxView.image = UIImage(named: "heavy-metal")
+        proxLabel.text = "Close"
     }
 
     func onProximityFar(_ sender: Doppler) {
         proxView.image = UIImage(named: "hills")
+        proxLabel.text = "Far"
     }
     
 

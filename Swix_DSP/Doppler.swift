@@ -111,11 +111,12 @@ class Doppler {
         
         if (calibrate) {
             optimizeFrequency(minFreq: 18000, maxFreq: 21000)
+            calibrateEnergy()
+
         } else {
             let bandwidths = self.getBandwidth()
             self.leftBand = bandwidths[0]
             self.rightBand = bandwidths[1]
-            calibrateEnergy()
             calculateGestures()
             
         }
@@ -134,6 +135,8 @@ class Doppler {
             referenceEnergy = r/refEnergyArray.count
             print("Reference energy = \(referenceEnergy)")
             energyCounter += 1
+            self.calibrate = false
+
         }
     }
     
@@ -227,6 +230,8 @@ class Doppler {
         if (leftBand > 4 || rightBand > 4) {
             let difference = leftBand - rightBand
             var direction = difference.sign()
+            print("LB = \(leftBand) : RB = \(rightBand)")
+
             
             //Gestures
 //            if(direction == 1) {
@@ -258,6 +263,8 @@ class Doppler {
 //                    print("Push")
                 } else {
                     delegate?.onPull(self)
+//                    print("LB = \(leftBand) : RB = \(rightBand)")
+
 //                    print("Pull")
 
                 }
@@ -289,12 +296,19 @@ class Doppler {
     func proxUpdate(){
         
         energy = calculateEnergy(bandIndex: freqIndex, bandWidth: 5)
+        var thresholdMuliplier = 5
+        
+        if(referenceEnergy < 0.8){
+            thresholdMuliplier = 5
+        } else {
+            thresholdMuliplier = 3
+        }
 
-        if (energy > 5*referenceEnergy) {
+        if (energy > thresholdMuliplier*referenceEnergy) {
             proxState = 1
             if(proxState != proxPrevState) {
                 delegate?.onProximityClose(self)
-                print(energy/referenceEnergy)
+//                print(energy/referenceEnergy)
 //                print("Hand near")
 
                 
@@ -311,6 +325,11 @@ class Doppler {
             
         }
         proxPrevState = proxState
+    }
+    
+    func speedUpdate(){
+        
+        
     }
     
     func setFrequency(freq: Double){
@@ -331,7 +350,6 @@ class Doppler {
         
         self.setFrequency(freq: indexToFreq(primaryIndex!, fftSize: fftSize, sampleRate: 44100.0))
         print("Calibrated: " + "\(indexToFreq(primaryIndex!, fftSize: fftSize, sampleRate: 44100.0))")
-        self.calibrate = false
 
     }
     
