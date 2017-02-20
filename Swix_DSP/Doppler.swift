@@ -62,7 +62,7 @@ class Doppler {
     var directionChanges = 0
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
-    var cyclesToRead = 5
+    var cyclesToRead = 8
     
     
     //Booleans
