@@ -42,11 +42,14 @@
 		353EF6311E4CA5AB00EB8041 /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6171E4CA5AB00EB8041 /* vector.swift */; };
 		353EF6331E4CA72F00EB8041 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6321E4CA72F00EB8041 /* AudioEngine.swift */; };
 		353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF6341E4CA7B200EB8041 /* DSP.swift */; };
+		356AA0431E57256600D55917 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A92F61E57213B004A5A01 /* C4.framework */; };
+		356AA0441E57256600D55917 /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A92F61E57213B004A5A01 /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3596DA3D1E5335C500FD8562 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */; };
 		3596DA411E53408000FD8562 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA401E53408000FD8562 /* Helpers.swift */; };
 		3596DA451E534FFA00FD8562 /* Doppler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA441E534FFA00FD8562 /* Doppler.swift */; };
 		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 353EF5C41E4CA58300EB8041;
 			remoteInfo = Swix_DSP;
+		};
+		354A92F51E57213B004A5A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+		354A92F71E57213B004A5A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
+			remoteInfo = C4Tests;
+		};
+		354A92F91E57213B004A5A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
+			remoteInfo = C4App;
+		};
+		356AA0451E57256600D55917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
+			remoteInfo = C4;
 		};
 		35A6E0E01E53190D007BBFD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -102,6 +133,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */,
+				356AA0441E57256600D55917 /* C4.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +184,12 @@
 		353EF6171E4CA5AB00EB8041 /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
 		353EF6321E4CA72F00EB8041 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		353EF6341E4CA7B200EB8041 /* DSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSP.swift; sourceTree = "<group>"; };
+		354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../../../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
 		3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
 		3596DA401E53408000FD8562 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3596DA441E534FFA00FD8562 /* Doppler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doppler.swift; sourceTree = "<group>"; };
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen2.storyboard"; path = "../Launch Screen2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +199,7 @@
 			files = (
 				35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */,
 				353EF6271E4CA5AB00EB8041 /* opencv2.framework in Frameworks */,
+				356AA0431E57256600D55917 /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +247,9 @@
 				353EF5F61E4CA5AB00EB8041 /* swix */,
 				353EF5C81E4CA58300EB8041 /* AppDelegate.swift */,
 				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
-				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
 				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
+				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
+				35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */,
 				353EF5D11E4CA58300EB8041 /* LaunchScreen.storyboard */,
 				353EF5D41E4CA58300EB8041 /* Info.plist */,
 				353EF6321E4CA72F00EB8041 /* AudioEngine.swift */,
@@ -221,6 +257,7 @@
 				3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */,
 				353EF6341E4CA7B200EB8041 /* DSP.swift */,
 				3596DA441E534FFA00FD8562 /* Doppler.swift */,
+				354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */,
 			);
 			path = Swix_DSP;
 			sourceTree = "<group>";
@@ -318,6 +355,16 @@
 			path = vector;
 			sourceTree = "<group>";
 		};
+		354A92F01E57213B004A5A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354A92F61E57213B004A5A01 /* C4.framework */,
+				354A92F81E57213B004A5A01 /* C4Tests.xctest */,
+				354A92FA1E57213B004A5A01 /* C4App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		35A6E0DB1E53190D007BBFD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +391,7 @@
 			);
 			dependencies = (
 				35A6E0E91E53191F007BBFD3 /* PBXTargetDependency */,
+				356AA0461E57256600D55917 /* PBXTargetDependency */,
 			);
 			name = Swix_DSP;
 			productName = Swix_DSP;
@@ -428,6 +476,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 354A92F01E57213B004A5A01 /* Products */;
+					ProjectRef = 354A92EF1E57213B004A5A01 /* C4iOS.xcodeproj */;
+				},
+				{
 					ProductGroup = 35A6E0DB1E53190D007BBFD3 /* Products */;
 					ProjectRef = 35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */;
 				},
@@ -442,6 +494,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		354A92F61E57213B004A5A01 /* C4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = C4.framework;
+			remoteRef = 354A92F51E57213B004A5A01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		354A92F81E57213B004A5A01 /* C4Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = C4Tests.xctest;
+			remoteRef = 354A92F71E57213B004A5A01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		354A92FA1E57213B004A5A01 /* C4App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = C4App.app;
+			remoteRef = 354A92F91E57213B004A5A01 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		35A6E0E11E53190D007BBFD3 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -474,6 +547,7 @@
 				353EF5D01E4CA58300EB8041 /* Assets.xcassets in Resources */,
 				353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */,
 				353EF6181E4CA5AB00EB8041 /* imshow.py in Resources */,
+				35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +634,11 @@
 			isa = PBXTargetDependency;
 			target = 353EF5C41E4CA58300EB8041 /* Swix_DSP */;
 			targetProxy = 353EF5E51E4CA58400EB8041 /* PBXContainerItemProxy */;
+		};
+		356AA0461E57256600D55917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = C4;
+			targetProxy = 356AA0451E57256600D55917 /* PBXContainerItemProxy */;
 		};
 		35A6E0E91E53191F007BBFD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -694,6 +773,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
 					"$(PROJECT_DIR)/Swix_DSP",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -716,6 +796,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Swix_DSP/swix/objc",
 					"$(PROJECT_DIR)/Swix_DSP",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Swix_DSP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

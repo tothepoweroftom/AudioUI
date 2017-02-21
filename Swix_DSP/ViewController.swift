@@ -8,17 +8,20 @@
 
 import UIKit
 import Charts
+import C4
 
-
-class ViewController: UIViewController, DopplerDelegate {
+class ViewController: CanvasController, DopplerDelegate {
     
     var engine: AudioEngine!
     var doppler: Doppler!
     
     
+    var numSquares = 150
+    var hexagons = [RegularPolygon]()
+    var points = [Double]()
     
-    @IBOutlet weak var barChartView: BarChartView!
-    @IBOutlet weak var imageView: UIImageView!
+    var tapToggle = false
+    var tapToggle2 = false
 
     @IBOutlet weak var speedLabel: UILabel!
     @IBOutlet weak var speedView: UIImageView!

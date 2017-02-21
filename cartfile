@@ -1,1 +1,2 @@
 github "i-schuetz/SwiftCharts" ~> 0.5
+github "kaishin/Gifu"

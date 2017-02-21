@@ -34,7 +34,6 @@ protocol DopplerDelegate: class {
 class Doppler {
     
     //Analysis Variables
-
     var leftBand = 0
     var rightBand = 0
     
@@ -66,9 +65,11 @@ class Doppler {
     var cyclesToRefresh = 0
     var cyclesToRead = 5
     
+    var proximity = 0.0
+    
     
     //Booleans
-    var calibrate = true
+    var calibrate = false
     var repeater = false
     var proxHasChanged = false
     var proxState = 0
@@ -124,6 +125,7 @@ class Doppler {
             self.leftBand = bandwidths[0]
             self.rightBand = bandwidths[1]
             calculateGestures()
+            calculateProximity()
             
         }
         
@@ -351,6 +353,17 @@ class Doppler {
     
     func setFrequency(freq: Double){
         self.frequency = freq
+    }
+    
+    func calculateProximity() {
+        let bin = freqIndex
+        var count = 0.0
+        for i in bin!-5...bin!+5 {
+            count += fftData[i]
+        }
+        print(count)
+        
+        delegate.updateProximity(self)
     }
     
     func optimizeFrequency(minFreq: Double, maxFreq: Double) {
