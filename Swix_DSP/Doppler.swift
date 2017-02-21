@@ -63,13 +63,13 @@ class Doppler {
     var directionChanges = 0
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
-    var cyclesToRead = 5
+    var cyclesToRead = 4
     
     var proximity = 0.0
     
     
     //Booleans
-    var calibrate = false
+    var calibrate = true
     var repeater = false
     var proxHasChanged = false
     var proxState = 0
@@ -77,7 +77,7 @@ class Doppler {
     
     //Energy Accumulator
     var energy = 0.0
-    var framesToSample = 5
+    var framesToSample = 4
     
     
     var referenceEnergy = 0.0
@@ -238,7 +238,7 @@ class Doppler {
         if (leftBand > 4 || rightBand > 4) {
             let difference = leftBand - rightBand
             var direction = difference.sign()
-            print("LB = \(leftBand) : RB = \(rightBand)")
+//            print("LB = \(leftBand) : RB = \(rightBand)")
             if(leftBand > 6 || rightBand > 6) {
                 speed = true
             } else {
@@ -317,9 +317,12 @@ class Doppler {
         energy = calculateEnergy(bandIndex: freqIndex, bandWidth: 5)
         var thresholdMuliplier = 5
         
-        if(referenceEnergy < 0.8){
+        if(referenceEnergy < 0.8 && referenceEnergy > 0.3){
             thresholdMuliplier = 5
-        } else {
+        } else if (referenceEnergy < 0.3 ) {
+            thresholdMuliplier = 10
+            
+        }else if (referenceEnergy > 0.8) {
             thresholdMuliplier = 3
         }
 
@@ -361,9 +364,7 @@ class Doppler {
         for i in bin!-5...bin!+5 {
             count += fftData[i]
         }
-        print(count)
         
-        delegate.updateProximity(self)
     }
     
     func optimizeFrequency(minFreq: Double, maxFreq: Double) {
