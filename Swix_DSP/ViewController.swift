@@ -68,7 +68,7 @@ class ViewController: CanvasController, DopplerDelegate {
             if (i%2==0) {
                 hexagon.fillColor = nil
                 hexagon.strokeColor = white
-                hexagon.lineWidth = 0.8
+                hexagon.lineWidth = 0.5
             } else if (i == hexagons.count) {
                 //Text
                 
@@ -77,7 +77,7 @@ class ViewController: CanvasController, DopplerDelegate {
             else {
                 hexagon.fillColor = nil
                 hexagon.strokeColor = orange
-                hexagon.lineWidth = 0.8
+                hexagon.lineWidth = 0.5
                 
                 
             }
@@ -100,9 +100,10 @@ class ViewController: CanvasController, DopplerDelegate {
         
 
     }
+    
 
     func createHexagon(d: Double) -> RegularPolygon {
-        let hexagon = RegularPolygon(center: canvas.center, radius: d, sides: 20)
+        let hexagon = RegularPolygon(center: canvas.center, radius: d, sides: 30)
         return hexagon
     }
     
@@ -173,13 +174,13 @@ class ViewController: CanvasController, DopplerDelegate {
                 if (i%2==0) {
                     hexagon.fillColor = nil
                     hexagon.strokeColor = white
-                    hexagon.lineWidth = 0.8
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 6
                 }
                 else {
                     hexagon.fillColor = nil
                     hexagon.strokeColor = white
-                    hexagon.lineWidth = 0.8
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 6
                     
                     
@@ -202,15 +203,10 @@ class ViewController: CanvasController, DopplerDelegate {
         self.textShape.text = "Slow Pull"
         self.textShape.center = self.canvas.center
         let rotateBackward = ViewAnimation(duration: 3.0, animations: {
-            var i = 0
             for hexagon in self.hexagons {
-                hexagon.rotation += sin(self.points[i]*2*π)*25
-                hexagon.transform = Transform.makeScale(pow(sin(self.points[i]*2*π), 2), pow(sin(self.points[i]*2*π),2))
-                
-                self.points[i] -= 0.4
-                i+=1
+                hexagon.center = Point(self.canvas.center.x + (random01())*500,self.canvas.center.y)
+
             }
-//            self.textShape.rotation += sin(self.points[i]*2*π)*25
 
 
         })
@@ -221,19 +217,23 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onSlowPush(_ sender: Doppler) {
-        self.textShape.center = self.canvas.center
         
-        self.textShape.text = "Slow Push"
+
+
         print("Push")
         let rotateForward = ViewAnimation(duration: 3.0, animations: {
             var i = 0
             for hexagon in self.hexagons {
-                hexagon.rotation += sin(self.points[i]*2*π)*25
-                hexagon.transform = Transform.makeScale(cos(pow(sin(self.points[i]*2*π), 2))*3, cos(pow(sin(self.points[i]*2*π),2))*3)
-                self.points[i] += 0.2
-                i+=1
+//                hexagon.rotation += sin(self.points[i]*2*π)*25
+//                hexagon.transform = Transform.makeScale(cos(pow(sin(self.points[i]*2*π), 2))*3, cos(pow(sin(self.points[i]*2*π),2))*3)
+//                self.points[i] += 0.2
+//                i+=1
+                hexagon.center = Point(self.canvas.center.x - (random01())*500,self.canvas.center.y)
+
             }
-            
+            self.textShape.text = "Slow Push"
+            self.textShape.center = self.canvas.center
+            self.textShape.fillColor = white
 //            self.textShape.rotation -= sin(self.points[i]*2*π)*25
 
         })
@@ -248,12 +248,12 @@ class ViewController: CanvasController, DopplerDelegate {
         self.textShape.center = self.canvas.center
         
         self.textShape.text = "Fast Pull"
-        let rotateBackward = ViewAnimation(duration: 0.5, animations: {
+        let rotateBackward = ViewAnimation(duration: 1.5, animations: {
             var i = 0
             for hexagon in self.hexagons {
                 hexagon.rotation += sin(self.points[i]*2*π)*25
                 hexagon.transform = Transform.makeScale(pow(sin(self.points[i]*2*π), 2), pow(sin(self.points[i]*2*π),2))
-                
+                hexagon.center = self.canvas.center
                 self.points[i] -= 0.4
                 i+=1
             }
@@ -271,12 +271,14 @@ class ViewController: CanvasController, DopplerDelegate {
         self.textShape.center = self.canvas.center
         
         self.textShape.text = "Fast Push"
-        let rotateForward = ViewAnimation(duration: 0.5, animations: {
+        let rotateForward = ViewAnimation(duration: 1.5, animations: {
             var i = 0
             for hexagon in self.hexagons {
                 hexagon.rotation += sin(self.points[i]*2*π)*25
                 hexagon.transform = Transform.makeScale(cos(pow(sin(self.points[i]*2*π), 2))*3, cos(pow(sin(self.points[i]*2*π),2))*3)
                 self.points[i] += 0.2
+                hexagon.center = self.canvas.center
+
                 i+=1
             }
             
@@ -306,7 +308,7 @@ class ViewController: CanvasController, DopplerDelegate {
                 if (i%2==0) {
                     hexagon.fillColor = Color(UIColor(colorLiteralRed: 1.0, green: 1.0, blue: 1.0, alpha: 0.3))
                     hexagon.strokeColor = white
-                    hexagon.lineWidth = 1.0
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 5
                     hexagon.transform = Transform.makeScale(cos(pow(sin(self.points[i]*2*π), 2))*3, cos(pow(sin(self.points[i]*2*π),2))*3)
 
@@ -314,7 +316,7 @@ class ViewController: CanvasController, DopplerDelegate {
                 else {
                     hexagon.fillColor = nil
                     hexagon.strokeColor = orange
-                    hexagon.lineWidth = 2.0
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 3
                     
                     
@@ -325,7 +327,7 @@ class ViewController: CanvasController, DopplerDelegate {
 
         } else {
             canvas.backgroundColor = black
-            self.textShape.lineWidth = 1.0
+            self.textShape.lineWidth = 0.5
             self.textShape.center = self.canvas.center
             self.textShape.fillColor = white
             self.textShape.text = "Double Tap"
@@ -334,7 +336,7 @@ class ViewController: CanvasController, DopplerDelegate {
                 if (i%2==0) {
                     hexagon.fillColor = nil
                     hexagon.strokeColor = white
-                    hexagon.lineWidth = 0.8
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 20
                     hexagon.transform = Transform.makeScale(cos(pow(sin(self.points[i]*2*π), 2))*0.25, cos(pow(sin(self.points[i]*2*π),2))*0.25)
 
@@ -342,7 +344,7 @@ class ViewController: CanvasController, DopplerDelegate {
                 else {
                     hexagon.fillColor = nil
                     hexagon.strokeColor = orange
-                    hexagon.lineWidth = 0.8
+                    hexagon.lineWidth = 0.5
                     hexagon.sides = 20
                     
                     
@@ -362,9 +364,9 @@ class ViewController: CanvasController, DopplerDelegate {
     func onProximityClose(_ sender: Doppler) {
         let positionAnim = ViewAnimation(duration: 1.0, animations: {
             self.textShape.text = "Hand Close"
-            self.textShape.center = Point(self.canvas.center.x + (random01()-1)*500,self.canvas.center.y)
+//            self.textShape.center = Point(self.canvas.center.x + (random01()-1)*500,self.canvas.center.y)
         for hexagon in self.hexagons {
-            hexagon.center = Point(self.canvas.center.x + (random01()-1)*500,self.canvas.center.y)
+            hexagon.center = Point(self.canvas.center.x ,self.canvas.center.y + (random01()-1)*500)
             }
 
 
@@ -375,7 +377,7 @@ class ViewController: CanvasController, DopplerDelegate {
 
     func onProximityFar(_ sender: Doppler) {
         let posAnim = ViewAnimation(duration: 1.0, animations: {
-            self.textShape.center = self.canvas.center
+//            self.textShape.center = self.canvas.center
 
             for hexagon in self.hexagons {
                 hexagon.center = self.canvas.center

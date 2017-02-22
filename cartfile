@@ -1,2 +1,3 @@
 github "i-schuetz/SwiftCharts" ~> 0.5
-github "kaishin/Gifu"
+github "bahlo/SwiftGif" ~> 1.6.1
+github "ariok/BWWalkthrough"
