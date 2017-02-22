@@ -14,18 +14,15 @@ class ViewController: CanvasController, DopplerDelegate {
     
     var engine: AudioEngine!
     var doppler: Doppler!
+    var closeButton: UIButton!
     
-    
-    var numSquares = 75
+    var numSquares = 100
     var hexagons = [RegularPolygon]()
     var points = [Double]()
     
     var tapToggle = false
     var tapToggle2 = false
 
-    var words = ["MOBGEN:Lab", "Amazing", "Heavy Metal", "Experimental", "Art", "Music", "Research", "Innovation", "The Future", "Tom Power", "Da Vinci"]
-    let f = Font(font: UIFont(name: "Helvetica", size: 26.0)!)
-    var textShape: TextShape!
 
     
     override func setup() {
@@ -33,6 +30,12 @@ class ViewController: CanvasController, DopplerDelegate {
         engine = AudioEngine()
         engine.start()
         engine.sineWave.play()
+        
+        closeButton = UIButton(frame: CGRect(x: canvas.width-35, y: 15, width: 30, height: 30))
+        closeButton.tintColor = UIColor.white
+        closeButton.setImage(UIImage(named: "close-button"), for: .normal)
+        closeButton.addTarget(self, action: #selector(closeArt), for: .touchUpInside)
+        canvas.add(closeButton)
 
         
         doppler = Doppler(frequency: engine.sineWave.frequency)
@@ -47,16 +50,7 @@ class ViewController: CanvasController, DopplerDelegate {
         //C4 Stuff
         canvas.backgroundColor = black
         
-        textShape = TextShape(text:words[0], font: f)!
-
-        
-        //create a shape using a string and font
-        textShape.center = Point(100, 100)
-        textShape.fillColor = white
-        textShape.strokeColor = white
-        
-        //add the shape to the canvas
-        canvas.add(textShape)
+ 
         
         for var i in 0..<numSquares {
             points.append(map(Double(i), min: 0.0, max: Double(numSquares), toMin: 0, toMax: π/2))
@@ -141,7 +135,7 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onTap(_ sender: Doppler) {
-        print("Tap")
+//        print("Tap")
         if(!tapToggle) {
 //        canvas.backgroundColor = white
         var i=0
@@ -162,9 +156,7 @@ class ViewController: CanvasController, DopplerDelegate {
             }
             i+=1
             
-            self.textShape.center = self.canvas.center
 
-            self.textShape.text = "Tapped"
 
         }
         } else {
@@ -186,9 +178,7 @@ class ViewController: CanvasController, DopplerDelegate {
                     
                 }
                 i+=1
-                self.textShape.center = self.canvas.center
 
-                self.textShape.text = "Tapped"
 
             }
         }
@@ -198,10 +188,8 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onSlowPull(_ sender: Doppler) {
-        print("Pull")
-        canvas.remove(textShape)
-        self.textShape.text = "Slow Pull"
-        self.textShape.center = self.canvas.center
+//        print("Pull")
+
         let rotateBackward = ViewAnimation(duration: 3.0, animations: {
             for hexagon in self.hexagons {
                 hexagon.center = Point(self.canvas.center.x + (random01())*500,self.canvas.center.y)
@@ -220,7 +208,7 @@ class ViewController: CanvasController, DopplerDelegate {
         
 
 
-        print("Push")
+//        print("Push")
         let rotateForward = ViewAnimation(duration: 3.0, animations: {
             var i = 0
             for hexagon in self.hexagons {
@@ -231,10 +219,6 @@ class ViewController: CanvasController, DopplerDelegate {
                 hexagon.center = Point(self.canvas.center.x - (random01())*500,self.canvas.center.y)
 
             }
-            self.textShape.text = "Slow Push"
-            self.textShape.center = self.canvas.center
-            self.textShape.fillColor = white
-//            self.textShape.rotation -= sin(self.points[i]*2*π)*25
 
         })
         
@@ -244,10 +228,7 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onFastPull(_ sender: Doppler) {
-        //        print("Pull")
-        self.textShape.center = self.canvas.center
-        
-        self.textShape.text = "Fast Pull"
+
         let rotateBackward = ViewAnimation(duration: 1.5, animations: {
             var i = 0
             for hexagon in self.hexagons {
@@ -266,11 +247,8 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onFastPush(_ sender: Doppler) {
-        print("Push")
-        //            self.textShape.rotation -= sin(self.points[i]*2*π)*25
-        self.textShape.center = self.canvas.center
+//        print("Push")
         
-        self.textShape.text = "Fast Push"
         let rotateForward = ViewAnimation(duration: 1.5, animations: {
             var i = 0
             for hexagon in self.hexagons {
@@ -295,14 +273,10 @@ class ViewController: CanvasController, DopplerDelegate {
     }
     
     func onDoubleTap(_ sender: Doppler) {
-        print("Double Tap")
 
         if(!tapToggle2) {
-            self.textShape.center = self.canvas.center
             
-            self.textShape.text = "Double Tap"
 //            canvas.backgroundColor = white
-            self.textShape.lineWidth = 1.0
             var i=0
             for hexagon in self.hexagons {
                 if (i%2==0) {
@@ -327,10 +301,7 @@ class ViewController: CanvasController, DopplerDelegate {
 
         } else {
             canvas.backgroundColor = black
-            self.textShape.lineWidth = 0.5
-            self.textShape.center = self.canvas.center
-            self.textShape.fillColor = white
-            self.textShape.text = "Double Tap"
+
             var i=0
             for hexagon in self.hexagons {
                 if (i%2==0) {
@@ -363,8 +334,6 @@ class ViewController: CanvasController, DopplerDelegate {
 
     func onProximityClose(_ sender: Doppler) {
         let positionAnim = ViewAnimation(duration: 1.0, animations: {
-            self.textShape.text = "Hand Close"
-//            self.textShape.center = Point(self.canvas.center.x + (random01()-1)*500,self.canvas.center.y)
         for hexagon in self.hexagons {
             hexagon.center = Point(self.canvas.center.x ,self.canvas.center.y + (random01()-1)*500)
             }
@@ -377,7 +346,6 @@ class ViewController: CanvasController, DopplerDelegate {
 
     func onProximityFar(_ sender: Doppler) {
         let posAnim = ViewAnimation(duration: 1.0, animations: {
-//            self.textShape.center = self.canvas.center
 
             for hexagon in self.hexagons {
                 hexagon.center = self.canvas.center
@@ -391,8 +359,19 @@ class ViewController: CanvasController, DopplerDelegate {
  
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "return" {
+            doppler.stop()
+            engine.stop()
+        }
+    }
+    
 
 
+    func closeArt(){
+        performSegue(withIdentifier: "return", sender: self)
+        
+    }
 
 }
 
