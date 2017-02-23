@@ -33,6 +33,7 @@ protocol DopplerDelegate: class {
 
 class Doppler {
     
+    
     //Analysis Variables
     var leftBand = 0
     var rightBand = 0

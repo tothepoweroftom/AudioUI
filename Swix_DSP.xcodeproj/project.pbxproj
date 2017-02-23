@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352411B81E5F2BAF00604588 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352411B71E5F2BAF00604588 /* WebViewController.swift */; };
 		353EF5C91E4CA58300EB8041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5C81E4CA58300EB8041 /* AppDelegate.swift */; };
 		353EF5CB1E4CA58300EB8041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353EF5CA1E4CA58300EB8041 /* ViewController.swift */; };
 		353EF5CE1E4CA58300EB8041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353EF5CC1E4CA58300EB8041 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */; };
 		35BA82FB1E5DB87C009393A5 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */; };
 		35BA83001E5DDE85009393A5 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA82FF1E5DDE85009393A5 /* BarViewController.swift */; };
+		35BA83081E5F1E93009393A5 /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA83071E5F1E93009393A5 /* CookViewController.swift */; };
 		35C033921E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35C033911E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif */; };
 		35C0339A1E5C9B1A00C53FE9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */; };
 		35C033A61E5D910100C53FE9 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C033A51E5D910100C53FE9 /* DemoViewController.swift */; };
@@ -147,6 +149,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		352411B71E5F2BAF00604588 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		353EF5C51E4CA58300EB8041 /* Swix_DSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swix_DSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353EF5C81E4CA58300EB8041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		353EF5CA1E4CA58300EB8041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +200,7 @@
 		35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen2.storyboard"; path = "../Launch Screen2.storyboard"; sourceTree = "<group>"; };
 		35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		35BA82FF1E5DDE85009393A5 /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		35BA83071E5F1E93009393A5 /* CookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
 		35C033911E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "MobgenLab_logo-animation_v3.gif"; sourceTree = "<group>"; };
 		35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		35C0339B1E5C9B5E00C53FE9 /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftGif.framework; sourceTree = "<group>"; };
@@ -395,12 +399,14 @@
 				35BA82FF1E5DDE85009393A5 /* BarViewController.swift */,
 				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
 				35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */,
+				35BA83071E5F1E93009393A5 /* CookViewController.swift */,
 				35C033AA1E5D93AE00C53FE9 /* BWWalkthroughViewController.swift */,
 				353EF5CA1E4CA58300EB8041 /* ViewController.swift */,
 				35C033A51E5D910100C53FE9 /* DemoViewController.swift */,
 				35C033AC1E5D93B700C53FE9 /* BWWalkthrough.h */,
 				35C033AD1E5D93BF00C53FE9 /* BWWalkthroughPageViewController.swift */,
 				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
+				352411B71E5F2BAF00604588 /* WebViewController.swift */,
 				35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */,
 				35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */,
 			);
@@ -638,6 +644,8 @@
 				353EF61D1E4CA5AB00EB8041 /* m-image.swift in Sources */,
 				35C033AB1E5D93AE00C53FE9 /* BWWalkthroughViewController.swift in Sources */,
 				353EF62E1E4CA5AB00EB8041 /* initing.swift in Sources */,
+				352411B81E5F2BAF00604588 /* WebViewController.swift in Sources */,
+				35BA83081E5F1E93009393A5 /* CookViewController.swift in Sources */,
 				353EF6291E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift in Sources */,
 				35C033AE1E5D93BF00C53FE9 /* BWWalkthroughPageViewController.swift in Sources */,
 				353EF61A1E4CA5AB00EB8041 /* machine_learning.swift in Sources */,

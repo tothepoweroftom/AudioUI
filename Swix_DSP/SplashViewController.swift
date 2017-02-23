@@ -12,7 +12,7 @@ import C4
 
 
 @IBDesignable class SplashViewController: CanvasController, BWWalkthroughViewControllerDelegate {
-    var numPoints = 150
+    var numPoints = 40
     var sineWavePoints = [Point]()
     var sineWaveCircles = [Circle]()
     var sineWavePoints2 = [Point]()

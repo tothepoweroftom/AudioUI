@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="AUt-7P-hPO">
-                                <rect key="frame" x="457" y="82.5" width="130" height="210"/>
+                                <rect key="frame" x="457" y="72.5" width="130" height="230"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd4-mp-UNx">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="6"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <state key="normal" title="Tutorial">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -36,7 +36,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqx-xM-5Hv">
-                                        <rect key="frame" x="0.0" y="41" width="130" height="34"/>
+                                        <rect key="frame" x="0.0" y="17" width="130" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Gesture Demo">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -46,14 +46,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxG-4x-P9S">
-                                        <rect key="frame" x="0.0" y="86" width="130" height="34"/>
+                                        <rect key="frame" x="0.0" y="62" width="130" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Cookery Demo">
+                                        <state key="normal" title="Recipe Demo">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="yAZ-bu-7c7" kind="presentation" id="4zq-36-tNu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sk-Sm-uB9">
-                                        <rect key="frame" x="0.0" y="131" width="130" height="34"/>
+                                        <rect key="frame" x="0.0" y="107" width="130" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Art Demo">
                                             <color key="titleColor" red="0.99577974660000002" green="0.98544880680000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,8 +65,18 @@
                                             <segue destination="BYZ-38-t0r" kind="presentation" id="kts-SX-khX"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NO-bU-Vae">
+                                        <rect key="frame" x="0.0" y="152" width="130" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="WebView Demo">
+                                            <color key="titleColor" red="0.99577974660000002" green="0.98544880680000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="E4l-3X-Eaf" kind="presentation" id="x8J-Tt-NbR"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xq-H4-l8d">
-                                        <rect key="frame" x="0.0" y="176" width="130" height="34"/>
+                                        <rect key="frame" x="0.0" y="196" width="130" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Calibration">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -75,11 +88,11 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="9HX-3T-XXj"/>
-                                    <constraint firstAttribute="height" constant="210" id="CS4-Av-Mpb"/>
+                                    <constraint firstAttribute="height" constant="230" id="CS4-Av-Mpb"/>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio As An Interface" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAc-me-cbw">
-                                <rect key="frame" x="418" y="30.5" width="209" height="21"/>
+                                <rect key="frame" x="418" y="20.5" width="209" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="5XZ-aZ-yr3"/>
                                     <constraint firstAttribute="width" constant="209" id="A65-4J-c5R"/>
@@ -306,18 +319,39 @@
             </objects>
             <point key="canvasLocation" x="123.91304347826087" y="946.37681159420299"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Cook View Controller-->
         <scene sceneID="B1h-n5-15J">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="yAZ-bu-7c7" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="2" navigationOrientation="horizontal" spineLocation="none" id="yAZ-bu-7c7" customClass="CookViewController" customModule="Swix_DSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6tQ-pX-pkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119" y="1671"/>
         </scene>
+        <!--Web View Controller-->
+        <scene sceneID="ii2-pc-MUr">
+            <objects>
+                <viewController id="E4l-3X-Eaf" customClass="WebViewController" customModule="Swix_DSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="osO-J3-TnG"/>
+                        <viewControllerLayoutGuide type="bottom" id="cNv-ZV-IFw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lh6-Tu-Gme">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djl-6z-gBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.78860569715144" y="2484"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="M4G-Hj-k8v">
             <objects>
-                <viewController id="WcD-u5-Fxz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PagesContentController1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WcD-u5-Fxz" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oUG-Ah-DA8"/>
                         <viewControllerLayoutGuide type="bottom" id="GQu-ia-5us"/>
@@ -325,19 +359,116 @@
                     <view key="view" contentMode="scaleToFill" id="CpD-TT-n1G">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food1" translatesAutoresizingMaskIntoConstraints="NO" id="ETM-HG-obu">
+                                <rect key="frame" x="30" y="20" width="230" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="FeF-i2-dJa"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0iB-2M-dG6">
+                                <rect key="frame" x="303" y="44" width="344" height="311"/>
+                                <color key="backgroundColor" red="0.99995881319046021" green="0.98830026388168335" blue="0.97244924306869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="311" id="zwD-qE-dhP"/>
+                                </constraints>
+                                <string key="text">Peel and finely slice the garlic, then pick and finely chop the rosemary leaves.
+Heat a splash of oil in a frying pan over a medium heat, then fry the garlic, rosemary and chilli until the garlic is golden. Remove a few spoonfuls of fried rosemary to use as garnish.
+Stir in the tinned beans, along with their juices, then let everything cook and reduce for about 5 minutes, or until thick and delicious. Meanwhile, finely chop the parsley.
+Add a glug of vinegar to the beans and season to taste.
+Finish with the chopped parsley and a good squeeze of lemon juice, drizzling over a little cold-pressed olive oil, if you like.
+Serve the beans on toasted sourdough bread, or as a side dish to grilled fish or roasted chicken, sprinkled with the reserved crispy rosemary.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3q-Iu-Jc2">
+                                <rect key="frame" x="431.5" y="20" width="86" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5QG-ut-dfg"/>
+                                    <constraint firstAttribute="width" constant="86" id="9Nn-Qk-4xK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98811903043665983" blue="0.97430636590511421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0iB-2M-dG6" firstAttribute="leading" secondItem="ETM-HG-obu" secondAttribute="trailing" constant="43" id="JSp-fJ-Zhc"/>
+                            <constraint firstItem="GQu-ia-5us" firstAttribute="top" secondItem="0iB-2M-dG6" secondAttribute="bottom" constant="20" id="OMa-7B-clY"/>
+                            <constraint firstItem="GQu-ia-5us" firstAttribute="top" secondItem="ETM-HG-obu" secondAttribute="bottom" constant="20" id="SXQ-Zi-yCx"/>
+                            <constraint firstItem="ETM-HG-obu" firstAttribute="top" secondItem="oUG-Ah-DA8" secondAttribute="bottom" constant="20" id="T3V-qC-9lU"/>
+                            <constraint firstItem="f3q-Iu-Jc2" firstAttribute="top" secondItem="oUG-Ah-DA8" secondAttribute="bottom" constant="20" id="Tg7-Ka-SeR"/>
+                            <constraint firstItem="f3q-Iu-Jc2" firstAttribute="centerX" secondItem="0iB-2M-dG6" secondAttribute="centerX" id="Tzp-hV-aRS"/>
+                            <constraint firstItem="0iB-2M-dG6" firstAttribute="trailing" secondItem="CpD-TT-n1G" secondAttribute="trailingMargin" id="sda-OT-mH5"/>
+                            <constraint firstItem="ETM-HG-obu" firstAttribute="leading" secondItem="CpD-TT-n1G" secondAttribute="leadingMargin" constant="10" id="uCU-bz-o23"/>
+                        </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhG-bI-MmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="794" y="1673"/>
+            <point key="canvasLocation" x="1181" y="1727"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w1K-7o-gVE">
+            <objects>
+                <viewController storyboardIdentifier="PagesContentController2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Usd-WX-sQY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPx-6h-XQO"/>
+                        <viewControllerLayoutGuide type="bottom" id="vNt-Px-5Uc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yHi-V4-phk">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37b-kg-jua">
+                                <rect key="frame" x="276" y="20" width="115" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="GKt-S0-xEe"/>
+                                    <constraint firstAttribute="width" constant="115" id="p8x-IQ-djG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-uc-wbK">
+                                <rect key="frame" x="120" y="56" width="427" height="299"/>
+                                <color key="backgroundColor" red="0.99995881319046021" green="0.98830026388168335" blue="0.97244924306869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">4 cloves of garlic
+½ a bunch of fresh rosemary
+olive oil
+½ teaspoon dried red chilli flakes
+2 x 400 g tins of cannellini beans , (or other tinned beans of your choice)
+½ a bunch of fresh parsley
+red wine vinegar
+1 lemon</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98811903040000004" blue="0.97430636589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="cKq-uc-wbK" secondAttribute="trailing" constant="100" id="M8h-67-LGo"/>
+                            <constraint firstItem="37b-kg-jua" firstAttribute="centerX" secondItem="yHi-V4-phk" secondAttribute="centerX" id="TqC-xS-EL6"/>
+                            <constraint firstItem="37b-kg-jua" firstAttribute="top" secondItem="bPx-6h-XQO" secondAttribute="bottom" constant="20" id="fdg-xe-CML"/>
+                            <constraint firstItem="cKq-uc-wbK" firstAttribute="leading" secondItem="yHi-V4-phk" secondAttribute="leadingMargin" constant="100" id="nfl-JO-SKV"/>
+                            <constraint firstItem="vNt-Px-5Uc" firstAttribute="top" secondItem="cKq-uc-wbK" secondAttribute="bottom" constant="20" id="t1h-7Z-W0c"/>
+                            <constraint firstItem="cKq-uc-wbK" firstAttribute="top" secondItem="37b-kg-jua" secondAttribute="bottom" constant="8" id="zYp-OT-luV"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXV-ed-URn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180.6596701649175" y="2389.5999999999999"/>
         </scene>
     </scenes>
     <resources>
         <image name="close-button" width="128" height="128"/>
+        <image name="food1" width="430" height="575"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WCe-lC-18X"/>
+        <segue reference="P6E-Rf-s6t"/>
     </inferredMetricsTieBreakers>
 </document>
