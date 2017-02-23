@@ -42,7 +42,7 @@ class Doppler {
     
     //Frequency bins are scanned until the amp drops below 1% of the peak amp
     var maxVolRatio = 0.2
-    var RELEVANT_FREQ_WINDOW = 17
+    var RELEVANT_FREQ_WINDOW = 33
     var SECOND_PEAK_RATIO = 0.4
     
 

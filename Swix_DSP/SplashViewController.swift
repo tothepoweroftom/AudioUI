@@ -19,6 +19,8 @@ import C4
     var sineWaveCircles2 = [Circle]()
     let margin = 60.0
     var theta = 0.0
+    var theta2 = 0.0
+
     var period = 100.0
     var dx: Double!
     var amp = 30.0
@@ -73,6 +75,8 @@ import C4
     
     func updateTheta(){
         theta += 0.05
+        theta2 += 0.06
+
         updateSineWave()
     }
 
@@ -109,7 +113,7 @@ import C4
             x+=dx
         }
         sineWavePoints2.removeAll()
-        x = theta
+        x = theta2
         for var i in 0...numPoints {
             let point = Point(canvas.center.x + amp*sin(x + pi) , margin + i*spacing)
             sineWavePoints2.append(point)
@@ -143,7 +147,7 @@ import C4
             i+=1
             x+=dx
         }
-        x = theta+0.01
+        x = theta2
         i = 0
         for circle in sineWaveCircles2 {
             circle.center = Point(canvas.center.x + amp*sin(x + pi), margin + i*spacing)

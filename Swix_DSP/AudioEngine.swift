@@ -47,7 +47,7 @@ class AudioEngine {
     init(){
         audioEngine = AVAudioEngine()
         sineWave = AVTonePlayerUnit()
-        sineWave.frequency = 19000.0
+        sineWave.frequency = 20000.0
         sineWave.amplitude = 1.0
         audioEngine.attach(sineWave)
         let mixer = audioEngine.mainMixerNode
@@ -65,6 +65,7 @@ class AudioEngine {
             print("Error finding input")
             return
         }
+        
         
 //        do {
 //          var session = AVAudioSession.sharedInstance()
