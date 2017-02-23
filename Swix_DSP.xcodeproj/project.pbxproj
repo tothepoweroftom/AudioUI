@@ -50,6 +50,7 @@
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */; };
 		35BA82FB1E5DB87C009393A5 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */; };
+		35BA83001E5DDE85009393A5 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA82FF1E5DDE85009393A5 /* BarViewController.swift */; };
 		35C033921E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35C033911E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif */; };
 		35C0339A1E5C9B1A00C53FE9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */; };
 		35C033A61E5D910100C53FE9 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C033A51E5D910100C53FE9 /* DemoViewController.swift */; };
@@ -195,6 +196,7 @@
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen2.storyboard"; path = "../Launch Screen2.storyboard"; sourceTree = "<group>"; };
 		35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+		35BA82FF1E5DDE85009393A5 /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		35C033911E5C9AC800C53FE9 /* MobgenLab_logo-animation_v3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "MobgenLab_logo-animation_v3.gif"; sourceTree = "<group>"; };
 		35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		35C0339B1E5C9B5E00C53FE9 /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftGif.framework; sourceTree = "<group>"; };
@@ -390,6 +392,7 @@
 		35C033A81E5D912800C53FE9 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				35BA82FF1E5DDE85009393A5 /* BarViewController.swift */,
 				353EF5CF1E4CA58300EB8041 /* Assets.xcassets */,
 				35C033991E5C9B1A00C53FE9 /* SplashViewController.swift */,
 				35C033AA1E5D93AE00C53FE9 /* BWWalkthroughViewController.swift */,
@@ -621,6 +624,7 @@
 				353EF62A1E4CA5AB00EB8041 /* speed.swift in Sources */,
 				353EF6221E4CA5AB00EB8041 /* numbers.swift in Sources */,
 				353EF5CB1E4CA58300EB8041 /* ViewController.swift in Sources */,
+				35BA83001E5DDE85009393A5 /* BarViewController.swift in Sources */,
 				353EF6211E4CA5AB00EB8041 /* m-simple-math.swift in Sources */,
 				353EF61F1E4CA5AB00EB8041 /* m-matrix.swift in Sources */,
 				353EF6351E4CA7B200EB8041 /* DSP.swift in Sources */,

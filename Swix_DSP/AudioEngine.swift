@@ -28,6 +28,8 @@ class AudioEngine {
     let fftSetup: FFTSetupD = fftInit(N: N)
     var fftArray: (real: vector, imag: vector)!
     var fftMagnitudes: vector!
+    var fftMagnitudesdB: vector!
+
 
     var hanningWindow: vector = 0.5 + 0.5*cos((pi * linspace(-0.5, max: 0.5, num: N))/(N/2))
     var gaussianWindow: vector = exp(pow(linspace(-0.5, max: 0.5, num: N), power: 2.0)/(-2*pow(σ, 2.0)))
@@ -45,7 +47,7 @@ class AudioEngine {
     init(){
         audioEngine = AVAudioEngine()
         sineWave = AVTonePlayerUnit()
-        sineWave.frequency = 20000.0
+        sineWave.frequency = 19000.0
         sineWave.amplitude = 1.0
         audioEngine.attach(sineWave)
         let mixer = audioEngine.mainMixerNode
@@ -92,7 +94,7 @@ class AudioEngine {
             self.fftArray = fft(x: self.frame*self.gaussianWindow, withSetup: self.fftSetup)
             let fftLength = 1+Int(self.frameLength)/2
             self.fftMagnitudes = sqrt((pow(self.fftArray.real[0..<fftLength], power: 2.0)) + (pow(self.fftArray.imag[0..<fftLength], power: 2.0)))
-            
+
             return
         })
         

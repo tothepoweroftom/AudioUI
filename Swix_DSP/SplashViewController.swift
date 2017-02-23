@@ -12,15 +12,18 @@ import C4
 
 
 @IBDesignable class SplashViewController: CanvasController, BWWalkthroughViewControllerDelegate {
-    var numPoints = 2000
+    var numPoints = 150
     var sineWavePoints = [Point]()
     var sineWaveCircles = [Circle]()
-    let margin = 50.0
+    var sineWavePoints2 = [Point]()
+    var sineWaveCircles2 = [Circle]()
+    let margin = 60.0
     var theta = 0.0
-    var period = 50.0
+    var period = 100.0
     var dx: Double!
-    var amp = 50.0
+    var amp = 30.0
     var spacing = 0.0
+    var anim: ViewAnimation!
     
     //Walkthrough
     var walkthrough: BWWalkthroughViewController!
@@ -36,16 +39,42 @@ import C4
         img?.height = canvas.width/4
         img?.center = Point(canvas.width/4, canvas.height/2)
         canvas.add(img)
+
+        
+        self.createSineWave()
+        self.renderSineWave()
         
 
         
-        createSineWave()
-        renderSineWave()
         
+//        let anim = ViewAnimation(duration: 1.0, animations: {
+//            self.updateSineWave()
+//        })
+//        anim.animate()
+//        
+//        let anim2 = ViewAnimation(duration: 1.0, animations: {
+//            self.updateSineWave2()
+//        })
+//        anim2.animate()
+//
+//        anim.addCompletionObserver {
+//            anim.animate()
+//        }
         
+
+//        
+//        anim2.addCompletionObserver {
+//            anim.animate()
+//        }
+//        
+        Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
 
     }
     
+    func updateTheta(){
+        theta += 0.05
+        updateSineWave()
+    }
 
 
     @IBAction func triggerWalkthrough(_ sender: Any) {
@@ -72,20 +101,36 @@ import C4
         walkthrough.dismiss(animated: true, completion: nil)
     }
     func createSineWave(){
+        sineWavePoints.removeAll()
         var x = theta
         for var i in 0...numPoints {
             let point = Point(canvas.center.x + amp*sin(x), margin + i*spacing)
             sineWavePoints.append(point)
             x+=dx
         }
+        sineWavePoints2.removeAll()
+        x = theta
+        for var i in 0...numPoints {
+            let point = Point(canvas.center.x + amp*sin(x + pi) , margin + i*spacing)
+            sineWavePoints2.append(point)
+            x+=dx
+        }
     }
     
     func renderSineWave(){
+        sineWaveCircles.removeAll()
         for point in sineWavePoints {
-            let circle = Circle(center: point, radius: 1.0)
+            let circle = Circle(center: point, radius: 2.0)
             circle.fillColor = white
             circle.strokeColor = nil
             sineWaveCircles.append(circle)
+            canvas.add(circle)
+        }
+        for point in sineWavePoints2 {
+            let circle = Circle(center: point, radius: 1.0)
+            circle.fillColor = lightGray
+            circle.strokeColor = nil
+            sineWaveCircles2.append(circle)
             canvas.add(circle)
         }
     }
@@ -96,10 +141,24 @@ import C4
         for circle in sineWaveCircles {
             circle.center = Point(canvas.center.x + amp*sin(x), margin + i*spacing)
             i+=1
+            x+=dx
+        }
+        x = theta+0.01
+        i = 0
+        for circle in sineWaveCircles2 {
+            circle.center = Point(canvas.center.x + amp*sin(x + pi), margin + i*spacing)
+            i+=1
+            x+=dx
         }
         
-
         
     }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+    }
+    
+
 
 }

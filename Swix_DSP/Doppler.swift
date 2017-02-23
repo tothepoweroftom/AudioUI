@@ -41,14 +41,14 @@ class Doppler {
     var sampleRate = 44100.0
     
     //Frequency bins are scanned until the amp drops below 1% of the peak amp
-    var maxVolRatio = 0.1
-    var RELEVANT_FREQ_WINDOW = 15
-    var SECOND_PEAK_RATIO = 0.3
+    var maxVolRatio = 0.2
+    var RELEVANT_FREQ_WINDOW = 17
+    var SECOND_PEAK_RATIO = 0.4
     
 
     
     //AUDIOKIT PARAMETERS
-    var frequency = 19000.0
+    var frequency = 20000.0
     var amplitude = 1.0
     var freqIndex: Int!
     var fftData = [Double]()
@@ -63,7 +63,7 @@ class Doppler {
     var directionChanges = 0
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
-    var cyclesToRead = 4
+    var cyclesToRead = 6
     
     var proximity = 0.0
     
