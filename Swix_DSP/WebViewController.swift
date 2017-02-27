@@ -88,7 +88,7 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
         scroll = webView.scrollView
         yPos = scroll.frame.maxY
         
-        webView.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI_2))
+        webView.transform = CGAffineTransform(rotationAngle: CGFloat(-M_PI_2))
 
         
     }
@@ -126,17 +126,37 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
     }
     
     func scrollUp() {
+        if(yPos < scroll.contentSize.height) {
         yPos += CGFloat(500.0)
         let poin = CGPoint(x: CGFloat(0), y: yPos)
         scroll.setContentOffset(poin, animated: true)
+        } else {
+            yPos = CGFloat(0.0)
+            let poin = CGPoint(x: CGFloat(0), y: yPos)
+            scroll.setContentOffset(poin, animated: true)
+        }
+
+
 
         
     }
     
     func scrollDown(){
+        
+        if yPos >= CGFloat(0.0) {
         yPos -= CGFloat(500.0)
         let poin = CGPoint(x: CGFloat(0), y: yPos)
         scroll.setContentOffset(poin, animated: true)
+        print(scroll.contentOffset)
+        } else {
+            yPos = CGFloat(0.0)
+            let poin = CGPoint(x: CGFloat(0), y: yPos)
+            scroll.setContentOffset(poin, animated: true)
+        }
+
+        
+
+        
     }
     /*
     // MARK: - Navigation
@@ -159,20 +179,20 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
     }
     
     func onTap(_ sender: Doppler) {
-        enableScrolling = !enableScrolling
-        var str = " "
-        if (enableScrolling) {
-            str = "enabled"
-        } else {
-            str = "disabled"
-        }
-        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
-            alert.removeFromParentViewController()
-            
-            alert.dismiss(animated: true, completion: nil)
-        }))
-        self.present(alert, animated: true, completion: nil)
+//        enableScrolling = !enableScrolling
+//        var str = " "
+//        if (enableScrolling) {
+//            str = "enabled"
+//        } else {
+//            str = "disabled"
+//        }
+//        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
+//        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+//            alert.removeFromParentViewController()
+//            
+//            alert.dismiss(animated: true, completion: nil)
+//        }))
+//        self.present(alert, animated: true, completion: nil)
         
     }
     
