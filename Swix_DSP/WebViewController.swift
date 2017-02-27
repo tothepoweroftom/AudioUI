@@ -9,7 +9,10 @@
 import UIKit
 import WebKit
 
-class WebViewController: UIViewController, WKNavigationDelegate {
+class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate {
+    
+    var engine: AudioEngine!
+    var doppler: Doppler!
     
     var webView : WKWebView!
     
@@ -20,6 +23,9 @@ class WebViewController: UIViewController, WKNavigationDelegate {
     var scroll: UIScrollView!
     var yPos: CGFloat = 0.0
     
+    var enableScrolling = true
+
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
@@ -28,7 +34,18 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
 
 
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
+        engine = AudioEngine()
+        engine.start()
+        engine.sineWave.play()
+        
+        
+        doppler = Doppler(frequency: engine.sineWave.frequency)
+        
+        doppler.delegate = self
+        doppler.start()
+        Timer.scheduledTimer(timeInterval: 0.04, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+
         
         // loading URL :
         let myBlog = "https://en.wikipedia.org/wiki/Batman"
@@ -76,6 +93,20 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         
     }
     
+    func update() {
+        //        print(engine.fftMagnitudes)
+        //
+        if (engine.fftMagnitudes != nil) {
+            
+            var fftData = [Double]()
+            for var i in 0..<engine.fftMagnitudes.n {
+                fftData.append(engine.fftMagnitudes[i])
+            }
+            doppler.update(fftData: fftData)
+            
+        }
+    }
+    
 
 
     override func didReceiveMemoryWarning() {
@@ -84,9 +115,13 @@ class WebViewController: UIViewController, WKNavigationDelegate {
     }
     
     func dismissView(){
-        
+        engine.sineWave.stop()
+        self.engine.stop()
+        self.engine.cleanUp()
+        self.doppler.stop()
         self.dismiss(animated: true, completion: { [unowned self] in
             print("Dismissed")
+            
         })
     }
     
@@ -112,5 +147,98 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func dopplerDidEnd(_ sender: Doppler) {
+        print("Doppler End")
+    }
+    
+    func dopplerDidStart(_ sender: Doppler) {
+        
+        print("Doppler Start")
+        
+    }
+    
+    func onTap(_ sender: Doppler) {
+        enableScrolling = !enableScrolling
+        var str = " "
+        if (enableScrolling) {
+            str = "enabled"
+        } else {
+            str = "disabled"
+        }
+        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+            alert.removeFromParentViewController()
+            
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    
+    func scrolling(){
+        enableScrolling = true
+        print("Enablescrolling = true")
+    }
+    
+    func onNothing(_ sender: Doppler) {
+        
+    }
+    
+    func onFastPull(_ sender: Doppler) {
+        
+        if(enableScrolling) {
+            scrollDown()
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
+        }
+    }
+    
+    func onFastPush(_ sender: Doppler) {
+        if (enableScrolling) {
+            scrollUp()
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
+        }
+        
+    }
+    
+    func onSlowPull(_ sender: Doppler) {
+        if(enableScrolling) {
+            scrollDown()
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
+        }
+    }
+    
+    func onSlowPush(_ sender: Doppler) {
+        if (enableScrolling) {
+            scrollUp()
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
+        }
+    }
+    
+    func onDoubleTap(_ sender: Doppler) {
+        
+        
+    }
+    
+    func onProximityFar(_ sender: Doppler) {
+        
+    }
+    
+    func onProximityClose(_ sender: Doppler) {
+        
+    }
+
 
 }
