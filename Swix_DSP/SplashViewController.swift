@@ -89,12 +89,16 @@ import C4
         let page_one = stb.instantiateViewController(withIdentifier: "page_1") as UIViewController
         let page_two = stb.instantiateViewController(withIdentifier: "page_2") as UIViewController
         let page_three = stb.instantiateViewController(withIdentifier: "page_3") as UIViewController
+        let page_four = stb.instantiateViewController(withIdentifier: "page_4") as UIViewController
+        let page_five = stb.instantiateViewController(withIdentifier: "page_5") as UIViewController
         
         // Attach the pages to the master
         walkthrough.delegate = self
         walkthrough.add(viewController:page_one)
         walkthrough.add(viewController:page_two)
         walkthrough.add(viewController:page_three)
+        walkthrough.add(viewController:page_four)
+        walkthrough.add(viewController:page_five)
         
         self.present(walkthrough, animated: true, completion: nil)
 
