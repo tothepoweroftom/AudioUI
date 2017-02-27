@@ -78,17 +78,27 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }
     
     func dismissView(){
-        
+        engine.sineWave.stop()
+        self.engine.stop()
+        self.engine.cleanUp()
+        self.doppler.stop()
         self.dismiss(animated: true, completion: { [unowned self] in
             print("Dismissed")
-            self.engine.stop()
-            self.doppler.stop()
+
         })
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        self.view = nil
+        engine.stop()
+        doppler.stop()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -168,6 +178,8 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         }
         let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+            alert.removeFromParentViewController()
+
             alert.dismiss(animated: true, completion: nil)
         }))
         self.present(alert, animated: true, completion: nil)
