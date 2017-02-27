@@ -360,7 +360,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact: tom.power@mobgen.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97Z-Y7-BUh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact: sebastian.veldman@mobgen.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97Z-Y7-BUh">
                                 <rect key="frame" x="171" y="85" width="394" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="394" id="SU8-fy-f2V"/>
@@ -370,51 +370,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icons sourced from flaticons.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5I-WR-tu3">
-                                <rect key="frame" x="171" y="153" width="394" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="MRD-ll-9I1"/>
-                                    <constraint firstAttribute="width" constant="394" id="qqd-DV-Rdg"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kirill Kazachek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZv-zz-QNn">
-                                <rect key="frame" x="171" y="197" width="394" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="394" id="4XL-Qi-F2A"/>
-                                    <constraint firstAttribute="height" constant="21" id="8lC-vW-1vo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Freepik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he5-ji-cuQ">
-                                <rect key="frame" x="171" y="226" width="394" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="V2m-E3-VH6"/>
-                                    <constraint firstAttribute="width" constant="394" id="caQ-En-ofZ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uNR-AF-Ybx" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="2yu-8Q-da0"/>
-                            <constraint firstItem="F5I-WR-tu3" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="5Id-xf-dGs"/>
                             <constraint firstItem="pai-Rr-kCQ" firstAttribute="top" secondItem="2Sr-zp-jjJ" secondAttribute="bottom" constant="20" id="5v8-l6-s5g"/>
-                            <constraint firstItem="he5-ji-cuQ" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="5yG-vl-DqX"/>
-                            <constraint firstItem="F5I-WR-tu3" firstAttribute="top" secondItem="97Z-Y7-BUh" secondAttribute="bottom" constant="47" id="BU2-da-CtK"/>
                             <constraint firstItem="97Z-Y7-BUh" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="FN3-f9-EUg"/>
                             <constraint firstItem="pai-Rr-kCQ" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="JMP-f6-NN6"/>
                             <constraint firstItem="97Z-Y7-BUh" firstAttribute="top" secondItem="uNR-AF-Ybx" secondAttribute="bottom" constant="8" id="TI3-io-SOH"/>
-                            <constraint firstItem="vZv-zz-QNn" firstAttribute="top" secondItem="F5I-WR-tu3" secondAttribute="bottom" constant="23" id="d8i-x6-3vu"/>
                             <constraint firstItem="uNR-AF-Ybx" firstAttribute="top" secondItem="pai-Rr-kCQ" secondAttribute="bottom" constant="15" id="dEC-qD-AB8"/>
-                            <constraint firstItem="vZv-zz-QNn" firstAttribute="centerX" secondItem="3AV-Iw-Sv9" secondAttribute="centerX" id="tpz-HL-uTU"/>
-                            <constraint firstItem="he5-ji-cuQ" firstAttribute="top" secondItem="vZv-zz-QNn" secondAttribute="bottom" constant="8" id="upg-4d-oXM"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

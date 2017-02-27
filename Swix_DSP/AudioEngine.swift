@@ -48,7 +48,7 @@ class AudioEngine {
         audioEngine = AVAudioEngine()
         sineWave = AVTonePlayerUnit()
         sineWave.frequency = 20000.0
-        sineWave.amplitude = 1.0
+        sineWave.amplitude = 1.3
         audioEngine.attach(sineWave)
         let mixer = audioEngine.mainMixerNode
         let format = AVAudioFormat(standardFormatWithSampleRate: sineWave.sampleRate, channels: 1)

@@ -64,7 +64,7 @@ class Doppler {
     var directionChanges = 0
     var cyclesLeftToRead = -1
     var cyclesToRefresh = 0
-    var cyclesToRead = 6
+    var cyclesToRead = 4
     
     var proximity = 0.0
     
