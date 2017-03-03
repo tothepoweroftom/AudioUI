@@ -37,6 +37,8 @@ class DemoViewController: UIViewController, DopplerDelegate {
         engine.start()
         engine.sineWave.play()
         
+        self.view.frame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.size.height, height: self.view.frame.size.width)
+        
         
         doppler = Doppler(frequency: engine.sineWave.frequency)
         
@@ -47,6 +49,9 @@ class DemoViewController: UIViewController, DopplerDelegate {
         Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(proxUpdate), userInfo: nil, repeats: true)
         
     }
+    
+ 
+    
     
     func update() {
         //        print(engine.fftMagnitudes)
@@ -76,6 +81,21 @@ class DemoViewController: UIViewController, DopplerDelegate {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+//        AppUtility.lockOrientation(.landscape)
+        // Or to rotate and lock
+         AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all, andRotateTo: .portrait)
+    }
+    
     func proxUpdate(){
         doppler.proxUpdate()
         
@@ -97,74 +117,73 @@ class DemoViewController: UIViewController, DopplerDelegate {
     
     func onTap(_ sender: Doppler) {
         //        print("Tap")
-        imageView.image = UIImage(named: "checked")
-        self.label.text = "Tapped"
+        imageView.image = UIImage(named: "tap")
+        self.label.text = "Tap"
     }
     
     func onSlowPull(_ sender: Doppler) {
         //        print("Pull")
-        imageView.image = UIImage(named: "right-arrow")
-        speedView.image = UIImage(named: "slow")
+//        imageView.image = UIImage(named: "rightSlow")
+        speedView.image = UIImage(named: "slowRight")
         
-        self.label.text = "Pulled"
-        self.speedLabel.text = "Slow"
+//        self.label.text = "Pulled"
+        self.speedLabel.text = "Slow Right"
         
     }
     
     func onSlowPush(_ sender: Doppler) {
         //        print("Push")
-        imageView.image = UIImage(named: "leftArrow")
-        speedView.image = UIImage(named: "slow")
+//        imageView.image = UIImage(named: "leftArrow")
+        speedView.image = UIImage(named: "slowLeft")
         
-        self.label.text = "Pushed"
-        self.speedLabel.text = "Slow"
+//        self.label.text = "Pushed"
+        self.speedLabel.text = "Slow Left"
         
     }
     
     func onFastPull(_ sender: Doppler) {
         //        print("Pull")
-        imageView.image = UIImage(named: "right-arrow")
-        speedView.image = UIImage(named: "fast")
+//        imageView.image = UIImage(named: "right-arrow")
+        speedView.image = UIImage(named: "fastRight")
         
         self.label.text = "Pulled"
-        self.speedLabel.text = "Fast"
+        self.speedLabel.text = "Fast Right"
         
     }
     
     func onFastPush(_ sender: Doppler) {
         //        print("Push")
-        imageView.image = UIImage(named: "leftArrow")
-        speedView.image = UIImage(named: "fast")
+//        imageView.image = UIImage(named: "leftArrow")
+        speedView.image = UIImage(named: "fastLeft")
         
         self.label.text = "Pushed"
-        self.speedLabel.text = "Fast"
+        self.speedLabel.text = "Fast Left"
         
     }
     
     func onNothing(_ sender: Doppler) {
         //        print(" ")
-        imageView.image = UIImage(named: "ear")
-        label.text = "I'm listening for gestures..."
+        imageView.image = UIImage(named: "listenA")
+//        label.text = "..."
         //        speedView.image = UIImage(named: "ear")
-        proxLabel.text = "..."
-        speedLabel.text = "..."
+        
         
     }
     
     func onDoubleTap(_ sender: Doppler) {
         //        print("Double Tap")
-        imageView.image = UIImage(named: "circle")
-        label.text = "Double Tapped"
+        imageView.image = UIImage(named: "doubleTap")
+        label.text = "Double Tap"
         
     }
     
     func onProximityClose(_ sender: Doppler) {
-        proxView.image = UIImage(named: "heavy-metal")
+        proxView.image = UIImage(named: "closePhone")
         proxLabel.text = "Close"
     }
     
     func onProximityFar(_ sender: Doppler) {
-        proxView.image = UIImage(named: "hills")
+        proxView.image = UIImage(named: "farPhone")
         proxLabel.text = "Far"
     }
     

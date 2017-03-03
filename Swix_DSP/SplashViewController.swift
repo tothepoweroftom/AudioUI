@@ -32,53 +32,12 @@ import C4
     
     
     override func setup() {
-        canvas.backgroundColor = black
-        spacing = (canvas.height - 2*margin)/Double(numPoints)
-        dx = (2*pi / period) * spacing
-        
-        let img = Image("lab")
-        img?.width = canvas.width/4
-        img?.height = canvas.width/4
-        img?.center = Point(canvas.width/4, canvas.height/2)
-        canvas.add(img)
+        canvas.backgroundColor =  Color(red: 0.06666666667, green: 0.06666666667, blue: 0.06666666667, alpha: 1.0)
 
-        
-        self.createSineWave()
-        self.renderSineWave()
-        
-
-        
-        
-//        let anim = ViewAnimation(duration: 1.0, animations: {
-//            self.updateSineWave()
-//        })
-//        anim.animate()
-//        
-//        let anim2 = ViewAnimation(duration: 1.0, animations: {
-//            self.updateSineWave2()
-//        })
-//        anim2.animate()
-//
-//        anim.addCompletionObserver {
-//            anim.animate()
-//        }
-        
-
-//        
-//        anim2.addCompletionObserver {
-//            anim.animate()
-//        }
-//        
-        Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
 
     }
     
-    func updateTheta(){
-        theta += 0.05
-        theta2 += 0.06
 
-        updateSineWave()
-    }
 
 
     @IBAction func triggerWalkthrough(_ sender: Any) {

@@ -104,6 +104,9 @@ import UIKit
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
 
+    open override var prefersStatusBarHidden: Bool {
+        return true
+    }
     override open func viewDidLoad() {
         super.viewDidLoad()
         
@@ -115,6 +118,7 @@ import UIKit
         
         scrollview.delegate = self
         scrollview.translatesAutoresizingMaskIntoConstraints = false
+        
         
         view.insertSubview(scrollview, at: 0) //scrollview is inserted as first view of the hierarchy
         
