@@ -12,7 +12,7 @@ import C4
 
 
 @IBDesignable class SplashViewController: CanvasController, BWWalkthroughViewControllerDelegate {
-    var numPoints = 75
+    var numPoints = 100
     var sineWavePoints = [Point]()
     var sineWaveCircles = [Line]()
     var sineWavePoints2 = [Point]()
@@ -21,9 +21,9 @@ import C4
     var theta = 0.0
     var theta2 = 0.0
 
-    var period = 50.0
+    var period = 70.0
     var dx: Double!
-    var amp = 30.0
+    var amp = 60.0
     var spacing = 0.0
     var anim: ViewAnimation!
     
@@ -38,7 +38,8 @@ import C4
         self.createSineWave()
         self.renderSineWave()
         
-        Timer.scheduledTimer(timeInterval: 0.04, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 0.08, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateAmp), userInfo: nil, repeats: true)
 
     }
     
@@ -81,6 +82,10 @@ import C4
         updateSineWave()
     }
     
+    func updateAmp(){
+        amp = 60.0 * random01()
+    }
+    
     func createSineWave(){
         sineWavePoints.removeAll()
         var x = theta
@@ -119,9 +124,10 @@ import C4
     func updateSineWave(){
         var x = theta
         var i = 0
-        let dH = random01()*200
         for line in sineWaveCircles {
-            let change = 60*random01()*sin(x)
+            let dH = random01()*20
+
+            let change = amp*sin(x) + dH
             line.points[0].y =  100 + change
             line.points[1].y =  100 - change
             
