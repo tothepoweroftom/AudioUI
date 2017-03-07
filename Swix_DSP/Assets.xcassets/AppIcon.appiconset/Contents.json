@@ -11,9 +11,8 @@
       "scale" : "3x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "29x29-1.png",
+      "size" : "29x29",
       "scale" : "1x"
     },
     {
@@ -27,9 +26,8 @@
       "scale" : "3x"
     },
     {
-      "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "29x29-2.png",
+      "size" : "40x40",
       "scale" : "2x"
     },
     {
@@ -45,7 +43,7 @@
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "Untitled-1.png",
+      "filename" : "AUIIcon.png",
       "scale" : "2x"
     },
     {
@@ -54,9 +52,8 @@
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "50x50-1.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
@@ -70,9 +67,8 @@
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "29x29.png",
+      "size" : "29x29",
       "scale" : "1x"
     },
     {
@@ -91,25 +87,25 @@
       "scale" : "2x"
     },
     {
-      "size" : "50x50",
       "idiom" : "ipad",
-      "filename" : "50x50.png",
+      "size" : "50x50",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "AUIIcon-Small-50.png",
       "scale" : "2x"
     },
     {
-      "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "72x72.png",
+      "size" : "72x72",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "AUIIcon-72.png",
       "scale" : "2x"
     },
     {
@@ -128,6 +124,54 @@
       "scale" : "2x"
     },
     {
+      "size" : "24x24",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "42mm"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "filename" : "AUIIcon-Small.png",
+      "role" : "companionSettings",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "86x86",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "98x98",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "42mm"
+    },
+    {
       "idiom" : "mac",
       "size" : "16x16",
       "scale" : "1x"
@@ -168,16 +212,35 @@
       "scale" : "2x"
     },
     {
-      "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "512x512.png",
+      "size" : "512x512",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "1024x1024.png",
+      "filename" : "AUIiTunesArtwork.png",
       "scale" : "2x"
+    },
+    {
+      "filename" : "AUIIcon-100.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AUIIcon-144.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AUIIcon-Small@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AUIIcon@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "AUIiTunesArtwork@2x.png",
+      "unassigned" : true
     }
   ],
   "info" : {

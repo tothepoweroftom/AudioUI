@@ -12,16 +12,16 @@ import C4
 
 
 @IBDesignable class SplashViewController: CanvasController, BWWalkthroughViewControllerDelegate {
-    var numPoints = 40
+    var numPoints = 75
     var sineWavePoints = [Point]()
-    var sineWaveCircles = [Circle]()
+    var sineWaveCircles = [Line]()
     var sineWavePoints2 = [Point]()
     var sineWaveCircles2 = [Circle]()
-    let margin = 60.0
+    let margin = 120.0
     var theta = 0.0
     var theta2 = 0.0
 
-    var period = 100.0
+    var period = 50.0
     var dx: Double!
     var amp = 30.0
     var spacing = 0.0
@@ -33,7 +33,12 @@ import C4
     
     override func setup() {
         canvas.backgroundColor =  Color(red: 0.06666666667, green: 0.06666666667, blue: 0.06666666667, alpha: 1.0)
-
+        spacing = (canvas.width)/Double(numPoints)
+        dx = (2*pi / period) * spacing
+        self.createSineWave()
+        self.renderSineWave()
+        
+        Timer.scheduledTimer(timeInterval: 0.04, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
 
     }
     
@@ -50,6 +55,8 @@ import C4
         let page_three = stb.instantiateViewController(withIdentifier: "page_3") as UIViewController
         let page_four = stb.instantiateViewController(withIdentifier: "page_4") as UIViewController
         let page_five = stb.instantiateViewController(withIdentifier: "page_5") as UIViewController
+        let page_six = stb.instantiateViewController(withIdentifier: "page_6") as UIViewController
+
         
         // Attach the pages to the master
         walkthrough.delegate = self
@@ -58,6 +65,7 @@ import C4
         walkthrough.add(viewController:page_three)
         walkthrough.add(viewController:page_four)
         walkthrough.add(viewController:page_five)
+            walkthrough.add(viewController:page_six)
         
         self.present(walkthrough, animated: true, completion: nil)
 
@@ -67,18 +75,24 @@ import C4
     func walkthroughCloseButtonPressed() {
         walkthrough.dismiss(animated: true, completion: nil)
     }
+    
+    func updateTheta(){
+        theta += 0.1
+        updateSineWave()
+    }
+    
     func createSineWave(){
         sineWavePoints.removeAll()
         var x = theta
         for var i in 0...numPoints {
-            let point = Point(canvas.center.x + amp*sin(x), margin + i*spacing)
+            let point = Point( i*spacing, 100)
             sineWavePoints.append(point)
             x+=dx
         }
         sineWavePoints2.removeAll()
         x = theta2
         for var i in 0...numPoints {
-            let point = Point(canvas.center.x + amp*sin(x + pi) , margin + i*spacing)
+            let point = Point(i*spacing+25, 100)
             sineWavePoints2.append(point)
             x+=dx
         }
@@ -86,37 +100,40 @@ import C4
     
     func renderSineWave(){
         sineWaveCircles.removeAll()
+        var x = theta
+        let height = sin(x+random01())
+
         for point in sineWavePoints {
-            let circle = Circle(center: point, radius: 2.0)
-            circle.fillColor = white
-            circle.strokeColor = nil
-            sineWaveCircles.append(circle)
-            canvas.add(circle)
+            let point1 = Point(point.x, point.y - height)
+            let point2 = Point(point.x, point.y + height)
+            let line = Line(begin: point2, end: point1)
+            line.lineWidth = 0.4
+            line.strokeColor = lightGray
+            sineWaveCircles.append(line)
+            canvas.add(line)
+            x+=dx
         }
-        for point in sineWavePoints2 {
-            let circle = Circle(center: point, radius: 1.0)
-            circle.fillColor = lightGray
-            circle.strokeColor = nil
-            sineWaveCircles2.append(circle)
-            canvas.add(circle)
-        }
+
     }
     
     func updateSineWave(){
         var x = theta
         var i = 0
-        for circle in sineWaveCircles {
-            circle.center = Point(canvas.center.x + amp*sin(x), margin + i*spacing)
-            i+=1
+        let dH = random01()*200
+        for line in sineWaveCircles {
+            let change = 60*random01()*sin(x)
+            line.points[0].y =  100 + change
+            line.points[1].y =  100 - change
+            
+
+
+            
             x+=dx
         }
-        x = theta2
-        i = 0
-        for circle in sineWaveCircles2 {
-            circle.center = Point(canvas.center.x + amp*sin(x + pi), margin + i*spacing)
-            i+=1
-            x+=dx
-        }
+
+        
+        
+ 
         
         
     }
@@ -129,3 +146,5 @@ import C4
 
 
 }
+
+

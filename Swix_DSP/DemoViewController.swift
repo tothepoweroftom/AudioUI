@@ -117,23 +117,22 @@ class DemoViewController: UIViewController, DopplerDelegate {
     
     func onTap(_ sender: Doppler) {
         //        print("Tap")
-        imageView.image = UIImage(named: "tap")
+        imageView.image = UIImage(named: "tapFig")
         self.label.text = "Tap"
     }
     
     func onSlowPull(_ sender: Doppler) {
         //        print("Pull")
-//        imageView.image = UIImage(named: "rightSlow")
+        imageView.image = UIImage(named: "slowRightFig")
         speedView.image = UIImage(named: "slowRight")
         
-//        self.label.text = "Pulled"
         self.speedLabel.text = "Slow Right"
         
     }
     
     func onSlowPush(_ sender: Doppler) {
         //        print("Push")
-//        imageView.image = UIImage(named: "leftArrow")
+        imageView.image = UIImage(named: "slowLeftFig")
         speedView.image = UIImage(named: "slowLeft")
         
 //        self.label.text = "Pushed"
@@ -143,20 +142,18 @@ class DemoViewController: UIViewController, DopplerDelegate {
     
     func onFastPull(_ sender: Doppler) {
         //        print("Pull")
-//        imageView.image = UIImage(named: "right-arrow")
+        imageView.image = UIImage(named: "fastRightFig")
         speedView.image = UIImage(named: "fastRight")
         
-        self.label.text = "Pulled"
         self.speedLabel.text = "Fast Right"
         
     }
     
     func onFastPush(_ sender: Doppler) {
         //        print("Push")
-//        imageView.image = UIImage(named: "leftArrow")
+        imageView.image = UIImage(named: "fastLeftFig")
         speedView.image = UIImage(named: "fastLeft")
         
-        self.label.text = "Pushed"
         self.speedLabel.text = "Fast Left"
         
     }
@@ -172,18 +169,20 @@ class DemoViewController: UIViewController, DopplerDelegate {
     
     func onDoubleTap(_ sender: Doppler) {
         //        print("Double Tap")
-        imageView.image = UIImage(named: "doubleTap")
+        imageView.image = UIImage(named: "doubleTapFig")
         label.text = "Double Tap"
         
     }
     
     func onProximityClose(_ sender: Doppler) {
         proxView.image = UIImage(named: "closePhone")
+
         proxLabel.text = "Close"
     }
     
     func onProximityFar(_ sender: Doppler) {
         proxView.image = UIImage(named: "farPhone")
+
         proxLabel.text = "Far"
     }
     

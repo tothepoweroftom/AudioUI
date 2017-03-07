@@ -31,6 +31,9 @@ class ViewController: CanvasController, DopplerDelegate {
         engine.start()
         engine.sineWave.play()
         
+        self.view.frame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.size.height, height: self.view.frame.size.width)
+
+        
         closeButton = UIButton(frame: CGRect(x: canvas.width-35, y: 15, width: 30, height: 30))
         closeButton.tintColor = UIColor.white
         closeButton.setImage(UIImage(named: "close-button"), for: .normal)
@@ -119,6 +122,23 @@ class ViewController: CanvasController, DopplerDelegate {
         doppler.proxUpdate()
 
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //        AppUtility.lockOrientation(.landscape)
+        // Or to rotate and lock
+        AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
+        
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all, andRotateTo: .portrait)
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -333,29 +353,29 @@ class ViewController: CanvasController, DopplerDelegate {
     
 
     func onProximityClose(_ sender: Doppler) {
-        let positionAnim = ViewAnimation(duration: 1.0, animations: {
-        for hexagon in self.hexagons {
-            hexagon.center = Point(self.canvas.center.x ,self.canvas.center.y + (random01()-1)*500)
-            }
-
-
-        })
-        
-        positionAnim.animate()
+//        let positionAnim = ViewAnimation(duration: 1.0, animations: {
+//        for hexagon in self.hexagons {
+//            hexagon.center = Point(self.canvas.center.x ,self.canvas.center.y + (random01()-1)*500)
+//            }
+//
+//
+//        })
+//        
+//        positionAnim.animate()
     }
 
     func onProximityFar(_ sender: Doppler) {
-        let posAnim = ViewAnimation(duration: 1.0, animations: {
-
-            for hexagon in self.hexagons {
-                hexagon.center = self.canvas.center
-                
-            }
-
-        })
-        
-        
-        posAnim.animate()
+//        let posAnim = ViewAnimation(duration: 1.0, animations: {
+//
+//            for hexagon in self.hexagons {
+//                hexagon.center = self.canvas.center
+//                
+//            }
+//
+//        })
+//        
+//        
+//        posAnim.animate()
  
     }
     

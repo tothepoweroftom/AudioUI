@@ -29,8 +29,8 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         self.delegate = self
         self.dataSource = self
         
-        button = UIButton(frame: CGRect(x: self.view.frame.size.width-30, y: 10, width: 20, height: 20))
-        button.setImage(UIImage(named: "close-button_black"), for: .normal)
+        button = UIButton(frame: CGRect(x: self.view.frame.size.height-30, y: 10, width: 20, height: 20))
+        button.setImage(UIImage(named: "closebutton"), for: .normal)
         button.addTarget(self, action: #selector(dismissView), for: .touchUpInside)
         view.add(button)
         
@@ -49,6 +49,8 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
 
     }
     
+
+    
     
     func update() {
         //        print(engine.fftMagnitudes)
@@ -65,6 +67,14 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        
+        //        AppUtility.lockOrientation(.landscape)
+        // Or to rotate and lock
+        AppUtility.lockOrientation(.landscapeRight, andRotateTo: .landscapeRight)
+        
+        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController1")
         let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController2")
         vcs.append(vc!)
@@ -99,12 +109,19 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         self.view = nil
         engine.stop()
         doppler.stop()
+        
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all, andRotateTo: .portrait)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         engine.stop()
         doppler.stop()
     }
+    
+    
     
     
     
@@ -169,20 +186,7 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }
     
     func onTap(_ sender: Doppler) {
-        enableScrolling = !enableScrolling
-        var str = " "
-        if (enableScrolling) {
-            str = "enabled"
-        } else {
-            str = "disabled"
-        }
-        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
-            alert.removeFromParentViewController()
 
-            alert.dismiss(animated: true, completion: nil)
-        }))
-        self.present(alert, animated: true, completion: nil)
 
     }
     

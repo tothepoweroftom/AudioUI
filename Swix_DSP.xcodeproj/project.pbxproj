@@ -47,7 +47,6 @@
 		3596DA3D1E5335C500FD8562 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */; };
 		3596DA411E53408000FD8562 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA401E53408000FD8562 /* Helpers.swift */; };
 		3596DA451E534FFA00FD8562 /* Doppler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3596DA441E534FFA00FD8562 /* Doppler.swift */; };
-		359AEE771E6996AF009B726D /* AudioInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359AEE761E6996AF009B726D /* AudioInterfaceView.swift */; };
 		35A6E0E61E53191F007BBFD3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; };
 		35A6E0E71E53191F007BBFD3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6E0E11E53190D007BBFD3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B4D16D1E57427200C510FD /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */; };
@@ -197,7 +196,6 @@
 		3596DA3C1E5335C500FD8562 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTonePlayerUnit.swift; sourceTree = "<group>"; };
 		3596DA401E53408000FD8562 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3596DA441E534FFA00FD8562 /* Doppler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doppler.swift; sourceTree = "<group>"; };
-		359AEE761E6996AF009B726D /* AudioInterfaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioInterfaceView.swift; sourceTree = "<group>"; };
 		35A6E0DA1E53190D007BBFD3 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../../../iOSLibraries/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen2.storyboard"; path = "../Launch Screen2.storyboard"; sourceTree = "<group>"; };
 		35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
@@ -408,7 +406,6 @@
 				35C033AC1E5D93B700C53FE9 /* BWWalkthrough.h */,
 				35C033AD1E5D93BF00C53FE9 /* BWWalkthroughPageViewController.swift */,
 				353EF5CC1E4CA58300EB8041 /* Main.storyboard */,
-				359AEE761E6996AF009B726D /* AudioInterfaceView.swift */,
 				352411B71E5F2BAF00604588 /* WebViewController.swift */,
 				35BA82FA1E5DB87C009393A5 /* Walkthrough.storyboard */,
 				35B4D16C1E57427200C510FD /* Launch Screen2.storyboard */,
@@ -649,7 +646,6 @@
 				353EF62E1E4CA5AB00EB8041 /* initing.swift in Sources */,
 				352411B81E5F2BAF00604588 /* WebViewController.swift in Sources */,
 				35BA83081E5F1E93009393A5 /* CookViewController.swift in Sources */,
-				359AEE771E6996AF009B726D /* AudioInterfaceView.swift in Sources */,
 				353EF6291E4CA5AB00EB8041 /* ScalarArithmetic-bleed.swift in Sources */,
 				35C033AE1E5D93BF00C53FE9 /* BWWalkthroughPageViewController.swift in Sources */,
 				353EF61A1E4CA5AB00EB8041 /* machine_learning.swift in Sources */,

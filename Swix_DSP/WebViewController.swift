@@ -52,7 +52,9 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
         let url = URL(string: myBlog)
         let request = URLRequest(url: url!)
         
-        webView = WKWebView(frame: CGRect(x: 50, y: 0, width: self.view.frame.height, height: self.view.frame.width))
+
+        
+        webView = WKWebView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
         webView.navigationDelegate = self
         webView.load(request)
         self.view = webView
@@ -88,7 +90,7 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
         scroll = webView.scrollView
         yPos = scroll.frame.maxY
         
-        webView.transform = CGAffineTransform(rotationAngle: CGFloat(-M_PI_2))
+    
 
         
     }
@@ -107,6 +109,22 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
         }
     }
     
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //        AppUtility.lockOrientation(.landscape)
+        // Or to rotate and lock
+        AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all, andRotateTo: .portrait)
+    }
 
 
     override func didReceiveMemoryWarning() {
@@ -193,6 +211,21 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
 //            alert.dismiss(animated: true, completion: nil)
 //        }))
 //        self.present(alert, animated: true, completion: nil)
+        
+        enableScrolling = !enableScrolling
+        var str = " "
+        if (enableScrolling) {
+            str = "enabled"
+        } else {
+            str = "disabled"
+        }
+        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+            alert.removeFromParentViewController()
+            
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
         
     }
     
