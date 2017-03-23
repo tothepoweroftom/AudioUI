@@ -75,7 +75,7 @@ struct matrix {
         }
         assert(axis==0 || axis==1, "Axis must be 0 or 1 as matrix only has two dimensions")
         assert(false, "max(x, axis:Int) for maximum of each row is not implemented yet. Use max(A.flat) or A.flat.max() to get the global maximum")
-
+        return 0.0
     }
     func max(_ axis:Int = -1) -> Double{
         if axis == -1 {
@@ -83,6 +83,7 @@ struct matrix {
         }
         assert(axis==0 || axis==1, "Axis must be 0 or 1 as matrix only has two dimensions")
         assert(false, "max(x, axis:Int) for maximum of each row is not implemented yet. Use max(A.flat) or A.flat.max() to get the global maximum")
+        return 0.0
     }
     subscript(i: Int, j: Int) -> Double {
         // x[0,0]
