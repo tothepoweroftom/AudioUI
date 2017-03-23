@@ -15,7 +15,7 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     var doppler: Doppler!
     
     
-    let pages = ["PagesContentController1", "PagesContentController2"]
+    let pages = ["PagesContentController1", "PagesContentController2", "PagesContentController3", "PagesContentController4"]
     var vcs = [UIViewController]()
 
     var button: UIButton!
@@ -51,6 +51,10 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     
 
     
+    func scrolling(){
+        enableScrolling = true
+        print("Enablescrolling = true")
+    }
     
     func update() {
         //        print(engine.fftMagnitudes)
@@ -77,8 +81,12 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController1")
         let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController2")
+        let vc3 = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController3")
+        let vc4 = self.storyboard?.instantiateViewController(withIdentifier: "PagesContentController4")
         vcs.append(vc!)
         vcs.append(vc2!)
+        vcs.append(vc3!)
+        vcs.append(vc4!)
         
         setViewControllers([vc!], // Has to be a single item array, unless you're doing double sided stuff I believe
             direction: .forward,
@@ -202,6 +210,11 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         guard let nextViewController = dataSource?.pageViewController( self, viewControllerAfter: currentViewController ) else { return }
         
         setViewControllers([nextViewController], direction: .forward, animated: true, completion: nil)
+            
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
         }
     }
     
@@ -212,6 +225,11 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         guard let previousViewController = dataSource?.pageViewController( self, viewControllerBefore: currentViewController ) else { return }
         
         setViewControllers([previousViewController], direction: .reverse, animated: true, completion: nil)
+            
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
         }
         
     }
@@ -224,6 +242,11 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
             guard let nextViewController = dataSource?.pageViewController( self, viewControllerAfter: currentViewController ) else { return }
             
             setViewControllers([nextViewController], direction: .forward, animated: true, completion: nil)
+            
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
         }
     }
     
@@ -234,6 +257,11 @@ class CookViewController: UIPageViewController, UIPageViewControllerDelegate, UI
             guard let previousViewController = dataSource?.pageViewController( self, viewControllerBefore: currentViewController ) else { return }
             
             setViewControllers([previousViewController], direction: .reverse, animated: true, completion: nil)
+            
+            enableScrolling = false
+            let date = Date().addingTimeInterval(1)
+            let timer = Timer(fireAt: date, interval: 0, target: self, selector: #selector(scrolling), userInfo: nil, repeats: false)
+            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
         }
     }
     

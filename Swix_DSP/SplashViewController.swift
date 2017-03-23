@@ -39,7 +39,7 @@ import C4
         self.renderSineWave()
         
         Timer.scheduledTimer(timeInterval: 0.08, target: self, selector: #selector(updateTheta), userInfo: nil, repeats: true)
-        Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateAmp), userInfo: nil, repeats: true)
+//        Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateAmp), userInfo: nil, repeats: true)
 
     }
     

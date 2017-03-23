@@ -212,20 +212,20 @@ class WebViewController: UIViewController, WKNavigationDelegate, DopplerDelegate
 //        }))
 //        self.present(alert, animated: true, completion: nil)
         
-        enableScrolling = !enableScrolling
-        var str = " "
-        if (enableScrolling) {
-            str = "enabled"
-        } else {
-            str = "disabled"
-        }
-        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
-            alert.removeFromParentViewController()
-            
-            alert.dismiss(animated: true, completion: nil)
-        }))
-        self.present(alert, animated: true, completion: nil)
+//        enableScrolling = !enableScrolling
+//        var str = " "
+//        if (enableScrolling) {
+//            str = "enabled"
+//        } else {
+//            str = "disabled"
+//        }
+//        let alert = UIAlertController(title: "Scrolling " + str, message: " ", preferredStyle: .alert)
+//        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: { action in
+//            alert.removeFromParentViewController()
+//            
+//            alert.dismiss(animated: true, completion: nil)
+//        }))
+//        self.present(alert, animated: true, completion: nil)
         
     }
     
