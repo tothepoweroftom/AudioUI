@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Charts
 import C4
 
 class ViewController: CanvasController, DopplerDelegate {

@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Curve"
+provides-nominal:
+- "C2C45Curve"
+provides-member:
+- ["C2C45Curve", ""]
+provides-dynamic-lookup:
+- "batchUpdates"
+- "updatePath"
+depends-top-level:
+- !private "+="
+- !private "-"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CGAffineTransform"
+- !private "CGMutablePath"
+- !private "CGPoint"
+- "Curve"
+- !private "Path"
+- "Point"
+- "Shape"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGMutablePath"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "Path"]
+- ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "addCurve"]
+- !private ["Ps9AnyObject", "adjustToFitPath"]
+- !private ["Ps9AnyObject", "batchUpdates"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "controlPoints"]
+- !private ["Ps9AnyObject", "endPoints"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "move"]
+- !private ["Ps9AnyObject", "origin"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "pauseUpdates"]
+- !private ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "center"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["VSC17CGAffineTransform", "identity"]
+- !private ["CSo13CGMutablePath", "addCurve"]
+- !private ["CSo13CGMutablePath", "init"]
+- !private ["CSo13CGMutablePath", "move"]
+- !private ["CSo6CGPath", "addCurve"]
+- !private ["CSo6CGPath", "init"]
+- !private ["CSo6CGPath", "move"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "CGMutablePath"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "Path"]
+- ["Ps7CVarArg", "Point"]
+- !private ["Ps7CVarArg", "adjustToFitPath"]
+- !private ["Ps7CVarArg", "batchUpdates"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "controlPoints"]
+- !private ["Ps7CVarArg", "endPoints"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "origin"]
+- !private ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "pauseUpdates"]
+- !private ["Ps7CVarArg", "updatePath"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", ""]
+- !private ["C2C45Curve", "CGAffineTransform"]
+- !private ["C2C45Curve", "CGMutablePath"]
+- !private ["C2C45Curve", "CGPoint"]
+- !private ["C2C45Curve", "Path"]
+- ["C2C45Curve", "Point"]
+- ["C2C45Curve", "Void"]
+- !private ["C2C45Curve", "adjustToFitPath"]
+- ["C2C45Curve", "batchUpdates"]
+- ["C2C45Curve", "center"]
+- ["C2C45Curve", "controlPoints"]
+- ["C2C45Curve", "deinit"]
+- ["C2C45Curve", "endPoints"]
+- ["C2C45Curve", "init"]
+- ["C2C45Curve", "origin"]
+- !private ["C2C45Curve", "path"]
+- !private ["C2C45Curve", "pauseUpdates"]
+- ["C2C45Curve", "updatePath"]
+- !private ["C2C45Curve", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "CGMutablePath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "Path"]
+- ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "adjustToFitPath"]
+- !private ["Ps28CustomDebugStringConvertible", "batchUpdates"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "controlPoints"]
+- !private ["Ps28CustomDebugStringConvertible", "endPoints"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "pauseUpdates"]
+- !private ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "origin"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "origin"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "CGMutablePath"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "Path"]
+- ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "adjustToFitPath"]
+- !private ["Ps23CustomStringConvertible", "batchUpdates"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "controlPoints"]
+- !private ["Ps23CustomStringConvertible", "endPoints"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "origin"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "pauseUpdates"]
+- !private ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGMutablePath"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "Path"]
+- ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addCurve"]
+- !private ["Ps9Equatable", "adjustToFitPath"]
+- !private ["Ps9Equatable", "batchUpdates"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "controlPoints"]
+- !private ["Ps9Equatable", "endPoints"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "identity"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "move"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "pauseUpdates"]
+- !private ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "CGAffineTransform"]
+- !private ["P2C411EventSource", "CGMutablePath"]
+- !private ["P2C411EventSource", "CGPoint"]
+- !private ["P2C411EventSource", "Path"]
+- ["P2C411EventSource", "Point"]
+- !private ["P2C411EventSource", "adjustToFitPath"]
+- !private ["P2C411EventSource", "batchUpdates"]
+- !private ["P2C411EventSource", "center"]
+- !private ["P2C411EventSource", "controlPoints"]
+- !private ["P2C411EventSource", "endPoints"]
+- !private ["P2C411EventSource", "frame"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "origin"]
+- !private ["P2C411EventSource", "path"]
+- !private ["P2C411EventSource", "pauseUpdates"]
+- !private ["P2C411EventSource", "updatePath"]
+- !private ["P2C411EventSource", "view"]
+- ["P2C411EventSource", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "CGMutablePath"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "Path"]
+- ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "adjustToFitPath"]
+- !private ["Ps8Hashable", "batchUpdates"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "controlPoints"]
+- !private ["Ps8Hashable", "endPoints"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "origin"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "pauseUpdates"]
+- !private ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- !private ["CSo8NSObject", "CGMutablePath"]
+- !private ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "Path"]
+- ["CSo8NSObject", "Point"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "adjustToFitPath"]
+- ["CSo8NSObject", "batchUpdates"]
+- ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "controlPoints"]
+- ["CSo8NSObject", "endPoints"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "origin"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "pauseUpdates"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "CGMutablePath"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "Path"]
+- ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "adjustToFitPath"]
+- !private ["PSo16NSObjectProtocol", "batchUpdates"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "controlPoints"]
+- !private ["PSo16NSObjectProtocol", "endPoints"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "origin"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "pauseUpdates"]
+- !private ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C2C44Path", "init"]
+- ["V2C45Point", "init"]
+- !private ["C2C45Shape", "CGAffineTransform"]
+- !private ["C2C45Shape", "CGMutablePath"]
+- !private ["C2C45Shape", "CGPoint"]
+- !private ["C2C45Shape", "Path"]
+- ["C2C45Shape", "Point"]
+- ["C2C45Shape", "Void"]
+- !private ["C2C45Shape", "adjustToFitPath"]
+- ["C2C45Shape", "batchUpdates"]
+- ["C2C45Shape", "center"]
+- ["C2C45Shape", "controlPoints"]
+- ["C2C45Shape", "endPoints"]
+- ["C2C45Shape", "init"]
+- ["C2C45Shape", "origin"]
+- !private ["C2C45Shape", "path"]
+- ["C2C45Shape", "pauseUpdates"]
+- ["C2C45Shape", "updatePath"]
+- !private ["C2C45Shape", "view"]
+- ["C2C45Shape", ""]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo11UIFocusItem", "center"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "center"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "frame"]
+- !private ["C2C44View", "CGAffineTransform"]
+- !private ["C2C44View", "CGMutablePath"]
+- !private ["C2C44View", "CGPoint"]
+- !private ["C2C44View", "Path"]
+- ["C2C44View", "Point"]
+- ["C2C44View", "Void"]
+- !private ["C2C44View", "adjustToFitPath"]
+- ["C2C44View", "batchUpdates"]
+- ["C2C44View", "center"]
+- ["C2C44View", "controlPoints"]
+- ["C2C44View", "endPoints"]
+- ["C2C44View", "origin"]
+- !private ["C2C44View", "path"]
+- ["C2C44View", "pauseUpdates"]
+- ["C2C44View", "updatePath"]
+- !private ["C2C44View", "view"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "CGMutablePath"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "Path"]
+- ["Ps9_Hashable", "Point"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "adjustToFitPath"]
+- !private ["Ps9_Hashable", "batchUpdates"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "controlPoints"]
+- !private ["Ps9_Hashable", "endPoints"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "origin"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "pauseUpdates"]
+- !private ["Ps9_Hashable", "updatePath"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "origin"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "CSo13CGMutablePath"
+- !private "CSo6CGPath"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "C2C45Curve"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C2C44Path"
+- "V2C45Point"
+- "C2C45Shape"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "C2C44View"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "ca25b862b01090904adef6934d02bb0f"

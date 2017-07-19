@@ -1,0 +1,352 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FillRule"
+- "Path"
+- "=="
+- "=="
+provides-nominal:
+- "O2C48FillRule"
+- "C2C44Path"
+provides-member:
+- ["O2C48FillRule", ""]
+- ["C2C44Path", ""]
+- ["C2C44Path", "currentPoint"]
+- ["C2C44Path", "moveToPoint"]
+- ["C2C44Path", "addLineToPoint"]
+- ["C2C44Path", "addQuadCurveToPoint"]
+- ["C2C44Path", "addCurveToPoint"]
+- ["C2C44Path", "closeSubpath"]
+- ["C2C44Path", "addRect"]
+- ["C2C44Path", "addRoundedRect"]
+- ["C2C44Path", "addEllipse"]
+- ["C2C44Path", "addRelativeArc"]
+- ["C2C44Path", "addArc"]
+- ["C2C44Path", "addArcToPoint"]
+- ["C2C44Path", "addPath"]
+- ["C2C44Path", "transform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CGAffineTransform"
+- !private "CGFloat"
+- "CGMutablePath"
+- !private "CGPathFillRule"
+- !private "CGPoint"
+- !private "CGRect"
+- "CoreGraphics"
+- "Double"
+- "Equatable"
+- "FillRule"
+- "Path"
+- "Point"
+- "Rect"
+- "TernaryPrecedence"
+- "Transform"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "CGMutablePath"]
+- !private ["Ps9AnyObject", "CGPathFillRule"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "Path"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "Rect"]
+- !private ["Ps9AnyObject", "addArc"]
+- !private ["Ps9AnyObject", "addCurve"]
+- !private ["Ps9AnyObject", "addEllipse"]
+- !private ["Ps9AnyObject", "addLine"]
+- !private ["Ps9AnyObject", "addPath"]
+- !private ["Ps9AnyObject", "addQuadCurve"]
+- !private ["Ps9AnyObject", "addRect"]
+- !private ["Ps9AnyObject", "addRelativeArc"]
+- !private ["Ps9AnyObject", "addRoundedRect"]
+- !private ["Ps9AnyObject", "boundingBoxOfPath"]
+- !private ["Ps9AnyObject", "closeSubpath"]
+- !private ["Ps9AnyObject", "contains"]
+- !private ["Ps9AnyObject", "currentPoint"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "internalPath"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "move"]
+- !private ["Ps9AnyObject", "moveToPoint"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC17CGAffineTransform", "identity"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["CSo13CGMutablePath", "addArc"]
+- !private ["CSo13CGMutablePath", "addCurve"]
+- !private ["CSo13CGMutablePath", "addEllipse"]
+- !private ["CSo13CGMutablePath", "addLine"]
+- !private ["CSo13CGMutablePath", "addPath"]
+- !private ["CSo13CGMutablePath", "addQuadCurve"]
+- !private ["CSo13CGMutablePath", "addRect"]
+- !private ["CSo13CGMutablePath", "addRelativeArc"]
+- !private ["CSo13CGMutablePath", "addRoundedRect"]
+- !private ["CSo13CGMutablePath", "boundingBoxOfPath"]
+- !private ["CSo13CGMutablePath", "closeSubpath"]
+- !private ["CSo13CGMutablePath", "contains"]
+- !private ["CSo13CGMutablePath", "currentPoint"]
+- ["CSo13CGMutablePath", "init"]
+- !private ["CSo13CGMutablePath", "isEmpty"]
+- !private ["CSo13CGMutablePath", "move"]
+- !private ["CSo13CGMutablePath", "mutableCopy"]
+- !private ["CSo6CGPath", "addArc"]
+- !private ["CSo6CGPath", "addCurve"]
+- !private ["CSo6CGPath", "addEllipse"]
+- !private ["CSo6CGPath", "addLine"]
+- !private ["CSo6CGPath", "addPath"]
+- !private ["CSo6CGPath", "addQuadCurve"]
+- !private ["CSo6CGPath", "addRect"]
+- !private ["CSo6CGPath", "addRelativeArc"]
+- !private ["CSo6CGPath", "addRoundedRect"]
+- !private ["CSo6CGPath", "boundingBoxOfPath"]
+- !private ["CSo6CGPath", "closeSubpath"]
+- !private ["CSo6CGPath", "contains"]
+- !private ["CSo6CGPath", "currentPoint"]
+- ["CSo6CGPath", "init"]
+- !private ["CSo6CGPath", "isEmpty"]
+- !private ["CSo6CGPath", "move"]
+- !private ["CSo6CGPath", "mutableCopy"]
+- !private ["O12CoreGraphics14CGPathFillRule", "evenOdd"]
+- !private ["O12CoreGraphics14CGPathFillRule", "winding"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "EvenOdd"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "EvenOdd"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "CGMutablePath"]
+- !private ["Ps9Equatable", "CGPathFillRule"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "EvenOdd"]
+- !private ["Ps9Equatable", "NonZero"]
+- !private ["Ps9Equatable", "Path"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "Rect"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "addArc"]
+- !private ["Ps9Equatable", "addCurve"]
+- !private ["Ps9Equatable", "addEllipse"]
+- !private ["Ps9Equatable", "addLine"]
+- !private ["Ps9Equatable", "addPath"]
+- !private ["Ps9Equatable", "addQuadCurve"]
+- !private ["Ps9Equatable", "addRect"]
+- !private ["Ps9Equatable", "addRelativeArc"]
+- !private ["Ps9Equatable", "addRoundedRect"]
+- !private ["Ps9Equatable", "affineTransform"]
+- !private ["Ps9Equatable", "boundingBoxOfPath"]
+- !private ["Ps9Equatable", "closeSubpath"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "currentPoint"]
+- !private ["Ps9Equatable", "evenOdd"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "identity"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "internalPath"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "move"]
+- !private ["Ps9Equatable", "moveToPoint"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- !private ["Ps9Equatable", "winding"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "EvenOdd"]
+- ["O2C48FillRule", "=="]
+- ["O2C48FillRule", "EvenOdd"]
+- ["O2C48FillRule", "NonZero"]
+- ["O2C48FillRule", "_toAnyHashable"]
+- ["O2C48FillRule", "deinit"]
+- ["O2C48FillRule", "hashValue"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "EvenOdd"]
+- !private ["Ps8Hashable", "NonZero"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "evenOdd"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "winding"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Sq", "EvenOdd"]
+- ["C2C44Path", "Bool"]
+- !private ["C2C44Path", "CGAffineTransform"]
+- !private ["C2C44Path", "CGFloat"]
+- ["C2C44Path", "CGMutablePath"]
+- ["C2C44Path", "CGPath"]
+- !private ["C2C44Path", "CGPathFillRule"]
+- !private ["C2C44Path", "CGPoint"]
+- !private ["C2C44Path", "CGRect"]
+- ["C2C44Path", "CoreGraphics"]
+- ["C2C44Path", "Double"]
+- ["C2C44Path", "FillRule"]
+- ["C2C44Path", "Path"]
+- ["C2C44Path", "Point"]
+- ["C2C44Path", "Rect"]
+- ["C2C44Path", "Transform"]
+- ["C2C44Path", "addArc"]
+- ["C2C44Path", "addArcToPoint"]
+- ["C2C44Path", "addCurveToPoint"]
+- ["C2C44Path", "addEllipse"]
+- ["C2C44Path", "addLineToPoint"]
+- ["C2C44Path", "addPath"]
+- ["C2C44Path", "addQuadCurveToPoint"]
+- ["C2C44Path", "addRect"]
+- ["C2C44Path", "addRelativeArc"]
+- ["C2C44Path", "addRoundedRect"]
+- ["C2C44Path", "boundingBox"]
+- ["C2C44Path", "closeSubpath"]
+- ["C2C44Path", "containsPoint"]
+- ["C2C44Path", "copy"]
+- ["C2C44Path", "currentPoint"]
+- ["C2C44Path", "deinit"]
+- ["C2C44Path", "init"]
+- ["C2C44Path", "internalPath"]
+- ["C2C44Path", "isEmpty"]
+- ["C2C44Path", "moveToPoint"]
+- ["C2C44Path", "transform"]
+- !private ["V2C45Point", "init"]
+- !private ["Ps16RawRepresentable", "evenOdd"]
+- !private ["Ps16RawRepresentable", "winding"]
+- !private ["V2C44Rect", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["V2C49Transform", "affineTransform"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "EvenOdd"]
+- !private ["Ps9_Hashable", "NonZero"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "evenOdd"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "winding"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "EvenOdd"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "EvenOdd"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- "CSo13CGMutablePath"
+- "CSo6CGPath"
+- !private "O12CoreGraphics14CGPathFillRule"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "O2C48FillRule"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- "C2C44Path"
+- !private "V2C45Point"
+- !private "Ps16RawRepresentable"
+- !private "V2C44Rect"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "V2C49Transform"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "648e559764f4074d152b9ed789fd3aea"

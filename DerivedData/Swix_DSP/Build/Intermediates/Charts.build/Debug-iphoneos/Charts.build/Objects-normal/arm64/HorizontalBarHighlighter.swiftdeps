@@ -1,0 +1,449 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HorizontalBarHighlighter"
+provides-nominal:
+- "C6Charts24HorizontalBarHighlighter"
+provides-member:
+- ["C6Charts24HorizontalBarHighlighter", ""]
+provides-dynamic-lookup:
+- "buildHighlights"
+- "getDistance"
+- "getHighlight"
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BarChartData"
+- "BarHighlighter"
+- !private "BarLineScatterCandleBubbleChartDataProvider"
+- "CGFloat"
+- "CastingPrecedence"
+- "ChartDataSetRounding"
+- "Double"
+- "Highlight"
+- "HorizontalBarHighlighter"
+- !private "IBarChartDataSet"
+- "IChartDataSet"
+- "Int"
+- !private "abs"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "nan"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Highlight"]
+- !private ["Ps9AnyObject", "abs"]
+- !private ["Ps9AnyObject", "chart"]
+- !private ["Ps9AnyObject", "dataSetIndex"]
+- !private ["Ps9AnyObject", "getDataSetByIndex"]
+- !private ["Ps9AnyObject", "getHighlight"]
+- !private ["Ps9AnyObject", "getStackedHighlight"]
+- !private ["Ps9AnyObject", "getValsForTouch"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pixelForValues"]
+- !private ["Ps9AnyObject", "x"]
+- !private ["Ps9AnyObject", "y"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["C6Charts12BarChartData", "getDataSetByIndex"]
+- !private ["C6Charts14BarHighlighter", "BarChartData"]
+- !private ["C6Charts14BarHighlighter", "BarLineScatterCandleBubbleChartDataProvider"]
+- ["C6Charts14BarHighlighter", "CGFloat"]
+- ["C6Charts14BarHighlighter", "ChartDataSetRounding"]
+- ["C6Charts14BarHighlighter", "Double"]
+- ["C6Charts14BarHighlighter", "Highlight"]
+- !private ["C6Charts14BarHighlighter", "IBarChartDataSet"]
+- ["C6Charts14BarHighlighter", "IChartDataSet"]
+- ["C6Charts14BarHighlighter", "Int"]
+- !private ["C6Charts14BarHighlighter", "abs"]
+- ["C6Charts14BarHighlighter", "buildHighlights"]
+- !private ["C6Charts14BarHighlighter", "chart"]
+- ["C6Charts14BarHighlighter", "getDistance"]
+- ["C6Charts14BarHighlighter", "getHighlight"]
+- !private ["C6Charts14BarHighlighter", "getStackedHighlight"]
+- !private ["C6Charts14BarHighlighter", "getValsForTouch"]
+- ["C6Charts14BarHighlighter", "init"]
+- ["C6Charts14BarHighlighter", ""]
+- !private ["C6Charts35BarLineScatterCandleBubbleChartData", "getDataSetByIndex"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "getTransformer"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "nan"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Highlight"]
+- !private ["Ps7CVarArg", "abs"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "chart"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "dataSetIndex"]
+- !private ["Ps7CVarArg", "getDataSetByIndex"]
+- !private ["Ps7CVarArg", "getHighlight"]
+- !private ["Ps7CVarArg", "getStackedHighlight"]
+- !private ["Ps7CVarArg", "getValsForTouch"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "nan"]
+- !private ["Ps7CVarArg", "pixelForValues"]
+- !private ["Ps7CVarArg", "x"]
+- !private ["Ps7CVarArg", "y"]
+- ["Ps7CVarArg", ""]
+- !private ["C6Charts9ChartData", "getDataSetByIndex"]
+- !private ["C6Charts14ChartDataEntry", "x"]
+- !private ["C6Charts14ChartDataEntry", "y"]
+- !private ["C6Charts18ChartDataEntryBase", "x"]
+- !private ["C6Charts18ChartDataEntryBase", "y"]
+- !private ["P6Charts17ChartDataProvider", "data"]
+- !private ["P6Charts17ChartDataProvider", "getTransformer"]
+- !private ["C6Charts16ChartHighlighter", "BarChartData"]
+- !private ["C6Charts16ChartHighlighter", "BarLineScatterCandleBubbleChartDataProvider"]
+- ["C6Charts16ChartHighlighter", "CGFloat"]
+- ["C6Charts16ChartHighlighter", "ChartDataSetRounding"]
+- ["C6Charts16ChartHighlighter", "Double"]
+- ["C6Charts16ChartHighlighter", "Highlight"]
+- !private ["C6Charts16ChartHighlighter", "IBarChartDataSet"]
+- ["C6Charts16ChartHighlighter", "IChartDataSet"]
+- ["C6Charts16ChartHighlighter", "Int"]
+- !private ["C6Charts16ChartHighlighter", "abs"]
+- ["C6Charts16ChartHighlighter", "buildHighlights"]
+- !private ["C6Charts16ChartHighlighter", "chart"]
+- ["C6Charts16ChartHighlighter", "getDistance"]
+- ["C6Charts16ChartHighlighter", "getHighlight"]
+- !private ["C6Charts16ChartHighlighter", "getStackedHighlight"]
+- !private ["C6Charts16ChartHighlighter", "getValsForTouch"]
+- ["C6Charts16ChartHighlighter", "init"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "nan"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Highlight"]
+- !private ["Ps28CustomDebugStringConvertible", "abs"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "chart"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSetIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "getDataSetByIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "getHighlight"]
+- !private ["Ps28CustomDebugStringConvertible", "getStackedHighlight"]
+- !private ["Ps28CustomDebugStringConvertible", "getValsForTouch"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "nan"]
+- !private ["Ps28CustomDebugStringConvertible", "pixelForValues"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "nan"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "nan"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Highlight"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "abs"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "chart"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "dataSetIndex"]
+- !private ["Ps23CustomStringConvertible", "getDataSetByIndex"]
+- !private ["Ps23CustomStringConvertible", "getHighlight"]
+- !private ["Ps23CustomStringConvertible", "getStackedHighlight"]
+- !private ["Ps23CustomStringConvertible", "getValsForTouch"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "nan"]
+- !private ["Ps23CustomStringConvertible", "pixelForValues"]
+- !private ["Ps23CustomStringConvertible", "x"]
+- !private ["Ps23CustomStringConvertible", "y"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Sd", "nan"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Highlight"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "abs"]
+- !private ["Ps9Equatable", "chart"]
+- !private ["Ps9Equatable", "dataSetIndex"]
+- !private ["Ps9Equatable", "getDataSetByIndex"]
+- !private ["Ps9Equatable", "getHighlight"]
+- !private ["Ps9Equatable", "getStackedHighlight"]
+- !private ["Ps9Equatable", "getValsForTouch"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "nan"]
+- !private ["Ps9Equatable", "pixelForValues"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "nan"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "nan"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "nan"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Highlight"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "abs"]
+- !private ["Ps8Hashable", "chart"]
+- !private ["Ps8Hashable", "dataSetIndex"]
+- !private ["Ps8Hashable", "getDataSetByIndex"]
+- !private ["Ps8Hashable", "getHighlight"]
+- !private ["Ps8Hashable", "getStackedHighlight"]
+- !private ["Ps8Hashable", "getValsForTouch"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "nan"]
+- !private ["Ps8Hashable", "pixelForValues"]
+- !private ["Ps8Hashable", "x"]
+- !private ["Ps8Hashable", "y"]
+- ["Ps8Hashable", ""]
+- !private ["C6Charts9Highlight", "dataSetIndex"]
+- !private ["C6Charts9Highlight", "init"]
+- !private ["C6Charts24HorizontalBarHighlighter", "BarChartData"]
+- !private ["C6Charts24HorizontalBarHighlighter", "BarLineScatterCandleBubbleChartDataProvider"]
+- ["C6Charts24HorizontalBarHighlighter", "CGFloat"]
+- ["C6Charts24HorizontalBarHighlighter", "ChartDataSetRounding"]
+- ["C6Charts24HorizontalBarHighlighter", "Double"]
+- ["C6Charts24HorizontalBarHighlighter", "Highlight"]
+- !private ["C6Charts24HorizontalBarHighlighter", "IBarChartDataSet"]
+- ["C6Charts24HorizontalBarHighlighter", "IChartDataSet"]
+- ["C6Charts24HorizontalBarHighlighter", "Int"]
+- !private ["C6Charts24HorizontalBarHighlighter", "abs"]
+- ["C6Charts24HorizontalBarHighlighter", "buildHighlights"]
+- !private ["C6Charts24HorizontalBarHighlighter", "chart"]
+- ["C6Charts24HorizontalBarHighlighter", "deinit"]
+- ["C6Charts24HorizontalBarHighlighter", "getDistance"]
+- ["C6Charts24HorizontalBarHighlighter", "getHighlight"]
+- !private ["C6Charts24HorizontalBarHighlighter", "getStackedHighlight"]
+- !private ["C6Charts24HorizontalBarHighlighter", "getValsForTouch"]
+- ["C6Charts24HorizontalBarHighlighter", "init"]
+- !private ["P6Charts16IBarChartDataSet", "isStacked"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "isStacked"]
+- !private ["P6Charts13IChartDataSet", "axisDependency"]
+- !private ["P6Charts13IChartDataSet", "entriesForXValue"]
+- !private ["P6Charts13IChartDataSet", "entryForXValue"]
+- !private ["P6Charts13IChartDataSet", "isStacked"]
+- !private ["P6Charts12IHighlighter", "Double"]
+- !private ["P6Charts12IHighlighter", "Highlight"]
+- !private ["P6Charts12IHighlighter", "abs"]
+- !private ["P6Charts12IHighlighter", "chart"]
+- !private ["P6Charts12IHighlighter", "getHighlight"]
+- !private ["P6Charts12IHighlighter", "getStackedHighlight"]
+- !private ["P6Charts12IHighlighter", "getValsForTouch"]
+- !private ["P6Charts12IHighlighter", "init"]
+- ["P6Charts12IHighlighter", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "nan"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["CSo8NSObject", "BarChartData"]
+- !private ["CSo8NSObject", "BarLineScatterCandleBubbleChartDataProvider"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "ChartDataSetRounding"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Highlight"]
+- !private ["CSo8NSObject", "IBarChartDataSet"]
+- ["CSo8NSObject", "IChartDataSet"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "abs"]
+- ["CSo8NSObject", "buildHighlights"]
+- !private ["CSo8NSObject", "chart"]
+- !private ["CSo8NSObject", "dataSetIndex"]
+- !private ["CSo8NSObject", "getDataSetByIndex"]
+- ["CSo8NSObject", "getDistance"]
+- ["CSo8NSObject", "getHighlight"]
+- !private ["CSo8NSObject", "getStackedHighlight"]
+- !private ["CSo8NSObject", "getValsForTouch"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "pixelForValues"]
+- !private ["CSo8NSObject", "x"]
+- !private ["CSo8NSObject", "y"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Highlight"]
+- !private ["PSo16NSObjectProtocol", "abs"]
+- !private ["PSo16NSObjectProtocol", "chart"]
+- !private ["PSo16NSObjectProtocol", "dataSetIndex"]
+- !private ["PSo16NSObjectProtocol", "getDataSetByIndex"]
+- !private ["PSo16NSObjectProtocol", "getHighlight"]
+- !private ["PSo16NSObjectProtocol", "getStackedHighlight"]
+- !private ["PSo16NSObjectProtocol", "getValsForTouch"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "pixelForValues"]
+- !private ["PSo16NSObjectProtocol", "x"]
+- !private ["PSo16NSObjectProtocol", "y"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "nan"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "nan"]
+- !private ["C6Charts11Transformer", "pixelForValues"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "nan"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "nan"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "nan"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "nan"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Highlight"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "abs"]
+- !private ["Ps9_Hashable", "chart"]
+- !private ["Ps9_Hashable", "dataSetIndex"]
+- !private ["Ps9_Hashable", "getDataSetByIndex"]
+- !private ["Ps9_Hashable", "getHighlight"]
+- !private ["Ps9_Hashable", "getStackedHighlight"]
+- !private ["Ps9_Hashable", "getValsForTouch"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "nan"]
+- !private ["Ps9_Hashable", "pixelForValues"]
+- !private ["Ps9_Hashable", "x"]
+- !private ["Ps9_Hashable", "y"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "nan"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "nan"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "C6Charts12BarChartData"
+- "C6Charts14BarHighlighter"
+- !private "C6Charts35BarLineScatterCandleBubbleChartData"
+- !private "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "VSC7CGPoint"
+- "Ps7CVarArg"
+- !private "C6Charts9ChartData"
+- !private "C6Charts14ChartDataEntry"
+- !private "C6Charts18ChartDataEntryBase"
+- !private "P6Charts17ChartDataProvider"
+- "C6Charts16ChartHighlighter"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "C6Charts9Highlight"
+- "C6Charts24HorizontalBarHighlighter"
+- !private "P6Charts16IBarChartDataSet"
+- !private "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- !private "P6Charts13IChartDataSet"
+- "P6Charts12IHighlighter"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "C6Charts11Transformer"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "fa69ac612e3aa36100ff629d582808bc"

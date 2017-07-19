@@ -1,0 +1,642 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AudioPlayer"
+provides-nominal:
+- "C2C411AudioPlayer"
+provides-member:
+- ["C2C411AudioPlayer", ""]
+provides-dynamic-lookup:
+- "averagePower"
+- "currentTime"
+- "duration"
+- "enableRate"
+- "filename"
+- "loops"
+- "meteringEnabled"
+- "pan"
+- "pause"
+- "peakPower"
+- "play"
+- "player"
+- "playing"
+- "rate"
+- "stop"
+- "updateMeters"
+- "volume"
+depends-top-level:
+- !private ">"
+- "AVAudioPlayer"
+- "AVAudioPlayerDelegate"
+- !private "AVAudioSession"
+- !private "AVAudioSessionCategoryPlayback"
+- "AssignmentPrecedence"
+- "AudioPlayer"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "Double"
+- !private "Float"
+- "Int"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "TimeInterval"
+- !private "clamp"
+- !private "print"
+depends-member:
+- !private ["CSo13AVAudioPlayer", "averagePower"]
+- !private ["CSo13AVAudioPlayer", "currentTime"]
+- !private ["CSo13AVAudioPlayer", "delegate"]
+- !private ["CSo13AVAudioPlayer", "duration"]
+- !private ["CSo13AVAudioPlayer", "enableRate"]
+- !private ["CSo13AVAudioPlayer", "init"]
+- !private ["CSo13AVAudioPlayer", "isMeteringEnabled"]
+- !private ["CSo13AVAudioPlayer", "isPlaying"]
+- !private ["CSo13AVAudioPlayer", "numberOfLoops"]
+- !private ["CSo13AVAudioPlayer", "pan"]
+- !private ["CSo13AVAudioPlayer", "pause"]
+- !private ["CSo13AVAudioPlayer", "peakPower"]
+- !private ["CSo13AVAudioPlayer", "play"]
+- !private ["CSo13AVAudioPlayer", "rate"]
+- !private ["CSo13AVAudioPlayer", "stop"]
+- !private ["CSo13AVAudioPlayer", "updateMeters"]
+- !private ["CSo13AVAudioPlayer", "volume"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioPlayer"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioSession"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioSessionCategoryPlayback"]
+- !private ["PSo21AVAudioPlayerDelegate", "Bundle"]
+- !private ["PSo21AVAudioPlayerDelegate", "Double"]
+- !private ["PSo21AVAudioPlayerDelegate", "Float"]
+- !private ["PSo21AVAudioPlayerDelegate", "TimeInterval"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerBeginInterruption"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerDecodeErrorDidOccur"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerDidFinishPlaying"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerEndInterruption"]
+- !private ["PSo21AVAudioPlayerDelegate", "clamp"]
+- !private ["PSo21AVAudioPlayerDelegate", "filename"]
+- !private ["PSo21AVAudioPlayerDelegate", "init"]
+- !private ["PSo21AVAudioPlayerDelegate", "player"]
+- !private ["PSo21AVAudioPlayerDelegate", "print"]
+- ["PSo21AVAudioPlayerDelegate", ""]
+- !private ["CSo14AVAudioSession", "setActive"]
+- !private ["CSo14AVAudioSession", "setCategory"]
+- !private ["CSo14AVAudioSession", "sharedInstance"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "AVAudioPlayer"]
+- !private ["Ps9AnyObject", "AVAudioSession"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Float"]
+- !private ["Ps9AnyObject", "TimeInterval"]
+- ["Ps9AnyObject", "audioPlayerBeginInterruption"]
+- ["Ps9AnyObject", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9AnyObject", "audioPlayerDidFinishPlaying"]
+- ["Ps9AnyObject", "audioPlayerEndInterruption"]
+- !private ["Ps9AnyObject", "averagePower"]
+- !private ["Ps9AnyObject", "clamp"]
+- !private ["Ps9AnyObject", "currentTime"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "enableRate"]
+- !private ["Ps9AnyObject", "filename"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isMeteringEnabled"]
+- !private ["Ps9AnyObject", "isPlaying"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "numberOfLoops"]
+- !private ["Ps9AnyObject", "pan"]
+- !private ["Ps9AnyObject", "pause"]
+- !private ["Ps9AnyObject", "peakPower"]
+- !private ["Ps9AnyObject", "play"]
+- !private ["Ps9AnyObject", "player"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rate"]
+- !private ["Ps9AnyObject", "setActive"]
+- !private ["Ps9AnyObject", "setCategory"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "stop"]
+- !private ["Ps9AnyObject", "updateMeters"]
+- !private ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "volume"]
+- ["Ps9AnyObject", ""]
+- ["C2C411AudioPlayer", "AVAudioPlayer"]
+- !private ["C2C411AudioPlayer", "AVAudioSession"]
+- !private ["C2C411AudioPlayer", "AVAudioSessionCategoryPlayback"]
+- ["C2C411AudioPlayer", "AudioPlayer"]
+- ["C2C411AudioPlayer", "Bool"]
+- !private ["C2C411AudioPlayer", "Bundle"]
+- ["C2C411AudioPlayer", "Double"]
+- !private ["C2C411AudioPlayer", "Float"]
+- ["C2C411AudioPlayer", "Int"]
+- ["C2C411AudioPlayer", "String"]
+- !private ["C2C411AudioPlayer", "TimeInterval"]
+- ["C2C411AudioPlayer", "audioPlayerBeginInterruption"]
+- ["C2C411AudioPlayer", "audioPlayerDecodeErrorDidOccur"]
+- ["C2C411AudioPlayer", "audioPlayerDidFinishPlaying"]
+- ["C2C411AudioPlayer", "audioPlayerEndInterruption"]
+- ["C2C411AudioPlayer", "averagePower"]
+- !private ["C2C411AudioPlayer", "clamp"]
+- ["C2C411AudioPlayer", "currentTime"]
+- ["C2C411AudioPlayer", "deinit"]
+- ["C2C411AudioPlayer", "duration"]
+- ["C2C411AudioPlayer", "enableRate"]
+- ["C2C411AudioPlayer", "filename"]
+- ["C2C411AudioPlayer", "init"]
+- ["C2C411AudioPlayer", "loops"]
+- ["C2C411AudioPlayer", "meteringEnabled"]
+- ["C2C411AudioPlayer", "pan"]
+- ["C2C411AudioPlayer", "pause"]
+- ["C2C411AudioPlayer", "peakPower"]
+- ["C2C411AudioPlayer", "play"]
+- ["C2C411AudioPlayer", "player"]
+- ["C2C411AudioPlayer", "playing"]
+- !private ["C2C411AudioPlayer", "print"]
+- ["C2C411AudioPlayer", "rate"]
+- ["C2C411AudioPlayer", "stop"]
+- ["C2C411AudioPlayer", "updateMeters"]
+- ["C2C411AudioPlayer", "volume"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6Bundle", "main"]
+- !private ["CSo6Bundle", "url"]
+- !private ["Ps7CVarArg", "AVAudioPlayer"]
+- !private ["Ps7CVarArg", "AVAudioSession"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Float"]
+- !private ["Ps7CVarArg", "TimeInterval"]
+- ["Ps7CVarArg", "audioPlayerBeginInterruption"]
+- ["Ps7CVarArg", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps7CVarArg", "audioPlayerDidFinishPlaying"]
+- ["Ps7CVarArg", "audioPlayerEndInterruption"]
+- !private ["Ps7CVarArg", "averagePower"]
+- !private ["Ps7CVarArg", "clamp"]
+- !private ["Ps7CVarArg", "currentTime"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "duration"]
+- !private ["Ps7CVarArg", "enableRate"]
+- !private ["Ps7CVarArg", "filename"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isMeteringEnabled"]
+- !private ["Ps7CVarArg", "isPlaying"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "numberOfLoops"]
+- !private ["Ps7CVarArg", "pan"]
+- !private ["Ps7CVarArg", "pause"]
+- !private ["Ps7CVarArg", "peakPower"]
+- !private ["Ps7CVarArg", "play"]
+- !private ["Ps7CVarArg", "player"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "rate"]
+- !private ["Ps7CVarArg", "setActive"]
+- !private ["Ps7CVarArg", "setCategory"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "stop"]
+- !private ["Ps7CVarArg", "updateMeters"]
+- !private ["Ps7CVarArg", "url"]
+- !private ["Ps7CVarArg", "volume"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Float"]
+- !private ["Ps28CustomDebugStringConvertible", "TimeInterval"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerBeginInterruption"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerDidFinishPlaying"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerEndInterruption"]
+- !private ["Ps28CustomDebugStringConvertible", "averagePower"]
+- !private ["Ps28CustomDebugStringConvertible", "clamp"]
+- !private ["Ps28CustomDebugStringConvertible", "currentTime"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "enableRate"]
+- !private ["Ps28CustomDebugStringConvertible", "filename"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isMeteringEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "isPlaying"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfLoops"]
+- !private ["Ps28CustomDebugStringConvertible", "pan"]
+- !private ["Ps28CustomDebugStringConvertible", "pause"]
+- !private ["Ps28CustomDebugStringConvertible", "peakPower"]
+- !private ["Ps28CustomDebugStringConvertible", "play"]
+- !private ["Ps28CustomDebugStringConvertible", "player"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rate"]
+- !private ["Ps28CustomDebugStringConvertible", "setActive"]
+- !private ["Ps28CustomDebugStringConvertible", "setCategory"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "stop"]
+- !private ["Ps28CustomDebugStringConvertible", "updateMeters"]
+- !private ["Ps28CustomDebugStringConvertible", "url"]
+- !private ["Ps28CustomDebugStringConvertible", "volume"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AVAudioPlayer"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSession"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "TimeInterval"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "audioPlayerBeginInterruption"]
+- ["Ps23CustomStringConvertible", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps23CustomStringConvertible", "audioPlayerDidFinishPlaying"]
+- ["Ps23CustomStringConvertible", "audioPlayerEndInterruption"]
+- !private ["Ps23CustomStringConvertible", "averagePower"]
+- !private ["Ps23CustomStringConvertible", "clamp"]
+- !private ["Ps23CustomStringConvertible", "currentTime"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "enableRate"]
+- !private ["Ps23CustomStringConvertible", "filename"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isMeteringEnabled"]
+- !private ["Ps23CustomStringConvertible", "isPlaying"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "numberOfLoops"]
+- !private ["Ps23CustomStringConvertible", "pan"]
+- !private ["Ps23CustomStringConvertible", "pause"]
+- !private ["Ps23CustomStringConvertible", "peakPower"]
+- !private ["Ps23CustomStringConvertible", "play"]
+- !private ["Ps23CustomStringConvertible", "player"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rate"]
+- !private ["Ps23CustomStringConvertible", "setActive"]
+- !private ["Ps23CustomStringConvertible", "setCategory"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "stop"]
+- !private ["Ps23CustomStringConvertible", "updateMeters"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- !private ["Ps23CustomStringConvertible", "volume"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "AVAudioPlayer"]
+- !private ["Ps9Equatable", "AVAudioSession"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "TimeInterval"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "audioPlayerBeginInterruption"]
+- ["Ps9Equatable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9Equatable", "audioPlayerDidFinishPlaying"]
+- ["Ps9Equatable", "audioPlayerEndInterruption"]
+- !private ["Ps9Equatable", "averagePower"]
+- !private ["Ps9Equatable", "clamp"]
+- !private ["Ps9Equatable", "currentTime"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "enableRate"]
+- !private ["Ps9Equatable", "filename"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isMeteringEnabled"]
+- !private ["Ps9Equatable", "isPlaying"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "numberOfLoops"]
+- !private ["Ps9Equatable", "pan"]
+- !private ["Ps9Equatable", "pause"]
+- !private ["Ps9Equatable", "peakPower"]
+- !private ["Ps9Equatable", "play"]
+- !private ["Ps9Equatable", "player"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rate"]
+- !private ["Ps9Equatable", "setActive"]
+- !private ["Ps9Equatable", "setCategory"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "stop"]
+- !private ["Ps9Equatable", "updateMeters"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "volume"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "AVAudioPlayer"]
+- !private ["P2C411EventSource", "AVAudioSession"]
+- !private ["P2C411EventSource", "AVAudioSessionCategoryPlayback"]
+- !private ["P2C411EventSource", "Bundle"]
+- !private ["P2C411EventSource", "Double"]
+- !private ["P2C411EventSource", "Float"]
+- !private ["P2C411EventSource", "TimeInterval"]
+- ["P2C411EventSource", "audioPlayerBeginInterruption"]
+- ["P2C411EventSource", "audioPlayerDecodeErrorDidOccur"]
+- ["P2C411EventSource", "audioPlayerDidFinishPlaying"]
+- ["P2C411EventSource", "audioPlayerEndInterruption"]
+- !private ["P2C411EventSource", "averagePower"]
+- !private ["P2C411EventSource", "clamp"]
+- !private ["P2C411EventSource", "currentTime"]
+- !private ["P2C411EventSource", "delegate"]
+- !private ["P2C411EventSource", "duration"]
+- !private ["P2C411EventSource", "enableRate"]
+- !private ["P2C411EventSource", "filename"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "isMeteringEnabled"]
+- !private ["P2C411EventSource", "isPlaying"]
+- !private ["P2C411EventSource", "main"]
+- !private ["P2C411EventSource", "numberOfLoops"]
+- !private ["P2C411EventSource", "pan"]
+- !private ["P2C411EventSource", "pause"]
+- !private ["P2C411EventSource", "peakPower"]
+- !private ["P2C411EventSource", "play"]
+- !private ["P2C411EventSource", "player"]
+- !private ["P2C411EventSource", "print"]
+- !private ["P2C411EventSource", "rate"]
+- !private ["P2C411EventSource", "setActive"]
+- !private ["P2C411EventSource", "setCategory"]
+- !private ["P2C411EventSource", "sharedInstance"]
+- !private ["P2C411EventSource", "stop"]
+- !private ["P2C411EventSource", "updateMeters"]
+- !private ["P2C411EventSource", "url"]
+- !private ["P2C411EventSource", "volume"]
+- ["P2C411EventSource", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "AVAudioPlayer"]
+- !private ["Ps8Hashable", "AVAudioSession"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "TimeInterval"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "audioPlayerBeginInterruption"]
+- ["Ps8Hashable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps8Hashable", "audioPlayerDidFinishPlaying"]
+- ["Ps8Hashable", "audioPlayerEndInterruption"]
+- !private ["Ps8Hashable", "averagePower"]
+- !private ["Ps8Hashable", "clamp"]
+- !private ["Ps8Hashable", "currentTime"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "enableRate"]
+- !private ["Ps8Hashable", "filename"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isMeteringEnabled"]
+- !private ["Ps8Hashable", "isPlaying"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "numberOfLoops"]
+- !private ["Ps8Hashable", "pan"]
+- !private ["Ps8Hashable", "pause"]
+- !private ["Ps8Hashable", "peakPower"]
+- !private ["Ps8Hashable", "play"]
+- !private ["Ps8Hashable", "player"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rate"]
+- !private ["Ps8Hashable", "setActive"]
+- !private ["Ps8Hashable", "setCategory"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "stop"]
+- !private ["Ps8Hashable", "updateMeters"]
+- !private ["Ps8Hashable", "url"]
+- !private ["Ps8Hashable", "volume"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AVAudioPlayer"]
+- !private ["CSo8NSObject", "AVAudioSession"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayback"]
+- ["CSo8NSObject", "AudioPlayer"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Float"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "audioPlayerBeginInterruption"]
+- ["CSo8NSObject", "audioPlayerDecodeErrorDidOccur"]
+- ["CSo8NSObject", "audioPlayerDidFinishPlaying"]
+- ["CSo8NSObject", "audioPlayerEndInterruption"]
+- ["CSo8NSObject", "averagePower"]
+- !private ["CSo8NSObject", "clamp"]
+- ["CSo8NSObject", "currentTime"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "enableRate"]
+- ["CSo8NSObject", "filename"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isMeteringEnabled"]
+- !private ["CSo8NSObject", "isPlaying"]
+- ["CSo8NSObject", "loops"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "meteringEnabled"]
+- !private ["CSo8NSObject", "numberOfLoops"]
+- ["CSo8NSObject", "pan"]
+- ["CSo8NSObject", "pause"]
+- ["CSo8NSObject", "peakPower"]
+- ["CSo8NSObject", "play"]
+- ["CSo8NSObject", "player"]
+- ["CSo8NSObject", "playing"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "rate"]
+- !private ["CSo8NSObject", "setActive"]
+- !private ["CSo8NSObject", "setCategory"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "stop"]
+- ["CSo8NSObject", "updateMeters"]
+- !private ["CSo8NSObject", "url"]
+- ["CSo8NSObject", "volume"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AVAudioPlayer"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSession"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayback"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Float"]
+- !private ["PSo16NSObjectProtocol", "TimeInterval"]
+- ["PSo16NSObjectProtocol", "audioPlayerBeginInterruption"]
+- ["PSo16NSObjectProtocol", "audioPlayerDecodeErrorDidOccur"]
+- ["PSo16NSObjectProtocol", "audioPlayerDidFinishPlaying"]
+- ["PSo16NSObjectProtocol", "audioPlayerEndInterruption"]
+- !private ["PSo16NSObjectProtocol", "averagePower"]
+- !private ["PSo16NSObjectProtocol", "clamp"]
+- !private ["PSo16NSObjectProtocol", "currentTime"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "enableRate"]
+- !private ["PSo16NSObjectProtocol", "filename"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isMeteringEnabled"]
+- !private ["PSo16NSObjectProtocol", "isPlaying"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "numberOfLoops"]
+- !private ["PSo16NSObjectProtocol", "pan"]
+- !private ["PSo16NSObjectProtocol", "pause"]
+- !private ["PSo16NSObjectProtocol", "peakPower"]
+- !private ["PSo16NSObjectProtocol", "play"]
+- !private ["PSo16NSObjectProtocol", "player"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rate"]
+- !private ["PSo16NSObjectProtocol", "setActive"]
+- !private ["PSo16NSObjectProtocol", "setCategory"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "stop"]
+- !private ["PSo16NSObjectProtocol", "updateMeters"]
+- !private ["PSo16NSObjectProtocol", "url"]
+- !private ["PSo16NSObjectProtocol", "volume"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AVAudioPlayer"]
+- !private ["Ps9_Hashable", "AVAudioSession"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryPlayback"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Float"]
+- !private ["Ps9_Hashable", "TimeInterval"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "audioPlayerBeginInterruption"]
+- ["Ps9_Hashable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9_Hashable", "audioPlayerDidFinishPlaying"]
+- ["Ps9_Hashable", "audioPlayerEndInterruption"]
+- !private ["Ps9_Hashable", "averagePower"]
+- !private ["Ps9_Hashable", "clamp"]
+- !private ["Ps9_Hashable", "currentTime"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "duration"]
+- !private ["Ps9_Hashable", "enableRate"]
+- !private ["Ps9_Hashable", "filename"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isMeteringEnabled"]
+- !private ["Ps9_Hashable", "isPlaying"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "numberOfLoops"]
+- !private ["Ps9_Hashable", "pan"]
+- !private ["Ps9_Hashable", "pause"]
+- !private ["Ps9_Hashable", "peakPower"]
+- !private ["Ps9_Hashable", "play"]
+- !private ["Ps9_Hashable", "player"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rate"]
+- !private ["Ps9_Hashable", "setActive"]
+- !private ["Ps9_Hashable", "setCategory"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "stop"]
+- !private ["Ps9_Hashable", "updateMeters"]
+- !private ["Ps9_Hashable", "url"]
+- !private ["Ps9_Hashable", "volume"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "CSo13AVAudioPlayer"
+- "PSo21AVAudioPlayerDelegate"
+- !private "CSo14AVAudioSession"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C2C411AudioPlayer"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "CSo6Bundle"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "2d60d8d4eac1276b1d0b58d9214ef912"

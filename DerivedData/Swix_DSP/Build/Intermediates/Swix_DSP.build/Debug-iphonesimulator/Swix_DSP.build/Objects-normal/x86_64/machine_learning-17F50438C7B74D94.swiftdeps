@@ -1,0 +1,385 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SVM"
+- "kNearestNeighbors"
+provides-nominal:
+- "C8Swix_DSP3SVM"
+- "C8Swix_DSP17kNearestNeighbors"
+provides-member:
+- ["C8Swix_DSP3SVM", ""]
+- ["C8Swix_DSP17kNearestNeighbors", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "<="
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Double"
+- "Float"
+- "Int"
+- "SVM"
+- "String"
+- !private "StringLiteralType"
+- !private "assert"
+- "cvSVM"
+- "kNN"
+- "kNearestNeighbors"
+- "matrix"
+- "vector"
+- !private "zeros"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "cfloat"]
+- !private ["Ps16AbsoluteValuable", "double"]
+- !private ["Ps9AnyObject", "M"]
+- !private ["Ps9AnyObject", "N"]
+- !private ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "cvSVM"]
+- !private ["Ps9AnyObject", "cvsvm"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kNN"]
+- !private ["Ps9AnyObject", "kernel_type"]
+- !private ["Ps9AnyObject", "knn"]
+- !private ["Ps9AnyObject", "nsstring"]
+- !private ["Ps9AnyObject", "predict"]
+- !private ["Ps9AnyObject", "setParams"]
+- !private ["Ps9AnyObject", "svm_type"]
+- !private ["Ps9AnyObject", "train"]
+- !private ["Ps9AnyObject", "zeros"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "cfloat"]
+- !private ["Ps19BinaryFloatingPoint", "double"]
+- !private ["Ps17BitwiseOperations", "cint"]
+- !private ["Ps7CVarArg", "cfloat"]
+- !private ["Ps7CVarArg", "cint"]
+- !private ["Ps7CVarArg", "double"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "nsstring"]
+- !private ["Ps7CVarArg", "predict"]
+- !private ["Ps7CVarArg", "setParams"]
+- !private ["Ps7CVarArg", "train"]
+- !private ["Ps10Comparable", "cfloat"]
+- !private ["Ps10Comparable", "cint"]
+- !private ["Ps10Comparable", "double"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "nsstring"]
+- !private ["Ps28CustomDebugStringConvertible", "cfloat"]
+- !private ["Ps28CustomDebugStringConvertible", "double"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "nsstring"]
+- !private ["Ps28CustomDebugStringConvertible", "predict"]
+- !private ["Ps28CustomDebugStringConvertible", "setParams"]
+- !private ["Ps28CustomDebugStringConvertible", "train"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "cfloat"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "cint"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "nsstring"]
+- !private ["Ps17CustomReflectable", "cfloat"]
+- !private ["Ps17CustomReflectable", "cint"]
+- !private ["Ps17CustomReflectable", "double"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "nsstring"]
+- !private ["Ps23CustomStringConvertible", "cfloat"]
+- !private ["Ps23CustomStringConvertible", "cint"]
+- !private ["Ps23CustomStringConvertible", "double"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "nsstring"]
+- !private ["Ps23CustomStringConvertible", "predict"]
+- !private ["Ps23CustomStringConvertible", "setParams"]
+- !private ["Ps23CustomStringConvertible", "train"]
+- !private ["Sd", "double"]
+- !private ["Ps9Equatable", "cfloat"]
+- !private ["Ps9Equatable", "cint"]
+- !private ["Ps9Equatable", "double"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "nsstring"]
+- !private ["Ps9Equatable", "predict"]
+- !private ["Ps9Equatable", "setParams"]
+- !private ["Ps9Equatable", "train"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "nsstring"]
+- !private ["P2C411EventSource", "predict"]
+- !private ["P2C411EventSource", "setParams"]
+- !private ["P2C411EventSource", "train"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "nsstring"]
+- !private ["Ps25ExpressibleByFloatLiteral", "cfloat"]
+- !private ["Ps25ExpressibleByFloatLiteral", "double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "cfloat"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "cint"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "double"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "nsstring"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "nsstring"]
+- !private ["Sf", "cfloat"]
+- !private ["Sf", "double"]
+- !private ["Ps13FloatingPoint", "cfloat"]
+- !private ["Ps13FloatingPoint", "double"]
+- !private ["P8Swix_DSP21FloatingPointMathType", "double"]
+- !private ["Ps8Hashable", "cfloat"]
+- !private ["Ps8Hashable", "cint"]
+- !private ["Ps8Hashable", "double"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "nsstring"]
+- !private ["Ps8Hashable", "predict"]
+- !private ["Ps8Hashable", "setParams"]
+- !private ["Ps8Hashable", "train"]
+- !private ["Si", "cint"]
+- !private ["Ps7Integer", "cint"]
+- !private ["Ps17IntegerArithmetic", "cint"]
+- !private ["Ps25LosslessStringConvertible", "cfloat"]
+- !private ["Ps25LosslessStringConvertible", "double"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "nsstring"]
+- !private ["Ps10MirrorPath", "cint"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "nsstring"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "nsstring"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "nsstring"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "nsstring"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "nsstring"]
+- !private ["CSo8NSObject", "predict"]
+- !private ["CSo8NSObject", "setParams"]
+- !private ["CSo8NSObject", "train"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "nsstring"]
+- !private ["PSo16NSObjectProtocol", "predict"]
+- !private ["PSo16NSObjectProtocol", "setParams"]
+- !private ["PSo16NSObjectProtocol", "train"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "nsstring"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "nsstring"]
+- ["C8Swix_DSP3SVM", "Double"]
+- ["C8Swix_DSP3SVM", "Float"]
+- ["C8Swix_DSP3SVM", "Int"]
+- ["C8Swix_DSP3SVM", "M"]
+- ["C8Swix_DSP3SVM", "N"]
+- ["C8Swix_DSP3SVM", "String"]
+- !private ["C8Swix_DSP3SVM", "assert"]
+- ["C8Swix_DSP3SVM", "cvSVM"]
+- ["C8Swix_DSP3SVM", "cvsvm"]
+- ["C8Swix_DSP3SVM", "deinit"]
+- ["C8Swix_DSP3SVM", "init"]
+- ["C8Swix_DSP3SVM", "kernel_type"]
+- ["C8Swix_DSP3SVM", "matrix"]
+- ["C8Swix_DSP3SVM", "predict"]
+- ["C8Swix_DSP3SVM", "setParams"]
+- ["C8Swix_DSP3SVM", "svm_type"]
+- ["C8Swix_DSP3SVM", "train"]
+- ["C8Swix_DSP3SVM", "vector"]
+- !private ["C8Swix_DSP3SVM", "zeros"]
+- !private ["P8Swix_DSP23ScalarFloatingPointType", "cfloat"]
+- !private ["P8Swix_DSP23ScalarFloatingPointType", "cint"]
+- !private ["P8Swix_DSP23ScalarFloatingPointType", "double"]
+- !private ["P8Swix_DSP17ScalarIntegerType", "cint"]
+- !private ["Ps13SignedInteger", "cint"]
+- !private ["Ps12SignedNumber", "cfloat"]
+- !private ["Ps12SignedNumber", "cint"]
+- !private ["Ps12SignedNumber", "double"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "cfloat"]
+- !private ["Ps10Strideable", "cint"]
+- !private ["Ps10Strideable", "double"]
+- !private ["SS", "init"]
+- !private ["SS", "nsstring"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "nsstring"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "nsstring"]
+- !private ["Ps15_CVarArgAligned", "cfloat"]
+- !private ["Ps15_CVarArgAligned", "double"]
+- !private ["Ps22_CVarArgPassedAsDouble", "cfloat"]
+- !private ["Ps22_CVarArgPassedAsDouble", "double"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "nsstring"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "cfloat"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "double"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "cfloat"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "cint"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "double"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "nsstring"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "nsstring"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "nsstring"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "nsstring"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "nsstring"]
+- !private ["Ps9_Hashable", "cfloat"]
+- !private ["Ps9_Hashable", "cint"]
+- !private ["Ps9_Hashable", "double"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "nsstring"]
+- !private ["Ps9_Hashable", "predict"]
+- !private ["Ps9_Hashable", "setParams"]
+- !private ["Ps9_Hashable", "train"]
+- !private ["Ps14_Incrementable", "cint"]
+- !private ["Ps8_Integer", "cint"]
+- !private ["Ps18_IntegerArithmetic", "cint"]
+- !private ["Ps21_ObjectiveCBridgeable", "cfloat"]
+- !private ["Ps21_ObjectiveCBridgeable", "cint"]
+- !private ["Ps21_ObjectiveCBridgeable", "double"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "nsstring"]
+- !private ["Ps14_SignedInteger", "cint"]
+- !private ["Ps11_Strideable", "cfloat"]
+- !private ["Ps11_Strideable", "cint"]
+- !private ["Ps11_Strideable", "double"]
+- !private ["CSo5cvSVM", "init"]
+- !private ["CSo5cvSVM", "predict"]
+- !private ["CSo5cvSVM", "setParams"]
+- !private ["CSo5cvSVM", "train"]
+- !private ["CSo3kNN", "init"]
+- !private ["CSo3kNN", "predict"]
+- !private ["CSo3kNN", "train"]
+- ["C8Swix_DSP17kNearestNeighbors", "Double"]
+- ["C8Swix_DSP17kNearestNeighbors", "Int"]
+- ["C8Swix_DSP17kNearestNeighbors", "M"]
+- ["C8Swix_DSP17kNearestNeighbors", "N"]
+- ["C8Swix_DSP17kNearestNeighbors", "T"]
+- !private ["C8Swix_DSP17kNearestNeighbors", "assert"]
+- ["C8Swix_DSP17kNearestNeighbors", "deinit"]
+- ["C8Swix_DSP17kNearestNeighbors", "init"]
+- ["C8Swix_DSP17kNearestNeighbors", "kNN"]
+- ["C8Swix_DSP17kNearestNeighbors", "knn"]
+- ["C8Swix_DSP17kNearestNeighbors", "matrix"]
+- ["C8Swix_DSP17kNearestNeighbors", "predict"]
+- ["C8Swix_DSP17kNearestNeighbors", "train"]
+- ["C8Swix_DSP17kNearestNeighbors", "vector"]
+- !private ["V8Swix_DSP6matrix", "shape"]
+- !private ["V8Swix_DSP6vector", "count"]
+- !private ["V8Swix_DSP6vector", "n"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "P2C411EventSource"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- !private "P8Swix_DSP21FloatingPointMathType"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C8Swix_DSP3SVM"
+- !private "P8Swix_DSP23ScalarFloatingPointType"
+- !private "P8Swix_DSP17ScalarIntegerType"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "CSo5cvSVM"
+- !private "CSo3kNN"
+- "C8Swix_DSP17kNearestNeighbors"
+- !private "V8Swix_DSP6matrix"
+- !private "V8Swix_DSP6vector"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/swix-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/opencv.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/assert.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/C4.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/module.modulemap"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.apinotesc"
+interface-hash: "6884e4cd2132a779e217d678faf8f5c7"

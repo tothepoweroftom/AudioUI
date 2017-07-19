@@ -1,0 +1,10 @@
+framework module Charts {
+  umbrella header "Charts.h"
+
+  export *
+  module * { export * }
+}
+
+module Charts.__Swift {
+    exclude header "Charts-Swift.h"
+}

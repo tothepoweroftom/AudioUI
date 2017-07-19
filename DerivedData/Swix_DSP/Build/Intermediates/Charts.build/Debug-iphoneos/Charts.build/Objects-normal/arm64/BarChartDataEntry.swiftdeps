@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BarChartDataEntry"
+provides-nominal:
+- "C6Charts17BarChartDataEntry"
+provides-member:
+- ["C6Charts17BarChartDataEntry", ""]
+provides-dynamic-lookup:
+- "calcPosNegSum"
+- "calcRanges"
+- "copyWithZone"
+- "isStacked"
+- "negativeSum"
+- "positiveSum"
+- "ranges"
+- "sumBelow"
+- "yValues"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..<"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BarChartDataEntry"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ChartDataEntry"
+- "Double"
+- "Int"
+- "NSZone"
+- "Range"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "BarChartDataEntry"]
+- !private ["Ps9AnyObject", "Range"]
+- !private ["Ps9AnyObject", "_negativeSum"]
+- !private ["Ps9AnyObject", "_positiveSum"]
+- !private ["Ps9AnyObject", "_ranges"]
+- !private ["Ps9AnyObject", "_yVals"]
+- !private ["Ps9AnyObject", "calcPosNegSum"]
+- !private ["Ps9AnyObject", "calcRanges"]
+- !private ["Ps9AnyObject", "calcSum"]
+- !private ["Ps9AnyObject", "copyWithZone"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "negativeSum"]
+- !private ["Ps9AnyObject", "y"]
+- !private ["Ps9AnyObject", "yValues"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- ["C6Charts17BarChartDataEntry", "AnyObject"]
+- !private ["C6Charts17BarChartDataEntry", "BarChartDataEntry"]
+- ["C6Charts17BarChartDataEntry", "Bool"]
+- ["C6Charts17BarChartDataEntry", "Double"]
+- ["C6Charts17BarChartDataEntry", "Int"]
+- ["C6Charts17BarChartDataEntry", "NSZone"]
+- ["C6Charts17BarChartDataEntry", "Range"]
+- ["C6Charts17BarChartDataEntry", "String"]
+- !private ["C6Charts17BarChartDataEntry", "_negativeSum"]
+- !private ["C6Charts17BarChartDataEntry", "_positiveSum"]
+- !private ["C6Charts17BarChartDataEntry", "_ranges"]
+- !private ["C6Charts17BarChartDataEntry", "_yVals"]
+- ["C6Charts17BarChartDataEntry", "calcPosNegSum"]
+- ["C6Charts17BarChartDataEntry", "calcRanges"]
+- !private ["C6Charts17BarChartDataEntry", "calcSum"]
+- ["C6Charts17BarChartDataEntry", "copyWithZone"]
+- ["C6Charts17BarChartDataEntry", "deinit"]
+- ["C6Charts17BarChartDataEntry", "init"]
+- ["C6Charts17BarChartDataEntry", "isStacked"]
+- ["C6Charts17BarChartDataEntry", "negativeSum"]
+- ["C6Charts17BarChartDataEntry", "positiveSum"]
+- ["C6Charts17BarChartDataEntry", "ranges"]
+- ["C6Charts17BarChartDataEntry", "sumBelow"]
+- !private ["C6Charts17BarChartDataEntry", "y"]
+- ["C6Charts17BarChartDataEntry", "yValues"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "removeAll"]
+- !private ["Ps23BidirectionalCollection", "reserveCapacity"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "BarChartDataEntry"]
+- !private ["Ps7CVarArg", "Range"]
+- !private ["Ps7CVarArg", "_negativeSum"]
+- !private ["Ps7CVarArg", "_positiveSum"]
+- !private ["Ps7CVarArg", "_ranges"]
+- !private ["Ps7CVarArg", "_yVals"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "calcPosNegSum"]
+- !private ["Ps7CVarArg", "calcRanges"]
+- !private ["Ps7CVarArg", "calcSum"]
+- !private ["Ps7CVarArg", "copyWithZone"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "negativeSum"]
+- !private ["Ps7CVarArg", "removeAll"]
+- !private ["Ps7CVarArg", "reserveCapacity"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "y"]
+- !private ["Ps7CVarArg", "yValues"]
+- ["Ps7CVarArg", ""]
+- ["C6Charts14ChartDataEntry", "AnyObject"]
+- !private ["C6Charts14ChartDataEntry", "BarChartDataEntry"]
+- ["C6Charts14ChartDataEntry", "Bool"]
+- ["C6Charts14ChartDataEntry", "Double"]
+- ["C6Charts14ChartDataEntry", "Int"]
+- ["C6Charts14ChartDataEntry", "NSZone"]
+- ["C6Charts14ChartDataEntry", "Range"]
+- ["C6Charts14ChartDataEntry", "String"]
+- ["C6Charts14ChartDataEntry", "_negativeSum"]
+- ["C6Charts14ChartDataEntry", "_positiveSum"]
+- ["C6Charts14ChartDataEntry", "_ranges"]
+- ["C6Charts14ChartDataEntry", "_yVals"]
+- ["C6Charts14ChartDataEntry", "calcPosNegSum"]
+- ["C6Charts14ChartDataEntry", "calcRanges"]
+- ["C6Charts14ChartDataEntry", "calcSum"]
+- ["C6Charts14ChartDataEntry", "copyWithZone"]
+- ["C6Charts14ChartDataEntry", "init"]
+- ["C6Charts14ChartDataEntry", "isStacked"]
+- ["C6Charts14ChartDataEntry", "negativeSum"]
+- ["C6Charts14ChartDataEntry", "positiveSum"]
+- ["C6Charts14ChartDataEntry", "ranges"]
+- ["C6Charts14ChartDataEntry", "sumBelow"]
+- !private ["C6Charts14ChartDataEntry", "y"]
+- ["C6Charts14ChartDataEntry", "yValues"]
+- ["C6Charts14ChartDataEntry", ""]
+- ["C6Charts18ChartDataEntryBase", "AnyObject"]
+- !private ["C6Charts18ChartDataEntryBase", "BarChartDataEntry"]
+- ["C6Charts18ChartDataEntryBase", "Bool"]
+- ["C6Charts18ChartDataEntryBase", "Double"]
+- ["C6Charts18ChartDataEntryBase", "Int"]
+- ["C6Charts18ChartDataEntryBase", "NSZone"]
+- ["C6Charts18ChartDataEntryBase", "Range"]
+- ["C6Charts18ChartDataEntryBase", "String"]
+- ["C6Charts18ChartDataEntryBase", "_negativeSum"]
+- ["C6Charts18ChartDataEntryBase", "_positiveSum"]
+- ["C6Charts18ChartDataEntryBase", "_ranges"]
+- ["C6Charts18ChartDataEntryBase", "_yVals"]
+- ["C6Charts18ChartDataEntryBase", "calcPosNegSum"]
+- ["C6Charts18ChartDataEntryBase", "calcRanges"]
+- ["C6Charts18ChartDataEntryBase", "calcSum"]
+- ["C6Charts18ChartDataEntryBase", "copyWithZone"]
+- ["C6Charts18ChartDataEntryBase", "isStacked"]
+- ["C6Charts18ChartDataEntryBase", "negativeSum"]
+- ["C6Charts18ChartDataEntryBase", "positiveSum"]
+- ["C6Charts18ChartDataEntryBase", "ranges"]
+- ["C6Charts18ChartDataEntryBase", "sumBelow"]
+- !private ["C6Charts18ChartDataEntryBase", "y"]
+- ["C6Charts18ChartDataEntryBase", "yValues"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "removeAll"]
+- !private ["Ps10Collection", "reserveCapacity"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "BarChartDataEntry"]
+- !private ["Ps28CustomDebugStringConvertible", "Range"]
+- !private ["Ps28CustomDebugStringConvertible", "_negativeSum"]
+- !private ["Ps28CustomDebugStringConvertible", "_positiveSum"]
+- !private ["Ps28CustomDebugStringConvertible", "_ranges"]
+- !private ["Ps28CustomDebugStringConvertible", "_yVals"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "calcPosNegSum"]
+- !private ["Ps28CustomDebugStringConvertible", "calcRanges"]
+- !private ["Ps28CustomDebugStringConvertible", "calcSum"]
+- !private ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "negativeSum"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "reserveCapacity"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps28CustomDebugStringConvertible", "yValues"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "removeAll"]
+- !private ["Ps17CustomReflectable", "reserveCapacity"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "BarChartDataEntry"]
+- !private ["Ps23CustomStringConvertible", "Range"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_negativeSum"]
+- !private ["Ps23CustomStringConvertible", "_positiveSum"]
+- !private ["Ps23CustomStringConvertible", "_ranges"]
+- !private ["Ps23CustomStringConvertible", "_yVals"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "calcPosNegSum"]
+- !private ["Ps23CustomStringConvertible", "calcRanges"]
+- !private ["Ps23CustomStringConvertible", "calcSum"]
+- !private ["Ps23CustomStringConvertible", "copyWithZone"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "negativeSum"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- !private ["Ps23CustomStringConvertible", "reserveCapacity"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "y"]
+- !private ["Ps23CustomStringConvertible", "yValues"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BarChartDataEntry"]
+- !private ["Ps9Equatable", "Range"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_negativeSum"]
+- !private ["Ps9Equatable", "_positiveSum"]
+- !private ["Ps9Equatable", "_ranges"]
+- !private ["Ps9Equatable", "_yVals"]
+- !private ["Ps9Equatable", "calcPosNegSum"]
+- !private ["Ps9Equatable", "calcRanges"]
+- !private ["Ps9Equatable", "calcSum"]
+- !private ["Ps9Equatable", "copyWithZone"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "negativeSum"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps9Equatable", "yValues"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeAll"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reserveCapacity"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "BarChartDataEntry"]
+- !private ["Ps8Hashable", "Range"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_negativeSum"]
+- !private ["Ps8Hashable", "_positiveSum"]
+- !private ["Ps8Hashable", "_ranges"]
+- !private ["Ps8Hashable", "_yVals"]
+- !private ["Ps8Hashable", "calcPosNegSum"]
+- !private ["Ps8Hashable", "calcRanges"]
+- !private ["Ps8Hashable", "calcSum"]
+- !private ["Ps8Hashable", "copyWithZone"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "negativeSum"]
+- !private ["Ps8Hashable", "y"]
+- !private ["Ps8Hashable", "yValues"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "removeAll"]
+- !private ["Ps17MutableCollection", "reserveCapacity"]
+- !private ["Ps17MutableCollection", "subscript"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "BarChartDataEntry"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "Range"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "_negativeSum"]
+- ["CSo8NSObject", "_positiveSum"]
+- ["CSo8NSObject", "_ranges"]
+- ["CSo8NSObject", "_yVals"]
+- ["CSo8NSObject", "calcPosNegSum"]
+- ["CSo8NSObject", "calcRanges"]
+- ["CSo8NSObject", "calcSum"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "isStacked"]
+- ["CSo8NSObject", "negativeSum"]
+- ["CSo8NSObject", "positiveSum"]
+- ["CSo8NSObject", "ranges"]
+- ["CSo8NSObject", "sumBelow"]
+- !private ["CSo8NSObject", "y"]
+- ["CSo8NSObject", "yValues"]
+- !private ["PSo16NSObjectProtocol", "BarChartDataEntry"]
+- !private ["PSo16NSObjectProtocol", "Range"]
+- !private ["PSo16NSObjectProtocol", "_negativeSum"]
+- !private ["PSo16NSObjectProtocol", "_positiveSum"]
+- !private ["PSo16NSObjectProtocol", "_ranges"]
+- !private ["PSo16NSObjectProtocol", "_yVals"]
+- !private ["PSo16NSObjectProtocol", "calcPosNegSum"]
+- !private ["PSo16NSObjectProtocol", "calcRanges"]
+- !private ["PSo16NSObjectProtocol", "calcSum"]
+- !private ["PSo16NSObjectProtocol", "copyWithZone"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "negativeSum"]
+- !private ["PSo16NSObjectProtocol", "y"]
+- !private ["PSo16NSObjectProtocol", "yValues"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "removeAll"]
+- !private ["Ps22RandomAccessCollection", "reserveCapacity"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["C6Charts5Range", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "removeAll"]
+- !private ["Ps26RangeReplaceableCollection", "reserveCapacity"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "removeAll"]
+- !private ["Ps8Sequence", "reserveCapacity"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "removeAll"]
+- !private ["Ps14_ArrayProtocol", "reserveCapacity"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "removeAll"]
+- !private ["Ps23_BidirectionalIndexable", "reserveCapacity"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps24_DestructorSafeContainer", "reserveCapacity"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "BarChartDataEntry"]
+- !private ["Ps9_Hashable", "Range"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_negativeSum"]
+- !private ["Ps9_Hashable", "_positiveSum"]
+- !private ["Ps9_Hashable", "_ranges"]
+- !private ["Ps9_Hashable", "_yVals"]
+- !private ["Ps9_Hashable", "calcPosNegSum"]
+- !private ["Ps9_Hashable", "calcRanges"]
+- !private ["Ps9_Hashable", "calcSum"]
+- !private ["Ps9_Hashable", "copyWithZone"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "negativeSum"]
+- !private ["Ps9_Hashable", "y"]
+- !private ["Ps9_Hashable", "yValues"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "removeAll"]
+- !private ["Ps10_Indexable", "reserveCapacity"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "removeAll"]
+- !private ["Ps14_IndexableBase", "reserveCapacity"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "removeAll"]
+- !private ["Ps17_MutableIndexable", "reserveCapacity"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "reserveCapacity"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "removeAll"]
+- !private ["Ps22_RandomAccessIndexable", "reserveCapacity"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "removeAll"]
+- !private ["Ps26_RangeReplaceableIndexable", "reserveCapacity"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "C6Charts17BarChartDataEntry"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- "Ps7CVarArg"
+- "C6Charts14ChartDataEntry"
+- "C6Charts18ChartDataEntryBase"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "C6Charts5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8cec3935243347be15b1e902b52b79cd"

@@ -1,0 +1,468 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C2C45Image", ""]
+- ["C2C45Image", "crop"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- !private "CGRect"
+- !private "CIFilter"
+- !private "CIVector"
+- "Image"
+- "Rect"
+- !private "StringLiteralType"
+- !private "UIImage"
+- !private "print"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "CIFilter"]
+- !private ["Ps9AnyObject", "CIVector"]
+- !private ["Ps9AnyObject", "Rect"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "ciImage"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "height"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "output"]
+- !private ["Ps9AnyObject", "outputImage"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "setDefaults"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "intersection"]
+- !private ["VSC6CGRect", "isNull"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["CSo8CIFilter", "init"]
+- !private ["CSo8CIFilter", "outputImage"]
+- !private ["CSo8CIFilter", "setDefaults"]
+- !private ["CSo8CIFilter", "setValue"]
+- !private ["CSo8CIVector", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "CIFilter"]
+- !private ["Ps7CVarArg", "CIVector"]
+- !private ["Ps7CVarArg", "Rect"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "ciImage"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "height"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "imageView"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "output"]
+- !private ["Ps7CVarArg", "outputImage"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "setDefaults"]
+- !private ["Ps7CVarArg", "setValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "CIFilter"]
+- !private ["Ps28CustomDebugStringConvertible", "CIVector"]
+- !private ["Ps28CustomDebugStringConvertible", "Rect"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "ciImage"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "imageView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "intersection"]
+- !private ["Ps28CustomDebugStringConvertible", "isNull"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "output"]
+- !private ["Ps28CustomDebugStringConvertible", "outputImage"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "setDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "intersection"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isNull"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "origin"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "intersection"]
+- !private ["Ps17CustomReflectable", "isNull"]
+- !private ["Ps17CustomReflectable", "origin"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "CIFilter"]
+- !private ["Ps23CustomStringConvertible", "CIVector"]
+- !private ["Ps23CustomStringConvertible", "Rect"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "ciImage"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "height"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "imageView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "output"]
+- !private ["Ps23CustomStringConvertible", "outputImage"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "setDefaults"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CIFilter"]
+- !private ["Ps9Equatable", "CIVector"]
+- !private ["Ps9Equatable", "Rect"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "ciImage"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "imageView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intersection"]
+- !private ["Ps9Equatable", "isNull"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "output"]
+- !private ["Ps9Equatable", "outputImage"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "setDefaults"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["P2C411EventSource", "CGFloat"]
+- !private ["P2C411EventSource", "CGRect"]
+- !private ["P2C411EventSource", "CIFilter"]
+- !private ["P2C411EventSource", "CIVector"]
+- !private ["P2C411EventSource", "Rect"]
+- !private ["P2C411EventSource", "UIImage"]
+- !private ["P2C411EventSource", "bounds"]
+- !private ["P2C411EventSource", "ciImage"]
+- !private ["P2C411EventSource", "frame"]
+- !private ["P2C411EventSource", "height"]
+- !private ["P2C411EventSource", "image"]
+- !private ["P2C411EventSource", "imageView"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "output"]
+- !private ["P2C411EventSource", "outputImage"]
+- !private ["P2C411EventSource", "print"]
+- !private ["P2C411EventSource", "setDefaults"]
+- !private ["P2C411EventSource", "setValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "CIFilter"]
+- !private ["Ps8Hashable", "CIVector"]
+- !private ["Ps8Hashable", "Rect"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "ciImage"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "height"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "imageView"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "output"]
+- !private ["Ps8Hashable", "outputImage"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "setDefaults"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["C2C45Image", "CGFloat"]
+- !private ["C2C45Image", "CGRect"]
+- !private ["C2C45Image", "CIFilter"]
+- !private ["C2C45Image", "CIVector"]
+- ["C2C45Image", "Rect"]
+- !private ["C2C45Image", "UIImage"]
+- !private ["C2C45Image", "bounds"]
+- !private ["C2C45Image", "ciImage"]
+- ["C2C45Image", "crop"]
+- !private ["C2C45Image", "frame"]
+- !private ["C2C45Image", "height"]
+- !private ["C2C45Image", "imageView"]
+- !private ["C2C45Image", "output"]
+- !private ["C2C45Image", "print"]
+- !private ["CC2C45Image9ImageView", "image"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "outputImage"]
+- !private ["PSo8NSCoding", "setDefaults"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "CGRect"]
+- !private ["PSo9NSCopying", "CIFilter"]
+- !private ["PSo9NSCopying", "CIVector"]
+- !private ["PSo9NSCopying", "Rect"]
+- !private ["PSo9NSCopying", "UIImage"]
+- !private ["PSo9NSCopying", "bounds"]
+- !private ["PSo9NSCopying", "ciImage"]
+- !private ["PSo9NSCopying", "frame"]
+- !private ["PSo9NSCopying", "height"]
+- !private ["PSo9NSCopying", "imageView"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "output"]
+- !private ["PSo9NSCopying", "outputImage"]
+- !private ["PSo9NSCopying", "print"]
+- !private ["PSo9NSCopying", "setDefaults"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CIFilter"]
+- !private ["CSo8NSObject", "CIVector"]
+- ["CSo8NSObject", "Rect"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "ciImage"]
+- ["CSo8NSObject", "crop"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "height"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "imageView"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "output"]
+- !private ["CSo8NSObject", "outputImage"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "setDefaults"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "CIFilter"]
+- !private ["PSo16NSObjectProtocol", "CIVector"]
+- !private ["PSo16NSObjectProtocol", "Rect"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "ciImage"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "height"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imageView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "output"]
+- !private ["PSo16NSObjectProtocol", "outputImage"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "setDefaults"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "outputImage"]
+- !private ["PSo14NSSecureCoding", "setDefaults"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["CSo8NSString", "init"]
+- !private ["V2C44Rect", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["CSo6UIView", "image"]
+- !private ["C2C44View", "CGFloat"]
+- !private ["C2C44View", "CGRect"]
+- !private ["C2C44View", "CIFilter"]
+- !private ["C2C44View", "CIVector"]
+- ["C2C44View", "Rect"]
+- !private ["C2C44View", "UIImage"]
+- !private ["C2C44View", "bounds"]
+- !private ["C2C44View", "ciImage"]
+- ["C2C44View", "crop"]
+- !private ["C2C44View", "frame"]
+- !private ["C2C44View", "height"]
+- !private ["C2C44View", "imageView"]
+- !private ["C2C44View", "output"]
+- !private ["C2C44View", "print"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "CIFilter"]
+- !private ["Ps9_Hashable", "CIVector"]
+- !private ["Ps9_Hashable", "Rect"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "ciImage"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "height"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "imageView"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "output"]
+- !private ["Ps9_Hashable", "outputImage"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "setDefaults"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "intersection"]
+- !private ["Ps21_ObjectiveCBridgeable", "isNull"]
+- !private ["Ps21_ObjectiveCBridgeable", "origin"]
+- !private ["Ps21_ObjectiveCBridgeable", "size"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- !private "CSo8CIFilter"
+- !private "CSo8CIVector"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- "C2C45Image"
+- !private "CC2C45Image9ImageView"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "V2C44Rect"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "C2C44View"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "f9acad20860d4c6c68248828bf927314"

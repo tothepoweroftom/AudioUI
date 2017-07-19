@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphoneos/Charts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Charts-Swift.h",
+          'external-contents': "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphoneos/Charts.framework/Headers/Charts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Charts.h",
+          'external-contents': "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphoneos/Charts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

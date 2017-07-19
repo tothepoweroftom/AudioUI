@@ -1,0 +1,342 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Star"
+provides-nominal:
+- "C2C44Star"
+provides-member:
+- ["C2C44Star", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "C4Blue"
+- "Double"
+- "Int"
+- !private "M_PI"
+- !private "M_PI_2"
+- "Point"
+- "Polygon"
+- "Star"
+- !private "cos"
+- !private "sin"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "C4Blue"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "M_PI_2"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "fillColor"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sin"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "C4Blue"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "M_PI"]
+- !private ["Ps7CVarArg", "M_PI_2"]
+- !private ["Ps7CVarArg", "Point"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "close"]
+- !private ["Ps7CVarArg", "cos"]
+- !private ["Ps7CVarArg", "fillColor"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "sin"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "C4Blue"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI_2"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "close"]
+- !private ["Ps28CustomDebugStringConvertible", "cos"]
+- !private ["Ps28CustomDebugStringConvertible", "fillColor"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "C4Blue"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "M_PI_2"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "cos"]
+- !private ["Ps23CustomStringConvertible", "fillColor"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "C4Blue"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "M_PI_2"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "cos"]
+- !private ["Ps9Equatable", "fillColor"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sin"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "C4Blue"]
+- !private ["P2C411EventSource", "Double"]
+- !private ["P2C411EventSource", "M_PI"]
+- !private ["P2C411EventSource", "M_PI_2"]
+- !private ["P2C411EventSource", "Point"]
+- !private ["P2C411EventSource", "center"]
+- !private ["P2C411EventSource", "close"]
+- !private ["P2C411EventSource", "cos"]
+- !private ["P2C411EventSource", "fillColor"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "sin"]
+- ["P2C411EventSource", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "C4Blue"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "M_PI_2"]
+- !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "cos"]
+- !private ["Ps8Hashable", "fillColor"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sin"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["CSo8NSObject", "C4Blue"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "M_PI"]
+- !private ["CSo8NSObject", "M_PI_2"]
+- ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "close"]
+- !private ["CSo8NSObject", "cos"]
+- !private ["CSo8NSObject", "fillColor"]
+- !private ["CSo8NSObject", "sin"]
+- !private ["PSo16NSObjectProtocol", "C4Blue"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "M_PI_2"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "close"]
+- !private ["PSo16NSObjectProtocol", "cos"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["V2C45Point", "init"]
+- !private ["C2C47Polygon", "C4Blue"]
+- ["C2C47Polygon", "Double"]
+- ["C2C47Polygon", "Int"]
+- !private ["C2C47Polygon", "M_PI"]
+- !private ["C2C47Polygon", "M_PI_2"]
+- ["C2C47Polygon", "Point"]
+- !private ["C2C47Polygon", "center"]
+- !private ["C2C47Polygon", "close"]
+- !private ["C2C47Polygon", "cos"]
+- !private ["C2C47Polygon", "fillColor"]
+- ["C2C47Polygon", "init"]
+- !private ["C2C47Polygon", "sin"]
+- ["C2C47Polygon", ""]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "init"]
+- !private ["C2C45Shape", "C4Blue"]
+- ["C2C45Shape", "Double"]
+- ["C2C45Shape", "Int"]
+- !private ["C2C45Shape", "M_PI"]
+- !private ["C2C45Shape", "M_PI_2"]
+- ["C2C45Shape", "Point"]
+- !private ["C2C45Shape", "center"]
+- !private ["C2C45Shape", "close"]
+- !private ["C2C45Shape", "cos"]
+- !private ["C2C45Shape", "fillColor"]
+- !private ["C2C45Shape", "sin"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["C2C44Star", "C4Blue"]
+- ["C2C44Star", "Double"]
+- ["C2C44Star", "Int"]
+- !private ["C2C44Star", "M_PI"]
+- !private ["C2C44Star", "M_PI_2"]
+- ["C2C44Star", "Point"]
+- !private ["C2C44Star", "center"]
+- !private ["C2C44Star", "close"]
+- !private ["C2C44Star", "cos"]
+- ["C2C44Star", "deinit"]
+- !private ["C2C44Star", "fillColor"]
+- ["C2C44Star", "init"]
+- !private ["C2C44Star", "sin"]
+- !private ["Ps10Strideable", "init"]
+- !private ["C2C44View", "C4Blue"]
+- ["C2C44View", "Double"]
+- ["C2C44View", "Int"]
+- !private ["C2C44View", "M_PI"]
+- !private ["C2C44View", "M_PI_2"]
+- ["C2C44View", "Point"]
+- !private ["C2C44View", "center"]
+- !private ["C2C44View", "close"]
+- !private ["C2C44View", "cos"]
+- !private ["C2C44View", "fillColor"]
+- !private ["C2C44View", "sin"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "C4Blue"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "M_PI"]
+- !private ["Ps9_Hashable", "M_PI_2"]
+- !private ["Ps9_Hashable", "Point"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "close"]
+- !private ["Ps9_Hashable", "cos"]
+- !private ["Ps9_Hashable", "fillColor"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "sin"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "V2C45Point"
+- "C2C47Polygon"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "C2C45Shape"
+- !private "Ps12SignedNumber"
+- "C2C44Star"
+- !private "Ps10Strideable"
+- "C2C44View"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "63af716d156ee6ed4fbd0e966bc62162"

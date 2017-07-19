@@ -1,0 +1,422 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RadarChartDataSet"
+provides-nominal:
+- "C6Charts17RadarChartDataSet"
+provides-member:
+- ["C6Charts17RadarChartDataSet", ""]
+provides-dynamic-lookup:
+- "drawHighlightCircleEnabled"
+- "highlightCircleFillColor"
+- "highlightCircleInnerRadius"
+- "highlightCircleOuterRadius"
+- "highlightCircleStrokeAlpha"
+- "highlightCircleStrokeColor"
+- "highlightCircleStrokeWidth"
+- "isDrawHighlightCircleEnabled"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "ChartDataEntry"
+- "IRadarChartDataSet"
+- "LineRadarChartDataSet"
+- "NSUIColor"
+- !private "NSUIFont"
+- "RadarChartDataSet"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "NSUIColor"]
+- !private ["Ps9AnyObject", "NSUIFont"]
+- ["Ps9AnyObject", "drawHighlightCircleEnabled"]
+- ["Ps9AnyObject", "highlightCircleFillColor"]
+- ["Ps9AnyObject", "highlightCircleInnerRadius"]
+- ["Ps9AnyObject", "highlightCircleOuterRadius"]
+- ["Ps9AnyObject", "highlightCircleStrokeAlpha"]
+- ["Ps9AnyObject", "highlightCircleStrokeColor"]
+- ["Ps9AnyObject", "highlightCircleStrokeWidth"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialize"]
+- ["Ps9AnyObject", "isDrawHighlightCircleEnabled"]
+- !private ["Ps9AnyObject", "systemFont"]
+- !private ["Ps9AnyObject", "valueFont"]
+- ["Ps9AnyObject", "white"]
+- ["Ps9AnyObject", ""]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "Bool"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ChartDataEntry"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "NSUIColor"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "NSUIFont"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "String"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleFillColor"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "init"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "initialize"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "valueFont"]
+- ["Ps7CVarArg", "NSUIColor"]
+- !private ["Ps7CVarArg", "NSUIFont"]
+- ["Ps7CVarArg", "drawHighlightCircleEnabled"]
+- ["Ps7CVarArg", "highlightCircleFillColor"]
+- ["Ps7CVarArg", "highlightCircleInnerRadius"]
+- ["Ps7CVarArg", "highlightCircleOuterRadius"]
+- ["Ps7CVarArg", "highlightCircleStrokeAlpha"]
+- ["Ps7CVarArg", "highlightCircleStrokeColor"]
+- ["Ps7CVarArg", "highlightCircleStrokeWidth"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- ["Ps7CVarArg", "isDrawHighlightCircleEnabled"]
+- !private ["Ps7CVarArg", "systemFont"]
+- !private ["Ps7CVarArg", "valueFont"]
+- ["Ps7CVarArg", "white"]
+- ["Ps7CVarArg", ""]
+- ["C6Charts16ChartBaseDataSet", "Bool"]
+- ["C6Charts16ChartBaseDataSet", "CGFloat"]
+- ["C6Charts16ChartBaseDataSet", "ChartDataEntry"]
+- ["C6Charts16ChartBaseDataSet", "NSUIColor"]
+- !private ["C6Charts16ChartBaseDataSet", "NSUIFont"]
+- ["C6Charts16ChartBaseDataSet", "String"]
+- ["C6Charts16ChartBaseDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleFillColor"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts16ChartBaseDataSet", "init"]
+- ["C6Charts16ChartBaseDataSet", "initialize"]
+- ["C6Charts16ChartBaseDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts16ChartBaseDataSet", "valueFont"]
+- ["C6Charts12ChartDataSet", "Bool"]
+- ["C6Charts12ChartDataSet", "CGFloat"]
+- ["C6Charts12ChartDataSet", "ChartDataEntry"]
+- ["C6Charts12ChartDataSet", "NSUIColor"]
+- !private ["C6Charts12ChartDataSet", "NSUIFont"]
+- ["C6Charts12ChartDataSet", "String"]
+- ["C6Charts12ChartDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts12ChartDataSet", "highlightCircleFillColor"]
+- ["C6Charts12ChartDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts12ChartDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts12ChartDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts12ChartDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts12ChartDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts12ChartDataSet", "init"]
+- ["C6Charts12ChartDataSet", "initialize"]
+- ["C6Charts12ChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts12ChartDataSet", "valueFont"]
+- ["Ps28CustomDebugStringConvertible", "NSUIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUIFont"]
+- ["Ps28CustomDebugStringConvertible", "drawHighlightCircleEnabled"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleFillColor"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleInnerRadius"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleOuterRadius"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleStrokeAlpha"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleStrokeColor"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleStrokeWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- ["Ps28CustomDebugStringConvertible", "isDrawHighlightCircleEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "valueFont"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "NSUIColor"]
+- !private ["Ps23CustomStringConvertible", "NSUIFont"]
+- ["Ps23CustomStringConvertible", "drawHighlightCircleEnabled"]
+- ["Ps23CustomStringConvertible", "highlightCircleFillColor"]
+- ["Ps23CustomStringConvertible", "highlightCircleInnerRadius"]
+- ["Ps23CustomStringConvertible", "highlightCircleOuterRadius"]
+- ["Ps23CustomStringConvertible", "highlightCircleStrokeAlpha"]
+- ["Ps23CustomStringConvertible", "highlightCircleStrokeColor"]
+- ["Ps23CustomStringConvertible", "highlightCircleStrokeWidth"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialize"]
+- ["Ps23CustomStringConvertible", "isDrawHighlightCircleEnabled"]
+- !private ["Ps23CustomStringConvertible", "systemFont"]
+- !private ["Ps23CustomStringConvertible", "valueFont"]
+- ["Ps23CustomStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "NSUIColor"]
+- !private ["Ps9Equatable", "NSUIFont"]
+- ["Ps9Equatable", "drawHighlightCircleEnabled"]
+- ["Ps9Equatable", "highlightCircleFillColor"]
+- ["Ps9Equatable", "highlightCircleInnerRadius"]
+- ["Ps9Equatable", "highlightCircleOuterRadius"]
+- ["Ps9Equatable", "highlightCircleStrokeAlpha"]
+- ["Ps9Equatable", "highlightCircleStrokeColor"]
+- ["Ps9Equatable", "highlightCircleStrokeWidth"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- ["Ps9Equatable", "isDrawHighlightCircleEnabled"]
+- !private ["Ps9Equatable", "systemFont"]
+- !private ["Ps9Equatable", "valueFont"]
+- ["Ps9Equatable", "white"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "NSUIColor"]
+- !private ["Ps8Hashable", "NSUIFont"]
+- ["Ps8Hashable", "drawHighlightCircleEnabled"]
+- ["Ps8Hashable", "highlightCircleFillColor"]
+- ["Ps8Hashable", "highlightCircleInnerRadius"]
+- ["Ps8Hashable", "highlightCircleOuterRadius"]
+- ["Ps8Hashable", "highlightCircleStrokeAlpha"]
+- ["Ps8Hashable", "highlightCircleStrokeColor"]
+- ["Ps8Hashable", "highlightCircleStrokeWidth"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- ["Ps8Hashable", "isDrawHighlightCircleEnabled"]
+- !private ["Ps8Hashable", "systemFont"]
+- !private ["Ps8Hashable", "valueFont"]
+- ["Ps8Hashable", "white"]
+- ["Ps8Hashable", ""]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "NSUIColor"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "NSUIFont"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "drawHighlightCircleEnabled"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleFillColor"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleInnerRadius"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleOuterRadius"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeAlpha"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeColor"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleStrokeWidth"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "init"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "initialize"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "valueFont"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- ["P6Charts13IChartDataSet", "NSUIColor"]
+- !private ["P6Charts13IChartDataSet", "NSUIFont"]
+- ["P6Charts13IChartDataSet", "drawHighlightCircleEnabled"]
+- ["P6Charts13IChartDataSet", "highlightCircleFillColor"]
+- ["P6Charts13IChartDataSet", "highlightCircleInnerRadius"]
+- ["P6Charts13IChartDataSet", "highlightCircleOuterRadius"]
+- ["P6Charts13IChartDataSet", "highlightCircleStrokeAlpha"]
+- ["P6Charts13IChartDataSet", "highlightCircleStrokeColor"]
+- ["P6Charts13IChartDataSet", "highlightCircleStrokeWidth"]
+- !private ["P6Charts13IChartDataSet", "init"]
+- !private ["P6Charts13IChartDataSet", "initialize"]
+- ["P6Charts13IChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["P6Charts13IChartDataSet", "valueFont"]
+- ["P6Charts13IChartDataSet", ""]
+- ["P6Charts22ILineRadarChartDataSet", "NSUIColor"]
+- !private ["P6Charts22ILineRadarChartDataSet", "NSUIFont"]
+- ["P6Charts22ILineRadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleFillColor"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleInnerRadius"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleOuterRadius"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleStrokeColor"]
+- ["P6Charts22ILineRadarChartDataSet", "highlightCircleStrokeWidth"]
+- !private ["P6Charts22ILineRadarChartDataSet", "init"]
+- !private ["P6Charts22ILineRadarChartDataSet", "initialize"]
+- ["P6Charts22ILineRadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["P6Charts22ILineRadarChartDataSet", "valueFont"]
+- ["P6Charts22ILineRadarChartDataSet", ""]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "NSUIColor"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "NSUIFont"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleFillColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleInnerRadius"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleOuterRadius"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleStrokeColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "highlightCircleStrokeWidth"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "init"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "initialize"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "valueFont"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+- ["P6Charts18IRadarChartDataSet", "NSUIColor"]
+- !private ["P6Charts18IRadarChartDataSet", "NSUIFont"]
+- ["P6Charts18IRadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleFillColor"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleInnerRadius"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleOuterRadius"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleStrokeColor"]
+- ["P6Charts18IRadarChartDataSet", "highlightCircleStrokeWidth"]
+- !private ["P6Charts18IRadarChartDataSet", "initialize"]
+- ["P6Charts18IRadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["P6Charts18IRadarChartDataSet", "valueFont"]
+- ["P6Charts18IRadarChartDataSet", ""]
+- ["C6Charts21LineRadarChartDataSet", "Bool"]
+- ["C6Charts21LineRadarChartDataSet", "CGFloat"]
+- ["C6Charts21LineRadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts21LineRadarChartDataSet", "NSUIColor"]
+- !private ["C6Charts21LineRadarChartDataSet", "NSUIFont"]
+- ["C6Charts21LineRadarChartDataSet", "String"]
+- ["C6Charts21LineRadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleFillColor"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts21LineRadarChartDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts21LineRadarChartDataSet", "init"]
+- ["C6Charts21LineRadarChartDataSet", "initialize"]
+- ["C6Charts21LineRadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts21LineRadarChartDataSet", "valueFont"]
+- ["C6Charts21LineRadarChartDataSet", ""]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "Bool"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "CGFloat"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "NSUIColor"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "NSUIFont"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "String"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleFillColor"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "init"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "initialize"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "valueFont"]
+- ["PSo8NSCoding", "white"]
+- !private ["PSo9NSCopying", "systemFont"]
+- ["PSo9NSCopying", "white"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "NSUIColor"]
+- !private ["CSo8NSObject", "NSUIFont"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "drawHighlightCircleEnabled"]
+- ["CSo8NSObject", "highlightCircleFillColor"]
+- ["CSo8NSObject", "highlightCircleInnerRadius"]
+- ["CSo8NSObject", "highlightCircleOuterRadius"]
+- ["CSo8NSObject", "highlightCircleStrokeAlpha"]
+- ["CSo8NSObject", "highlightCircleStrokeColor"]
+- ["CSo8NSObject", "highlightCircleStrokeWidth"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- ["CSo8NSObject", "isDrawHighlightCircleEnabled"]
+- !private ["CSo8NSObject", "systemFont"]
+- !private ["CSo8NSObject", "valueFont"]
+- ["CSo8NSObject", "white"]
+- ["PSo16NSObjectProtocol", "NSUIColor"]
+- !private ["PSo16NSObjectProtocol", "NSUIFont"]
+- ["PSo16NSObjectProtocol", "drawHighlightCircleEnabled"]
+- ["PSo16NSObjectProtocol", "highlightCircleFillColor"]
+- ["PSo16NSObjectProtocol", "highlightCircleInnerRadius"]
+- ["PSo16NSObjectProtocol", "highlightCircleOuterRadius"]
+- ["PSo16NSObjectProtocol", "highlightCircleStrokeAlpha"]
+- ["PSo16NSObjectProtocol", "highlightCircleStrokeColor"]
+- ["PSo16NSObjectProtocol", "highlightCircleStrokeWidth"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialize"]
+- ["PSo16NSObjectProtocol", "isDrawHighlightCircleEnabled"]
+- !private ["PSo16NSObjectProtocol", "systemFont"]
+- !private ["PSo16NSObjectProtocol", "valueFont"]
+- ["PSo16NSObjectProtocol", "white"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "white"]
+- ["C6Charts17RadarChartDataSet", "Bool"]
+- ["C6Charts17RadarChartDataSet", "CGFloat"]
+- ["C6Charts17RadarChartDataSet", "ChartDataEntry"]
+- ["C6Charts17RadarChartDataSet", "NSUIColor"]
+- !private ["C6Charts17RadarChartDataSet", "NSUIFont"]
+- ["C6Charts17RadarChartDataSet", "String"]
+- ["C6Charts17RadarChartDataSet", "deinit"]
+- ["C6Charts17RadarChartDataSet", "drawHighlightCircleEnabled"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleFillColor"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleInnerRadius"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleOuterRadius"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleStrokeAlpha"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleStrokeColor"]
+- ["C6Charts17RadarChartDataSet", "highlightCircleStrokeWidth"]
+- ["C6Charts17RadarChartDataSet", "init"]
+- !private ["C6Charts17RadarChartDataSet", "initialize"]
+- ["C6Charts17RadarChartDataSet", "isDrawHighlightCircleEnabled"]
+- !private ["C6Charts17RadarChartDataSet", "valueFont"]
+- !private ["Vs12StaticString", "init"]
+- ["CSo7UIColor", "white"]
+- !private ["CSo6UIFont", "systemFont"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps9_Hashable", "NSUIColor"]
+- !private ["Ps9_Hashable", "NSUIFont"]
+- ["Ps9_Hashable", "drawHighlightCircleEnabled"]
+- ["Ps9_Hashable", "highlightCircleFillColor"]
+- ["Ps9_Hashable", "highlightCircleInnerRadius"]
+- ["Ps9_Hashable", "highlightCircleOuterRadius"]
+- ["Ps9_Hashable", "highlightCircleStrokeAlpha"]
+- ["Ps9_Hashable", "highlightCircleStrokeColor"]
+- ["Ps9_Hashable", "highlightCircleStrokeWidth"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- ["Ps9_Hashable", "isDrawHighlightCircleEnabled"]
+- !private ["Ps9_Hashable", "systemFont"]
+- !private ["Ps9_Hashable", "valueFont"]
+- ["Ps9_Hashable", "white"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- "Ps7CVarArg"
+- "C6Charts16ChartBaseDataSet"
+- "C6Charts12ChartDataSet"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts22ILineRadarChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "P6Charts18IRadarChartDataSet"
+- "C6Charts21LineRadarChartDataSet"
+- "C6Charts34LineScatterCandleRadarChartDataSet"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "C6Charts17RadarChartDataSet"
+- !private "Vs12StaticString"
+- "CSo7UIColor"
+- !private "CSo6UIFont"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "583974c106d53ddd9726d1c82476476c"

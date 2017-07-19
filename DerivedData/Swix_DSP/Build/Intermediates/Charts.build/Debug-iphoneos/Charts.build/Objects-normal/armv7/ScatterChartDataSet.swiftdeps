@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScatterChartDataSet"
+provides-nominal:
+- "C6Charts19ScatterChartDataSet"
+- "OC6Charts19ScatterChartDataSet5Shape"
+provides-member:
+- ["C6Charts19ScatterChartDataSet", ""]
+- ["OC6Charts19ScatterChartDataSet5Shape", ""]
+provides-dynamic-lookup:
+- "copyWithZone"
+- "renderer"
+- "scatterShapeHoleColor"
+- "scatterShapeHoleRadius"
+- "scatterShapeSize"
+- "setScatterShape"
+- "shapeRenderer"
+depends-top-level:
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "ChevronDownShapeRenderer"
+- !private "ChevronUpShapeRenderer"
+- !private "CircleShapeRenderer"
+- !private "CrossShapeRenderer"
+- "IScatterChartDataSet"
+- "IShapeRenderer"
+- "Int"
+- "LineScatterCandleRadarChartDataSet"
+- "NSUIColor"
+- "NSZone"
+- "ScatterChartDataSet"
+- "SquareShapeRenderer"
+- !private "TriangleShapeRenderer"
+- !private "XShapeRenderer"
+- !private "~="
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "ChevronDownShapeRenderer"]
+- !private ["Ps9AnyObject", "ChevronUpShapeRenderer"]
+- !private ["Ps9AnyObject", "CircleShapeRenderer"]
+- !private ["Ps9AnyObject", "CrossShapeRenderer"]
+- !private ["Ps9AnyObject", "ScatterChartDataSet"]
+- ["Ps9AnyObject", "SquareShapeRenderer"]
+- !private ["Ps9AnyObject", "TriangleShapeRenderer"]
+- !private ["Ps9AnyObject", "XShapeRenderer"]
+- !private ["Ps9AnyObject", "copyWithZone"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "renderer"]
+- ["Ps9AnyObject", "scatterShapeHoleColor"]
+- ["Ps9AnyObject", "scatterShapeHoleRadius"]
+- ["Ps9AnyObject", "scatterShapeSize"]
+- ["Ps9AnyObject", "shapeRenderer"]
+- ["Ps9AnyObject", ""]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "AnyObject"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "CircleShapeRenderer"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "CrossShapeRenderer"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "IShapeRenderer"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "Int"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "NSUIColor"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "NSZone"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ScatterChartDataSet"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "Shape"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "SquareShapeRenderer"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "TriangleShapeRenderer"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "XShapeRenderer"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "copyWithZone"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "init"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "renderer"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "scatterShapeHoleColor"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "scatterShapeHoleRadius"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "scatterShapeSize"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "setScatterShape"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "shapeRenderer"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "ChevronDownShapeRenderer"]
+- !private ["Ps7CVarArg", "ChevronUpShapeRenderer"]
+- !private ["Ps7CVarArg", "CircleShapeRenderer"]
+- !private ["Ps7CVarArg", "CrossShapeRenderer"]
+- !private ["Ps7CVarArg", "ScatterChartDataSet"]
+- ["Ps7CVarArg", "SquareShapeRenderer"]
+- !private ["Ps7CVarArg", "TriangleShapeRenderer"]
+- !private ["Ps7CVarArg", "XShapeRenderer"]
+- !private ["Ps7CVarArg", "copyWithZone"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "renderer"]
+- ["Ps7CVarArg", "scatterShapeHoleColor"]
+- ["Ps7CVarArg", "scatterShapeHoleRadius"]
+- ["Ps7CVarArg", "scatterShapeSize"]
+- ["Ps7CVarArg", "shapeRenderer"]
+- ["Ps7CVarArg", ""]
+- ["C6Charts16ChartBaseDataSet", "AnyObject"]
+- ["C6Charts16ChartBaseDataSet", "CGFloat"]
+- !private ["C6Charts16ChartBaseDataSet", "ChevronDownShapeRenderer"]
+- !private ["C6Charts16ChartBaseDataSet", "ChevronUpShapeRenderer"]
+- !private ["C6Charts16ChartBaseDataSet", "CircleShapeRenderer"]
+- !private ["C6Charts16ChartBaseDataSet", "CrossShapeRenderer"]
+- ["C6Charts16ChartBaseDataSet", "IShapeRenderer"]
+- ["C6Charts16ChartBaseDataSet", "Int"]
+- ["C6Charts16ChartBaseDataSet", "NSUIColor"]
+- ["C6Charts16ChartBaseDataSet", "NSZone"]
+- !private ["C6Charts16ChartBaseDataSet", "ScatterChartDataSet"]
+- ["C6Charts16ChartBaseDataSet", "Shape"]
+- ["C6Charts16ChartBaseDataSet", "SquareShapeRenderer"]
+- !private ["C6Charts16ChartBaseDataSet", "TriangleShapeRenderer"]
+- !private ["C6Charts16ChartBaseDataSet", "XShapeRenderer"]
+- ["C6Charts16ChartBaseDataSet", "copyWithZone"]
+- ["C6Charts16ChartBaseDataSet", "init"]
+- ["C6Charts16ChartBaseDataSet", "renderer"]
+- ["C6Charts16ChartBaseDataSet", "scatterShapeHoleColor"]
+- ["C6Charts16ChartBaseDataSet", "scatterShapeHoleRadius"]
+- ["C6Charts16ChartBaseDataSet", "scatterShapeSize"]
+- ["C6Charts16ChartBaseDataSet", "setScatterShape"]
+- ["C6Charts16ChartBaseDataSet", "shapeRenderer"]
+- ["C6Charts12ChartDataSet", "AnyObject"]
+- ["C6Charts12ChartDataSet", "CGFloat"]
+- !private ["C6Charts12ChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["C6Charts12ChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["C6Charts12ChartDataSet", "CircleShapeRenderer"]
+- !private ["C6Charts12ChartDataSet", "CrossShapeRenderer"]
+- ["C6Charts12ChartDataSet", "IShapeRenderer"]
+- ["C6Charts12ChartDataSet", "Int"]
+- ["C6Charts12ChartDataSet", "NSUIColor"]
+- ["C6Charts12ChartDataSet", "NSZone"]
+- !private ["C6Charts12ChartDataSet", "ScatterChartDataSet"]
+- ["C6Charts12ChartDataSet", "Shape"]
+- ["C6Charts12ChartDataSet", "SquareShapeRenderer"]
+- !private ["C6Charts12ChartDataSet", "TriangleShapeRenderer"]
+- !private ["C6Charts12ChartDataSet", "XShapeRenderer"]
+- ["C6Charts12ChartDataSet", "copyWithZone"]
+- ["C6Charts12ChartDataSet", "init"]
+- ["C6Charts12ChartDataSet", "renderer"]
+- ["C6Charts12ChartDataSet", "scatterShapeHoleColor"]
+- ["C6Charts12ChartDataSet", "scatterShapeHoleRadius"]
+- ["C6Charts12ChartDataSet", "scatterShapeSize"]
+- ["C6Charts12ChartDataSet", "setScatterShape"]
+- ["C6Charts12ChartDataSet", "shapeRenderer"]
+- !private ["C6Charts24ChevronDownShapeRenderer", "deinit"]
+- !private ["C6Charts24ChevronDownShapeRenderer", "init"]
+- !private ["C6Charts22ChevronUpShapeRenderer", "deinit"]
+- !private ["C6Charts22ChevronUpShapeRenderer", "init"]
+- !private ["C6Charts19CircleShapeRenderer", "deinit"]
+- !private ["C6Charts19CircleShapeRenderer", "init"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["C6Charts18CrossShapeRenderer", "deinit"]
+- !private ["C6Charts18CrossShapeRenderer", "init"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "ChevronDownShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "ChevronUpShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "CircleShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "CrossShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "ScatterChartDataSet"]
+- ["Ps28CustomDebugStringConvertible", "SquareShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "TriangleShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "XShapeRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "renderer"]
+- ["Ps28CustomDebugStringConvertible", "scatterShapeHoleColor"]
+- ["Ps28CustomDebugStringConvertible", "scatterShapeHoleRadius"]
+- ["Ps28CustomDebugStringConvertible", "scatterShapeSize"]
+- ["Ps28CustomDebugStringConvertible", "shapeRenderer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "ChevronDownShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "ChevronUpShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "CircleShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "CrossShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "ScatterChartDataSet"]
+- ["Ps23CustomStringConvertible", "SquareShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "TriangleShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "XShapeRenderer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "copyWithZone"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "renderer"]
+- ["Ps23CustomStringConvertible", "scatterShapeHoleColor"]
+- ["Ps23CustomStringConvertible", "scatterShapeHoleRadius"]
+- ["Ps23CustomStringConvertible", "scatterShapeSize"]
+- ["Ps23CustomStringConvertible", "shapeRenderer"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "ChevronDownShapeRenderer"]
+- !private ["Ps9Equatable", "ChevronUpShapeRenderer"]
+- !private ["Ps9Equatable", "CircleShapeRenderer"]
+- !private ["Ps9Equatable", "CrossShapeRenderer"]
+- !private ["Ps9Equatable", "ScatterChartDataSet"]
+- ["Ps9Equatable", "SquareShapeRenderer"]
+- !private ["Ps9Equatable", "TriangleShapeRenderer"]
+- !private ["Ps9Equatable", "XShapeRenderer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "chevronDown"]
+- ["Ps9Equatable", "chevronUp"]
+- ["Ps9Equatable", "circle"]
+- !private ["Ps9Equatable", "copyWithZone"]
+- ["Ps9Equatable", "cross"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "renderer"]
+- ["Ps9Equatable", "scatterShapeHoleColor"]
+- ["Ps9Equatable", "scatterShapeHoleRadius"]
+- ["Ps9Equatable", "scatterShapeSize"]
+- ["Ps9Equatable", "shapeRenderer"]
+- ["Ps9Equatable", "square"]
+- ["Ps9Equatable", "triangle"]
+- ["Ps9Equatable", "x"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps13FloatingPoint", "init"]
+- ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "ChevronDownShapeRenderer"]
+- !private ["Ps8Hashable", "ChevronUpShapeRenderer"]
+- !private ["Ps8Hashable", "CircleShapeRenderer"]
+- !private ["Ps8Hashable", "CrossShapeRenderer"]
+- !private ["Ps8Hashable", "ScatterChartDataSet"]
+- ["Ps8Hashable", "SquareShapeRenderer"]
+- !private ["Ps8Hashable", "TriangleShapeRenderer"]
+- !private ["Ps8Hashable", "XShapeRenderer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "chevronDown"]
+- ["Ps8Hashable", "chevronUp"]
+- ["Ps8Hashable", "circle"]
+- !private ["Ps8Hashable", "copyWithZone"]
+- ["Ps8Hashable", "cross"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "renderer"]
+- ["Ps8Hashable", "scatterShapeHoleColor"]
+- ["Ps8Hashable", "scatterShapeHoleRadius"]
+- ["Ps8Hashable", "scatterShapeSize"]
+- ["Ps8Hashable", "shapeRenderer"]
+- ["Ps8Hashable", "square"]
+- ["Ps8Hashable", "triangle"]
+- ["Ps8Hashable", "x"]
+- ["Ps8Hashable", ""]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CircleShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CrossShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "SquareShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "TriangleShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "XShapeRenderer"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "copyWithZone"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "init"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "renderer"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "scatterShapeHoleColor"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "scatterShapeHoleRadius"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "scatterShapeSize"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "shapeRenderer"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- !private ["P6Charts13IChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "CircleShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "CrossShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts13IChartDataSet", "SquareShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "TriangleShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "XShapeRenderer"]
+- !private ["P6Charts13IChartDataSet", "copyWithZone"]
+- !private ["P6Charts13IChartDataSet", "init"]
+- !private ["P6Charts13IChartDataSet", "renderer"]
+- ["P6Charts13IChartDataSet", "scatterShapeHoleColor"]
+- ["P6Charts13IChartDataSet", "scatterShapeHoleRadius"]
+- ["P6Charts13IChartDataSet", "scatterShapeSize"]
+- ["P6Charts13IChartDataSet", "shapeRenderer"]
+- ["P6Charts13IChartDataSet", ""]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGFloat"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "CircleShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "CrossShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "SquareShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "TriangleShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "XShapeRenderer"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "copyWithZone"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "init"]
+- !private ["P6Charts35ILineScatterCandleRadarChartDataSet", "renderer"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "scatterShapeHoleColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "scatterShapeHoleRadius"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "scatterShapeSize"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "shapeRenderer"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+- ["P6Charts20IScatterChartDataSet", "CGFloat"]
+- !private ["P6Charts20IScatterChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "CircleShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "CrossShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts20IScatterChartDataSet", "SquareShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "TriangleShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "XShapeRenderer"]
+- !private ["P6Charts20IScatterChartDataSet", "renderer"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeHoleColor"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeHoleRadius"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeSize"]
+- ["P6Charts20IScatterChartDataSet", "shapeRenderer"]
+- ["P6Charts20IScatterChartDataSet", ""]
+- ["P6Charts14IShapeRenderer", "init"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "AnyObject"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "CGFloat"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "CircleShapeRenderer"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "CrossShapeRenderer"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "IShapeRenderer"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "Int"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "NSUIColor"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "NSZone"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "ScatterChartDataSet"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "Shape"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "SquareShapeRenderer"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "TriangleShapeRenderer"]
+- !private ["C6Charts34LineScatterCandleRadarChartDataSet", "XShapeRenderer"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "copyWithZone"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "init"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "renderer"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "scatterShapeHoleColor"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "scatterShapeHoleRadius"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "scatterShapeSize"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "setScatterShape"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "shapeRenderer"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "ChevronDownShapeRenderer"]
+- !private ["CSo8NSObject", "ChevronUpShapeRenderer"]
+- !private ["CSo8NSObject", "CircleShapeRenderer"]
+- !private ["CSo8NSObject", "CrossShapeRenderer"]
+- ["CSo8NSObject", "IShapeRenderer"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSUIColor"]
+- ["CSo8NSObject", "NSZone"]
+- !private ["CSo8NSObject", "ScatterChartDataSet"]
+- ["CSo8NSObject", "Shape"]
+- ["CSo8NSObject", "SquareShapeRenderer"]
+- !private ["CSo8NSObject", "TriangleShapeRenderer"]
+- !private ["CSo8NSObject", "XShapeRenderer"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "renderer"]
+- ["CSo8NSObject", "scatterShapeHoleColor"]
+- ["CSo8NSObject", "scatterShapeHoleRadius"]
+- ["CSo8NSObject", "scatterShapeSize"]
+- ["CSo8NSObject", "setScatterShape"]
+- ["CSo8NSObject", "shapeRenderer"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "ChevronDownShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "ChevronUpShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "CircleShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "CrossShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "ScatterChartDataSet"]
+- ["PSo16NSObjectProtocol", "SquareShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "TriangleShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "XShapeRenderer"]
+- !private ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "renderer"]
+- ["PSo16NSObjectProtocol", "scatterShapeHoleColor"]
+- ["PSo16NSObjectProtocol", "scatterShapeHoleRadius"]
+- ["PSo16NSObjectProtocol", "scatterShapeSize"]
+- ["PSo16NSObjectProtocol", "shapeRenderer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "chevronDown"]
+- ["Ps16RawRepresentable", "chevronUp"]
+- ["Ps16RawRepresentable", "circle"]
+- ["Ps16RawRepresentable", "cross"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "square"]
+- ["Ps16RawRepresentable", "triangle"]
+- ["Ps16RawRepresentable", "x"]
+- ["Ps16RawRepresentable", ""]
+- ["C6Charts19ScatterChartDataSet", "AnyObject"]
+- ["C6Charts19ScatterChartDataSet", "CGFloat"]
+- !private ["C6Charts19ScatterChartDataSet", "ChevronDownShapeRenderer"]
+- !private ["C6Charts19ScatterChartDataSet", "ChevronUpShapeRenderer"]
+- !private ["C6Charts19ScatterChartDataSet", "CircleShapeRenderer"]
+- !private ["C6Charts19ScatterChartDataSet", "CrossShapeRenderer"]
+- ["C6Charts19ScatterChartDataSet", "IShapeRenderer"]
+- ["C6Charts19ScatterChartDataSet", "Int"]
+- ["C6Charts19ScatterChartDataSet", "NSUIColor"]
+- ["C6Charts19ScatterChartDataSet", "NSZone"]
+- !private ["C6Charts19ScatterChartDataSet", "ScatterChartDataSet"]
+- ["C6Charts19ScatterChartDataSet", "Shape"]
+- ["C6Charts19ScatterChartDataSet", "SquareShapeRenderer"]
+- !private ["C6Charts19ScatterChartDataSet", "TriangleShapeRenderer"]
+- !private ["C6Charts19ScatterChartDataSet", "XShapeRenderer"]
+- ["C6Charts19ScatterChartDataSet", "copyWithZone"]
+- ["C6Charts19ScatterChartDataSet", "deinit"]
+- ["C6Charts19ScatterChartDataSet", "init"]
+- ["C6Charts19ScatterChartDataSet", "renderer"]
+- ["C6Charts19ScatterChartDataSet", "scatterShapeHoleColor"]
+- ["C6Charts19ScatterChartDataSet", "scatterShapeHoleRadius"]
+- ["C6Charts19ScatterChartDataSet", "scatterShapeSize"]
+- ["C6Charts19ScatterChartDataSet", "setScatterShape"]
+- ["C6Charts19ScatterChartDataSet", "shapeRenderer"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "RawValue"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "_toAnyHashable"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "chevronDown"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "chevronUp"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "circle"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "cross"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "deinit"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "hashValue"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "init"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "rawValue"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "square"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "triangle"]
+- ["OC6Charts19ScatterChartDataSet5Shape", "x"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["Ps12SignedNumber", "init"]
+- ["C6Charts19SquareShapeRenderer", "deinit"]
+- ["C6Charts19SquareShapeRenderer", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["Ps10Strideable", "init"]
+- !private ["C6Charts21TriangleShapeRenderer", "deinit"]
+- !private ["C6Charts21TriangleShapeRenderer", "init"]
+- !private ["C6Charts14XShapeRenderer", "deinit"]
+- !private ["C6Charts14XShapeRenderer", "init"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "ChevronDownShapeRenderer"]
+- !private ["Ps9_Hashable", "ChevronUpShapeRenderer"]
+- !private ["Ps9_Hashable", "CircleShapeRenderer"]
+- !private ["Ps9_Hashable", "CrossShapeRenderer"]
+- !private ["Ps9_Hashable", "ScatterChartDataSet"]
+- ["Ps9_Hashable", "SquareShapeRenderer"]
+- !private ["Ps9_Hashable", "TriangleShapeRenderer"]
+- !private ["Ps9_Hashable", "XShapeRenderer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "chevronDown"]
+- ["Ps9_Hashable", "chevronUp"]
+- ["Ps9_Hashable", "circle"]
+- !private ["Ps9_Hashable", "copyWithZone"]
+- ["Ps9_Hashable", "cross"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "renderer"]
+- ["Ps9_Hashable", "scatterShapeHoleColor"]
+- ["Ps9_Hashable", "scatterShapeHoleRadius"]
+- ["Ps9_Hashable", "scatterShapeSize"]
+- ["Ps9_Hashable", "shapeRenderer"]
+- ["Ps9_Hashable", "square"]
+- ["Ps9_Hashable", "triangle"]
+- ["Ps9_Hashable", "x"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "C6Charts16ChartBaseDataSet"
+- "C6Charts12ChartDataSet"
+- !private "C6Charts24ChevronDownShapeRenderer"
+- !private "C6Charts22ChevronUpShapeRenderer"
+- !private "C6Charts19CircleShapeRenderer"
+- "Ps10Comparable"
+- !private "C6Charts18CrossShapeRenderer"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "P6Charts20IScatterChartDataSet"
+- "P6Charts14IShapeRenderer"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C6Charts34LineScatterCandleRadarChartDataSet"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps16RawRepresentable"
+- "C6Charts19ScatterChartDataSet"
+- "OC6Charts19ScatterChartDataSet5Shape"
+- !private "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "C6Charts19SquareShapeRenderer"
+- "Ps10Strideable"
+- !private "C6Charts21TriangleShapeRenderer"
+- !private "C6Charts14XShapeRenderer"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "9491bcd101ea1677d316164e7f5ed62c"

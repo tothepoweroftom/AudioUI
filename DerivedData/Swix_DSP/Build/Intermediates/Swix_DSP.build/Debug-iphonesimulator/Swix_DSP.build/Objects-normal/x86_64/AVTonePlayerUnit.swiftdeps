@@ -1,0 +1,554 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AVTonePlayerUnit"
+provides-nominal:
+- "C8Swix_DSP16AVTonePlayerUnit"
+provides-member:
+- ["C8Swix_DSP16AVTonePlayerUnit", ""]
+provides-dynamic-lookup:
+- "amplitude"
+- "bufferCapacity"
+- "fillBuffer"
+- "frequency"
+- "prepareBuffer"
+- "preparePlaying"
+- "sampleRate"
+- "scheduleBuffer"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private ">"
+- "AVAudioFormat"
+- "AVAudioFrameCount"
+- "AVAudioPCMBuffer"
+- "AVAudioPlayerNode"
+- "AVTonePlayerUnit"
+- "AssignmentPrecedence"
+- "Double"
+- !private "Float32"
+- !private "Int"
+- !private "M_PI"
+- !private "sin"
+depends-member:
+- !private ["PSo15AVAudio3DMixing", "AVAudioFormat"]
+- !private ["PSo15AVAudio3DMixing", "AVAudioPCMBuffer"]
+- !private ["PSo15AVAudio3DMixing", "Float32"]
+- !private ["PSo15AVAudio3DMixing", "Int"]
+- !private ["PSo15AVAudio3DMixing", "M_PI"]
+- !private ["PSo15AVAudio3DMixing", "amplitude"]
+- !private ["PSo15AVAudio3DMixing", "audioFormat"]
+- !private ["PSo15AVAudio3DMixing", "bufferCapacity"]
+- !private ["PSo15AVAudio3DMixing", "fillBuffer"]
+- !private ["PSo15AVAudio3DMixing", "frequency"]
+- !private ["PSo15AVAudio3DMixing", "init"]
+- !private ["PSo15AVAudio3DMixing", "isPlaying"]
+- !private ["PSo15AVAudio3DMixing", "prepareBuffer"]
+- !private ["PSo15AVAudio3DMixing", "sampleRate"]
+- !private ["PSo15AVAudio3DMixing", "scheduleBuffer"]
+- !private ["PSo15AVAudio3DMixing", "sin"]
+- !private ["PSo15AVAudio3DMixing", "theta"]
+- ["PSo15AVAudio3DMixing", ""]
+- !private ["CSo13AVAudioBuffer", "floatChannelData"]
+- !private ["CSo13AVAudioBuffer", "frameCapacity"]
+- !private ["CSo13AVAudioBuffer", "frameLength"]
+- !private ["CSo13AVAudioBuffer", "init"]
+- !private ["CSo13AVAudioFormat", "init"]
+- !private ["PSo13AVAudioMixing", "AVAudioFormat"]
+- !private ["PSo13AVAudioMixing", "AVAudioPCMBuffer"]
+- !private ["PSo13AVAudioMixing", "Float32"]
+- !private ["PSo13AVAudioMixing", "Int"]
+- !private ["PSo13AVAudioMixing", "M_PI"]
+- !private ["PSo13AVAudioMixing", "amplitude"]
+- !private ["PSo13AVAudioMixing", "audioFormat"]
+- !private ["PSo13AVAudioMixing", "bufferCapacity"]
+- !private ["PSo13AVAudioMixing", "fillBuffer"]
+- !private ["PSo13AVAudioMixing", "frequency"]
+- !private ["PSo13AVAudioMixing", "init"]
+- !private ["PSo13AVAudioMixing", "isPlaying"]
+- !private ["PSo13AVAudioMixing", "prepareBuffer"]
+- !private ["PSo13AVAudioMixing", "sampleRate"]
+- !private ["PSo13AVAudioMixing", "scheduleBuffer"]
+- !private ["PSo13AVAudioMixing", "sin"]
+- !private ["PSo13AVAudioMixing", "theta"]
+- ["PSo13AVAudioMixing", ""]
+- ["CSo11AVAudioNode", "AVAudioFormat"]
+- ["CSo11AVAudioNode", "AVAudioFrameCount"]
+- ["CSo11AVAudioNode", "AVAudioPCMBuffer"]
+- ["CSo11AVAudioNode", "Double"]
+- !private ["CSo11AVAudioNode", "Float32"]
+- !private ["CSo11AVAudioNode", "Int"]
+- !private ["CSo11AVAudioNode", "M_PI"]
+- ["CSo11AVAudioNode", "amplitude"]
+- ["CSo11AVAudioNode", "audioFormat"]
+- ["CSo11AVAudioNode", "bufferCapacity"]
+- ["CSo11AVAudioNode", "fillBuffer"]
+- ["CSo11AVAudioNode", "frequency"]
+- ["CSo11AVAudioNode", "init"]
+- !private ["CSo11AVAudioNode", "isPlaying"]
+- ["CSo11AVAudioNode", "prepareBuffer"]
+- ["CSo11AVAudioNode", "preparePlaying"]
+- ["CSo11AVAudioNode", "sampleRate"]
+- ["CSo11AVAudioNode", "scheduleBuffer"]
+- !private ["CSo11AVAudioNode", "sin"]
+- ["CSo11AVAudioNode", "theta"]
+- !private ["CSo16AVAudioPCMBuffer", "floatChannelData"]
+- !private ["CSo16AVAudioPCMBuffer", "frameCapacity"]
+- !private ["CSo16AVAudioPCMBuffer", "frameLength"]
+- !private ["CSo16AVAudioPCMBuffer", "init"]
+- ["CSo17AVAudioPlayerNode", "AVAudioFormat"]
+- ["CSo17AVAudioPlayerNode", "AVAudioFrameCount"]
+- ["CSo17AVAudioPlayerNode", "AVAudioPCMBuffer"]
+- ["CSo17AVAudioPlayerNode", "Double"]
+- !private ["CSo17AVAudioPlayerNode", "Float32"]
+- !private ["CSo17AVAudioPlayerNode", "Int"]
+- !private ["CSo17AVAudioPlayerNode", "M_PI"]
+- ["CSo17AVAudioPlayerNode", "amplitude"]
+- ["CSo17AVAudioPlayerNode", "audioFormat"]
+- ["CSo17AVAudioPlayerNode", "bufferCapacity"]
+- ["CSo17AVAudioPlayerNode", "fillBuffer"]
+- ["CSo17AVAudioPlayerNode", "frequency"]
+- ["CSo17AVAudioPlayerNode", "init"]
+- !private ["CSo17AVAudioPlayerNode", "isPlaying"]
+- ["CSo17AVAudioPlayerNode", "prepareBuffer"]
+- ["CSo17AVAudioPlayerNode", "preparePlaying"]
+- ["CSo17AVAudioPlayerNode", "sampleRate"]
+- ["CSo17AVAudioPlayerNode", "scheduleBuffer"]
+- !private ["CSo17AVAudioPlayerNode", "sin"]
+- ["CSo17AVAudioPlayerNode", "theta"]
+- ["CSo17AVAudioPlayerNode", ""]
+- !private ["PSo19AVAudioStereoMixing", "AVAudioFormat"]
+- !private ["PSo19AVAudioStereoMixing", "AVAudioPCMBuffer"]
+- !private ["PSo19AVAudioStereoMixing", "Float32"]
+- !private ["PSo19AVAudioStereoMixing", "Int"]
+- !private ["PSo19AVAudioStereoMixing", "M_PI"]
+- !private ["PSo19AVAudioStereoMixing", "amplitude"]
+- !private ["PSo19AVAudioStereoMixing", "audioFormat"]
+- !private ["PSo19AVAudioStereoMixing", "bufferCapacity"]
+- !private ["PSo19AVAudioStereoMixing", "fillBuffer"]
+- !private ["PSo19AVAudioStereoMixing", "frequency"]
+- !private ["PSo19AVAudioStereoMixing", "init"]
+- !private ["PSo19AVAudioStereoMixing", "isPlaying"]
+- !private ["PSo19AVAudioStereoMixing", "prepareBuffer"]
+- !private ["PSo19AVAudioStereoMixing", "sampleRate"]
+- !private ["PSo19AVAudioStereoMixing", "scheduleBuffer"]
+- !private ["PSo19AVAudioStereoMixing", "sin"]
+- !private ["PSo19AVAudioStereoMixing", "theta"]
+- ["PSo19AVAudioStereoMixing", ""]
+- ["C8Swix_DSP16AVTonePlayerUnit", "AVAudioFormat"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "AVAudioFrameCount"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "AVAudioPCMBuffer"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "Double"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "Float32"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "Int"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "M_PI"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "amplitude"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "audioFormat"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "bufferCapacity"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "deinit"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "fillBuffer"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "frequency"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "init"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "isPlaying"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "prepareBuffer"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "preparePlaying"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "sampleRate"]
+- ["C8Swix_DSP16AVTonePlayerUnit", "scheduleBuffer"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "sin"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "theta"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "AVAudioFormat"]
+- !private ["Ps9AnyObject", "AVAudioPCMBuffer"]
+- !private ["Ps9AnyObject", "Float32"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "amplitude"]
+- !private ["Ps9AnyObject", "audioFormat"]
+- !private ["Ps9AnyObject", "bufferCapacity"]
+- !private ["Ps9AnyObject", "fillBuffer"]
+- !private ["Ps9AnyObject", "floatChannelData"]
+- !private ["Ps9AnyObject", "frameCapacity"]
+- !private ["Ps9AnyObject", "frameLength"]
+- !private ["Ps9AnyObject", "frequency"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isPlaying"]
+- !private ["Ps9AnyObject", "prepareBuffer"]
+- !private ["Ps9AnyObject", "sampleRate"]
+- !private ["Ps9AnyObject", "scheduleBuffer"]
+- !private ["Ps9AnyObject", "sin"]
+- !private ["Ps9AnyObject", "theta"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "AVAudioFormat"]
+- !private ["Ps7CVarArg", "AVAudioPCMBuffer"]
+- !private ["Ps7CVarArg", "Float32"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "M_PI"]
+- !private ["Ps7CVarArg", "amplitude"]
+- !private ["Ps7CVarArg", "audioFormat"]
+- !private ["Ps7CVarArg", "bufferCapacity"]
+- !private ["Ps7CVarArg", "fillBuffer"]
+- !private ["Ps7CVarArg", "floatChannelData"]
+- !private ["Ps7CVarArg", "frameCapacity"]
+- !private ["Ps7CVarArg", "frameLength"]
+- !private ["Ps7CVarArg", "frequency"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isPlaying"]
+- !private ["Ps7CVarArg", "prepareBuffer"]
+- !private ["Ps7CVarArg", "sampleRate"]
+- !private ["Ps7CVarArg", "scheduleBuffer"]
+- !private ["Ps7CVarArg", "sin"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "theta"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioPCMBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "Float32"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "amplitude"]
+- !private ["Ps28CustomDebugStringConvertible", "audioFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "bufferCapacity"]
+- !private ["Ps28CustomDebugStringConvertible", "fillBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "floatChannelData"]
+- !private ["Ps28CustomDebugStringConvertible", "frameCapacity"]
+- !private ["Ps28CustomDebugStringConvertible", "frameLength"]
+- !private ["Ps28CustomDebugStringConvertible", "frequency"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isPlaying"]
+- !private ["Ps28CustomDebugStringConvertible", "prepareBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "sampleRate"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduleBuffer"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "theta"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "AVAudioFormat"]
+- !private ["Ps23CustomStringConvertible", "AVAudioPCMBuffer"]
+- !private ["Ps23CustomStringConvertible", "Float32"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "amplitude"]
+- !private ["Ps23CustomStringConvertible", "audioFormat"]
+- !private ["Ps23CustomStringConvertible", "bufferCapacity"]
+- !private ["Ps23CustomStringConvertible", "fillBuffer"]
+- !private ["Ps23CustomStringConvertible", "floatChannelData"]
+- !private ["Ps23CustomStringConvertible", "frameCapacity"]
+- !private ["Ps23CustomStringConvertible", "frameLength"]
+- !private ["Ps23CustomStringConvertible", "frequency"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isPlaying"]
+- !private ["Ps23CustomStringConvertible", "prepareBuffer"]
+- !private ["Ps23CustomStringConvertible", "sampleRate"]
+- !private ["Ps23CustomStringConvertible", "scheduleBuffer"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- !private ["Ps23CustomStringConvertible", "theta"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AVAudioFormat"]
+- !private ["Ps9Equatable", "AVAudioPCMBuffer"]
+- !private ["Ps9Equatable", "Float32"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "amplitude"]
+- !private ["Ps9Equatable", "audioFormat"]
+- !private ["Ps9Equatable", "bufferCapacity"]
+- !private ["Ps9Equatable", "fillBuffer"]
+- !private ["Ps9Equatable", "floatChannelData"]
+- !private ["Ps9Equatable", "frameCapacity"]
+- !private ["Ps9Equatable", "frameLength"]
+- !private ["Ps9Equatable", "frequency"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isPlaying"]
+- !private ["Ps9Equatable", "prepareBuffer"]
+- !private ["Ps9Equatable", "sampleRate"]
+- !private ["Ps9Equatable", "scheduleBuffer"]
+- !private ["Ps9Equatable", "sin"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "theta"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "AVAudioFormat"]
+- !private ["P2C411EventSource", "AVAudioPCMBuffer"]
+- !private ["P2C411EventSource", "Float32"]
+- !private ["P2C411EventSource", "Int"]
+- !private ["P2C411EventSource", "M_PI"]
+- !private ["P2C411EventSource", "amplitude"]
+- !private ["P2C411EventSource", "audioFormat"]
+- !private ["P2C411EventSource", "bufferCapacity"]
+- !private ["P2C411EventSource", "fillBuffer"]
+- !private ["P2C411EventSource", "floatChannelData"]
+- !private ["P2C411EventSource", "frameCapacity"]
+- !private ["P2C411EventSource", "frameLength"]
+- !private ["P2C411EventSource", "frequency"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "isPlaying"]
+- !private ["P2C411EventSource", "prepareBuffer"]
+- !private ["P2C411EventSource", "sampleRate"]
+- !private ["P2C411EventSource", "scheduleBuffer"]
+- !private ["P2C411EventSource", "sin"]
+- !private ["P2C411EventSource", "theta"]
+- ["P2C411EventSource", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "AVAudioFormat"]
+- !private ["Ps8Hashable", "AVAudioPCMBuffer"]
+- !private ["Ps8Hashable", "Float32"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "amplitude"]
+- !private ["Ps8Hashable", "audioFormat"]
+- !private ["Ps8Hashable", "bufferCapacity"]
+- !private ["Ps8Hashable", "fillBuffer"]
+- !private ["Ps8Hashable", "floatChannelData"]
+- !private ["Ps8Hashable", "frameCapacity"]
+- !private ["Ps8Hashable", "frameLength"]
+- !private ["Ps8Hashable", "frequency"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isPlaying"]
+- !private ["Ps8Hashable", "prepareBuffer"]
+- !private ["Ps8Hashable", "sampleRate"]
+- !private ["Ps8Hashable", "scheduleBuffer"]
+- !private ["Ps8Hashable", "sin"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "theta"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "floatChannelData"]
+- !private ["PSo9NSCopying", "frameCapacity"]
+- !private ["PSo9NSCopying", "frameLength"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "floatChannelData"]
+- !private ["PSo16NSMutableCopying", "frameCapacity"]
+- !private ["PSo16NSMutableCopying", "frameLength"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AVAudioFormat"]
+- ["CSo8NSObject", "AVAudioFrameCount"]
+- ["CSo8NSObject", "AVAudioPCMBuffer"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Float32"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "M_PI"]
+- ["CSo8NSObject", "amplitude"]
+- ["CSo8NSObject", "audioFormat"]
+- ["CSo8NSObject", "bufferCapacity"]
+- ["CSo8NSObject", "fillBuffer"]
+- !private ["CSo8NSObject", "floatChannelData"]
+- !private ["CSo8NSObject", "frameCapacity"]
+- !private ["CSo8NSObject", "frameLength"]
+- ["CSo8NSObject", "frequency"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isPlaying"]
+- ["CSo8NSObject", "prepareBuffer"]
+- ["CSo8NSObject", "preparePlaying"]
+- ["CSo8NSObject", "sampleRate"]
+- ["CSo8NSObject", "scheduleBuffer"]
+- !private ["CSo8NSObject", "sin"]
+- ["CSo8NSObject", "theta"]
+- !private ["PSo16NSObjectProtocol", "AVAudioFormat"]
+- !private ["PSo16NSObjectProtocol", "AVAudioPCMBuffer"]
+- !private ["PSo16NSObjectProtocol", "Float32"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "amplitude"]
+- !private ["PSo16NSObjectProtocol", "audioFormat"]
+- !private ["PSo16NSObjectProtocol", "bufferCapacity"]
+- !private ["PSo16NSObjectProtocol", "fillBuffer"]
+- !private ["PSo16NSObjectProtocol", "floatChannelData"]
+- !private ["PSo16NSObjectProtocol", "frameCapacity"]
+- !private ["PSo16NSObjectProtocol", "frameLength"]
+- !private ["PSo16NSObjectProtocol", "frequency"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isPlaying"]
+- !private ["PSo16NSObjectProtocol", "prepareBuffer"]
+- !private ["PSo16NSObjectProtocol", "sampleRate"]
+- !private ["PSo16NSObjectProtocol", "scheduleBuffer"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- !private ["PSo16NSObjectProtocol", "theta"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["P8Swix_DSP23ScalarFloatingPointType", "init"]
+- !private ["P8Swix_DSP17ScalarIntegerType", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "subscript"]
+- !private ["Sp", "subscript"]
+- !private ["SP", "subscript"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "AVAudioFormat"]
+- !private ["Ps9_Hashable", "AVAudioPCMBuffer"]
+- !private ["Ps9_Hashable", "Float32"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "M_PI"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "amplitude"]
+- !private ["Ps9_Hashable", "audioFormat"]
+- !private ["Ps9_Hashable", "bufferCapacity"]
+- !private ["Ps9_Hashable", "fillBuffer"]
+- !private ["Ps9_Hashable", "floatChannelData"]
+- !private ["Ps9_Hashable", "frameCapacity"]
+- !private ["Ps9_Hashable", "frameLength"]
+- !private ["Ps9_Hashable", "frequency"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isPlaying"]
+- !private ["Ps9_Hashable", "prepareBuffer"]
+- !private ["Ps9_Hashable", "sampleRate"]
+- !private ["Ps9_Hashable", "scheduleBuffer"]
+- !private ["Ps9_Hashable", "sin"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "theta"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps8_Pointer", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "subscript"]
+depends-nominal:
+- "PSo15AVAudio3DMixing"
+- !private "CSo13AVAudioBuffer"
+- !private "CSo13AVAudioFormat"
+- "PSo13AVAudioMixing"
+- "CSo11AVAudioNode"
+- !private "CSo16AVAudioPCMBuffer"
+- "CSo17AVAudioPlayerNode"
+- "PSo19AVAudioStereoMixing"
+- "C8Swix_DSP16AVTonePlayerUnit"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "P8Swix_DSP23ScalarFloatingPointType"
+- !private "P8Swix_DSP17ScalarIntegerType"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Sp"
+- !private "SP"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/swix-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/opencv.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/assert.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/C4.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/module.modulemap"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.apinotesc"
+interface-hash: "63bf1c0d49a9be79d4b526d7a67c6605"

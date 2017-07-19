@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "9e56ffd64eeaabc6bd212d14179d4dd5"
+build_time: [551437859, 599998000]
+inputs:
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/TransformTests.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/VectorTests.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/MathTests.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/ColorTests.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/PointTests.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4Tests/RectTests.swift": [540648987, 0]

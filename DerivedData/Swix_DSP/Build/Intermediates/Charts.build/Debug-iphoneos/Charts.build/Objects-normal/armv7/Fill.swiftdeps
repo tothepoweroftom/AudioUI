@@ -1,0 +1,567 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FillType"
+- "Fill"
+provides-nominal:
+- "O6Charts8FillType"
+- "C6Charts4Fill"
+provides-member:
+- ["O6Charts8FillType", ""]
+- ["C6Charts4Fill", ""]
+provides-dynamic-lookup:
+- "color"
+- "fillPath"
+- "fillWithCGColor"
+- "fillWithCGImage"
+- "fillWithCGLayer"
+- "fillWithColor"
+- "fillWithImage"
+- "fillWithLinearGradient"
+- "fillWithRadialGradient"
+- "gradient"
+- "gradientAngle"
+- "gradientEndOffsetPercent"
+- "gradientEndRadiusPercent"
+- "gradientStartOffsetPercent"
+- "gradientStartRadiusPercent"
+- "image"
+- "layer"
+- "type"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGColor"
+- "CGContext"
+- "CGFloat"
+- "CGGradient"
+- "CGImage"
+- "CGLayer"
+- "CGPoint"
+- "CGRect"
+- !private "ChartUtils"
+- "Fill"
+- "FillType"
+- "Int"
+- "NSObject"
+- "NSUIColor"
+- "NSUIImage"
+- "TernaryPrecedence"
+- !private "cos"
+- !private "max"
+- !private "sin"
+- !private "~="
+depends-member:
+- ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "ChartUtils"]
+- !private ["Ps9AnyObject", "Fill"]
+- ["Ps9AnyObject", "FillType"]
+- !private ["Ps9AnyObject", "Math"]
+- !private ["Ps9AnyObject", "_color"]
+- !private ["Ps9AnyObject", "_gradient"]
+- !private ["Ps9AnyObject", "_gradientAngle"]
+- !private ["Ps9AnyObject", "_gradientEndOffsetPercent"]
+- !private ["Ps9AnyObject", "_gradientEndRadiusPercent"]
+- !private ["Ps9AnyObject", "_gradientStartOffsetPercent"]
+- !private ["Ps9AnyObject", "_gradientStartRadiusPercent"]
+- !private ["Ps9AnyObject", "_image"]
+- !private ["Ps9AnyObject", "_layer"]
+- !private ["Ps9AnyObject", "_type"]
+- !private ["Ps9AnyObject", "cgColor"]
+- !private ["Ps9AnyObject", "cgImage"]
+- !private ["Ps9AnyObject", "clip"]
+- !private ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "drawLinearGradient"]
+- !private ["Ps9AnyObject", "drawRadialGradient"]
+- !private ["Ps9AnyObject", "fillPath"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "restoreGState"]
+- !private ["Ps9AnyObject", "saveGState"]
+- !private ["Ps9AnyObject", "setFillColor"]
+- !private ["Ps9AnyObject", "sin"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo9CGContext", "clip"]
+- !private ["CSo9CGContext", "draw"]
+- !private ["CSo9CGContext", "drawLinearGradient"]
+- !private ["CSo9CGContext", "drawRadialGradient"]
+- !private ["CSo9CGContext", "fillPath"]
+- !private ["CSo9CGContext", "restoreGState"]
+- !private ["CSo9CGContext", "saveGState"]
+- !private ["CSo9CGContext", "setFillColor"]
+- !private ["VSC24CGGradientDrawingOptions", "drawsAfterEndLocation"]
+- !private ["VSC24CGGradientDrawingOptions", "drawsBeforeStartLocation"]
+- ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "midX"]
+- !private ["VSC6CGRect", "midY"]
+- !private ["VSC6CGRect", "width"]
+- ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "ChartUtils"]
+- !private ["Ps7CVarArg", "Fill"]
+- ["Ps7CVarArg", "FillType"]
+- !private ["Ps7CVarArg", "_color"]
+- !private ["Ps7CVarArg", "_gradient"]
+- !private ["Ps7CVarArg", "_gradientAngle"]
+- !private ["Ps7CVarArg", "_gradientEndOffsetPercent"]
+- !private ["Ps7CVarArg", "_gradientEndRadiusPercent"]
+- !private ["Ps7CVarArg", "_gradientStartOffsetPercent"]
+- !private ["Ps7CVarArg", "_gradientStartRadiusPercent"]
+- !private ["Ps7CVarArg", "_image"]
+- !private ["Ps7CVarArg", "_layer"]
+- !private ["Ps7CVarArg", "_type"]
+- !private ["Ps7CVarArg", "cgColor"]
+- !private ["Ps7CVarArg", "cgImage"]
+- !private ["Ps7CVarArg", "cos"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "sin"]
+- ["Ps7CVarArg", ""]
+- !private ["C6Charts10ChartUtils", "Math"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "ChartUtils"]
+- !private ["Ps28CustomDebugStringConvertible", "Fill"]
+- ["Ps28CustomDebugStringConvertible", "FillType"]
+- !private ["Ps28CustomDebugStringConvertible", "_color"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradient"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradientAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradientEndOffsetPercent"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradientEndRadiusPercent"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradientStartOffsetPercent"]
+- !private ["Ps28CustomDebugStringConvertible", "_gradientStartRadiusPercent"]
+- !private ["Ps28CustomDebugStringConvertible", "_image"]
+- !private ["Ps28CustomDebugStringConvertible", "_layer"]
+- !private ["Ps28CustomDebugStringConvertible", "_type"]
+- !private ["Ps28CustomDebugStringConvertible", "cgColor"]
+- !private ["Ps28CustomDebugStringConvertible", "cgImage"]
+- !private ["Ps28CustomDebugStringConvertible", "cos"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "midX"]
+- !private ["Ps28CustomDebugStringConvertible", "midY"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midX"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midY"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "midX"]
+- !private ["Ps17CustomReflectable", "midY"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "ChartUtils"]
+- !private ["Ps23CustomStringConvertible", "Fill"]
+- ["Ps23CustomStringConvertible", "FillType"]
+- !private ["Ps23CustomStringConvertible", "_color"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_gradient"]
+- !private ["Ps23CustomStringConvertible", "_gradientAngle"]
+- !private ["Ps23CustomStringConvertible", "_gradientEndOffsetPercent"]
+- !private ["Ps23CustomStringConvertible", "_gradientEndRadiusPercent"]
+- !private ["Ps23CustomStringConvertible", "_gradientStartOffsetPercent"]
+- !private ["Ps23CustomStringConvertible", "_gradientStartRadiusPercent"]
+- !private ["Ps23CustomStringConvertible", "_image"]
+- !private ["Ps23CustomStringConvertible", "_layer"]
+- !private ["Ps23CustomStringConvertible", "_type"]
+- !private ["Ps23CustomStringConvertible", "cgColor"]
+- !private ["Ps23CustomStringConvertible", "cgImage"]
+- !private ["Ps23CustomStringConvertible", "cos"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "ChartUtils"]
+- !private ["Ps9Equatable", "Fill"]
+- ["Ps9Equatable", "FillType"]
+- !private ["Ps9Equatable", "_color"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_gradient"]
+- !private ["Ps9Equatable", "_gradientAngle"]
+- !private ["Ps9Equatable", "_gradientEndOffsetPercent"]
+- !private ["Ps9Equatable", "_gradientEndRadiusPercent"]
+- !private ["Ps9Equatable", "_gradientStartOffsetPercent"]
+- !private ["Ps9Equatable", "_gradientStartRadiusPercent"]
+- !private ["Ps9Equatable", "_image"]
+- !private ["Ps9Equatable", "_layer"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "_type"]
+- !private ["Ps9Equatable", "cgColor"]
+- !private ["Ps9Equatable", "cgImage"]
+- ["Ps9Equatable", "color"]
+- !private ["Ps9Equatable", "cos"]
+- !private ["Ps9Equatable", "drawsAfterEndLocation"]
+- !private ["Ps9Equatable", "drawsBeforeStartLocation"]
+- ["Ps9Equatable", "empty"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "linearGradient"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "midX"]
+- !private ["Ps9Equatable", "midY"]
+- ["Ps9Equatable", "radialGradient"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "sin"]
+- ["Ps9Equatable", "tiledImage"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "drawsAfterEndLocation"]
+- !private ["Ps25ExpressibleByArrayLiteral", "drawsBeforeStartLocation"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["C6Charts4Fill", "Bool"]
+- ["C6Charts4Fill", "CGColor"]
+- ["C6Charts4Fill", "CGContext"]
+- ["C6Charts4Fill", "CGFloat"]
+- ["C6Charts4Fill", "CGGradient"]
+- ["C6Charts4Fill", "CGImage"]
+- ["C6Charts4Fill", "CGLayer"]
+- ["C6Charts4Fill", "CGPoint"]
+- ["C6Charts4Fill", "CGRect"]
+- !private ["C6Charts4Fill", "ChartUtils"]
+- ["C6Charts4Fill", "Fill"]
+- ["C6Charts4Fill", "FillType"]
+- ["C6Charts4Fill", "NSUIColor"]
+- ["C6Charts4Fill", "NSUIImage"]
+- !private ["C6Charts4Fill", "_color"]
+- !private ["C6Charts4Fill", "_gradient"]
+- !private ["C6Charts4Fill", "_gradientAngle"]
+- !private ["C6Charts4Fill", "_gradientEndOffsetPercent"]
+- !private ["C6Charts4Fill", "_gradientEndRadiusPercent"]
+- !private ["C6Charts4Fill", "_gradientStartOffsetPercent"]
+- !private ["C6Charts4Fill", "_gradientStartRadiusPercent"]
+- !private ["C6Charts4Fill", "_image"]
+- !private ["C6Charts4Fill", "_layer"]
+- !private ["C6Charts4Fill", "_type"]
+- ["C6Charts4Fill", "color"]
+- !private ["C6Charts4Fill", "cos"]
+- ["C6Charts4Fill", "deinit"]
+- ["C6Charts4Fill", "fillPath"]
+- ["C6Charts4Fill", "fillWithCGColor"]
+- ["C6Charts4Fill", "fillWithCGImage"]
+- ["C6Charts4Fill", "fillWithCGLayer"]
+- ["C6Charts4Fill", "fillWithColor"]
+- ["C6Charts4Fill", "fillWithImage"]
+- ["C6Charts4Fill", "fillWithLinearGradient"]
+- ["C6Charts4Fill", "fillWithRadialGradient"]
+- ["C6Charts4Fill", "gradient"]
+- ["C6Charts4Fill", "gradientAngle"]
+- ["C6Charts4Fill", "gradientEndOffsetPercent"]
+- ["C6Charts4Fill", "gradientEndRadiusPercent"]
+- ["C6Charts4Fill", "gradientStartOffsetPercent"]
+- ["C6Charts4Fill", "gradientStartRadiusPercent"]
+- ["C6Charts4Fill", "image"]
+- ["C6Charts4Fill", "init"]
+- ["C6Charts4Fill", "layer"]
+- !private ["C6Charts4Fill", "max"]
+- !private ["C6Charts4Fill", "sin"]
+- ["C6Charts4Fill", "type"]
+- ["O6Charts8FillType", "RawValue"]
+- ["O6Charts8FillType", "_toAnyHashable"]
+- ["O6Charts8FillType", "color"]
+- ["O6Charts8FillType", "deinit"]
+- ["O6Charts8FillType", "empty"]
+- ["O6Charts8FillType", "hashValue"]
+- ["O6Charts8FillType", "image"]
+- ["O6Charts8FillType", "init"]
+- ["O6Charts8FillType", "layer"]
+- ["O6Charts8FillType", "linearGradient"]
+- ["O6Charts8FillType", "radialGradient"]
+- ["O6Charts8FillType", "rawValue"]
+- ["O6Charts8FillType", "tiledImage"]
+- ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "ChartUtils"]
+- !private ["Ps8Hashable", "Fill"]
+- ["Ps8Hashable", "FillType"]
+- !private ["Ps8Hashable", "_color"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_gradient"]
+- !private ["Ps8Hashable", "_gradientAngle"]
+- !private ["Ps8Hashable", "_gradientEndOffsetPercent"]
+- !private ["Ps8Hashable", "_gradientEndRadiusPercent"]
+- !private ["Ps8Hashable", "_gradientStartOffsetPercent"]
+- !private ["Ps8Hashable", "_gradientStartRadiusPercent"]
+- !private ["Ps8Hashable", "_image"]
+- !private ["Ps8Hashable", "_layer"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "_type"]
+- !private ["Ps8Hashable", "cgColor"]
+- !private ["Ps8Hashable", "cgImage"]
+- ["Ps8Hashable", "color"]
+- !private ["Ps8Hashable", "cos"]
+- ["Ps8Hashable", "empty"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "linearGradient"]
+- !private ["Ps8Hashable", "max"]
+- ["Ps8Hashable", "radialGradient"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "sin"]
+- ["Ps8Hashable", "tiledImage"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["VC6Charts10ChartUtils4Math", "FDEG2RAD"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["PSo8NSCoding", "cgColor"]
+- !private ["PSo8NSCoding", "cgImage"]
+- !private ["PSo9NSCopying", "cgColor"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGContext"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGGradient"]
+- ["CSo8NSObject", "CGImage"]
+- ["CSo8NSObject", "CGLayer"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "ChartUtils"]
+- ["CSo8NSObject", "Fill"]
+- ["CSo8NSObject", "FillType"]
+- ["CSo8NSObject", "NSUIColor"]
+- ["CSo8NSObject", "NSUIImage"]
+- ["CSo8NSObject", "_color"]
+- ["CSo8NSObject", "_gradient"]
+- ["CSo8NSObject", "_gradientAngle"]
+- ["CSo8NSObject", "_gradientEndOffsetPercent"]
+- ["CSo8NSObject", "_gradientEndRadiusPercent"]
+- ["CSo8NSObject", "_gradientStartOffsetPercent"]
+- ["CSo8NSObject", "_gradientStartRadiusPercent"]
+- ["CSo8NSObject", "_image"]
+- ["CSo8NSObject", "_layer"]
+- ["CSo8NSObject", "_type"]
+- !private ["CSo8NSObject", "cgColor"]
+- !private ["CSo8NSObject", "cgImage"]
+- ["CSo8NSObject", "color"]
+- !private ["CSo8NSObject", "cos"]
+- ["CSo8NSObject", "fillPath"]
+- ["CSo8NSObject", "fillWithCGColor"]
+- ["CSo8NSObject", "fillWithCGImage"]
+- ["CSo8NSObject", "fillWithCGLayer"]
+- ["CSo8NSObject", "fillWithColor"]
+- ["CSo8NSObject", "fillWithImage"]
+- ["CSo8NSObject", "fillWithLinearGradient"]
+- ["CSo8NSObject", "fillWithRadialGradient"]
+- ["CSo8NSObject", "gradient"]
+- ["CSo8NSObject", "gradientAngle"]
+- ["CSo8NSObject", "gradientEndOffsetPercent"]
+- ["CSo8NSObject", "gradientEndRadiusPercent"]
+- ["CSo8NSObject", "gradientStartOffsetPercent"]
+- ["CSo8NSObject", "gradientStartRadiusPercent"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "max"]
+- !private ["CSo8NSObject", "sin"]
+- ["CSo8NSObject", "type"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "ChartUtils"]
+- !private ["PSo16NSObjectProtocol", "Fill"]
+- ["PSo16NSObjectProtocol", "FillType"]
+- !private ["PSo16NSObjectProtocol", "_color"]
+- !private ["PSo16NSObjectProtocol", "_gradient"]
+- !private ["PSo16NSObjectProtocol", "_gradientAngle"]
+- !private ["PSo16NSObjectProtocol", "_gradientEndOffsetPercent"]
+- !private ["PSo16NSObjectProtocol", "_gradientEndRadiusPercent"]
+- !private ["PSo16NSObjectProtocol", "_gradientStartOffsetPercent"]
+- !private ["PSo16NSObjectProtocol", "_gradientStartRadiusPercent"]
+- !private ["PSo16NSObjectProtocol", "_image"]
+- !private ["PSo16NSObjectProtocol", "_layer"]
+- !private ["PSo16NSObjectProtocol", "_type"]
+- !private ["PSo16NSObjectProtocol", "cgColor"]
+- !private ["PSo16NSObjectProtocol", "cgImage"]
+- !private ["PSo16NSObjectProtocol", "cos"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "cgColor"]
+- !private ["PSo14NSSecureCoding", "cgImage"]
+- !private ["Ps9OptionSet", "drawsAfterEndLocation"]
+- !private ["Ps9OptionSet", "drawsBeforeStartLocation"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "color"]
+- !private ["Ps16RawRepresentable", "drawsAfterEndLocation"]
+- !private ["Ps16RawRepresentable", "drawsBeforeStartLocation"]
+- ["Ps16RawRepresentable", "empty"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "image"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "layer"]
+- ["Ps16RawRepresentable", "linearGradient"]
+- ["Ps16RawRepresentable", "radialGradient"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "tiledImage"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps10SetAlgebra", "drawsAfterEndLocation"]
+- !private ["Ps10SetAlgebra", "drawsBeforeStartLocation"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["PSo29UIAccessibilityIdentification", "cgImage"]
+- !private ["CSo7UIColor", "cgColor"]
+- !private ["CSo7UIImage", "cgImage"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
+- !private ["Ps26_ExpressibleByImageLiteral", "cgImage"]
+- ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "ChartUtils"]
+- !private ["Ps9_Hashable", "Fill"]
+- ["Ps9_Hashable", "FillType"]
+- !private ["Ps9_Hashable", "_color"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_gradient"]
+- !private ["Ps9_Hashable", "_gradientAngle"]
+- !private ["Ps9_Hashable", "_gradientEndOffsetPercent"]
+- !private ["Ps9_Hashable", "_gradientEndRadiusPercent"]
+- !private ["Ps9_Hashable", "_gradientStartOffsetPercent"]
+- !private ["Ps9_Hashable", "_gradientStartRadiusPercent"]
+- !private ["Ps9_Hashable", "_image"]
+- !private ["Ps9_Hashable", "_layer"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "_type"]
+- !private ["Ps9_Hashable", "cgColor"]
+- !private ["Ps9_Hashable", "cgImage"]
+- ["Ps9_Hashable", "color"]
+- !private ["Ps9_Hashable", "cos"]
+- ["Ps9_Hashable", "empty"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "layer"]
+- ["Ps9_Hashable", "linearGradient"]
+- !private ["Ps9_Hashable", "max"]
+- ["Ps9_Hashable", "radialGradient"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "sin"]
+- ["Ps9_Hashable", "tiledImage"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "midX"]
+- !private ["Ps21_ObjectiveCBridgeable", "midY"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "CSo9CGContext"
+- !private "VSC24CGGradientDrawingOptions"
+- "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "C6Charts10ChartUtils"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "C6Charts4Fill"
+- "O6Charts8FillType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "VC6Charts10ChartUtils4Math"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps9OptionSet"
+- "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIColor"
+- !private "CSo7UIImage"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8729c8c9dd3f174b31185339c96cce45"

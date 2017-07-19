@@ -1,0 +1,642 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarkerView"
+provides-nominal:
+- "C6Charts10MarkerView"
+provides-member:
+- ["C6Charts10MarkerView", ""]
+provides-dynamic-lookup:
+- "chartView"
+- "draw"
+- "offset"
+- "offsetForDrawing"
+- "refreshContent"
+- "viewFromXib"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CGContext"
+- "CGPoint"
+- "CastingPrecedence"
+- "ChartDataEntry"
+- "ChartViewBase"
+- "Highlight"
+- "IMarker"
+- "MarkerView"
+- !private "NSUIGraphicsPopContext"
+- !private "NSUIGraphicsPushContext"
+- "NSUIView"
+- !private "String"
+depends-member:
+- !private ["P6Charts16AnimatorDelegate", "bounds"]
+- !private ["Ps9AnyObject", "Bundle"]
+- ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "NSUIGraphicsPopContext"]
+- !private ["Ps9AnyObject", "NSUIGraphicsPushContext"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "chartView"]
+- ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadNibNamed"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "nsuiLayer"]
+- ["Ps9AnyObject", "offset"]
+- ["Ps9AnyObject", "offsetForDrawing"]
+- ["Ps9AnyObject", "refreshContent"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "restoreGState"]
+- !private ["Ps9AnyObject", "saveGState"]
+- !private ["Ps9AnyObject", "translateBy"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo6Bundle", "loadNibNamed"]
+- !private ["CSo6Bundle", "main"]
+- !private ["CSo7CALayer", "render"]
+- !private ["PSo15CALayerDelegate", "Bundle"]
+- ["PSo15CALayerDelegate", "CGPoint"]
+- !private ["PSo15CALayerDelegate", "NSUIGraphicsPopContext"]
+- !private ["PSo15CALayerDelegate", "NSUIGraphicsPushContext"]
+- !private ["PSo15CALayerDelegate", "String"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "chartView"]
+- ["PSo15CALayerDelegate", "draw"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "nsuiLayer"]
+- ["PSo15CALayerDelegate", "offset"]
+- ["PSo15CALayerDelegate", "offsetForDrawing"]
+- ["PSo15CALayerDelegate", "refreshContent"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "render"]
+- !private ["CSo9CGContext", "restoreGState"]
+- !private ["CSo9CGContext", "saveGState"]
+- !private ["CSo9CGContext", "translateBy"]
+- ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "Bundle"]
+- ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "NSUIGraphicsPopContext"]
+- !private ["Ps7CVarArg", "NSUIGraphicsPushContext"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "chartView"]
+- ["Ps7CVarArg", "draw"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loadNibNamed"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "nsuiLayer"]
+- ["Ps7CVarArg", "offset"]
+- ["Ps7CVarArg", "offsetForDrawing"]
+- ["Ps7CVarArg", "refreshContent"]
+- !private ["Ps7CVarArg", "render"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", ""]
+- !private ["P6Charts17ChartDataProvider", "bounds"]
+- !private ["C6Charts13ChartViewBase", "bounds"]
+- !private ["C6Charts13ChartViewBase", "deinit"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUIGraphicsPopContext"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUIGraphicsPushContext"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "chartView"]
+- ["Ps28CustomDebugStringConvertible", "draw"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadNibNamed"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "nsuiLayer"]
+- ["Ps28CustomDebugStringConvertible", "offset"]
+- ["Ps28CustomDebugStringConvertible", "offsetForDrawing"]
+- ["Ps28CustomDebugStringConvertible", "refreshContent"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "NSUIGraphicsPopContext"]
+- !private ["Ps23CustomStringConvertible", "NSUIGraphicsPushContext"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "chartView"]
+- ["Ps23CustomStringConvertible", "draw"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadNibNamed"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "nsuiLayer"]
+- ["Ps23CustomStringConvertible", "offset"]
+- ["Ps23CustomStringConvertible", "offsetForDrawing"]
+- ["Ps23CustomStringConvertible", "refreshContent"]
+- !private ["Ps23CustomStringConvertible", "render"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Bundle"]
+- ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "NSUIGraphicsPopContext"]
+- !private ["Ps9Equatable", "NSUIGraphicsPushContext"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "chartView"]
+- ["Ps9Equatable", "draw"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "loadNibNamed"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "nsuiLayer"]
+- ["Ps9Equatable", "offset"]
+- ["Ps9Equatable", "offsetForDrawing"]
+- ["Ps9Equatable", "refreshContent"]
+- !private ["Ps9Equatable", "render"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Bundle"]
+- ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "NSUIGraphicsPopContext"]
+- !private ["Ps8Hashable", "NSUIGraphicsPushContext"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "chartView"]
+- ["Ps8Hashable", "draw"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "loadNibNamed"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "nsuiLayer"]
+- ["Ps8Hashable", "offset"]
+- ["Ps8Hashable", "offsetForDrawing"]
+- ["Ps8Hashable", "refreshContent"]
+- !private ["Ps8Hashable", "render"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts7IMarker", "Bundle"]
+- ["P6Charts7IMarker", "CGPoint"]
+- !private ["P6Charts7IMarker", "NSUIGraphicsPopContext"]
+- !private ["P6Charts7IMarker", "NSUIGraphicsPushContext"]
+- !private ["P6Charts7IMarker", "String"]
+- !private ["P6Charts7IMarker", "bounds"]
+- !private ["P6Charts7IMarker", "chartView"]
+- ["P6Charts7IMarker", "draw"]
+- !private ["P6Charts7IMarker", "nsuiLayer"]
+- ["P6Charts7IMarker", "offset"]
+- ["P6Charts7IMarker", "offsetForDrawing"]
+- ["P6Charts7IMarker", "refreshContent"]
+- ["P6Charts7IMarker", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C6Charts10MarkerView", "Bundle"]
+- ["C6Charts10MarkerView", "CGContext"]
+- ["C6Charts10MarkerView", "CGPoint"]
+- ["C6Charts10MarkerView", "ChartDataEntry"]
+- ["C6Charts10MarkerView", "ChartViewBase"]
+- ["C6Charts10MarkerView", "Highlight"]
+- ["C6Charts10MarkerView", "MarkerView"]
+- !private ["C6Charts10MarkerView", "NSUIGraphicsPopContext"]
+- !private ["C6Charts10MarkerView", "NSUIGraphicsPushContext"]
+- !private ["C6Charts10MarkerView", "String"]
+- !private ["C6Charts10MarkerView", "bounds"]
+- ["C6Charts10MarkerView", "chartView"]
+- ["C6Charts10MarkerView", "deinit"]
+- ["C6Charts10MarkerView", "draw"]
+- ["C6Charts10MarkerView", "init"]
+- !private ["C6Charts10MarkerView", "nsuiLayer"]
+- ["C6Charts10MarkerView", "offset"]
+- ["C6Charts10MarkerView", "offsetForDrawing"]
+- ["C6Charts10MarkerView", "refreshContent"]
+- ["C6Charts10MarkerView", "viewFromXib"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "Bundle"]
+- ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "NSUIGraphicsPopContext"]
+- !private ["PSo8NSCoding", "NSUIGraphicsPushContext"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "chartView"]
+- ["PSo8NSCoding", "draw"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "nsuiLayer"]
+- ["PSo8NSCoding", "offset"]
+- ["PSo8NSCoding", "offsetForDrawing"]
+- ["PSo8NSCoding", "refreshContent"]
+- !private ["PSo8NSCoding", "render"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "CGContext"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "ChartViewBase"]
+- ["CSo8NSObject", "Highlight"]
+- ["CSo8NSObject", "MarkerView"]
+- !private ["CSo8NSObject", "NSUIGraphicsPopContext"]
+- !private ["CSo8NSObject", "NSUIGraphicsPushContext"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "chartView"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "loadNibNamed"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "nsuiLayer"]
+- ["CSo8NSObject", "offset"]
+- ["CSo8NSObject", "offsetForDrawing"]
+- ["CSo8NSObject", "refreshContent"]
+- !private ["CSo8NSObject", "render"]
+- ["CSo8NSObject", "viewFromXib"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "NSUIGraphicsPopContext"]
+- !private ["PSo16NSObjectProtocol", "NSUIGraphicsPushContext"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "chartView"]
+- ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadNibNamed"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "nsuiLayer"]
+- ["PSo16NSObjectProtocol", "offset"]
+- ["PSo16NSObjectProtocol", "offsetForDrawing"]
+- ["PSo16NSObjectProtocol", "refreshContent"]
+- !private ["PSo16NSObjectProtocol", "render"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C6Charts8NSUIView", "Bundle"]
+- ["C6Charts8NSUIView", "CGContext"]
+- ["C6Charts8NSUIView", "CGPoint"]
+- ["C6Charts8NSUIView", "ChartDataEntry"]
+- ["C6Charts8NSUIView", "ChartViewBase"]
+- ["C6Charts8NSUIView", "Highlight"]
+- ["C6Charts8NSUIView", "MarkerView"]
+- !private ["C6Charts8NSUIView", "NSUIGraphicsPopContext"]
+- !private ["C6Charts8NSUIView", "NSUIGraphicsPushContext"]
+- !private ["C6Charts8NSUIView", "String"]
+- !private ["C6Charts8NSUIView", "bounds"]
+- ["C6Charts8NSUIView", "chartView"]
+- ["C6Charts8NSUIView", "draw"]
+- ["C6Charts8NSUIView", "init"]
+- !private ["C6Charts8NSUIView", "nsuiLayer"]
+- ["C6Charts8NSUIView", "offset"]
+- ["C6Charts8NSUIView", "offsetForDrawing"]
+- ["C6Charts8NSUIView", "refreshContent"]
+- ["C6Charts8NSUIView", "viewFromXib"]
+- ["C6Charts8NSUIView", ""]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "Bundle"]
+- ["PSo29UIAccessibilityIdentification", "CGPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "NSUIGraphicsPopContext"]
+- !private ["PSo29UIAccessibilityIdentification", "NSUIGraphicsPushContext"]
+- !private ["PSo29UIAccessibilityIdentification", "String"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "chartView"]
+- ["PSo29UIAccessibilityIdentification", "draw"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "nsuiLayer"]
+- ["PSo29UIAccessibilityIdentification", "offset"]
+- ["PSo29UIAccessibilityIdentification", "offsetForDrawing"]
+- ["PSo29UIAccessibilityIdentification", "refreshContent"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "Bundle"]
+- ["PSo12UIAppearance", "CGPoint"]
+- !private ["PSo12UIAppearance", "NSUIGraphicsPopContext"]
+- !private ["PSo12UIAppearance", "NSUIGraphicsPushContext"]
+- !private ["PSo12UIAppearance", "String"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "chartView"]
+- ["PSo12UIAppearance", "draw"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "nsuiLayer"]
+- ["PSo12UIAppearance", "offset"]
+- ["PSo12UIAppearance", "offsetForDrawing"]
+- ["PSo12UIAppearance", "refreshContent"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "Bundle"]
+- ["PSo21UIAppearanceContainer", "CGPoint"]
+- !private ["PSo21UIAppearanceContainer", "NSUIGraphicsPopContext"]
+- !private ["PSo21UIAppearanceContainer", "NSUIGraphicsPushContext"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "chartView"]
+- ["PSo21UIAppearanceContainer", "draw"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "nsuiLayer"]
+- ["PSo21UIAppearanceContainer", "offset"]
+- ["PSo21UIAppearanceContainer", "offsetForDrawing"]
+- ["PSo21UIAppearanceContainer", "refreshContent"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "Bundle"]
+- ["PSo17UICoordinateSpace", "CGPoint"]
+- !private ["PSo17UICoordinateSpace", "NSUIGraphicsPopContext"]
+- !private ["PSo17UICoordinateSpace", "NSUIGraphicsPushContext"]
+- !private ["PSo17UICoordinateSpace", "String"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "chartView"]
+- ["PSo17UICoordinateSpace", "draw"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "nsuiLayer"]
+- ["PSo17UICoordinateSpace", "offset"]
+- ["PSo17UICoordinateSpace", "offsetForDrawing"]
+- ["PSo17UICoordinateSpace", "refreshContent"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "Bundle"]
+- ["PSo13UIDynamicItem", "CGPoint"]
+- !private ["PSo13UIDynamicItem", "NSUIGraphicsPopContext"]
+- !private ["PSo13UIDynamicItem", "NSUIGraphicsPushContext"]
+- !private ["PSo13UIDynamicItem", "String"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "chartView"]
+- ["PSo13UIDynamicItem", "draw"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "nsuiLayer"]
+- ["PSo13UIDynamicItem", "offset"]
+- ["PSo13UIDynamicItem", "offsetForDrawing"]
+- ["PSo13UIDynamicItem", "refreshContent"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "Bundle"]
+- ["PSo18UIFocusEnvironment", "CGPoint"]
+- !private ["PSo18UIFocusEnvironment", "NSUIGraphicsPopContext"]
+- !private ["PSo18UIFocusEnvironment", "NSUIGraphicsPushContext"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "chartView"]
+- ["PSo18UIFocusEnvironment", "draw"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "nsuiLayer"]
+- ["PSo18UIFocusEnvironment", "offset"]
+- ["PSo18UIFocusEnvironment", "offsetForDrawing"]
+- ["PSo18UIFocusEnvironment", "refreshContent"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "Bundle"]
+- ["PSo11UIFocusItem", "CGPoint"]
+- !private ["PSo11UIFocusItem", "NSUIGraphicsPopContext"]
+- !private ["PSo11UIFocusItem", "NSUIGraphicsPushContext"]
+- !private ["PSo11UIFocusItem", "String"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "chartView"]
+- ["PSo11UIFocusItem", "draw"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "nsuiLayer"]
+- ["PSo11UIFocusItem", "offset"]
+- ["PSo11UIFocusItem", "offsetForDrawing"]
+- ["PSo11UIFocusItem", "refreshContent"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo11UIResponder", "Bundle"]
+- ["CSo11UIResponder", "CGContext"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "ChartDataEntry"]
+- ["CSo11UIResponder", "ChartViewBase"]
+- ["CSo11UIResponder", "Highlight"]
+- ["CSo11UIResponder", "MarkerView"]
+- !private ["CSo11UIResponder", "NSUIGraphicsPopContext"]
+- !private ["CSo11UIResponder", "NSUIGraphicsPushContext"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "chartView"]
+- ["CSo11UIResponder", "draw"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "nsuiLayer"]
+- ["CSo11UIResponder", "offset"]
+- ["CSo11UIResponder", "offsetForDrawing"]
+- ["CSo11UIResponder", "refreshContent"]
+- ["CSo11UIResponder", "viewFromXib"]
+- !private ["PSo30UIResponderStandardEditActions", "Bundle"]
+- ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "NSUIGraphicsPopContext"]
+- !private ["PSo30UIResponderStandardEditActions", "NSUIGraphicsPushContext"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "chartView"]
+- ["PSo30UIResponderStandardEditActions", "draw"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "nsuiLayer"]
+- ["PSo30UIResponderStandardEditActions", "offset"]
+- ["PSo30UIResponderStandardEditActions", "offsetForDrawing"]
+- ["PSo30UIResponderStandardEditActions", "refreshContent"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "Bundle"]
+- ["PSo18UITraitEnvironment", "CGPoint"]
+- !private ["PSo18UITraitEnvironment", "NSUIGraphicsPopContext"]
+- !private ["PSo18UITraitEnvironment", "NSUIGraphicsPushContext"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "chartView"]
+- ["PSo18UITraitEnvironment", "draw"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "nsuiLayer"]
+- ["PSo18UITraitEnvironment", "offset"]
+- ["PSo18UITraitEnvironment", "offsetForDrawing"]
+- ["PSo18UITraitEnvironment", "refreshContent"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "Bundle"]
+- ["CSo6UIView", "CGContext"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "ChartDataEntry"]
+- ["CSo6UIView", "ChartViewBase"]
+- ["CSo6UIView", "Highlight"]
+- ["CSo6UIView", "MarkerView"]
+- !private ["CSo6UIView", "NSUIGraphicsPopContext"]
+- !private ["CSo6UIView", "NSUIGraphicsPushContext"]
+- !private ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "chartView"]
+- ["CSo6UIView", "draw"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "nsuiLayer"]
+- ["CSo6UIView", "offset"]
+- ["CSo6UIView", "offsetForDrawing"]
+- ["CSo6UIView", "refreshContent"]
+- ["CSo6UIView", "viewFromXib"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Bundle"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSUIGraphicsPopContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSUIGraphicsPushContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "String"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "chartView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "draw"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nsuiLayer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "offset"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "offsetForDrawing"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "refreshContent"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "NSUIGraphicsPopContext"]
+- !private ["Ps9_Hashable", "NSUIGraphicsPushContext"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "chartView"]
+- ["Ps9_Hashable", "draw"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "loadNibNamed"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "nsuiLayer"]
+- ["Ps9_Hashable", "offset"]
+- ["Ps9_Hashable", "offsetForDrawing"]
+- ["Ps9_Hashable", "refreshContent"]
+- !private ["Ps9_Hashable", "render"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "size"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "P6Charts16AnimatorDelegate"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "CSo6Bundle"
+- !private "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- !private "CSo9CGContext"
+- "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "P6Charts17ChartDataProvider"
+- !private "C6Charts13ChartViewBase"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P6Charts7IMarker"
+- !private "Ps25LosslessStringConvertible"
+- "C6Charts10MarkerView"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts8NSUIView"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "eb5b073850b1379be41d57e5ac379366"

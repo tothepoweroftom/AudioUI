@@ -1,0 +1,364 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BubbleChartView"
+provides-nominal:
+- "C6Charts15BubbleChartView"
+provides-member:
+- ["C6Charts15BubbleChartView", ""]
+provides-dynamic-lookup:
+- "bubbleData"
+- "initialize"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BarLineChartViewBase"
+- "BubbleChartData"
+- "BubbleChartDataProvider"
+- !private "BubbleChartRenderer"
+- "BubbleChartView"
+- "CastingPrecedence"
+depends-member:
+- !private ["P6Charts16AnimatorDelegate", "BubbleChartRenderer"]
+- !private ["P6Charts16AnimatorDelegate", "_animator"]
+- !private ["P6Charts16AnimatorDelegate", "_data"]
+- !private ["P6Charts16AnimatorDelegate", "_viewPortHandler"]
+- ["P6Charts16AnimatorDelegate", "bubbleData"]
+- !private ["P6Charts16AnimatorDelegate", "init"]
+- !private ["P6Charts16AnimatorDelegate", "initialize"]
+- !private ["P6Charts16AnimatorDelegate", "renderer"]
+- ["P6Charts16AnimatorDelegate", ""]
+- !private ["Ps9AnyObject", "BubbleChartRenderer"]
+- !private ["Ps9AnyObject", "_animator"]
+- !private ["Ps9AnyObject", "_data"]
+- !private ["Ps9AnyObject", "_viewPortHandler"]
+- ["Ps9AnyObject", "bubbleData"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialize"]
+- !private ["Ps9AnyObject", "renderer"]
+- ["Ps9AnyObject", ""]
+- ["C6Charts20BarLineChartViewBase", "BubbleChartData"]
+- !private ["C6Charts20BarLineChartViewBase", "BubbleChartRenderer"]
+- !private ["C6Charts20BarLineChartViewBase", "_animator"]
+- !private ["C6Charts20BarLineChartViewBase", "_data"]
+- !private ["C6Charts20BarLineChartViewBase", "_viewPortHandler"]
+- ["C6Charts20BarLineChartViewBase", "bubbleData"]
+- ["C6Charts20BarLineChartViewBase", "init"]
+- ["C6Charts20BarLineChartViewBase", "initialize"]
+- !private ["C6Charts20BarLineChartViewBase", "renderer"]
+- ["C6Charts20BarLineChartViewBase", ""]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "BubbleChartRenderer"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "_animator"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "_data"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "_viewPortHandler"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "bubbleData"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "init"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "initialize"]
+- !private ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", "renderer"]
+- ["P6Charts43BarLineScatterCandleBubbleChartDataProvider", ""]
+- !private ["P6Charts23BubbleChartDataProvider", "BubbleChartRenderer"]
+- !private ["P6Charts23BubbleChartDataProvider", "_animator"]
+- !private ["P6Charts23BubbleChartDataProvider", "_data"]
+- !private ["P6Charts23BubbleChartDataProvider", "_viewPortHandler"]
+- ["P6Charts23BubbleChartDataProvider", "bubbleData"]
+- !private ["P6Charts23BubbleChartDataProvider", "renderer"]
+- ["P6Charts23BubbleChartDataProvider", ""]
+- !private ["C6Charts19BubbleChartRenderer", "init"]
+- ["C6Charts15BubbleChartView", "BubbleChartData"]
+- !private ["C6Charts15BubbleChartView", "BubbleChartRenderer"]
+- !private ["C6Charts15BubbleChartView", "_animator"]
+- !private ["C6Charts15BubbleChartView", "_data"]
+- !private ["C6Charts15BubbleChartView", "_viewPortHandler"]
+- ["C6Charts15BubbleChartView", "bubbleData"]
+- ["C6Charts15BubbleChartView", "deinit"]
+- ["C6Charts15BubbleChartView", "init"]
+- ["C6Charts15BubbleChartView", "initialize"]
+- !private ["C6Charts15BubbleChartView", "renderer"]
+- !private ["PSo15CALayerDelegate", "BubbleChartRenderer"]
+- !private ["PSo15CALayerDelegate", "_animator"]
+- !private ["PSo15CALayerDelegate", "_data"]
+- !private ["PSo15CALayerDelegate", "_viewPortHandler"]
+- ["PSo15CALayerDelegate", "bubbleData"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "initialize"]
+- !private ["PSo15CALayerDelegate", "renderer"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "BubbleChartRenderer"]
+- !private ["Ps7CVarArg", "_animator"]
+- !private ["Ps7CVarArg", "_data"]
+- !private ["Ps7CVarArg", "_viewPortHandler"]
+- ["Ps7CVarArg", "bubbleData"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- !private ["Ps7CVarArg", "renderer"]
+- ["Ps7CVarArg", ""]
+- !private ["P6Charts17ChartDataProvider", "BubbleChartRenderer"]
+- !private ["P6Charts17ChartDataProvider", "_animator"]
+- !private ["P6Charts17ChartDataProvider", "_data"]
+- !private ["P6Charts17ChartDataProvider", "_viewPortHandler"]
+- ["P6Charts17ChartDataProvider", "bubbleData"]
+- !private ["P6Charts17ChartDataProvider", "init"]
+- !private ["P6Charts17ChartDataProvider", "initialize"]
+- !private ["P6Charts17ChartDataProvider", "renderer"]
+- ["P6Charts17ChartDataProvider", ""]
+- ["C6Charts13ChartViewBase", "BubbleChartData"]
+- !private ["C6Charts13ChartViewBase", "BubbleChartRenderer"]
+- !private ["C6Charts13ChartViewBase", "_animator"]
+- !private ["C6Charts13ChartViewBase", "_data"]
+- !private ["C6Charts13ChartViewBase", "_viewPortHandler"]
+- ["C6Charts13ChartViewBase", "bubbleData"]
+- ["C6Charts13ChartViewBase", "init"]
+- ["C6Charts13ChartViewBase", "initialize"]
+- !private ["C6Charts13ChartViewBase", "renderer"]
+- !private ["Ps28CustomDebugStringConvertible", "BubbleChartRenderer"]
+- !private ["Ps28CustomDebugStringConvertible", "_animator"]
+- !private ["Ps28CustomDebugStringConvertible", "_data"]
+- !private ["Ps28CustomDebugStringConvertible", "_viewPortHandler"]
+- ["Ps28CustomDebugStringConvertible", "bubbleData"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- !private ["Ps28CustomDebugStringConvertible", "renderer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BubbleChartRenderer"]
+- !private ["Ps23CustomStringConvertible", "_animator"]
+- !private ["Ps23CustomStringConvertible", "_data"]
+- !private ["Ps23CustomStringConvertible", "_viewPortHandler"]
+- ["Ps23CustomStringConvertible", "bubbleData"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialize"]
+- !private ["Ps23CustomStringConvertible", "renderer"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BubbleChartRenderer"]
+- !private ["Ps9Equatable", "_animator"]
+- !private ["Ps9Equatable", "_data"]
+- !private ["Ps9Equatable", "_viewPortHandler"]
+- ["Ps9Equatable", "bubbleData"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- !private ["Ps9Equatable", "renderer"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "BubbleChartRenderer"]
+- !private ["Ps8Hashable", "_animator"]
+- !private ["Ps8Hashable", "_data"]
+- !private ["Ps8Hashable", "_viewPortHandler"]
+- ["Ps8Hashable", "bubbleData"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- !private ["Ps8Hashable", "renderer"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "BubbleChartRenderer"]
+- !private ["PSo8NSCoding", "_animator"]
+- !private ["PSo8NSCoding", "_data"]
+- !private ["PSo8NSCoding", "_viewPortHandler"]
+- ["PSo8NSCoding", "bubbleData"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "initialize"]
+- !private ["PSo8NSCoding", "renderer"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "BubbleChartData"]
+- !private ["CSo8NSObject", "BubbleChartRenderer"]
+- !private ["CSo8NSObject", "_animator"]
+- !private ["CSo8NSObject", "_data"]
+- !private ["CSo8NSObject", "_viewPortHandler"]
+- ["CSo8NSObject", "bubbleData"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- !private ["CSo8NSObject", "renderer"]
+- !private ["PSo16NSObjectProtocol", "BubbleChartRenderer"]
+- !private ["PSo16NSObjectProtocol", "_animator"]
+- !private ["PSo16NSObjectProtocol", "_data"]
+- !private ["PSo16NSObjectProtocol", "_viewPortHandler"]
+- ["PSo16NSObjectProtocol", "bubbleData"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialize"]
+- !private ["PSo16NSObjectProtocol", "renderer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C6Charts8NSUIView", "BubbleChartData"]
+- !private ["C6Charts8NSUIView", "BubbleChartRenderer"]
+- !private ["C6Charts8NSUIView", "_animator"]
+- !private ["C6Charts8NSUIView", "_data"]
+- !private ["C6Charts8NSUIView", "_viewPortHandler"]
+- ["C6Charts8NSUIView", "bubbleData"]
+- ["C6Charts8NSUIView", "init"]
+- ["C6Charts8NSUIView", "initialize"]
+- !private ["C6Charts8NSUIView", "renderer"]
+- !private ["PSo29UIAccessibilityIdentification", "BubbleChartRenderer"]
+- !private ["PSo29UIAccessibilityIdentification", "_animator"]
+- !private ["PSo29UIAccessibilityIdentification", "_data"]
+- !private ["PSo29UIAccessibilityIdentification", "_viewPortHandler"]
+- ["PSo29UIAccessibilityIdentification", "bubbleData"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "initialize"]
+- !private ["PSo29UIAccessibilityIdentification", "renderer"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "BubbleChartRenderer"]
+- !private ["PSo12UIAppearance", "_animator"]
+- !private ["PSo12UIAppearance", "_data"]
+- !private ["PSo12UIAppearance", "_viewPortHandler"]
+- ["PSo12UIAppearance", "bubbleData"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "initialize"]
+- !private ["PSo12UIAppearance", "renderer"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "BubbleChartRenderer"]
+- !private ["PSo21UIAppearanceContainer", "_animator"]
+- !private ["PSo21UIAppearanceContainer", "_data"]
+- !private ["PSo21UIAppearanceContainer", "_viewPortHandler"]
+- ["PSo21UIAppearanceContainer", "bubbleData"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "initialize"]
+- !private ["PSo21UIAppearanceContainer", "renderer"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "BubbleChartRenderer"]
+- !private ["PSo17UICoordinateSpace", "_animator"]
+- !private ["PSo17UICoordinateSpace", "_data"]
+- !private ["PSo17UICoordinateSpace", "_viewPortHandler"]
+- ["PSo17UICoordinateSpace", "bubbleData"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "initialize"]
+- !private ["PSo17UICoordinateSpace", "renderer"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "BubbleChartRenderer"]
+- !private ["PSo13UIDynamicItem", "_animator"]
+- !private ["PSo13UIDynamicItem", "_data"]
+- !private ["PSo13UIDynamicItem", "_viewPortHandler"]
+- ["PSo13UIDynamicItem", "bubbleData"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "initialize"]
+- !private ["PSo13UIDynamicItem", "renderer"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "BubbleChartRenderer"]
+- !private ["PSo18UIFocusEnvironment", "_animator"]
+- !private ["PSo18UIFocusEnvironment", "_data"]
+- !private ["PSo18UIFocusEnvironment", "_viewPortHandler"]
+- ["PSo18UIFocusEnvironment", "bubbleData"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "initialize"]
+- !private ["PSo18UIFocusEnvironment", "renderer"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "BubbleChartRenderer"]
+- !private ["PSo11UIFocusItem", "_animator"]
+- !private ["PSo11UIFocusItem", "_data"]
+- !private ["PSo11UIFocusItem", "_viewPortHandler"]
+- ["PSo11UIFocusItem", "bubbleData"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "initialize"]
+- !private ["PSo11UIFocusItem", "renderer"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "BubbleChartRenderer"]
+- !private ["PSo27UIGestureRecognizerDelegate", "_animator"]
+- !private ["PSo27UIGestureRecognizerDelegate", "_data"]
+- !private ["PSo27UIGestureRecognizerDelegate", "_viewPortHandler"]
+- ["PSo27UIGestureRecognizerDelegate", "bubbleData"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "initialize"]
+- !private ["PSo27UIGestureRecognizerDelegate", "renderer"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "BubbleChartData"]
+- !private ["CSo11UIResponder", "BubbleChartRenderer"]
+- !private ["CSo11UIResponder", "_animator"]
+- !private ["CSo11UIResponder", "_data"]
+- !private ["CSo11UIResponder", "_viewPortHandler"]
+- ["CSo11UIResponder", "bubbleData"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initialize"]
+- !private ["CSo11UIResponder", "renderer"]
+- !private ["PSo30UIResponderStandardEditActions", "BubbleChartRenderer"]
+- !private ["PSo30UIResponderStandardEditActions", "_animator"]
+- !private ["PSo30UIResponderStandardEditActions", "_data"]
+- !private ["PSo30UIResponderStandardEditActions", "_viewPortHandler"]
+- ["PSo30UIResponderStandardEditActions", "bubbleData"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initialize"]
+- !private ["PSo30UIResponderStandardEditActions", "renderer"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "BubbleChartRenderer"]
+- !private ["PSo18UITraitEnvironment", "_animator"]
+- !private ["PSo18UITraitEnvironment", "_data"]
+- !private ["PSo18UITraitEnvironment", "_viewPortHandler"]
+- ["PSo18UITraitEnvironment", "bubbleData"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "initialize"]
+- !private ["PSo18UITraitEnvironment", "renderer"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "BubbleChartData"]
+- !private ["CSo6UIView", "BubbleChartRenderer"]
+- !private ["CSo6UIView", "_animator"]
+- !private ["CSo6UIView", "_data"]
+- !private ["CSo6UIView", "_viewPortHandler"]
+- ["CSo6UIView", "bubbleData"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "initialize"]
+- !private ["CSo6UIView", "renderer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "BubbleChartRenderer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "_animator"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "_data"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "_viewPortHandler"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "bubbleData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initialize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "renderer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "BubbleChartRenderer"]
+- !private ["Ps9_Hashable", "_animator"]
+- !private ["Ps9_Hashable", "_data"]
+- !private ["Ps9_Hashable", "_viewPortHandler"]
+- ["Ps9_Hashable", "bubbleData"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- !private ["Ps9_Hashable", "renderer"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "P6Charts16AnimatorDelegate"
+- "Ps9AnyObject"
+- "C6Charts20BarLineChartViewBase"
+- "P6Charts43BarLineScatterCandleBubbleChartDataProvider"
+- "P6Charts23BubbleChartDataProvider"
+- !private "C6Charts19BubbleChartRenderer"
+- "C6Charts15BubbleChartView"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "P6Charts17ChartDataProvider"
+- "C6Charts13ChartViewBase"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts8NSUIView"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8ec6b697ec6381d73d302f553f94929c"

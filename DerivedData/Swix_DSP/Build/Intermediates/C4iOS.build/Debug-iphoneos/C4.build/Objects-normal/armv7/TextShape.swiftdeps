@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextShape"
+provides-nominal:
+- "C2C49TextShape"
+provides-member:
+- ["C2C49TextShape", ""]
+provides-dynamic-lookup:
+- "text"
+- "updatePath"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "=="
+- "AssignmentPrecedence"
+- !private "C4Pink"
+- !private "CGAffineTransform"
+- !private "CGFloat"
+- !private "CGGlyph"
+- !private "CGMutablePath"
+- !private "CGPoint"
+- !private "CGSize"
+- !private "CTFont"
+- !private "CTFontCreatePathForGlyph"
+- !private "CTFontGetAdvancesForGlyphs"
+- !private "CTFontGetGlyphsForCharacters"
+- "CastingPrecedence"
+- "Font"
+- "Path"
+- !private "Point"
+- "Shape"
+- "String"
+- "StringLiteralType"
+- "TextShape"
+- !private "UniChar"
+- !private "zip"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "C4Pink"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGGlyph"]
+- !private ["Ps9AnyObject", "CGMutablePath"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "CTFontCreatePathForGlyph"]
+- !private ["Ps9AnyObject", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps9AnyObject", "CTFontGetGlyphsForCharacters"]
+- ["Ps9AnyObject", "Font"]
+- !private ["Ps9AnyObject", "Path"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "TextShape"]
+- !private ["Ps9AnyObject", "UniChar"]
+- !private ["Ps9AnyObject", "addPath"]
+- !private ["Ps9AnyObject", "adjustToFitPath"]
+- !private ["Ps9AnyObject", "createTextPath"]
+- !private ["Ps9AnyObject", "ctFont"]
+- !private ["Ps9AnyObject", "fillColor"]
+- !private ["Ps9AnyObject", "font"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lineWidth"]
+- !private ["Ps9AnyObject", "origin"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "utf16"]
+- !private ["Ps9AnyObject", "zip"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC17CGAffineTransform", "init"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["CSo13CGMutablePath", "addPath"]
+- !private ["CSo13CGMutablePath", "init"]
+- !private ["CSo6CGPath", "addPath"]
+- !private ["CSo6CGPath", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- !private ["OSC17CTFontOrientation", "default"]
+- !private ["Ps7CVarArg", "C4Pink"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGGlyph"]
+- !private ["Ps7CVarArg", "CGMutablePath"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "CGSize"]
+- !private ["Ps7CVarArg", "CTFontCreatePathForGlyph"]
+- !private ["Ps7CVarArg", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps7CVarArg", "CTFontGetGlyphsForCharacters"]
+- ["Ps7CVarArg", "Font"]
+- !private ["Ps7CVarArg", "Path"]
+- !private ["Ps7CVarArg", "Point"]
+- !private ["Ps7CVarArg", "TextShape"]
+- !private ["Ps7CVarArg", "UniChar"]
+- !private ["Ps7CVarArg", "adjustToFitPath"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "createTextPath"]
+- !private ["Ps7CVarArg", "fillColor"]
+- !private ["Ps7CVarArg", "font"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lineWidth"]
+- !private ["Ps7CVarArg", "origin"]
+- !private ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "updatePath"]
+- !private ["Ps7CVarArg", "utf16"]
+- !private ["Ps7CVarArg", "zip"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "utf16"]
+- !private ["Ps28CustomDebugStringConvertible", "C4Pink"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGGlyph"]
+- !private ["Ps28CustomDebugStringConvertible", "CGMutablePath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "CTFontCreatePathForGlyph"]
+- !private ["Ps28CustomDebugStringConvertible", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps28CustomDebugStringConvertible", "CTFontGetGlyphsForCharacters"]
+- ["Ps28CustomDebugStringConvertible", "Font"]
+- !private ["Ps28CustomDebugStringConvertible", "Path"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "TextShape"]
+- !private ["Ps28CustomDebugStringConvertible", "UniChar"]
+- !private ["Ps28CustomDebugStringConvertible", "adjustToFitPath"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "createTextPath"]
+- !private ["Ps28CustomDebugStringConvertible", "fillColor"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "utf16"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps28CustomDebugStringConvertible", "zip"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf16"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "utf16"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "C4Pink"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGGlyph"]
+- !private ["Ps23CustomStringConvertible", "CGMutablePath"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "CTFontCreatePathForGlyph"]
+- !private ["Ps23CustomStringConvertible", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps23CustomStringConvertible", "CTFontGetGlyphsForCharacters"]
+- ["Ps23CustomStringConvertible", "Font"]
+- !private ["Ps23CustomStringConvertible", "Path"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "TextShape"]
+- !private ["Ps23CustomStringConvertible", "UniChar"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "adjustToFitPath"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "createTextPath"]
+- !private ["Ps23CustomStringConvertible", "fillColor"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lineWidth"]
+- !private ["Ps23CustomStringConvertible", "origin"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "utf16"]
+- !private ["Ps23CustomStringConvertible", "zip"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "C4Pink"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGGlyph"]
+- !private ["Ps9Equatable", "CGMutablePath"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "CTFontCreatePathForGlyph"]
+- !private ["Ps9Equatable", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps9Equatable", "CTFontGetGlyphsForCharacters"]
+- ["Ps9Equatable", "Font"]
+- !private ["Ps9Equatable", "Path"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "TextShape"]
+- !private ["Ps9Equatable", "UniChar"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addPath"]
+- !private ["Ps9Equatable", "adjustToFitPath"]
+- !private ["Ps9Equatable", "createTextPath"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "fillColor"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lineWidth"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "utf16"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps9Equatable", "zip"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "C4Pink"]
+- !private ["P2C411EventSource", "CGAffineTransform"]
+- !private ["P2C411EventSource", "CGFloat"]
+- !private ["P2C411EventSource", "CGGlyph"]
+- !private ["P2C411EventSource", "CGMutablePath"]
+- !private ["P2C411EventSource", "CGPoint"]
+- !private ["P2C411EventSource", "CGSize"]
+- !private ["P2C411EventSource", "CTFontCreatePathForGlyph"]
+- !private ["P2C411EventSource", "CTFontGetAdvancesForGlyphs"]
+- !private ["P2C411EventSource", "CTFontGetGlyphsForCharacters"]
+- ["P2C411EventSource", "Font"]
+- !private ["P2C411EventSource", "Path"]
+- !private ["P2C411EventSource", "Point"]
+- !private ["P2C411EventSource", "TextShape"]
+- !private ["P2C411EventSource", "UniChar"]
+- !private ["P2C411EventSource", "adjustToFitPath"]
+- !private ["P2C411EventSource", "createTextPath"]
+- !private ["P2C411EventSource", "fillColor"]
+- !private ["P2C411EventSource", "font"]
+- ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "lineWidth"]
+- !private ["P2C411EventSource", "origin"]
+- !private ["P2C411EventSource", "path"]
+- !private ["P2C411EventSource", "text"]
+- !private ["P2C411EventSource", "updatePath"]
+- !private ["P2C411EventSource", "utf16"]
+- !private ["P2C411EventSource", "zip"]
+- ["P2C411EventSource", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf16"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf16"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf16"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["C2C44Font", "ctFont"]
+- ["C2C44Font", "init"]
+- !private ["Ps8Hashable", "C4Pink"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGGlyph"]
+- !private ["Ps8Hashable", "CGMutablePath"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "CTFontCreatePathForGlyph"]
+- !private ["Ps8Hashable", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps8Hashable", "CTFontGetGlyphsForCharacters"]
+- ["Ps8Hashable", "Font"]
+- !private ["Ps8Hashable", "Path"]
+- !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "TextShape"]
+- !private ["Ps8Hashable", "UniChar"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "adjustToFitPath"]
+- !private ["Ps8Hashable", "createTextPath"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "fillColor"]
+- !private ["Ps8Hashable", "font"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lineWidth"]
+- !private ["Ps8Hashable", "origin"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "utf16"]
+- !private ["Ps8Hashable", "zip"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "utf16"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "utf16"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "utf16"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "utf16"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "utf16"]
+- !private ["CSo8NSObject", "C4Pink"]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGGlyph"]
+- !private ["CSo8NSObject", "CGMutablePath"]
+- !private ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "CTFont"]
+- !private ["CSo8NSObject", "CTFontCreatePathForGlyph"]
+- !private ["CSo8NSObject", "CTFontGetAdvancesForGlyphs"]
+- !private ["CSo8NSObject", "CTFontGetGlyphsForCharacters"]
+- ["CSo8NSObject", "Font"]
+- ["CSo8NSObject", "Path"]
+- !private ["CSo8NSObject", "Point"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "TextShape"]
+- !private ["CSo8NSObject", "UniChar"]
+- !private ["CSo8NSObject", "adjustToFitPath"]
+- ["CSo8NSObject", "createTextPath"]
+- !private ["CSo8NSObject", "fillColor"]
+- ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "lineWidth"]
+- !private ["CSo8NSObject", "origin"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "utf16"]
+- !private ["CSo8NSObject", "zip"]
+- !private ["PSo16NSObjectProtocol", "C4Pink"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGGlyph"]
+- !private ["PSo16NSObjectProtocol", "CGMutablePath"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "CTFontCreatePathForGlyph"]
+- !private ["PSo16NSObjectProtocol", "CTFontGetAdvancesForGlyphs"]
+- !private ["PSo16NSObjectProtocol", "CTFontGetGlyphsForCharacters"]
+- ["PSo16NSObjectProtocol", "Font"]
+- !private ["PSo16NSObjectProtocol", "Path"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "TextShape"]
+- !private ["PSo16NSObjectProtocol", "UniChar"]
+- !private ["PSo16NSObjectProtocol", "adjustToFitPath"]
+- !private ["PSo16NSObjectProtocol", "createTextPath"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lineWidth"]
+- !private ["PSo16NSObjectProtocol", "origin"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "utf16"]
+- !private ["PSo16NSObjectProtocol", "zip"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "utf16"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "utf16"]
+- !private ["C2C44Path", "init"]
+- !private ["V2C45Point", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["C2C45Shape", "C4Pink"]
+- !private ["C2C45Shape", "CGAffineTransform"]
+- !private ["C2C45Shape", "CGFloat"]
+- !private ["C2C45Shape", "CGGlyph"]
+- !private ["C2C45Shape", "CGMutablePath"]
+- !private ["C2C45Shape", "CGPoint"]
+- !private ["C2C45Shape", "CGSize"]
+- !private ["C2C45Shape", "CTFont"]
+- !private ["C2C45Shape", "CTFontCreatePathForGlyph"]
+- !private ["C2C45Shape", "CTFontGetAdvancesForGlyphs"]
+- !private ["C2C45Shape", "CTFontGetGlyphsForCharacters"]
+- ["C2C45Shape", "Font"]
+- ["C2C45Shape", "Path"]
+- !private ["C2C45Shape", "Point"]
+- ["C2C45Shape", "String"]
+- !private ["C2C45Shape", "TextShape"]
+- !private ["C2C45Shape", "UniChar"]
+- !private ["C2C45Shape", "adjustToFitPath"]
+- ["C2C45Shape", "createTextPath"]
+- !private ["C2C45Shape", "fillColor"]
+- ["C2C45Shape", "font"]
+- ["C2C45Shape", "init"]
+- !private ["C2C45Shape", "lineWidth"]
+- !private ["C2C45Shape", "origin"]
+- !private ["C2C45Shape", "path"]
+- ["C2C45Shape", "text"]
+- ["C2C45Shape", "updatePath"]
+- !private ["C2C45Shape", "zip"]
+- ["C2C45Shape", ""]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "init"]
+- !private ["SS", "utf16"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "utf16"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "utf16"]
+- !private ["C2C49TextShape", "C4Pink"]
+- !private ["C2C49TextShape", "CGAffineTransform"]
+- !private ["C2C49TextShape", "CGFloat"]
+- !private ["C2C49TextShape", "CGGlyph"]
+- !private ["C2C49TextShape", "CGMutablePath"]
+- !private ["C2C49TextShape", "CGPoint"]
+- !private ["C2C49TextShape", "CGSize"]
+- !private ["C2C49TextShape", "CTFont"]
+- !private ["C2C49TextShape", "CTFontCreatePathForGlyph"]
+- !private ["C2C49TextShape", "CTFontGetAdvancesForGlyphs"]
+- !private ["C2C49TextShape", "CTFontGetGlyphsForCharacters"]
+- ["C2C49TextShape", "Font"]
+- ["C2C49TextShape", "Path"]
+- !private ["C2C49TextShape", "Point"]
+- ["C2C49TextShape", "String"]
+- !private ["C2C49TextShape", "TextShape"]
+- !private ["C2C49TextShape", "UniChar"]
+- !private ["C2C49TextShape", "adjustToFitPath"]
+- ["C2C49TextShape", "createTextPath"]
+- ["C2C49TextShape", "deinit"]
+- !private ["C2C49TextShape", "fillColor"]
+- ["C2C49TextShape", "font"]
+- ["C2C49TextShape", "init"]
+- !private ["C2C49TextShape", "lineWidth"]
+- !private ["C2C49TextShape", "origin"]
+- !private ["C2C49TextShape", "path"]
+- ["C2C49TextShape", "text"]
+- ["C2C49TextShape", "updatePath"]
+- !private ["C2C49TextShape", "zip"]
+- !private ["C2C44View", "C4Pink"]
+- !private ["C2C44View", "CGAffineTransform"]
+- !private ["C2C44View", "CGFloat"]
+- !private ["C2C44View", "CGGlyph"]
+- !private ["C2C44View", "CGMutablePath"]
+- !private ["C2C44View", "CGPoint"]
+- !private ["C2C44View", "CGSize"]
+- !private ["C2C44View", "CTFont"]
+- !private ["C2C44View", "CTFontCreatePathForGlyph"]
+- !private ["C2C44View", "CTFontGetAdvancesForGlyphs"]
+- !private ["C2C44View", "CTFontGetGlyphsForCharacters"]
+- ["C2C44View", "Font"]
+- ["C2C44View", "Path"]
+- !private ["C2C44View", "Point"]
+- ["C2C44View", "String"]
+- !private ["C2C44View", "TextShape"]
+- !private ["C2C44View", "UniChar"]
+- !private ["C2C44View", "adjustToFitPath"]
+- ["C2C44View", "createTextPath"]
+- !private ["C2C44View", "fillColor"]
+- ["C2C44View", "font"]
+- !private ["C2C44View", "lineWidth"]
+- !private ["C2C44View", "origin"]
+- !private ["C2C44View", "path"]
+- ["C2C44View", "text"]
+- ["C2C44View", "updatePath"]
+- !private ["C2C44View", "zip"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf16"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf16"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf16"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf16"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf16"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf16"]
+- !private ["Ps9_Hashable", "C4Pink"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGGlyph"]
+- !private ["Ps9_Hashable", "CGMutablePath"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "CGSize"]
+- !private ["Ps9_Hashable", "CTFontCreatePathForGlyph"]
+- !private ["Ps9_Hashable", "CTFontGetAdvancesForGlyphs"]
+- !private ["Ps9_Hashable", "CTFontGetGlyphsForCharacters"]
+- ["Ps9_Hashable", "Font"]
+- !private ["Ps9_Hashable", "Path"]
+- !private ["Ps9_Hashable", "Point"]
+- !private ["Ps9_Hashable", "TextShape"]
+- !private ["Ps9_Hashable", "UniChar"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "adjustToFitPath"]
+- !private ["Ps9_Hashable", "createTextPath"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "fillColor"]
+- !private ["Ps9_Hashable", "font"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lineWidth"]
+- !private ["Ps9_Hashable", "origin"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "updatePath"]
+- !private ["Ps9_Hashable", "utf16"]
+- !private ["Ps9_Hashable", "zip"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "utf16"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- !private "CSo13CGMutablePath"
+- !private "CSo6CGPath"
+- !private "VSC7CGPoint"
+- !private "VSC6CGSize"
+- !private "OSC17CTFontOrientation"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "C2C44Font"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "C2C44Path"
+- !private "V2C45Point"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "C2C45Shape"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C2C49TextShape"
+- "C2C44View"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "3c87cbb464aea8be2452ff16d17e320a"

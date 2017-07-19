@@ -42,9 +42,9 @@ class Doppler {
     var sampleRate = 44100.0
     
     //Frequency bins are scanned until the amp drops below 1% of the peak amp
-    var maxVolRatio = 0.2
-    var RELEVANT_FREQ_WINDOW = 33
-    var SECOND_PEAK_RATIO = 0.4
+    var maxVolRatio = 0.1
+    var RELEVANT_FREQ_WINDOW = 16
+    var SECOND_PEAK_RATIO = 0.3
     
 
     
@@ -55,6 +55,7 @@ class Doppler {
     var fftData = [Double]()
     var velocity = 0
     var velLabel = ["none", "slow", "medium", "fast"]
+    var buffer = [0,0,0,0,0,0,0,0]
     
     //Delegates
     var delegate: DopplerDelegate!

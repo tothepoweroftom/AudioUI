@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultValueFormatter"
+provides-nominal:
+- "C6Charts21DefaultValueFormatter"
+provides-member:
+- ["C6Charts21DefaultValueFormatter", ""]
+provides-dynamic-lookup:
+- "block"
+- "formatter"
+- "hasAutoDecimals"
+- "stringForValue"
+- "with"
+depends-top-level:
+- !private "!="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ChartDataEntry"
+- "DefaultValueFormatter"
+- "Double"
+- "IValueFormatter"
+- "Int"
+- !private "NSNumber"
+- "NSObject"
+- "NumberFormatter"
+- "String"
+- !private "StringLiteralType"
+- "ViewPortHandler"
+depends-member:
+- !private ["Ps9AnyObject", "DefaultValueFormatter"]
+- !private ["Ps9AnyObject", "NSNumber"]
+- !private ["Ps9AnyObject", "NumberFormatter"]
+- !private ["Ps9AnyObject", "_decimals"]
+- !private ["Ps9AnyObject", "_formatter"]
+- !private ["Ps9AnyObject", "block"]
+- !private ["Ps9AnyObject", "decimals"]
+- !private ["Ps9AnyObject", "formatter"]
+- !private ["Ps9AnyObject", "hasAutoDecimals"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "maximumFractionDigits"]
+- !private ["Ps9AnyObject", "minimumFractionDigits"]
+- !private ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", "stringForValue"]
+- !private ["Ps9AnyObject", "usesGroupingSeparator"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "DefaultValueFormatter"]
+- !private ["Ps7CVarArg", "NSNumber"]
+- !private ["Ps7CVarArg", "NumberFormatter"]
+- !private ["Ps7CVarArg", "_decimals"]
+- !private ["Ps7CVarArg", "_formatter"]
+- !private ["Ps7CVarArg", "block"]
+- !private ["Ps7CVarArg", "decimals"]
+- !private ["Ps7CVarArg", "formatter"]
+- !private ["Ps7CVarArg", "hasAutoDecimals"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "maximumFractionDigits"]
+- !private ["Ps7CVarArg", "minimumFractionDigits"]
+- !private ["Ps7CVarArg", "string"]
+- ["Ps7CVarArg", "stringForValue"]
+- !private ["Ps7CVarArg", "usesGroupingSeparator"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DefaultValueFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "NumberFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "_decimals"]
+- !private ["Ps28CustomDebugStringConvertible", "_formatter"]
+- !private ["Ps28CustomDebugStringConvertible", "block"]
+- !private ["Ps28CustomDebugStringConvertible", "decimals"]
+- !private ["Ps28CustomDebugStringConvertible", "formatter"]
+- !private ["Ps28CustomDebugStringConvertible", "hasAutoDecimals"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "maximumFractionDigits"]
+- !private ["Ps28CustomDebugStringConvertible", "minimumFractionDigits"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps28CustomDebugStringConvertible", "stringForValue"]
+- !private ["Ps28CustomDebugStringConvertible", "usesGroupingSeparator"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DefaultValueFormatter"]
+- !private ["Ps23CustomStringConvertible", "NSNumber"]
+- !private ["Ps23CustomStringConvertible", "NumberFormatter"]
+- !private ["Ps23CustomStringConvertible", "_decimals"]
+- !private ["Ps23CustomStringConvertible", "_formatter"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "block"]
+- !private ["Ps23CustomStringConvertible", "decimals"]
+- !private ["Ps23CustomStringConvertible", "formatter"]
+- !private ["Ps23CustomStringConvertible", "hasAutoDecimals"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "maximumFractionDigits"]
+- !private ["Ps23CustomStringConvertible", "minimumFractionDigits"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", "stringForValue"]
+- !private ["Ps23CustomStringConvertible", "usesGroupingSeparator"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C6Charts21DefaultValueFormatter", "Block"]
+- ["C6Charts21DefaultValueFormatter", "Bool"]
+- ["C6Charts21DefaultValueFormatter", "ChartDataEntry"]
+- ["C6Charts21DefaultValueFormatter", "DefaultValueFormatter"]
+- ["C6Charts21DefaultValueFormatter", "Double"]
+- ["C6Charts21DefaultValueFormatter", "Int"]
+- !private ["C6Charts21DefaultValueFormatter", "NSNumber"]
+- ["C6Charts21DefaultValueFormatter", "NumberFormatter"]
+- ["C6Charts21DefaultValueFormatter", "String"]
+- ["C6Charts21DefaultValueFormatter", "ViewPortHandler"]
+- !private ["C6Charts21DefaultValueFormatter", "_decimals"]
+- !private ["C6Charts21DefaultValueFormatter", "_formatter"]
+- ["C6Charts21DefaultValueFormatter", "block"]
+- ["C6Charts21DefaultValueFormatter", "decimals"]
+- ["C6Charts21DefaultValueFormatter", "deinit"]
+- ["C6Charts21DefaultValueFormatter", "formatter"]
+- ["C6Charts21DefaultValueFormatter", "hasAutoDecimals"]
+- ["C6Charts21DefaultValueFormatter", "init"]
+- ["C6Charts21DefaultValueFormatter", "stringForValue"]
+- ["C6Charts21DefaultValueFormatter", "with"]
+- !private ["Ps9Equatable", "DefaultValueFormatter"]
+- !private ["Ps9Equatable", "NSNumber"]
+- !private ["Ps9Equatable", "NumberFormatter"]
+- !private ["Ps9Equatable", "_decimals"]
+- !private ["Ps9Equatable", "_formatter"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "block"]
+- !private ["Ps9Equatable", "decimals"]
+- !private ["Ps9Equatable", "formatter"]
+- !private ["Ps9Equatable", "hasAutoDecimals"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "maximumFractionDigits"]
+- !private ["Ps9Equatable", "minimumFractionDigits"]
+- !private ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "stringForValue"]
+- !private ["Ps9Equatable", "usesGroupingSeparator"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "maximumFractionDigits"]
+- !private ["CSo9Formatter", "minimumFractionDigits"]
+- !private ["CSo9Formatter", "string"]
+- !private ["CSo9Formatter", "usesGroupingSeparator"]
+- !private ["Ps8Hashable", "DefaultValueFormatter"]
+- !private ["Ps8Hashable", "NSNumber"]
+- !private ["Ps8Hashable", "NumberFormatter"]
+- !private ["Ps8Hashable", "_decimals"]
+- !private ["Ps8Hashable", "_formatter"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "block"]
+- !private ["Ps8Hashable", "decimals"]
+- !private ["Ps8Hashable", "formatter"]
+- !private ["Ps8Hashable", "hasAutoDecimals"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "maximumFractionDigits"]
+- !private ["Ps8Hashable", "minimumFractionDigits"]
+- !private ["Ps8Hashable", "string"]
+- ["Ps8Hashable", "stringForValue"]
+- !private ["Ps8Hashable", "usesGroupingSeparator"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts15IValueFormatter", "DefaultValueFormatter"]
+- !private ["P6Charts15IValueFormatter", "NSNumber"]
+- !private ["P6Charts15IValueFormatter", "NumberFormatter"]
+- !private ["P6Charts15IValueFormatter", "_decimals"]
+- !private ["P6Charts15IValueFormatter", "_formatter"]
+- !private ["P6Charts15IValueFormatter", "block"]
+- !private ["P6Charts15IValueFormatter", "decimals"]
+- !private ["P6Charts15IValueFormatter", "formatter"]
+- !private ["P6Charts15IValueFormatter", "hasAutoDecimals"]
+- !private ["P6Charts15IValueFormatter", "init"]
+- ["P6Charts15IValueFormatter", "stringForValue"]
+- ["P6Charts15IValueFormatter", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "maximumFractionDigits"]
+- !private ["PSo8NSCoding", "minimumFractionDigits"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "usesGroupingSeparator"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "maximumFractionDigits"]
+- !private ["PSo9NSCopying", "minimumFractionDigits"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo9NSCopying", "usesGroupingSeparator"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "init"]
+- ["CSo8NSObject", "Block"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "DefaultValueFormatter"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "NumberFormatter"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "ViewPortHandler"]
+- ["CSo8NSObject", "_decimals"]
+- ["CSo8NSObject", "_formatter"]
+- ["CSo8NSObject", "block"]
+- ["CSo8NSObject", "decimals"]
+- ["CSo8NSObject", "formatter"]
+- ["CSo8NSObject", "hasAutoDecimals"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "maximumFractionDigits"]
+- !private ["CSo8NSObject", "minimumFractionDigits"]
+- !private ["CSo8NSObject", "string"]
+- ["CSo8NSObject", "stringForValue"]
+- !private ["CSo8NSObject", "usesGroupingSeparator"]
+- ["CSo8NSObject", "with"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "DefaultValueFormatter"]
+- !private ["PSo16NSObjectProtocol", "NSNumber"]
+- !private ["PSo16NSObjectProtocol", "NumberFormatter"]
+- !private ["PSo16NSObjectProtocol", "_decimals"]
+- !private ["PSo16NSObjectProtocol", "_formatter"]
+- !private ["PSo16NSObjectProtocol", "block"]
+- !private ["PSo16NSObjectProtocol", "decimals"]
+- !private ["PSo16NSObjectProtocol", "formatter"]
+- !private ["PSo16NSObjectProtocol", "hasAutoDecimals"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "maximumFractionDigits"]
+- !private ["PSo16NSObjectProtocol", "minimumFractionDigits"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- ["PSo16NSObjectProtocol", "stringForValue"]
+- !private ["PSo16NSObjectProtocol", "usesGroupingSeparator"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo15NumberFormatter", "init"]
+- !private ["CSo15NumberFormatter", "maximumFractionDigits"]
+- !private ["CSo15NumberFormatter", "minimumFractionDigits"]
+- !private ["CSo15NumberFormatter", "string"]
+- !private ["CSo15NumberFormatter", "usesGroupingSeparator"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DefaultValueFormatter"]
+- !private ["Ps9_Hashable", "NSNumber"]
+- !private ["Ps9_Hashable", "NumberFormatter"]
+- !private ["Ps9_Hashable", "_decimals"]
+- !private ["Ps9_Hashable", "_formatter"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "block"]
+- !private ["Ps9_Hashable", "decimals"]
+- !private ["Ps9_Hashable", "formatter"]
+- !private ["Ps9_Hashable", "hasAutoDecimals"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "maximumFractionDigits"]
+- !private ["Ps9_Hashable", "minimumFractionDigits"]
+- !private ["Ps9_Hashable", "string"]
+- ["Ps9_Hashable", "stringForValue"]
+- !private ["Ps9_Hashable", "usesGroupingSeparator"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C6Charts21DefaultValueFormatter"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- "P6Charts15IValueFormatter"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo15NumberFormatter"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6e6a1a968db9cd8be5fa1f755a7b9535"

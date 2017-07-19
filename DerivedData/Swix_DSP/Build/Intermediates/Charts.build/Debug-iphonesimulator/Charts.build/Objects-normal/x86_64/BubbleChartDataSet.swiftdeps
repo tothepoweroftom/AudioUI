@@ -1,0 +1,344 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BubbleChartDataSet"
+provides-nominal:
+- "C6Charts18BubbleChartDataSet"
+provides-member:
+- ["C6Charts18BubbleChartDataSet", ""]
+provides-dynamic-lookup:
+- "_maxSize"
+- "calcMinMax"
+- "copyWithZone"
+- "highlightCircleWidth"
+- "isNormalizeSizeEnabled"
+- "maxSize"
+- "normalizeSizeEnabled"
+depends-top-level:
+- !private ">"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BarLineScatterCandleBubbleChartDataSet"
+- "Bool"
+- "BooleanLiteralType"
+- !private "BubbleChartDataEntry"
+- "BubbleChartDataSet"
+- "CGFloat"
+- "CastingPrecedence"
+- "ChartDataEntry"
+- "IBubbleChartDataSet"
+- "NSZone"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "_maxSize"]
+- !private ["Ps9AnyObject", "_xMax"]
+- !private ["Ps9AnyObject", "_xMin"]
+- !private ["Ps9AnyObject", "calcMinMax"]
+- !private ["Ps9AnyObject", "copyWithZone"]
+- ["Ps9AnyObject", "highlightCircleWidth"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isNormalizeSizeEnabled"]
+- ["Ps9AnyObject", "maxSize"]
+- !private ["Ps9AnyObject", "normalizeSizeEnabled"]
+- !private ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", ""]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "AnyObject"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "Bool"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "BubbleChartDataEntry"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "BubbleChartDataSet"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ChartDataEntry"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "NSZone"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "_maxSize"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "_xMax"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "_xMin"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "calcMinMax"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "copyWithZone"]
+- !private ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "deinit"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "highlightCircleWidth"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "init"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "isNormalizeSizeEnabled"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "maxSize"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "normalizeSizeEnabled"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", ""]
+- ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C6Charts20BubbleChartDataEntry", "size"]
+- ["C6Charts18BubbleChartDataSet", "AnyObject"]
+- ["C6Charts18BubbleChartDataSet", "Bool"]
+- !private ["C6Charts18BubbleChartDataSet", "BubbleChartDataEntry"]
+- !private ["C6Charts18BubbleChartDataSet", "BubbleChartDataSet"]
+- ["C6Charts18BubbleChartDataSet", "CGFloat"]
+- ["C6Charts18BubbleChartDataSet", "ChartDataEntry"]
+- ["C6Charts18BubbleChartDataSet", "NSZone"]
+- ["C6Charts18BubbleChartDataSet", "_maxSize"]
+- !private ["C6Charts18BubbleChartDataSet", "_xMax"]
+- !private ["C6Charts18BubbleChartDataSet", "_xMin"]
+- ["C6Charts18BubbleChartDataSet", "calcMinMax"]
+- ["C6Charts18BubbleChartDataSet", "copyWithZone"]
+- ["C6Charts18BubbleChartDataSet", "deinit"]
+- ["C6Charts18BubbleChartDataSet", "highlightCircleWidth"]
+- ["C6Charts18BubbleChartDataSet", "init"]
+- ["C6Charts18BubbleChartDataSet", "isNormalizeSizeEnabled"]
+- ["C6Charts18BubbleChartDataSet", "maxSize"]
+- ["C6Charts18BubbleChartDataSet", "normalizeSizeEnabled"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "_maxSize"]
+- !private ["Ps7CVarArg", "_xMax"]
+- !private ["Ps7CVarArg", "_xMin"]
+- !private ["Ps7CVarArg", "calcMinMax"]
+- !private ["Ps7CVarArg", "copyWithZone"]
+- ["Ps7CVarArg", "highlightCircleWidth"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isNormalizeSizeEnabled"]
+- ["Ps7CVarArg", "maxSize"]
+- !private ["Ps7CVarArg", "normalizeSizeEnabled"]
+- !private ["Ps7CVarArg", "size"]
+- ["Ps7CVarArg", ""]
+- ["C6Charts16ChartBaseDataSet", "AnyObject"]
+- ["C6Charts16ChartBaseDataSet", "Bool"]
+- !private ["C6Charts16ChartBaseDataSet", "BubbleChartDataEntry"]
+- !private ["C6Charts16ChartBaseDataSet", "BubbleChartDataSet"]
+- ["C6Charts16ChartBaseDataSet", "CGFloat"]
+- ["C6Charts16ChartBaseDataSet", "ChartDataEntry"]
+- ["C6Charts16ChartBaseDataSet", "NSZone"]
+- ["C6Charts16ChartBaseDataSet", "_maxSize"]
+- !private ["C6Charts16ChartBaseDataSet", "_xMax"]
+- !private ["C6Charts16ChartBaseDataSet", "_xMin"]
+- ["C6Charts16ChartBaseDataSet", "calcMinMax"]
+- ["C6Charts16ChartBaseDataSet", "copyWithZone"]
+- ["C6Charts16ChartBaseDataSet", "highlightCircleWidth"]
+- ["C6Charts16ChartBaseDataSet", "init"]
+- ["C6Charts16ChartBaseDataSet", "isNormalizeSizeEnabled"]
+- ["C6Charts16ChartBaseDataSet", "maxSize"]
+- ["C6Charts16ChartBaseDataSet", "normalizeSizeEnabled"]
+- !private ["C6Charts14ChartDataEntry", "size"]
+- !private ["C6Charts18ChartDataEntryBase", "size"]
+- ["C6Charts12ChartDataSet", "AnyObject"]
+- ["C6Charts12ChartDataSet", "Bool"]
+- !private ["C6Charts12ChartDataSet", "BubbleChartDataEntry"]
+- !private ["C6Charts12ChartDataSet", "BubbleChartDataSet"]
+- ["C6Charts12ChartDataSet", "CGFloat"]
+- ["C6Charts12ChartDataSet", "ChartDataEntry"]
+- ["C6Charts12ChartDataSet", "NSZone"]
+- ["C6Charts12ChartDataSet", "_maxSize"]
+- !private ["C6Charts12ChartDataSet", "_xMax"]
+- !private ["C6Charts12ChartDataSet", "_xMin"]
+- ["C6Charts12ChartDataSet", "calcMinMax"]
+- ["C6Charts12ChartDataSet", "copyWithZone"]
+- ["C6Charts12ChartDataSet", "highlightCircleWidth"]
+- ["C6Charts12ChartDataSet", "init"]
+- ["C6Charts12ChartDataSet", "isNormalizeSizeEnabled"]
+- ["C6Charts12ChartDataSet", "maxSize"]
+- ["C6Charts12ChartDataSet", "normalizeSizeEnabled"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "_maxSize"]
+- !private ["Ps28CustomDebugStringConvertible", "_xMax"]
+- !private ["Ps28CustomDebugStringConvertible", "_xMin"]
+- !private ["Ps28CustomDebugStringConvertible", "calcMinMax"]
+- !private ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- ["Ps28CustomDebugStringConvertible", "highlightCircleWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isNormalizeSizeEnabled"]
+- ["Ps28CustomDebugStringConvertible", "maxSize"]
+- !private ["Ps28CustomDebugStringConvertible", "normalizeSizeEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_maxSize"]
+- !private ["Ps23CustomStringConvertible", "_xMax"]
+- !private ["Ps23CustomStringConvertible", "_xMin"]
+- !private ["Ps23CustomStringConvertible", "calcMinMax"]
+- !private ["Ps23CustomStringConvertible", "copyWithZone"]
+- ["Ps23CustomStringConvertible", "highlightCircleWidth"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isNormalizeSizeEnabled"]
+- ["Ps23CustomStringConvertible", "maxSize"]
+- !private ["Ps23CustomStringConvertible", "normalizeSizeEnabled"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_maxSize"]
+- !private ["Ps9Equatable", "_xMax"]
+- !private ["Ps9Equatable", "_xMin"]
+- !private ["Ps9Equatable", "calcMinMax"]
+- !private ["Ps9Equatable", "copyWithZone"]
+- ["Ps9Equatable", "highlightCircleWidth"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isNormalizeSizeEnabled"]
+- ["Ps9Equatable", "maxSize"]
+- !private ["Ps9Equatable", "normalizeSizeEnabled"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps13FloatingPoint", "init"]
+- ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_maxSize"]
+- !private ["Ps8Hashable", "_xMax"]
+- !private ["Ps8Hashable", "_xMin"]
+- !private ["Ps8Hashable", "calcMinMax"]
+- !private ["Ps8Hashable", "copyWithZone"]
+- ["Ps8Hashable", "highlightCircleWidth"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isNormalizeSizeEnabled"]
+- ["Ps8Hashable", "maxSize"]
+- !private ["Ps8Hashable", "normalizeSizeEnabled"]
+- !private ["Ps8Hashable", "size"]
+- ["Ps8Hashable", ""]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "_maxSize"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "_xMax"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "_xMin"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "calcMinMax"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "copyWithZone"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "highlightCircleWidth"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "init"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "isNormalizeSizeEnabled"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "maxSize"]
+- !private ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "normalizeSizeEnabled"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- ["P6Charts19IBubbleChartDataSet", "CGFloat"]
+- !private ["P6Charts19IBubbleChartDataSet", "_maxSize"]
+- !private ["P6Charts19IBubbleChartDataSet", "_xMax"]
+- !private ["P6Charts19IBubbleChartDataSet", "_xMin"]
+- ["P6Charts19IBubbleChartDataSet", "highlightCircleWidth"]
+- ["P6Charts19IBubbleChartDataSet", "isNormalizeSizeEnabled"]
+- ["P6Charts19IBubbleChartDataSet", "maxSize"]
+- !private ["P6Charts19IBubbleChartDataSet", "normalizeSizeEnabled"]
+- ["P6Charts19IBubbleChartDataSet", ""]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- !private ["P6Charts13IChartDataSet", "_maxSize"]
+- !private ["P6Charts13IChartDataSet", "_xMax"]
+- !private ["P6Charts13IChartDataSet", "_xMin"]
+- !private ["P6Charts13IChartDataSet", "calcMinMax"]
+- !private ["P6Charts13IChartDataSet", "copyWithZone"]
+- ["P6Charts13IChartDataSet", "highlightCircleWidth"]
+- !private ["P6Charts13IChartDataSet", "init"]
+- ["P6Charts13IChartDataSet", "isNormalizeSizeEnabled"]
+- ["P6Charts13IChartDataSet", "maxSize"]
+- !private ["P6Charts13IChartDataSet", "normalizeSizeEnabled"]
+- ["P6Charts13IChartDataSet", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "BubbleChartDataEntry"]
+- !private ["CSo8NSObject", "BubbleChartDataSet"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "ChartDataEntry"]
+- ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "_maxSize"]
+- !private ["CSo8NSObject", "_xMax"]
+- !private ["CSo8NSObject", "_xMin"]
+- ["CSo8NSObject", "calcMinMax"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "highlightCircleWidth"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isNormalizeSizeEnabled"]
+- ["CSo8NSObject", "maxSize"]
+- ["CSo8NSObject", "normalizeSizeEnabled"]
+- !private ["CSo8NSObject", "size"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "_maxSize"]
+- !private ["PSo16NSObjectProtocol", "_xMax"]
+- !private ["PSo16NSObjectProtocol", "_xMin"]
+- !private ["PSo16NSObjectProtocol", "calcMinMax"]
+- !private ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "highlightCircleWidth"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isNormalizeSizeEnabled"]
+- ["PSo16NSObjectProtocol", "maxSize"]
+- !private ["PSo16NSObjectProtocol", "normalizeSizeEnabled"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_maxSize"]
+- !private ["Ps9_Hashable", "_xMax"]
+- !private ["Ps9_Hashable", "_xMin"]
+- !private ["Ps9_Hashable", "calcMinMax"]
+- !private ["Ps9_Hashable", "copyWithZone"]
+- ["Ps9_Hashable", "highlightCircleWidth"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isNormalizeSizeEnabled"]
+- ["Ps9_Hashable", "maxSize"]
+- !private ["Ps9_Hashable", "normalizeSizeEnabled"]
+- !private ["Ps9_Hashable", "size"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "C6Charts20BubbleChartDataEntry"
+- "C6Charts18BubbleChartDataSet"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "C6Charts16ChartBaseDataSet"
+- !private "C6Charts14ChartDataEntry"
+- !private "C6Charts18ChartDataEntryBase"
+- "C6Charts12ChartDataSet"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts19IBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- !private "Ps25LosslessStringConvertible"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0d7f7026c63643214983688eabaa65f2"

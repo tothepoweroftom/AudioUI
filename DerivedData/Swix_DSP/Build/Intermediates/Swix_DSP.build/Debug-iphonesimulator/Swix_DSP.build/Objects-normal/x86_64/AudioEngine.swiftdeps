@@ -1,0 +1,627 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "N"
+- "\u03C3"
+- "AudioEngine"
+provides-nominal:
+- "C8Swix_DSP11AudioEngine"
+provides-member:
+- ["C8Swix_DSP11AudioEngine", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "*"
+- "+"
+- !private "+="
+- !private "..<"
+- "/"
+- "AVAudioEngine"
+- !private "AVAudioFormat"
+- "AVTonePlayerUnit"
+- "AssignmentPrecedence"
+- "AudioEngine"
+- "BooleanLiteralType"
+- "Double"
+- "FFTSetupD"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "N"
+- "NSDate"
+- !private "StringLiteralType"
+- "UInt32"
+- !private "UnsafeBufferPointer"
+- "cos"
+- "exp"
+- !private "fft"
+- "fftInit"
+- "linspace"
+- "pi"
+- "pow"
+- !private "print"
+- !private "sqrt"
+- "vector"
+- "\u03C3"
+depends-member:
+- !private ["PSo15AVAudio3DMixing", "amplitude"]
+- !private ["PSo15AVAudio3DMixing", "frequency"]
+- !private ["PSo15AVAudio3DMixing", "init"]
+- !private ["PSo15AVAudio3DMixing", "installTap"]
+- !private ["PSo15AVAudio3DMixing", "play"]
+- !private ["PSo15AVAudio3DMixing", "preparePlaying"]
+- !private ["PSo15AVAudio3DMixing", "removeTap"]
+- !private ["PSo15AVAudio3DMixing", "sampleRate"]
+- !private ["PSo15AVAudio3DMixing", "stop"]
+- !private ["PSo15AVAudio3DMixing", "volume"]
+- !private ["CSo13AVAudioBuffer", "floatChannelData"]
+- !private ["CSo13AVAudioBuffer", "frameLength"]
+- !private ["CSo13AVAudioEngine", "attach"]
+- !private ["CSo13AVAudioEngine", "connect"]
+- !private ["CSo13AVAudioEngine", "init"]
+- !private ["CSo13AVAudioEngine", "inputNode"]
+- !private ["CSo13AVAudioEngine", "mainMixerNode"]
+- !private ["CSo13AVAudioEngine", "prepare"]
+- !private ["CSo13AVAudioEngine", "start"]
+- !private ["CSo13AVAudioFormat", "init"]
+- !private ["CSo13AVAudioIONode", "installTap"]
+- !private ["CSo13AVAudioIONode", "removeTap"]
+- !private ["CSo16AVAudioInputNode", "installTap"]
+- !private ["CSo16AVAudioInputNode", "removeTap"]
+- !private ["CSo16AVAudioMixerNode", "volume"]
+- !private ["PSo13AVAudioMixing", "amplitude"]
+- !private ["PSo13AVAudioMixing", "frequency"]
+- !private ["PSo13AVAudioMixing", "init"]
+- !private ["PSo13AVAudioMixing", "installTap"]
+- !private ["PSo13AVAudioMixing", "play"]
+- !private ["PSo13AVAudioMixing", "preparePlaying"]
+- !private ["PSo13AVAudioMixing", "removeTap"]
+- !private ["PSo13AVAudioMixing", "sampleRate"]
+- !private ["PSo13AVAudioMixing", "stop"]
+- !private ["PSo13AVAudioMixing", "volume"]
+- !private ["CSo11AVAudioNode", "amplitude"]
+- !private ["CSo11AVAudioNode", "frequency"]
+- !private ["CSo11AVAudioNode", "init"]
+- !private ["CSo11AVAudioNode", "installTap"]
+- !private ["CSo11AVAudioNode", "play"]
+- !private ["CSo11AVAudioNode", "preparePlaying"]
+- !private ["CSo11AVAudioNode", "removeTap"]
+- !private ["CSo11AVAudioNode", "sampleRate"]
+- !private ["CSo11AVAudioNode", "stop"]
+- !private ["CSo11AVAudioNode", "volume"]
+- !private ["CSo16AVAudioPCMBuffer", "floatChannelData"]
+- !private ["CSo16AVAudioPCMBuffer", "frameLength"]
+- !private ["CSo17AVAudioPlayerNode", "amplitude"]
+- !private ["CSo17AVAudioPlayerNode", "frequency"]
+- !private ["CSo17AVAudioPlayerNode", "init"]
+- !private ["CSo17AVAudioPlayerNode", "play"]
+- !private ["CSo17AVAudioPlayerNode", "preparePlaying"]
+- !private ["CSo17AVAudioPlayerNode", "sampleRate"]
+- !private ["CSo17AVAudioPlayerNode", "stop"]
+- !private ["PSo19AVAudioStereoMixing", "amplitude"]
+- !private ["PSo19AVAudioStereoMixing", "frequency"]
+- !private ["PSo19AVAudioStereoMixing", "init"]
+- !private ["PSo19AVAudioStereoMixing", "installTap"]
+- !private ["PSo19AVAudioStereoMixing", "play"]
+- !private ["PSo19AVAudioStereoMixing", "preparePlaying"]
+- !private ["PSo19AVAudioStereoMixing", "removeTap"]
+- !private ["PSo19AVAudioStereoMixing", "sampleRate"]
+- !private ["PSo19AVAudioStereoMixing", "stop"]
+- !private ["PSo19AVAudioStereoMixing", "volume"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "amplitude"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "frequency"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "init"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "play"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "preparePlaying"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "sampleRate"]
+- !private ["C8Swix_DSP16AVTonePlayerUnit", "stop"]
+- ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "AVAudioEngine"]
+- !private ["Ps9AnyObject", "AVAudioFormat"]
+- !private ["Ps9AnyObject", "AVTonePlayerUnit"]
+- ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Int"]
+- ["Ps9AnyObject", "N"]
+- !private ["Ps9AnyObject", "NSDate"]
+- ["Ps9AnyObject", "UInt32"]
+- !private ["Ps9AnyObject", "UnsafeBufferPointer"]
+- !private ["Ps9AnyObject", "amplitude"]
+- !private ["Ps9AnyObject", "attach"]
+- !private ["Ps9AnyObject", "audioEngine"]
+- !private ["Ps9AnyObject", "bus"]
+- !private ["Ps9AnyObject", "connect"]
+- ["Ps9AnyObject", "cos"]
+- ["Ps9AnyObject", "exp"]
+- !private ["Ps9AnyObject", "fft"]
+- !private ["Ps9AnyObject", "fftArray"]
+- ["Ps9AnyObject", "fftInit"]
+- !private ["Ps9AnyObject", "fftMagnitudes"]
+- !private ["Ps9AnyObject", "fftSetup"]
+- !private ["Ps9AnyObject", "floatChannelData"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "frameLength"]
+- !private ["Ps9AnyObject", "frameStart"]
+- !private ["Ps9AnyObject", "frequency"]
+- !private ["Ps9AnyObject", "gaussianWindow"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inputNode"]
+- !private ["Ps9AnyObject", "installTap"]
+- !private ["Ps9AnyObject", "isSetup"]
+- ["Ps9AnyObject", "linspace"]
+- !private ["Ps9AnyObject", "mainMixerNode"]
+- ["Ps9AnyObject", "pi"]
+- !private ["Ps9AnyObject", "play"]
+- ["Ps9AnyObject", "pow"]
+- !private ["Ps9AnyObject", "prepare"]
+- !private ["Ps9AnyObject", "preparePlaying"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "removeTap"]
+- !private ["Ps9AnyObject", "sampleRate"]
+- !private ["Ps9AnyObject", "setup"]
+- !private ["Ps9AnyObject", "sineWave"]
+- !private ["Ps9AnyObject", "sqrt"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "stop"]
+- ["Ps9AnyObject", "vector"]
+- !private ["Ps9AnyObject", "volume"]
+- ["Ps9AnyObject", "\u03C3"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "init"]
+- ["C8Swix_DSP11AudioEngine", "AVAudioEngine"]
+- !private ["C8Swix_DSP11AudioEngine", "AVAudioFormat"]
+- ["C8Swix_DSP11AudioEngine", "AVTonePlayerUnit"]
+- ["C8Swix_DSP11AudioEngine", "Double"]
+- ["C8Swix_DSP11AudioEngine", "FFTSetupD"]
+- !private ["C8Swix_DSP11AudioEngine", "Int"]
+- ["C8Swix_DSP11AudioEngine", "N"]
+- ["C8Swix_DSP11AudioEngine", "NSDate"]
+- ["C8Swix_DSP11AudioEngine", "UInt32"]
+- !private ["C8Swix_DSP11AudioEngine", "UnsafeBufferPointer"]
+- ["C8Swix_DSP11AudioEngine", "audioEngine"]
+- ["C8Swix_DSP11AudioEngine", "binWidth"]
+- ["C8Swix_DSP11AudioEngine", "bus"]
+- ["C8Swix_DSP11AudioEngine", "cleanUp"]
+- ["C8Swix_DSP11AudioEngine", "cos"]
+- ["C8Swix_DSP11AudioEngine", "deinit"]
+- ["C8Swix_DSP11AudioEngine", "exp"]
+- !private ["C8Swix_DSP11AudioEngine", "fft"]
+- ["C8Swix_DSP11AudioEngine", "fftArray"]
+- ["C8Swix_DSP11AudioEngine", "fftInit"]
+- ["C8Swix_DSP11AudioEngine", "fftMagnitudes"]
+- ["C8Swix_DSP11AudioEngine", "fftMagnitudesdB"]
+- ["C8Swix_DSP11AudioEngine", "fftSetup"]
+- ["C8Swix_DSP11AudioEngine", "frame"]
+- ["C8Swix_DSP11AudioEngine", "frameLength"]
+- ["C8Swix_DSP11AudioEngine", "frameStart"]
+- ["C8Swix_DSP11AudioEngine", "frameVals"]
+- ["C8Swix_DSP11AudioEngine", "gaussianWindow"]
+- ["C8Swix_DSP11AudioEngine", "hanningWindow"]
+- ["C8Swix_DSP11AudioEngine", "init"]
+- ["C8Swix_DSP11AudioEngine", "isSetup"]
+- ["C8Swix_DSP11AudioEngine", "linspace"]
+- ["C8Swix_DSP11AudioEngine", "pi"]
+- ["C8Swix_DSP11AudioEngine", "pow"]
+- !private ["C8Swix_DSP11AudioEngine", "print"]
+- ["C8Swix_DSP11AudioEngine", "setup"]
+- ["C8Swix_DSP11AudioEngine", "sineWave"]
+- !private ["C8Swix_DSP11AudioEngine", "sqrt"]
+- ["C8Swix_DSP11AudioEngine", "start"]
+- ["C8Swix_DSP11AudioEngine", "stop"]
+- ["C8Swix_DSP11AudioEngine", "subFrameLength"]
+- ["C8Swix_DSP11AudioEngine", "vector"]
+- ["C8Swix_DSP11AudioEngine", "\u03C3"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "amplitude"]
+- !private ["Ps7CVarArg", "attach"]
+- !private ["Ps7CVarArg", "connect"]
+- !private ["Ps7CVarArg", "floatChannelData"]
+- !private ["Ps7CVarArg", "frameLength"]
+- !private ["Ps7CVarArg", "frequency"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "inputNode"]
+- !private ["Ps7CVarArg", "installTap"]
+- !private ["Ps7CVarArg", "mainMixerNode"]
+- !private ["Ps7CVarArg", "play"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps7CVarArg", "prepare"]
+- !private ["Ps7CVarArg", "preparePlaying"]
+- !private ["Ps7CVarArg", "removeTap"]
+- !private ["Ps7CVarArg", "sampleRate"]
+- !private ["Ps7CVarArg", "start"]
+- !private ["Ps7CVarArg", "stop"]
+- !private ["Ps7CVarArg", "volume"]
+- ["Ps10Collection", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "amplitude"]
+- !private ["Ps28CustomDebugStringConvertible", "attach"]
+- !private ["Ps28CustomDebugStringConvertible", "connect"]
+- !private ["Ps28CustomDebugStringConvertible", "floatChannelData"]
+- !private ["Ps28CustomDebugStringConvertible", "frameLength"]
+- !private ["Ps28CustomDebugStringConvertible", "frequency"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "inputNode"]
+- !private ["Ps28CustomDebugStringConvertible", "installTap"]
+- !private ["Ps28CustomDebugStringConvertible", "mainMixerNode"]
+- !private ["Ps28CustomDebugStringConvertible", "play"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "prepare"]
+- !private ["Ps28CustomDebugStringConvertible", "preparePlaying"]
+- !private ["Ps28CustomDebugStringConvertible", "removeTap"]
+- !private ["Ps28CustomDebugStringConvertible", "sampleRate"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "stop"]
+- !private ["Ps28CustomDebugStringConvertible", "volume"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "amplitude"]
+- !private ["Ps23CustomStringConvertible", "attach"]
+- !private ["Ps23CustomStringConvertible", "connect"]
+- !private ["Ps23CustomStringConvertible", "floatChannelData"]
+- !private ["Ps23CustomStringConvertible", "frameLength"]
+- !private ["Ps23CustomStringConvertible", "frequency"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "inputNode"]
+- !private ["Ps23CustomStringConvertible", "installTap"]
+- !private ["Ps23CustomStringConvertible", "mainMixerNode"]
+- !private ["Ps23CustomStringConvertible", "play"]
+- !private ["Ps23CustomStringConvertible", "prepare"]
+- !private ["Ps23CustomStringConvertible", "preparePlaying"]
+- !private ["Ps23CustomStringConvertible", "removeTap"]
+- !private ["Ps23CustomStringConvertible", "sampleRate"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "stop"]
+- !private ["Ps23CustomStringConvertible", "volume"]
+- ["Sd", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "amplitude"]
+- !private ["Ps9Equatable", "attach"]
+- !private ["Ps9Equatable", "connect"]
+- !private ["Ps9Equatable", "floatChannelData"]
+- !private ["Ps9Equatable", "frameLength"]
+- !private ["Ps9Equatable", "frequency"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inputNode"]
+- !private ["Ps9Equatable", "installTap"]
+- !private ["Ps9Equatable", "mainMixerNode"]
+- !private ["Ps9Equatable", "play"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "prepare"]
+- !private ["Ps9Equatable", "preparePlaying"]
+- !private ["Ps9Equatable", "removeTap"]
+- !private ["Ps9Equatable", "sampleRate"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "stop"]
+- !private ["Ps9Equatable", "volume"]
+- !private ["P2C411EventSource", "amplitude"]
+- !private ["P2C411EventSource", "attach"]
+- !private ["P2C411EventSource", "connect"]
+- !private ["P2C411EventSource", "floatChannelData"]
+- !private ["P2C411EventSource", "frameLength"]
+- !private ["P2C411EventSource", "frequency"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "inputNode"]
+- !private ["P2C411EventSource", "installTap"]
+- !private ["P2C411EventSource", "mainMixerNode"]
+- !private ["P2C411EventSource", "play"]
+- !private ["P2C411EventSource", "prepare"]
+- !private ["P2C411EventSource", "preparePlaying"]
+- !private ["P2C411EventSource", "removeTap"]
+- !private ["P2C411EventSource", "sampleRate"]
+- !private ["P2C411EventSource", "start"]
+- !private ["P2C411EventSource", "stop"]
+- !private ["P2C411EventSource", "volume"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps13FloatingPoint", "init"]
+- ["P8Swix_DSP21FloatingPointMathType", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "amplitude"]
+- !private ["Ps8Hashable", "attach"]
+- !private ["Ps8Hashable", "connect"]
+- !private ["Ps8Hashable", "floatChannelData"]
+- !private ["Ps8Hashable", "frameLength"]
+- !private ["Ps8Hashable", "frequency"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "inputNode"]
+- !private ["Ps8Hashable", "installTap"]
+- !private ["Ps8Hashable", "mainMixerNode"]
+- !private ["Ps8Hashable", "play"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "prepare"]
+- !private ["Ps8Hashable", "preparePlaying"]
+- !private ["Ps8Hashable", "removeTap"]
+- !private ["Ps8Hashable", "sampleRate"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "stop"]
+- !private ["Ps8Hashable", "volume"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "floatChannelData"]
+- !private ["PSo9NSCopying", "frameLength"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSDate", "init"]
+- !private ["PSo16NSMutableCopying", "floatChannelData"]
+- !private ["PSo16NSMutableCopying", "frameLength"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "amplitude"]
+- !private ["CSo8NSObject", "attach"]
+- !private ["CSo8NSObject", "connect"]
+- !private ["CSo8NSObject", "floatChannelData"]
+- !private ["CSo8NSObject", "frameLength"]
+- !private ["CSo8NSObject", "frequency"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "inputNode"]
+- !private ["CSo8NSObject", "installTap"]
+- !private ["CSo8NSObject", "mainMixerNode"]
+- !private ["CSo8NSObject", "play"]
+- !private ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "preparePlaying"]
+- !private ["CSo8NSObject", "removeTap"]
+- !private ["CSo8NSObject", "sampleRate"]
+- !private ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "stop"]
+- !private ["CSo8NSObject", "volume"]
+- !private ["PSo16NSObjectProtocol", "amplitude"]
+- !private ["PSo16NSObjectProtocol", "attach"]
+- !private ["PSo16NSObjectProtocol", "connect"]
+- !private ["PSo16NSObjectProtocol", "floatChannelData"]
+- !private ["PSo16NSObjectProtocol", "frameLength"]
+- !private ["PSo16NSObjectProtocol", "frequency"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "inputNode"]
+- !private ["PSo16NSObjectProtocol", "installTap"]
+- !private ["PSo16NSObjectProtocol", "mainMixerNode"]
+- !private ["PSo16NSObjectProtocol", "play"]
+- !private ["PSo16NSObjectProtocol", "prepare"]
+- !private ["PSo16NSObjectProtocol", "preparePlaying"]
+- !private ["PSo16NSObjectProtocol", "removeTap"]
+- !private ["PSo16NSObjectProtocol", "sampleRate"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "stop"]
+- !private ["PSo16NSObjectProtocol", "volume"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["P8Swix_DSP23ScalarFloatingPointType", "init"]
+- !private ["P8Swix_DSP17ScalarIntegerType", "init"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt32", "init"]
+- !private ["SR", "init"]
+- !private ["SP", "pointee"]
+- ["Ps15UnsignedInteger", "init"]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "amplitude"]
+- !private ["Ps9_Hashable", "attach"]
+- !private ["Ps9_Hashable", "connect"]
+- !private ["Ps9_Hashable", "floatChannelData"]
+- !private ["Ps9_Hashable", "frameLength"]
+- !private ["Ps9_Hashable", "frequency"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "inputNode"]
+- !private ["Ps9_Hashable", "installTap"]
+- !private ["Ps9_Hashable", "mainMixerNode"]
+- !private ["Ps9_Hashable", "play"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "prepare"]
+- !private ["Ps9_Hashable", "preparePlaying"]
+- !private ["Ps9_Hashable", "removeTap"]
+- !private ["Ps9_Hashable", "sampleRate"]
+- !private ["Ps9_Hashable", "start"]
+- !private ["Ps9_Hashable", "stop"]
+- !private ["Ps9_Hashable", "volume"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "init"]
+- ["Ps14_IndexableBase", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- ["V8Swix_DSP6vector", "init"]
+- !private ["V8Swix_DSP6vector", "subscript"]
+depends-nominal:
+- !private "PSo15AVAudio3DMixing"
+- !private "CSo13AVAudioBuffer"
+- !private "CSo13AVAudioEngine"
+- !private "CSo13AVAudioFormat"
+- !private "CSo13AVAudioIONode"
+- !private "CSo16AVAudioInputNode"
+- !private "CSo16AVAudioMixerNode"
+- !private "PSo13AVAudioMixing"
+- !private "CSo11AVAudioNode"
+- !private "CSo16AVAudioPCMBuffer"
+- !private "CSo17AVAudioPlayerNode"
+- !private "PSo19AVAudioStereoMixing"
+- !private "C8Swix_DSP16AVTonePlayerUnit"
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "C8Swix_DSP11AudioEngine"
+- "Ps23BidirectionalCollection"
+- "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "P2C411EventSource"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps13FloatingPoint"
+- "P8Swix_DSP21FloatingPointMathType"
+- "Ps8Hashable"
+- "Si"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "P8Swix_DSP23ScalarFloatingPointType"
+- !private "P8Swix_DSP17ScalarIntegerType"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Vs6UInt32"
+- !private "SR"
+- !private "SP"
+- "Ps15UnsignedInteger"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps24_DestructorSafeContainer"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "V8Swix_DSP6vector"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/swix-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/opencv.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/assert.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/Swix_DSP/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/C4.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/module.modulemap"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.apinotesc"
+interface-hash: "be149d151c5794acaef2d8afa9d80150"

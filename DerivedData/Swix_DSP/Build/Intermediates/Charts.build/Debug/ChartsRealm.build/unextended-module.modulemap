@@ -1,0 +1,10 @@
+framework module ChartsRealm {
+  umbrella header "ChartsRealm.h"
+
+  export *
+  module * { export * }
+}
+
+module ChartsRealm.__Swift {
+    exclude header "ChartsRealm-Swift.h"
+}

@@ -1,0 +1,450 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C2C45Image", ""]
+- ["C2C45Image", "cgimage"]
+- ["C2C45Image", "color"]
+provides-dynamic-lookup:
+- "cgimage"
+depends-top-level:
+- !private "-"
+- !private "/"
+- !private "CFDataGetBytePtr"
+- !private "CGBitmapInfo"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGContext"
+- !private "CGFloat"
+- "CGImage"
+- !private "CGImageAlphaInfo"
+- "CGPoint"
+- "Color"
+- !private "Double"
+- "Image"
+- "Point"
+- !private "StringLiteralType"
+- !private "UInt8"
+- !private "UnsafePointer"
+- !private "clear"
+- !private "print"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CFDataGetBytePtr"]
+- !private ["Ps9AnyObject", "CGBitmapInfo"]
+- !private ["Ps9AnyObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9AnyObject", "CGContext"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGImageAlphaInfo"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "Color"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "cgimage"]
+- !private ["Ps9AnyObject", "clear"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataProvider"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "makeImage"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "translateBy"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "render"]
+- !private ["PSo13CAMediaTiming", "render"]
+- !private ["VSC12CGBitmapInfo", "init"]
+- !private ["VSC12CGBitmapInfo", "rawValue"]
+- !private ["CSo9CGContext", "init"]
+- !private ["CSo9CGContext", "makeImage"]
+- !private ["CSo9CGContext", "translateBy"]
+- !private ["CSo14CGDataProvider", "data"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["CSo7CGImage", "dataProvider"]
+- !private ["OSC16CGImageAlphaInfo", "premultipliedFirst"]
+- !private ["OSC16CGImageAlphaInfo", "rawValue"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps7CVarArg", "CFDataGetBytePtr"]
+- !private ["Ps7CVarArg", "CGBitmapInfo"]
+- !private ["Ps7CVarArg", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps7CVarArg", "CGContext"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGImageAlphaInfo"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "Color"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "cgimage"]
+- !private ["Ps7CVarArg", "clear"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "render"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["C2C45Color", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "CFDataGetBytePtr"]
+- !private ["Ps28CustomDebugStringConvertible", "CGBitmapInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContext"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGImageAlphaInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "Color"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cgimage"]
+- !private ["Ps28CustomDebugStringConvertible", "clear"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CFDataGetBytePtr"]
+- !private ["Ps23CustomStringConvertible", "CGBitmapInfo"]
+- !private ["Ps23CustomStringConvertible", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps23CustomStringConvertible", "CGContext"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGImageAlphaInfo"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "Color"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "cgimage"]
+- !private ["Ps23CustomStringConvertible", "clear"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "render"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CFDataGetBytePtr"]
+- !private ["Ps9Equatable", "CGBitmapInfo"]
+- !private ["Ps9Equatable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9Equatable", "CGContext"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGImageAlphaInfo"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "Color"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "cgimage"]
+- !private ["Ps9Equatable", "clear"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "premultipliedFirst"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "render"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["P2C411EventSource", "CFDataGetBytePtr"]
+- !private ["P2C411EventSource", "CGBitmapInfo"]
+- !private ["P2C411EventSource", "CGColorSpaceCreateDeviceRGB"]
+- !private ["P2C411EventSource", "CGContext"]
+- !private ["P2C411EventSource", "CGFloat"]
+- !private ["P2C411EventSource", "CGImageAlphaInfo"]
+- !private ["P2C411EventSource", "CGPoint"]
+- !private ["P2C411EventSource", "Color"]
+- !private ["P2C411EventSource", "Double"]
+- !private ["P2C411EventSource", "bounds"]
+- !private ["P2C411EventSource", "cgimage"]
+- !private ["P2C411EventSource", "clear"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "layer"]
+- !private ["P2C411EventSource", "print"]
+- !private ["P2C411EventSource", "render"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CFDataGetBytePtr"]
+- !private ["Ps8Hashable", "CGBitmapInfo"]
+- !private ["Ps8Hashable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps8Hashable", "CGContext"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGImageAlphaInfo"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "Color"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "cgimage"]
+- !private ["Ps8Hashable", "clear"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "premultipliedFirst"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "render"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["C2C45Image", "CFDataGetBytePtr"]
+- !private ["C2C45Image", "CGBitmapInfo"]
+- !private ["C2C45Image", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C2C45Image", "CGContext"]
+- !private ["C2C45Image", "CGFloat"]
+- ["C2C45Image", "CGImage"]
+- !private ["C2C45Image", "CGImageAlphaInfo"]
+- ["C2C45Image", "CGPoint"]
+- ["C2C45Image", "Color"]
+- !private ["C2C45Image", "Double"]
+- ["C2C45Image", "Point"]
+- !private ["C2C45Image", "UInt8"]
+- !private ["C2C45Image", "UnsafePointer"]
+- !private ["C2C45Image", "bounds"]
+- ["C2C45Image", "cgimage"]
+- !private ["C2C45Image", "clear"]
+- ["C2C45Image", "color"]
+- !private ["C2C45Image", "layer"]
+- !private ["C2C45Image", "print"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "render"]
+- !private ["PSo9NSCopying", "CFDataGetBytePtr"]
+- !private ["PSo9NSCopying", "CGBitmapInfo"]
+- !private ["PSo9NSCopying", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo9NSCopying", "CGContext"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "CGImageAlphaInfo"]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "Color"]
+- !private ["PSo9NSCopying", "Double"]
+- !private ["PSo9NSCopying", "bounds"]
+- !private ["PSo9NSCopying", "cgimage"]
+- !private ["PSo9NSCopying", "clear"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "layer"]
+- !private ["PSo9NSCopying", "print"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CFDataGetBytePtr"]
+- !private ["CSo8NSObject", "CGBitmapInfo"]
+- !private ["CSo8NSObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGImage"]
+- !private ["CSo8NSObject", "CGImageAlphaInfo"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "Color"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "UInt8"]
+- !private ["CSo8NSObject", "UnsafePointer"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "cgimage"]
+- !private ["CSo8NSObject", "clear"]
+- ["CSo8NSObject", "color"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "render"]
+- !private ["PSo16NSObjectProtocol", "CFDataGetBytePtr"]
+- !private ["PSo16NSObjectProtocol", "CGBitmapInfo"]
+- !private ["PSo16NSObjectProtocol", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo16NSObjectProtocol", "CGContext"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGImageAlphaInfo"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "Color"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "cgimage"]
+- !private ["PSo16NSObjectProtocol", "clear"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "render"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "rawValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "premultipliedFirst"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["V2C44Rect", "contains"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "rawValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["SP", "subscript"]
+- !private ["C2C44View", "CFDataGetBytePtr"]
+- !private ["C2C44View", "CGBitmapInfo"]
+- !private ["C2C44View", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C2C44View", "CGContext"]
+- !private ["C2C44View", "CGFloat"]
+- ["C2C44View", "CGImage"]
+- !private ["C2C44View", "CGImageAlphaInfo"]
+- ["C2C44View", "CGPoint"]
+- ["C2C44View", "Color"]
+- !private ["C2C44View", "Double"]
+- ["C2C44View", "Point"]
+- !private ["C2C44View", "UInt8"]
+- !private ["C2C44View", "UnsafePointer"]
+- !private ["C2C44View", "bounds"]
+- ["C2C44View", "cgimage"]
+- !private ["C2C44View", "clear"]
+- ["C2C44View", "color"]
+- !private ["C2C44View", "layer"]
+- !private ["C2C44View", "print"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CFDataGetBytePtr"]
+- !private ["Ps9_Hashable", "CGBitmapInfo"]
+- !private ["Ps9_Hashable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9_Hashable", "CGContext"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGImageAlphaInfo"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "Color"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "cgimage"]
+- !private ["Ps9_Hashable", "clear"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "premultipliedFirst"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "render"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps8_Pointer", "subscript"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "subscript"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "VSC12CGBitmapInfo"
+- !private "CSo9CGContext"
+- !private "CSo14CGDataProvider"
+- !private "V12CoreGraphics7CGFloat"
+- !private "CSo7CGImage"
+- !private "OSC16CGImageAlphaInfo"
+- !private "VSC7CGPoint"
+- !private "Ps7CVarArg"
+- !private "C2C45Color"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "P2C411EventSource"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- "C2C45Image"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "V2C44Rect"
+- !private "Ps10SetAlgebra"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "SP"
+- "C2C44View"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "1e6a0e75db95ada0c7b0da98634104fd"

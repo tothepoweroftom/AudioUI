@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MoveViewJob"
+provides-nominal:
+- "C6Charts11MoveViewJob"
+provides-member:
+- ["C6Charts11MoveViewJob", ""]
+provides-dynamic-lookup:
+- "doJob"
+depends-top-level:
+- !private "CGFloat"
+- !private "CGPoint"
+- "ChartViewBase"
+- "Double"
+- "MoveViewJob"
+- "Transformer"
+- "ViewPortHandler"
+- "ViewPortJob"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "centerViewPort"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pointValueToPixel"]
+- !private ["Ps9AnyObject", "transformer"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewPortHandler"]
+- !private ["Ps9AnyObject", "xValue"]
+- !private ["Ps9AnyObject", "yValue"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "centerViewPort"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointValueToPixel"]
+- !private ["Ps7CVarArg", "transformer"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewPortHandler"]
+- !private ["Ps7CVarArg", "xValue"]
+- !private ["Ps7CVarArg", "yValue"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "centerViewPort"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pointValueToPixel"]
+- !private ["Ps28CustomDebugStringConvertible", "transformer"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewPortHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "xValue"]
+- !private ["Ps28CustomDebugStringConvertible", "yValue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "centerViewPort"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "pointValueToPixel"]
+- !private ["Ps23CustomStringConvertible", "transformer"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewPortHandler"]
+- !private ["Ps23CustomStringConvertible", "xValue"]
+- !private ["Ps23CustomStringConvertible", "yValue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "centerViewPort"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pointValueToPixel"]
+- !private ["Ps9Equatable", "transformer"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewPortHandler"]
+- !private ["Ps9Equatable", "xValue"]
+- !private ["Ps9Equatable", "yValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "centerViewPort"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pointValueToPixel"]
+- !private ["Ps8Hashable", "transformer"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewPortHandler"]
+- !private ["Ps8Hashable", "xValue"]
+- !private ["Ps8Hashable", "yValue"]
+- ["Ps8Hashable", ""]
+- !private ["C6Charts11MoveViewJob", "CGFloat"]
+- !private ["C6Charts11MoveViewJob", "CGPoint"]
+- ["C6Charts11MoveViewJob", "ChartViewBase"]
+- ["C6Charts11MoveViewJob", "Double"]
+- ["C6Charts11MoveViewJob", "Transformer"]
+- ["C6Charts11MoveViewJob", "ViewPortHandler"]
+- ["C6Charts11MoveViewJob", "deinit"]
+- ["C6Charts11MoveViewJob", "doJob"]
+- ["C6Charts11MoveViewJob", "init"]
+- !private ["C6Charts11MoveViewJob", "transformer"]
+- !private ["C6Charts11MoveViewJob", "view"]
+- !private ["C6Charts11MoveViewJob", "viewPortHandler"]
+- !private ["C6Charts11MoveViewJob", "xValue"]
+- !private ["C6Charts11MoveViewJob", "yValue"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "ChartViewBase"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Transformer"]
+- ["CSo8NSObject", "ViewPortHandler"]
+- !private ["CSo8NSObject", "centerViewPort"]
+- ["CSo8NSObject", "doJob"]
+- !private ["CSo8NSObject", "pointValueToPixel"]
+- !private ["CSo8NSObject", "transformer"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "viewPortHandler"]
+- !private ["CSo8NSObject", "xValue"]
+- !private ["CSo8NSObject", "yValue"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "centerViewPort"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "pointValueToPixel"]
+- !private ["PSo16NSObjectProtocol", "transformer"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewPortHandler"]
+- !private ["PSo16NSObjectProtocol", "xValue"]
+- !private ["PSo16NSObjectProtocol", "yValue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["C6Charts11Transformer", "pointValueToPixel"]
+- !private ["C6Charts15ViewPortHandler", "centerViewPort"]
+- !private ["C6Charts11ViewPortJob", "CGFloat"]
+- !private ["C6Charts11ViewPortJob", "CGPoint"]
+- ["C6Charts11ViewPortJob", "ChartViewBase"]
+- ["C6Charts11ViewPortJob", "Double"]
+- ["C6Charts11ViewPortJob", "Transformer"]
+- ["C6Charts11ViewPortJob", "ViewPortHandler"]
+- ["C6Charts11ViewPortJob", "doJob"]
+- ["C6Charts11ViewPortJob", "init"]
+- !private ["C6Charts11ViewPortJob", "transformer"]
+- !private ["C6Charts11ViewPortJob", "view"]
+- !private ["C6Charts11ViewPortJob", "viewPortHandler"]
+- !private ["C6Charts11ViewPortJob", "xValue"]
+- !private ["C6Charts11ViewPortJob", "yValue"]
+- ["C6Charts11ViewPortJob", ""]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "centerViewPort"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pointValueToPixel"]
+- !private ["Ps9_Hashable", "transformer"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewPortHandler"]
+- !private ["Ps9_Hashable", "xValue"]
+- !private ["Ps9_Hashable", "yValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "C6Charts11MoveViewJob"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "C6Charts11Transformer"
+- !private "C6Charts15ViewPortHandler"
+- "C6Charts11ViewPortJob"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "11476238b5808ed03eda69d96665cba1"

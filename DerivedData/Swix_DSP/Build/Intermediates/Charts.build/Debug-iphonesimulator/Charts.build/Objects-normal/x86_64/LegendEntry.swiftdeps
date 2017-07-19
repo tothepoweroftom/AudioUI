@@ -1,0 +1,215 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LegendEntry"
+provides-nominal:
+- "C6Charts11LegendEntry"
+provides-member:
+- ["C6Charts11LegendEntry", ""]
+provides-dynamic-lookup:
+- "form"
+- "formColor"
+- "formLineDashLengths"
+- "formLineDashPhase"
+- "formLineWidth"
+- "formSize"
+- "label"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGFloat"
+- "Legend"
+- "LegendEntry"
+- "NSObject"
+- "NSUIColor"
+- "String"
+depends-member:
+- ["Ps16AbsoluteValuable", "nan"]
+- ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "Form"]
+- !private ["Ps9AnyObject", "form"]
+- !private ["Ps9AnyObject", "formColor"]
+- !private ["Ps9AnyObject", "formLineDashLengths"]
+- !private ["Ps9AnyObject", "formLineDashPhase"]
+- !private ["Ps9AnyObject", "formLineWidth"]
+- !private ["Ps9AnyObject", "formSize"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "label"]
+- ["Ps9AnyObject", ""]
+- ["Ps19BinaryFloatingPoint", "nan"]
+- ["V12CoreGraphics7CGFloat", "nan"]
+- ["Ps7CVarArg", "CGFloat"]
+- ["Ps7CVarArg", "Form"]
+- !private ["Ps7CVarArg", "form"]
+- !private ["Ps7CVarArg", "formColor"]
+- !private ["Ps7CVarArg", "formLineDashLengths"]
+- !private ["Ps7CVarArg", "formLineDashPhase"]
+- !private ["Ps7CVarArg", "formLineWidth"]
+- !private ["Ps7CVarArg", "formSize"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "label"]
+- ["Ps7CVarArg", "nan"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "nan"]
+- ["C6Charts13ComponentBase", "Form"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "Form"]
+- !private ["Ps28CustomDebugStringConvertible", "form"]
+- !private ["Ps28CustomDebugStringConvertible", "formColor"]
+- !private ["Ps28CustomDebugStringConvertible", "formLineDashLengths"]
+- !private ["Ps28CustomDebugStringConvertible", "formLineDashPhase"]
+- !private ["Ps28CustomDebugStringConvertible", "formLineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "formSize"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "label"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps17CustomReflectable", "nan"]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "Form"]
+- !private ["Ps23CustomStringConvertible", "form"]
+- !private ["Ps23CustomStringConvertible", "formColor"]
+- !private ["Ps23CustomStringConvertible", "formLineDashLengths"]
+- !private ["Ps23CustomStringConvertible", "formLineDashPhase"]
+- !private ["Ps23CustomStringConvertible", "formLineWidth"]
+- !private ["Ps23CustomStringConvertible", "formSize"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "label"]
+- ["Ps23CustomStringConvertible", "nan"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "Form"]
+- ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "form"]
+- !private ["Ps9Equatable", "formColor"]
+- !private ["Ps9Equatable", "formLineDashLengths"]
+- !private ["Ps9Equatable", "formLineDashPhase"]
+- !private ["Ps9Equatable", "formLineWidth"]
+- !private ["Ps9Equatable", "formSize"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "label"]
+- ["Ps9Equatable", "nan"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByFloatLiteral", "nan"]
+- ["Ps27ExpressibleByIntegerLiteral", "nan"]
+- ["Ps13FloatingPoint", "nan"]
+- ["OC6Charts6Legend4Form", "default"]
+- ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "Form"]
+- ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "form"]
+- !private ["Ps8Hashable", "formColor"]
+- !private ["Ps8Hashable", "formLineDashLengths"]
+- !private ["Ps8Hashable", "formLineDashPhase"]
+- !private ["Ps8Hashable", "formLineWidth"]
+- !private ["Ps8Hashable", "formSize"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "label"]
+- ["Ps8Hashable", "nan"]
+- ["Ps8Hashable", ""]
+- ["C6Charts6Legend", "Form"]
+- ["C6Charts11LegendEntry", "CGFloat"]
+- ["C6Charts11LegendEntry", "Legend"]
+- ["C6Charts11LegendEntry", "NSUIColor"]
+- ["C6Charts11LegendEntry", "String"]
+- ["C6Charts11LegendEntry", "deinit"]
+- ["C6Charts11LegendEntry", "form"]
+- ["C6Charts11LegendEntry", "formColor"]
+- ["C6Charts11LegendEntry", "formLineDashLengths"]
+- ["C6Charts11LegendEntry", "formLineDashPhase"]
+- ["C6Charts11LegendEntry", "formLineWidth"]
+- ["C6Charts11LegendEntry", "formSize"]
+- ["C6Charts11LegendEntry", "init"]
+- ["C6Charts11LegendEntry", "label"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Form"]
+- ["CSo8NSObject", "Legend"]
+- ["CSo8NSObject", "NSUIColor"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "form"]
+- ["CSo8NSObject", "formColor"]
+- ["CSo8NSObject", "formLineDashLengths"]
+- ["CSo8NSObject", "formLineDashPhase"]
+- ["CSo8NSObject", "formLineWidth"]
+- ["CSo8NSObject", "formSize"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "Form"]
+- !private ["PSo16NSObjectProtocol", "form"]
+- !private ["PSo16NSObjectProtocol", "formColor"]
+- !private ["PSo16NSObjectProtocol", "formLineDashLengths"]
+- !private ["PSo16NSObjectProtocol", "formLineDashPhase"]
+- !private ["PSo16NSObjectProtocol", "formLineWidth"]
+- !private ["PSo16NSObjectProtocol", "formSize"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "label"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps16RawRepresentable", "default"]
+- ["Ps12SignedNumber", "nan"]
+- ["Ps10Strideable", "nan"]
+- ["Ps15_CVarArgAligned", "nan"]
+- ["Ps22_CVarArgPassedAsDouble", "nan"]
+- ["Ps9_Hashable", "CGFloat"]
+- ["Ps9_Hashable", "Form"]
+- ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "form"]
+- !private ["Ps9_Hashable", "formColor"]
+- !private ["Ps9_Hashable", "formLineDashLengths"]
+- !private ["Ps9_Hashable", "formLineDashPhase"]
+- !private ["Ps9_Hashable", "formLineWidth"]
+- !private ["Ps9_Hashable", "formSize"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "label"]
+- ["Ps9_Hashable", "nan"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "nan"]
+- ["Ps11_Strideable", "nan"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Ps19BinaryFloatingPoint"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "C6Charts13ComponentBase"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps13FloatingPoint"
+- "OC6Charts6Legend4Form"
+- "Ps8Hashable"
+- "C6Charts6Legend"
+- "C6Charts11LegendEntry"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps16RawRepresentable"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6d97388e42492d4e48563e961cbb7308"

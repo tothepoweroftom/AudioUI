@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ed0aadc894f491a8a1304a2bd3903d16"
+build_time: [551437856, 212075000]
+inputs:
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4App/ViewController.swift": [540648987, 0]
+  "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4App/AppDelegate.swift": [540648987, 0]

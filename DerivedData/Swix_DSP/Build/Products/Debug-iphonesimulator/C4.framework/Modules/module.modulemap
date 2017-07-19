@@ -1,0 +1,10 @@
+framework module C4 {
+  umbrella header "C4.h"
+
+  export *
+  module * { export * }
+}
+
+module C4.Swift {
+    header "C4-Swift.h"
+}

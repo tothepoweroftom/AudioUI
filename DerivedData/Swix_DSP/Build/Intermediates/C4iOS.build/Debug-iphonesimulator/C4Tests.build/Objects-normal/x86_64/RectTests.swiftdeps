@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RectTests"
+provides-nominal:
+- "C7C4Tests9RectTests"
+provides-member:
+- ["C7C4Tests9RectTests", ""]
+provides-dynamic-lookup:
+- "testCenter"
+- "testContainsPoint"
+- "testContainsRect"
+- "testEquals"
+- "testInset"
+- "testIntegral"
+- "testIntersection"
+- "testIntersects"
+- "testIsZero"
+- "testMax"
+- "testStandardize"
+- "testUnion"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "<"
+- "AssignmentPrecedence"
+- !private "Double"
+- !private "Point"
+- !private "Rect"
+- "RectTests"
+- !private "Size"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "XCTAssertEqual"
+- !private "XCTAssertFalse"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+- !private "inset"
+- !private "integral"
+- !private "intersection"
+- !private "max"
+- !private "min"
+- !private "random"
+- !private "standardize"
+- !private "union"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "Rect"]
+- !private ["Ps9AnyObject", "Size"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "XCTAssertFalse"]
+- !private ["Ps9AnyObject", "XCTAssertTrue"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inset"]
+- !private ["Ps9AnyObject", "integral"]
+- !private ["Ps9AnyObject", "intersection"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "random"]
+- !private ["Ps9AnyObject", "standardize"]
+- !private ["Ps9AnyObject", "union"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "Point"]
+- !private ["Ps7CVarArg", "Rect"]
+- !private ["Ps7CVarArg", "Size"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "XCTAssertFalse"]
+- !private ["Ps7CVarArg", "XCTAssertTrue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "inset"]
+- !private ["Ps7CVarArg", "integral"]
+- !private ["Ps7CVarArg", "intersection"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "min"]
+- !private ["Ps7CVarArg", "random"]
+- !private ["Ps7CVarArg", "standardize"]
+- !private ["Ps7CVarArg", "union"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "height"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "Rect"]
+- !private ["Ps28CustomDebugStringConvertible", "Size"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertFalse"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertTrue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "inset"]
+- !private ["Ps28CustomDebugStringConvertible", "integral"]
+- !private ["Ps28CustomDebugStringConvertible", "intersection"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- !private ["Ps28CustomDebugStringConvertible", "random"]
+- !private ["Ps28CustomDebugStringConvertible", "standardize"]
+- !private ["Ps28CustomDebugStringConvertible", "union"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "Rect"]
+- !private ["Ps23CustomStringConvertible", "Size"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertFalse"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertTrue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "height"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "inset"]
+- !private ["Ps23CustomStringConvertible", "integral"]
+- !private ["Ps23CustomStringConvertible", "intersection"]
+- !private ["Ps23CustomStringConvertible", "intersects"]
+- !private ["Ps23CustomStringConvertible", "isZero"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps23CustomStringConvertible", "origin"]
+- !private ["Ps23CustomStringConvertible", "random"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "standardize"]
+- !private ["Ps23CustomStringConvertible", "union"]
+- !private ["Ps23CustomStringConvertible", "width"]
+- !private ["Ps23CustomStringConvertible", "x"]
+- !private ["Ps23CustomStringConvertible", "y"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "Rect"]
+- !private ["Ps9Equatable", "Size"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "XCTAssertFalse"]
+- !private ["Ps9Equatable", "XCTAssertTrue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inset"]
+- !private ["Ps9Equatable", "integral"]
+- !private ["Ps9Equatable", "intersection"]
+- !private ["Ps9Equatable", "intersects"]
+- !private ["Ps9Equatable", "isZero"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "random"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "standardize"]
+- !private ["Ps9Equatable", "union"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["P2C411EventSource", "Double"]
+- !private ["P2C411EventSource", "Point"]
+- !private ["P2C411EventSource", "Rect"]
+- !private ["P2C411EventSource", "Size"]
+- !private ["P2C411EventSource", "XCTAssertEqual"]
+- !private ["P2C411EventSource", "XCTAssertFalse"]
+- !private ["P2C411EventSource", "XCTAssertTrue"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "inset"]
+- !private ["P2C411EventSource", "integral"]
+- !private ["P2C411EventSource", "intersection"]
+- !private ["P2C411EventSource", "max"]
+- !private ["P2C411EventSource", "min"]
+- !private ["P2C411EventSource", "random"]
+- !private ["P2C411EventSource", "standardize"]
+- !private ["P2C411EventSource", "union"]
+- ["P2C411EventSource", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "Rect"]
+- !private ["Ps8Hashable", "Size"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "XCTAssertFalse"]
+- !private ["Ps8Hashable", "XCTAssertTrue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "inset"]
+- !private ["Ps8Hashable", "integral"]
+- !private ["Ps8Hashable", "intersection"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "random"]
+- !private ["Ps8Hashable", "standardize"]
+- !private ["Ps8Hashable", "union"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "Rect"]
+- !private ["CSo8NSObject", "Size"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- !private ["CSo8NSObject", "XCTAssertFalse"]
+- !private ["CSo8NSObject", "XCTAssertTrue"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "inset"]
+- !private ["CSo8NSObject", "integral"]
+- !private ["CSo8NSObject", "intersection"]
+- !private ["CSo8NSObject", "max"]
+- !private ["CSo8NSObject", "min"]
+- !private ["CSo8NSObject", "random"]
+- !private ["CSo8NSObject", "standardize"]
+- ["CSo8NSObject", "testCenter"]
+- ["CSo8NSObject", "testContainsPoint"]
+- ["CSo8NSObject", "testContainsRect"]
+- ["CSo8NSObject", "testEquals"]
+- ["CSo8NSObject", "testInset"]
+- ["CSo8NSObject", "testIntegral"]
+- ["CSo8NSObject", "testIntersection"]
+- ["CSo8NSObject", "testIntersects"]
+- ["CSo8NSObject", "testIsZero"]
+- ["CSo8NSObject", "testMax"]
+- ["CSo8NSObject", "testStandardize"]
+- ["CSo8NSObject", "testUnion"]
+- !private ["CSo8NSObject", "union"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "Rect"]
+- !private ["PSo16NSObjectProtocol", "Size"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertFalse"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertTrue"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "inset"]
+- !private ["PSo16NSObjectProtocol", "integral"]
+- !private ["PSo16NSObjectProtocol", "intersection"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- !private ["PSo16NSObjectProtocol", "random"]
+- !private ["PSo16NSObjectProtocol", "standardize"]
+- !private ["PSo16NSObjectProtocol", "union"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["V2C45Point", "init"]
+- !private ["V2C45Point", "isZero"]
+- !private ["V2C45Point", "x"]
+- !private ["V2C45Point", "y"]
+- !private ["V2C44Rect", "center"]
+- !private ["V2C44Rect", "contains"]
+- !private ["V2C44Rect", "init"]
+- !private ["V2C44Rect", "intersects"]
+- !private ["V2C44Rect", "max"]
+- !private ["V2C44Rect", "origin"]
+- !private ["V2C44Rect", "size"]
+- !private ["C7C4Tests9RectTests", "Double"]
+- !private ["C7C4Tests9RectTests", "Point"]
+- !private ["C7C4Tests9RectTests", "Rect"]
+- !private ["C7C4Tests9RectTests", "Size"]
+- !private ["C7C4Tests9RectTests", "XCTAssertEqual"]
+- !private ["C7C4Tests9RectTests", "XCTAssertFalse"]
+- !private ["C7C4Tests9RectTests", "XCTAssertTrue"]
+- ["C7C4Tests9RectTests", "deinit"]
+- ["C7C4Tests9RectTests", "init"]
+- !private ["C7C4Tests9RectTests", "inset"]
+- !private ["C7C4Tests9RectTests", "integral"]
+- !private ["C7C4Tests9RectTests", "intersection"]
+- !private ["C7C4Tests9RectTests", "max"]
+- !private ["C7C4Tests9RectTests", "min"]
+- !private ["C7C4Tests9RectTests", "random"]
+- !private ["C7C4Tests9RectTests", "standardize"]
+- ["C7C4Tests9RectTests", "testCenter"]
+- ["C7C4Tests9RectTests", "testContainsPoint"]
+- ["C7C4Tests9RectTests", "testContainsRect"]
+- ["C7C4Tests9RectTests", "testEquals"]
+- ["C7C4Tests9RectTests", "testInset"]
+- ["C7C4Tests9RectTests", "testIntegral"]
+- ["C7C4Tests9RectTests", "testIntersection"]
+- ["C7C4Tests9RectTests", "testIntersects"]
+- ["C7C4Tests9RectTests", "testIsZero"]
+- ["C7C4Tests9RectTests", "testMax"]
+- ["C7C4Tests9RectTests", "testStandardize"]
+- ["C7C4Tests9RectTests", "testUnion"]
+- !private ["C7C4Tests9RectTests", "union"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["V2C44Size", "height"]
+- !private ["V2C44Size", "init"]
+- !private ["V2C44Size", "width"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo17XCTWaiterDelegate", "Double"]
+- !private ["PSo17XCTWaiterDelegate", "Point"]
+- !private ["PSo17XCTWaiterDelegate", "Rect"]
+- !private ["PSo17XCTWaiterDelegate", "Size"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertFalse"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertTrue"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "inset"]
+- !private ["PSo17XCTWaiterDelegate", "integral"]
+- !private ["PSo17XCTWaiterDelegate", "intersection"]
+- !private ["PSo17XCTWaiterDelegate", "max"]
+- !private ["PSo17XCTWaiterDelegate", "min"]
+- !private ["PSo17XCTWaiterDelegate", "random"]
+- !private ["PSo17XCTWaiterDelegate", "standardize"]
+- !private ["PSo17XCTWaiterDelegate", "union"]
+- ["PSo17XCTWaiterDelegate", ""]
+- !private ["CSo6XCTest", "Double"]
+- !private ["CSo6XCTest", "Point"]
+- !private ["CSo6XCTest", "Rect"]
+- !private ["CSo6XCTest", "Size"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- !private ["CSo6XCTest", "XCTAssertFalse"]
+- !private ["CSo6XCTest", "XCTAssertTrue"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "inset"]
+- !private ["CSo6XCTest", "integral"]
+- !private ["CSo6XCTest", "intersection"]
+- !private ["CSo6XCTest", "max"]
+- !private ["CSo6XCTest", "min"]
+- !private ["CSo6XCTest", "random"]
+- !private ["CSo6XCTest", "standardize"]
+- ["CSo6XCTest", "testCenter"]
+- ["CSo6XCTest", "testContainsPoint"]
+- ["CSo6XCTest", "testContainsRect"]
+- ["CSo6XCTest", "testEquals"]
+- ["CSo6XCTest", "testInset"]
+- ["CSo6XCTest", "testIntegral"]
+- ["CSo6XCTest", "testIntersection"]
+- ["CSo6XCTest", "testIntersects"]
+- ["CSo6XCTest", "testIsZero"]
+- ["CSo6XCTest", "testMax"]
+- ["CSo6XCTest", "testStandardize"]
+- ["CSo6XCTest", "testUnion"]
+- !private ["CSo6XCTest", "union"]
+- !private ["CSo10XCTestCase", "Double"]
+- !private ["CSo10XCTestCase", "Point"]
+- !private ["CSo10XCTestCase", "Rect"]
+- !private ["CSo10XCTestCase", "Size"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- !private ["CSo10XCTestCase", "XCTAssertFalse"]
+- !private ["CSo10XCTestCase", "XCTAssertTrue"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "inset"]
+- !private ["CSo10XCTestCase", "integral"]
+- !private ["CSo10XCTestCase", "intersection"]
+- !private ["CSo10XCTestCase", "max"]
+- !private ["CSo10XCTestCase", "min"]
+- !private ["CSo10XCTestCase", "random"]
+- !private ["CSo10XCTestCase", "standardize"]
+- ["CSo10XCTestCase", "testCenter"]
+- ["CSo10XCTestCase", "testContainsPoint"]
+- ["CSo10XCTestCase", "testContainsRect"]
+- ["CSo10XCTestCase", "testEquals"]
+- ["CSo10XCTestCase", "testInset"]
+- ["CSo10XCTestCase", "testIntegral"]
+- ["CSo10XCTestCase", "testIntersection"]
+- ["CSo10XCTestCase", "testIntersects"]
+- ["CSo10XCTestCase", "testIsZero"]
+- ["CSo10XCTestCase", "testMax"]
+- ["CSo10XCTestCase", "testStandardize"]
+- ["CSo10XCTestCase", "testUnion"]
+- !private ["CSo10XCTestCase", "union"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "Point"]
+- !private ["Ps9_Hashable", "Rect"]
+- !private ["Ps9_Hashable", "Size"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "XCTAssertFalse"]
+- !private ["Ps9_Hashable", "XCTAssertTrue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "inset"]
+- !private ["Ps9_Hashable", "integral"]
+- !private ["Ps9_Hashable", "intersection"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "random"]
+- !private ["Ps9_Hashable", "standardize"]
+- !private ["Ps9_Hashable", "union"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "V2C45Point"
+- !private "V2C44Rect"
+- "C7C4Tests9RectTests"
+- !private "Ps12SignedNumber"
+- !private "V2C44Size"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Modules/C4.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Products/Debug-iphonesimulator/C4.framework/Headers/C4-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphonesimulator/C4.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "15ebb07ec2c5277ac21cdfe09de6befd"

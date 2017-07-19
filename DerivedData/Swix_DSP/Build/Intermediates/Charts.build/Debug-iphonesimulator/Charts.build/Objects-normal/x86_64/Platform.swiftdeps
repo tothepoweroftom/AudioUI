@@ -1,0 +1,626 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NSUIFont"
+- "NSUIColor"
+- "NSUIEvent"
+- "NSUITouch"
+- "NSUIImage"
+- "NSUIScrollView"
+- "NSUIGestureRecognizer"
+- "NSUIGestureRecognizerState"
+- "NSUIGestureRecognizerDelegate"
+- "NSUITapGestureRecognizer"
+- "NSUIPanGestureRecognizer"
+- "NSUIPinchGestureRecognizer"
+- "NSUIRotationGestureRecognizer"
+- "NSUIScreen"
+- "NSUIDisplayLink"
+- "NSUIView"
+- "NSUIGraphicsGetCurrentContext"
+- "NSUIGraphicsGetImageFromCurrentImageContext"
+- "NSUIGraphicsPushContext"
+- "NSUIGraphicsPopContext"
+- "NSUIGraphicsEndImageContext"
+- "NSUIImagePNGRepresentation"
+- "NSUIImageJPEGRepresentation"
+- "NSUIMainScreen"
+- "NSUIGraphicsBeginImageContextWithOptions"
+provides-nominal:
+- "C6Charts8NSUIView"
+provides-member:
+- ["CSo22UITapGestureRecognizer", ""]
+- ["CSo22UIPanGestureRecognizer", ""]
+- ["CSo27UIRotationGestureRecognizer", ""]
+- ["CSo24UIPinchGestureRecognizer", ""]
+- ["C6Charts8NSUIView", ""]
+- ["CSo6UIView", ""]
+- ["CSo12UIScrollView", ""]
+- ["CSo8UIScreen", ""]
+- ["CSo22UITapGestureRecognizer", "nsuiNumberOfTouches"]
+- ["CSo22UITapGestureRecognizer", "nsuiNumberOfTapsRequired"]
+- ["CSo22UIPanGestureRecognizer", "nsuiNumberOfTouches"]
+- ["CSo22UIPanGestureRecognizer", "nsuiLocationOfTouch"]
+- ["CSo27UIRotationGestureRecognizer", "nsuiRotation"]
+- ["CSo24UIPinchGestureRecognizer", "nsuiScale"]
+- ["CSo24UIPinchGestureRecognizer", "nsuiLocationOfTouch"]
+- ["CSo6UIView", "nsuiGestureRecognizers"]
+- ["CSo12UIScrollView", "nsuiIsScrollEnabled"]
+- ["CSo8UIScreen", "nsuiScale"]
+provides-dynamic-lookup:
+- "nsuiGestureRecognizers"
+- "nsuiIsScrollEnabled"
+- "nsuiLayer"
+- "nsuiLocationOfTouch"
+- "nsuiNumberOfTapsRequired"
+- "nsuiNumberOfTouches"
+- "nsuiRotation"
+- "nsuiScale"
+- "nsuiTouchesBegan"
+- "nsuiTouchesCancelled"
+- "nsuiTouchesEnded"
+- "nsuiTouchesMoved"
+- "touchesBegan"
+- "touchesCancelled"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CADisplayLink"
+- "CALayer"
+- "CGContext"
+- "CGFloat"
+- "CGPoint"
+- "CGSize"
+- "Data"
+- "Int"
+- "NSUIColor"
+- "NSUIDisplayLink"
+- "NSUIEvent"
+- "NSUIFont"
+- "NSUIGestureRecognizer"
+- "NSUIGestureRecognizerDelegate"
+- "NSUIGestureRecognizerState"
+- "NSUIGraphicsBeginImageContextWithOptions"
+- "NSUIGraphicsEndImageContext"
+- "NSUIGraphicsGetCurrentContext"
+- "NSUIGraphicsGetImageFromCurrentImageContext"
+- "NSUIGraphicsPopContext"
+- "NSUIGraphicsPushContext"
+- "NSUIImage"
+- "NSUIImageJPEGRepresentation"
+- "NSUIImagePNGRepresentation"
+- "NSUIMainScreen"
+- "NSUIPanGestureRecognizer"
+- "NSUIPinchGestureRecognizer"
+- "NSUIRotationGestureRecognizer"
+- "NSUIScreen"
+- "NSUIScrollView"
+- "NSUITapGestureRecognizer"
+- "NSUITouch"
+- "NSUIView"
+- "Set"
+- "UIColor"
+- "UIEvent"
+- "UIFont"
+- "UIGestureRecognizer"
+- "UIGestureRecognizerDelegate"
+- "UIGestureRecognizerState"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetCurrentContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- !private "UIGraphicsPopContext"
+- !private "UIGraphicsPushContext"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- !private "UIImagePNGRepresentation"
+- "UIPanGestureRecognizer"
+- "UIPinchGestureRecognizer"
+- "UIRotationGestureRecognizer"
+- "UIScreen"
+- "UIScrollView"
+- "UITapGestureRecognizer"
+- "UITouch"
+- "UIView"
+depends-member:
+- !private ["Ps9AnyObject", "gestureRecognizers"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isScrollEnabled"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "nsuiTouchesBegan"]
+- !private ["Ps9AnyObject", "nsuiTouchesCancelled"]
+- !private ["Ps9AnyObject", "nsuiTouchesEnded"]
+- !private ["Ps9AnyObject", "nsuiTouchesMoved"]
+- !private ["Ps9AnyObject", "numberOfTapsRequired"]
+- !private ["Ps9AnyObject", "numberOfTouches"]
+- !private ["Ps9AnyObject", "rotation"]
+- !private ["Ps9AnyObject", "scale"]
+- !private ["Ps9AnyObject", "touchesBegan"]
+- !private ["Ps9AnyObject", "touchesCancelled"]
+- !private ["Ps9AnyObject", "touchesEnded"]
+- !private ["Ps9AnyObject", "touchesMoved"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "gestureRecognizers"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isScrollEnabled"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "nsuiTouchesBegan"]
+- !private ["PSo15CALayerDelegate", "nsuiTouchesCancelled"]
+- !private ["PSo15CALayerDelegate", "nsuiTouchesEnded"]
+- !private ["PSo15CALayerDelegate", "nsuiTouchesMoved"]
+- !private ["PSo15CALayerDelegate", "touchesBegan"]
+- !private ["PSo15CALayerDelegate", "touchesCancelled"]
+- !private ["PSo15CALayerDelegate", "touchesEnded"]
+- !private ["PSo15CALayerDelegate", "touchesMoved"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "gestureRecognizers"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isScrollEnabled"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "nsuiTouchesBegan"]
+- !private ["Ps7CVarArg", "nsuiTouchesCancelled"]
+- !private ["Ps7CVarArg", "nsuiTouchesEnded"]
+- !private ["Ps7CVarArg", "nsuiTouchesMoved"]
+- !private ["Ps7CVarArg", "numberOfTapsRequired"]
+- !private ["Ps7CVarArg", "numberOfTouches"]
+- !private ["Ps7CVarArg", "rotation"]
+- !private ["Ps7CVarArg", "scale"]
+- !private ["Ps7CVarArg", "touchesBegan"]
+- !private ["Ps7CVarArg", "touchesCancelled"]
+- !private ["Ps7CVarArg", "touchesEnded"]
+- !private ["Ps7CVarArg", "touchesMoved"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "gestureRecognizers"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isScrollEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "nsuiTouchesBegan"]
+- !private ["Ps28CustomDebugStringConvertible", "nsuiTouchesCancelled"]
+- !private ["Ps28CustomDebugStringConvertible", "nsuiTouchesEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "nsuiTouchesMoved"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfTapsRequired"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfTouches"]
+- !private ["Ps28CustomDebugStringConvertible", "rotation"]
+- !private ["Ps28CustomDebugStringConvertible", "scale"]
+- !private ["Ps28CustomDebugStringConvertible", "touchesBegan"]
+- !private ["Ps28CustomDebugStringConvertible", "touchesCancelled"]
+- !private ["Ps28CustomDebugStringConvertible", "touchesEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "touchesMoved"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "gestureRecognizers"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isScrollEnabled"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "nsuiTouchesBegan"]
+- !private ["Ps23CustomStringConvertible", "nsuiTouchesCancelled"]
+- !private ["Ps23CustomStringConvertible", "nsuiTouchesEnded"]
+- !private ["Ps23CustomStringConvertible", "nsuiTouchesMoved"]
+- !private ["Ps23CustomStringConvertible", "numberOfTapsRequired"]
+- !private ["Ps23CustomStringConvertible", "numberOfTouches"]
+- !private ["Ps23CustomStringConvertible", "rotation"]
+- !private ["Ps23CustomStringConvertible", "scale"]
+- !private ["Ps23CustomStringConvertible", "touchesBegan"]
+- !private ["Ps23CustomStringConvertible", "touchesCancelled"]
+- !private ["Ps23CustomStringConvertible", "touchesEnded"]
+- !private ["Ps23CustomStringConvertible", "touchesMoved"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "gestureRecognizers"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isScrollEnabled"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "nsuiTouchesBegan"]
+- !private ["Ps9Equatable", "nsuiTouchesCancelled"]
+- !private ["Ps9Equatable", "nsuiTouchesEnded"]
+- !private ["Ps9Equatable", "nsuiTouchesMoved"]
+- !private ["Ps9Equatable", "numberOfTapsRequired"]
+- !private ["Ps9Equatable", "numberOfTouches"]
+- !private ["Ps9Equatable", "rotation"]
+- !private ["Ps9Equatable", "scale"]
+- !private ["Ps9Equatable", "touchesBegan"]
+- !private ["Ps9Equatable", "touchesCancelled"]
+- !private ["Ps9Equatable", "touchesEnded"]
+- !private ["Ps9Equatable", "touchesMoved"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "gestureRecognizers"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isScrollEnabled"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "nsuiTouchesBegan"]
+- !private ["Ps8Hashable", "nsuiTouchesCancelled"]
+- !private ["Ps8Hashable", "nsuiTouchesEnded"]
+- !private ["Ps8Hashable", "nsuiTouchesMoved"]
+- !private ["Ps8Hashable", "numberOfTapsRequired"]
+- !private ["Ps8Hashable", "numberOfTouches"]
+- !private ["Ps8Hashable", "rotation"]
+- !private ["Ps8Hashable", "scale"]
+- !private ["Ps8Hashable", "touchesBegan"]
+- !private ["Ps8Hashable", "touchesCancelled"]
+- !private ["Ps8Hashable", "touchesEnded"]
+- !private ["Ps8Hashable", "touchesMoved"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "gestureRecognizers"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isScrollEnabled"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "nsuiTouchesBegan"]
+- !private ["PSo8NSCoding", "nsuiTouchesCancelled"]
+- !private ["PSo8NSCoding", "nsuiTouchesEnded"]
+- !private ["PSo8NSCoding", "nsuiTouchesMoved"]
+- !private ["PSo8NSCoding", "touchesBegan"]
+- !private ["PSo8NSCoding", "touchesCancelled"]
+- !private ["PSo8NSCoding", "touchesEnded"]
+- !private ["PSo8NSCoding", "touchesMoved"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CALayer"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSUIEvent"]
+- ["CSo8NSObject", "NSUIGestureRecognizer"]
+- ["CSo8NSObject", "NSUITouch"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "gestureRecognizers"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isScrollEnabled"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "location"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "nsuiGestureRecognizers"]
+- ["CSo8NSObject", "nsuiIsScrollEnabled"]
+- ["CSo8NSObject", "nsuiLayer"]
+- ["CSo8NSObject", "nsuiLocationOfTouch"]
+- ["CSo8NSObject", "nsuiNumberOfTapsRequired"]
+- ["CSo8NSObject", "nsuiNumberOfTouches"]
+- ["CSo8NSObject", "nsuiRotation"]
+- ["CSo8NSObject", "nsuiScale"]
+- ["CSo8NSObject", "nsuiTouchesBegan"]
+- ["CSo8NSObject", "nsuiTouchesCancelled"]
+- ["CSo8NSObject", "nsuiTouchesEnded"]
+- ["CSo8NSObject", "nsuiTouchesMoved"]
+- !private ["CSo8NSObject", "numberOfTapsRequired"]
+- !private ["CSo8NSObject", "numberOfTouches"]
+- !private ["CSo8NSObject", "rotation"]
+- !private ["CSo8NSObject", "scale"]
+- ["CSo8NSObject", "touchesBegan"]
+- ["CSo8NSObject", "touchesCancelled"]
+- ["CSo8NSObject", "touchesEnded"]
+- ["CSo8NSObject", "touchesMoved"]
+- !private ["PSo16NSObjectProtocol", "gestureRecognizers"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isScrollEnabled"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "nsuiTouchesBegan"]
+- !private ["PSo16NSObjectProtocol", "nsuiTouchesCancelled"]
+- !private ["PSo16NSObjectProtocol", "nsuiTouchesEnded"]
+- !private ["PSo16NSObjectProtocol", "nsuiTouchesMoved"]
+- !private ["PSo16NSObjectProtocol", "numberOfTapsRequired"]
+- !private ["PSo16NSObjectProtocol", "numberOfTouches"]
+- !private ["PSo16NSObjectProtocol", "rotation"]
+- !private ["PSo16NSObjectProtocol", "scale"]
+- !private ["PSo16NSObjectProtocol", "touchesBegan"]
+- !private ["PSo16NSObjectProtocol", "touchesCancelled"]
+- !private ["PSo16NSObjectProtocol", "touchesEnded"]
+- !private ["PSo16NSObjectProtocol", "touchesMoved"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C6Charts8NSUIView", "CALayer"]
+- ["C6Charts8NSUIView", "NSUIEvent"]
+- ["C6Charts8NSUIView", "NSUITouch"]
+- ["C6Charts8NSUIView", "Set"]
+- ["C6Charts8NSUIView", "deinit"]
+- ["C6Charts8NSUIView", "init"]
+- !private ["C6Charts8NSUIView", "layer"]
+- ["C6Charts8NSUIView", "nsuiLayer"]
+- ["C6Charts8NSUIView", "nsuiTouchesBegan"]
+- ["C6Charts8NSUIView", "nsuiTouchesCancelled"]
+- ["C6Charts8NSUIView", "nsuiTouchesEnded"]
+- ["C6Charts8NSUIView", "nsuiTouchesMoved"]
+- ["C6Charts8NSUIView", "touchesBegan"]
+- ["C6Charts8NSUIView", "touchesCancelled"]
+- ["C6Charts8NSUIView", "touchesEnded"]
+- ["C6Charts8NSUIView", "touchesMoved"]
+- !private ["PSo29UIAccessibilityIdentification", "gestureRecognizers"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isScrollEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "nsuiTouchesBegan"]
+- !private ["PSo29UIAccessibilityIdentification", "nsuiTouchesCancelled"]
+- !private ["PSo29UIAccessibilityIdentification", "nsuiTouchesEnded"]
+- !private ["PSo29UIAccessibilityIdentification", "nsuiTouchesMoved"]
+- !private ["PSo29UIAccessibilityIdentification", "touchesBegan"]
+- !private ["PSo29UIAccessibilityIdentification", "touchesCancelled"]
+- !private ["PSo29UIAccessibilityIdentification", "touchesEnded"]
+- !private ["PSo29UIAccessibilityIdentification", "touchesMoved"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "gestureRecognizers"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isScrollEnabled"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "nsuiTouchesBegan"]
+- !private ["PSo12UIAppearance", "nsuiTouchesCancelled"]
+- !private ["PSo12UIAppearance", "nsuiTouchesEnded"]
+- !private ["PSo12UIAppearance", "nsuiTouchesMoved"]
+- !private ["PSo12UIAppearance", "touchesBegan"]
+- !private ["PSo12UIAppearance", "touchesCancelled"]
+- !private ["PSo12UIAppearance", "touchesEnded"]
+- !private ["PSo12UIAppearance", "touchesMoved"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "gestureRecognizers"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isScrollEnabled"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "nsuiTouchesBegan"]
+- !private ["PSo21UIAppearanceContainer", "nsuiTouchesCancelled"]
+- !private ["PSo21UIAppearanceContainer", "nsuiTouchesEnded"]
+- !private ["PSo21UIAppearanceContainer", "nsuiTouchesMoved"]
+- !private ["PSo21UIAppearanceContainer", "touchesBegan"]
+- !private ["PSo21UIAppearanceContainer", "touchesCancelled"]
+- !private ["PSo21UIAppearanceContainer", "touchesEnded"]
+- !private ["PSo21UIAppearanceContainer", "touchesMoved"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "gestureRecognizers"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isScrollEnabled"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "nsuiTouchesBegan"]
+- !private ["PSo17UICoordinateSpace", "nsuiTouchesCancelled"]
+- !private ["PSo17UICoordinateSpace", "nsuiTouchesEnded"]
+- !private ["PSo17UICoordinateSpace", "nsuiTouchesMoved"]
+- !private ["PSo17UICoordinateSpace", "touchesBegan"]
+- !private ["PSo17UICoordinateSpace", "touchesCancelled"]
+- !private ["PSo17UICoordinateSpace", "touchesEnded"]
+- !private ["PSo17UICoordinateSpace", "touchesMoved"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "gestureRecognizers"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isScrollEnabled"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "nsuiTouchesBegan"]
+- !private ["PSo13UIDynamicItem", "nsuiTouchesCancelled"]
+- !private ["PSo13UIDynamicItem", "nsuiTouchesEnded"]
+- !private ["PSo13UIDynamicItem", "nsuiTouchesMoved"]
+- !private ["PSo13UIDynamicItem", "touchesBegan"]
+- !private ["PSo13UIDynamicItem", "touchesCancelled"]
+- !private ["PSo13UIDynamicItem", "touchesEnded"]
+- !private ["PSo13UIDynamicItem", "touchesMoved"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "gestureRecognizers"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isScrollEnabled"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "nsuiTouchesBegan"]
+- !private ["PSo18UIFocusEnvironment", "nsuiTouchesCancelled"]
+- !private ["PSo18UIFocusEnvironment", "nsuiTouchesEnded"]
+- !private ["PSo18UIFocusEnvironment", "nsuiTouchesMoved"]
+- !private ["PSo18UIFocusEnvironment", "touchesBegan"]
+- !private ["PSo18UIFocusEnvironment", "touchesCancelled"]
+- !private ["PSo18UIFocusEnvironment", "touchesEnded"]
+- !private ["PSo18UIFocusEnvironment", "touchesMoved"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "gestureRecognizers"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isScrollEnabled"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "nsuiTouchesBegan"]
+- !private ["PSo11UIFocusItem", "nsuiTouchesCancelled"]
+- !private ["PSo11UIFocusItem", "nsuiTouchesEnded"]
+- !private ["PSo11UIFocusItem", "nsuiTouchesMoved"]
+- !private ["PSo11UIFocusItem", "touchesBegan"]
+- !private ["PSo11UIFocusItem", "touchesCancelled"]
+- !private ["PSo11UIFocusItem", "touchesEnded"]
+- !private ["PSo11UIFocusItem", "touchesMoved"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo19UIGestureRecognizer", "CGFloat"]
+- ["CSo19UIGestureRecognizer", "CGPoint"]
+- ["CSo19UIGestureRecognizer", "Int"]
+- ["CSo19UIGestureRecognizer", "UIView"]
+- !private ["CSo19UIGestureRecognizer", "location"]
+- ["CSo19UIGestureRecognizer", "nsuiLocationOfTouch"]
+- ["CSo19UIGestureRecognizer", "nsuiNumberOfTapsRequired"]
+- ["CSo19UIGestureRecognizer", "nsuiNumberOfTouches"]
+- ["CSo19UIGestureRecognizer", "nsuiRotation"]
+- ["CSo19UIGestureRecognizer", "nsuiScale"]
+- !private ["CSo19UIGestureRecognizer", "numberOfTapsRequired"]
+- !private ["CSo19UIGestureRecognizer", "numberOfTouches"]
+- !private ["CSo19UIGestureRecognizer", "rotation"]
+- !private ["CSo19UIGestureRecognizer", "scale"]
+- ["CSo22UIPanGestureRecognizer", "CGPoint"]
+- ["CSo22UIPanGestureRecognizer", "Int"]
+- ["CSo22UIPanGestureRecognizer", "UIView"]
+- ["CSo22UIPanGestureRecognizer", "nsuiLocationOfTouch"]
+- ["CSo22UIPanGestureRecognizer", "nsuiNumberOfTouches"]
+- !private ["CSo22UIPanGestureRecognizer", "numberOfTouches"]
+- ["CSo24UIPinchGestureRecognizer", "CGFloat"]
+- ["CSo24UIPinchGestureRecognizer", "CGPoint"]
+- ["CSo24UIPinchGestureRecognizer", "Int"]
+- ["CSo24UIPinchGestureRecognizer", "UIView"]
+- ["CSo24UIPinchGestureRecognizer", "nsuiLocationOfTouch"]
+- ["CSo24UIPinchGestureRecognizer", "nsuiScale"]
+- !private ["CSo24UIPinchGestureRecognizer", "scale"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CALayer"]
+- ["CSo11UIResponder", "NSUIEvent"]
+- ["CSo11UIResponder", "NSUIGestureRecognizer"]
+- ["CSo11UIResponder", "NSUITouch"]
+- ["CSo11UIResponder", "Set"]
+- !private ["CSo11UIResponder", "gestureRecognizers"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isScrollEnabled"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "nsuiGestureRecognizers"]
+- ["CSo11UIResponder", "nsuiIsScrollEnabled"]
+- ["CSo11UIResponder", "nsuiLayer"]
+- ["CSo11UIResponder", "nsuiTouchesBegan"]
+- ["CSo11UIResponder", "nsuiTouchesCancelled"]
+- ["CSo11UIResponder", "nsuiTouchesEnded"]
+- ["CSo11UIResponder", "nsuiTouchesMoved"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "touchesCancelled"]
+- ["CSo11UIResponder", "touchesEnded"]
+- ["CSo11UIResponder", "touchesMoved"]
+- !private ["PSo30UIResponderStandardEditActions", "gestureRecognizers"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isScrollEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "nsuiTouchesBegan"]
+- !private ["PSo30UIResponderStandardEditActions", "nsuiTouchesCancelled"]
+- !private ["PSo30UIResponderStandardEditActions", "nsuiTouchesEnded"]
+- !private ["PSo30UIResponderStandardEditActions", "nsuiTouchesMoved"]
+- !private ["PSo30UIResponderStandardEditActions", "touchesBegan"]
+- !private ["PSo30UIResponderStandardEditActions", "touchesCancelled"]
+- !private ["PSo30UIResponderStandardEditActions", "touchesEnded"]
+- !private ["PSo30UIResponderStandardEditActions", "touchesMoved"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo27UIRotationGestureRecognizer", "CGFloat"]
+- ["CSo27UIRotationGestureRecognizer", "nsuiRotation"]
+- !private ["CSo27UIRotationGestureRecognizer", "rotation"]
+- ["CSo8UIScreen", "CGFloat"]
+- !private ["CSo8UIScreen", "main"]
+- ["CSo8UIScreen", "nsuiScale"]
+- !private ["CSo8UIScreen", "scale"]
+- ["CSo12UIScrollView", "Bool"]
+- !private ["CSo12UIScrollView", "isScrollEnabled"]
+- ["CSo12UIScrollView", "nsuiIsScrollEnabled"]
+- ["CSo22UITapGestureRecognizer", "Int"]
+- ["CSo22UITapGestureRecognizer", "nsuiNumberOfTapsRequired"]
+- ["CSo22UITapGestureRecognizer", "nsuiNumberOfTouches"]
+- !private ["CSo22UITapGestureRecognizer", "numberOfTapsRequired"]
+- !private ["CSo22UITapGestureRecognizer", "numberOfTouches"]
+- !private ["PSo18UITraitEnvironment", "gestureRecognizers"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isScrollEnabled"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "nsuiTouchesBegan"]
+- !private ["PSo18UITraitEnvironment", "nsuiTouchesCancelled"]
+- !private ["PSo18UITraitEnvironment", "nsuiTouchesEnded"]
+- !private ["PSo18UITraitEnvironment", "nsuiTouchesMoved"]
+- !private ["PSo18UITraitEnvironment", "scale"]
+- !private ["PSo18UITraitEnvironment", "touchesBegan"]
+- !private ["PSo18UITraitEnvironment", "touchesCancelled"]
+- !private ["PSo18UITraitEnvironment", "touchesEnded"]
+- !private ["PSo18UITraitEnvironment", "touchesMoved"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CALayer"]
+- ["CSo6UIView", "NSUIEvent"]
+- ["CSo6UIView", "NSUIGestureRecognizer"]
+- ["CSo6UIView", "NSUITouch"]
+- ["CSo6UIView", "Set"]
+- !private ["CSo6UIView", "gestureRecognizers"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isScrollEnabled"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "nsuiGestureRecognizers"]
+- ["CSo6UIView", "nsuiIsScrollEnabled"]
+- ["CSo6UIView", "nsuiLayer"]
+- ["CSo6UIView", "nsuiTouchesBegan"]
+- ["CSo6UIView", "nsuiTouchesCancelled"]
+- ["CSo6UIView", "nsuiTouchesEnded"]
+- ["CSo6UIView", "nsuiTouchesMoved"]
+- ["CSo6UIView", "touchesBegan"]
+- ["CSo6UIView", "touchesCancelled"]
+- ["CSo6UIView", "touchesEnded"]
+- ["CSo6UIView", "touchesMoved"]
+- ["CSo6UIView", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "gestureRecognizers"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isScrollEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nsuiTouchesBegan"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nsuiTouchesCancelled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nsuiTouchesEnded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nsuiTouchesMoved"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesBegan"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesCancelled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesEnded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesMoved"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "gestureRecognizers"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isScrollEnabled"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "nsuiTouchesBegan"]
+- !private ["Ps9_Hashable", "nsuiTouchesCancelled"]
+- !private ["Ps9_Hashable", "nsuiTouchesEnded"]
+- !private ["Ps9_Hashable", "nsuiTouchesMoved"]
+- !private ["Ps9_Hashable", "numberOfTapsRequired"]
+- !private ["Ps9_Hashable", "numberOfTouches"]
+- !private ["Ps9_Hashable", "rotation"]
+- !private ["Ps9_Hashable", "scale"]
+- !private ["Ps9_Hashable", "touchesBegan"]
+- !private ["Ps9_Hashable", "touchesCancelled"]
+- !private ["Ps9_Hashable", "touchesEnded"]
+- !private ["Ps9_Hashable", "touchesMoved"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts8NSUIView"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo19UIGestureRecognizer"
+- "CSo22UIPanGestureRecognizer"
+- "CSo24UIPinchGestureRecognizer"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo27UIRotationGestureRecognizer"
+- "CSo8UIScreen"
+- "CSo12UIScrollView"
+- "CSo22UITapGestureRecognizer"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "69d59f07916e3f3b4bc6a6d2b2788b77"

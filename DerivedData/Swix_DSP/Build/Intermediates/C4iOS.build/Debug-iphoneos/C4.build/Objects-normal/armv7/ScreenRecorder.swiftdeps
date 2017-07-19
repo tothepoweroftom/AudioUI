@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScreenRecorder"
+provides-nominal:
+- "C2C414ScreenRecorder"
+provides-member:
+- ["C2C414ScreenRecorder", ""]
+provides-dynamic-lookup:
+- "activities"
+- "available"
+- "enableMicrophone"
+- "preview"
+- "previewController"
+- "previewControllerDidFinish"
+- "previewFinishedAction"
+- "recorder"
+- "recording"
+- "recordingEndedAction"
+- "showPreviewInController"
+- "start"
+- "stop"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- "NSObject"
+- "RPPreviewViewController"
+- "RPPreviewViewControllerDelegate"
+- "RPScreenRecorder"
+- "ScreenRecorder"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "UIViewController"
+- "Void"
+- !private "print"
+- !private "wait"
+depends-member:
+- ["Ps9AnyObject", "RPScreenRecorder"]
+- !private ["Ps9AnyObject", "activities"]
+- !private ["Ps9AnyObject", "available"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "enableMicrophone"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isAvailable"]
+- !private ["Ps9AnyObject", "isRecording"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "presentingViewController"]
+- !private ["Ps9AnyObject", "preview"]
+- ["Ps9AnyObject", "previewController"]
+- !private ["Ps9AnyObject", "previewControllerDelegate"]
+- ["Ps9AnyObject", "previewControllerDidFinish"]
+- !private ["Ps9AnyObject", "previewFinishedAction"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "recorder"]
+- !private ["Ps9AnyObject", "recording"]
+- !private ["Ps9AnyObject", "recordingEndedAction"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "startRecording"]
+- !private ["Ps9AnyObject", "stop"]
+- !private ["Ps9AnyObject", "stopRecording"]
+- !private ["Ps9AnyObject", "wait"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "RPScreenRecorder"]
+- !private ["Ps7CVarArg", "activities"]
+- !private ["Ps7CVarArg", "available"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "enableMicrophone"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isAvailable"]
+- !private ["Ps7CVarArg", "isRecording"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "presentingViewController"]
+- !private ["Ps7CVarArg", "preview"]
+- ["Ps7CVarArg", "previewController"]
+- !private ["Ps7CVarArg", "previewControllerDelegate"]
+- ["Ps7CVarArg", "previewControllerDidFinish"]
+- !private ["Ps7CVarArg", "previewFinishedAction"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "recorder"]
+- !private ["Ps7CVarArg", "recording"]
+- !private ["Ps7CVarArg", "recordingEndedAction"]
+- ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "start"]
+- !private ["Ps7CVarArg", "startRecording"]
+- !private ["Ps7CVarArg", "stop"]
+- !private ["Ps7CVarArg", "stopRecording"]
+- !private ["Ps7CVarArg", "wait"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "RPScreenRecorder"]
+- !private ["Ps28CustomDebugStringConvertible", "activities"]
+- !private ["Ps28CustomDebugStringConvertible", "available"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "enableMicrophone"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "isRecording"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "presentingViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "preview"]
+- ["Ps28CustomDebugStringConvertible", "previewController"]
+- !private ["Ps28CustomDebugStringConvertible", "previewControllerDelegate"]
+- ["Ps28CustomDebugStringConvertible", "previewControllerDidFinish"]
+- !private ["Ps28CustomDebugStringConvertible", "previewFinishedAction"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "recorder"]
+- !private ["Ps28CustomDebugStringConvertible", "recording"]
+- !private ["Ps28CustomDebugStringConvertible", "recordingEndedAction"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "startRecording"]
+- !private ["Ps28CustomDebugStringConvertible", "stop"]
+- !private ["Ps28CustomDebugStringConvertible", "stopRecording"]
+- !private ["Ps28CustomDebugStringConvertible", "wait"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "RPScreenRecorder"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activities"]
+- !private ["Ps23CustomStringConvertible", "available"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "enableMicrophone"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isAvailable"]
+- !private ["Ps23CustomStringConvertible", "isRecording"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "presentingViewController"]
+- !private ["Ps23CustomStringConvertible", "preview"]
+- ["Ps23CustomStringConvertible", "previewController"]
+- !private ["Ps23CustomStringConvertible", "previewControllerDelegate"]
+- ["Ps23CustomStringConvertible", "previewControllerDidFinish"]
+- !private ["Ps23CustomStringConvertible", "previewFinishedAction"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "recorder"]
+- !private ["Ps23CustomStringConvertible", "recording"]
+- !private ["Ps23CustomStringConvertible", "recordingEndedAction"]
+- ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "startRecording"]
+- !private ["Ps23CustomStringConvertible", "stop"]
+- !private ["Ps23CustomStringConvertible", "stopRecording"]
+- !private ["Ps23CustomStringConvertible", "wait"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "RPScreenRecorder"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activities"]
+- !private ["Ps9Equatable", "available"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "enableMicrophone"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isAvailable"]
+- !private ["Ps9Equatable", "isRecording"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "presentingViewController"]
+- !private ["Ps9Equatable", "preview"]
+- ["Ps9Equatable", "previewController"]
+- !private ["Ps9Equatable", "previewControllerDelegate"]
+- ["Ps9Equatable", "previewControllerDidFinish"]
+- !private ["Ps9Equatable", "previewFinishedAction"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "recorder"]
+- !private ["Ps9Equatable", "recording"]
+- !private ["Ps9Equatable", "recordingEndedAction"]
+- ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "startRecording"]
+- !private ["Ps9Equatable", "stop"]
+- !private ["Ps9Equatable", "stopRecording"]
+- !private ["Ps9Equatable", "wait"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- ["P2C411EventSource", "RPScreenRecorder"]
+- !private ["P2C411EventSource", "activities"]
+- !private ["P2C411EventSource", "available"]
+- !private ["P2C411EventSource", "dismiss"]
+- !private ["P2C411EventSource", "enableMicrophone"]
+- !private ["P2C411EventSource", "init"]
+- !private ["P2C411EventSource", "isAvailable"]
+- !private ["P2C411EventSource", "isRecording"]
+- !private ["P2C411EventSource", "present"]
+- !private ["P2C411EventSource", "presentingViewController"]
+- !private ["P2C411EventSource", "preview"]
+- ["P2C411EventSource", "previewController"]
+- !private ["P2C411EventSource", "previewControllerDelegate"]
+- ["P2C411EventSource", "previewControllerDidFinish"]
+- !private ["P2C411EventSource", "previewFinishedAction"]
+- !private ["P2C411EventSource", "print"]
+- !private ["P2C411EventSource", "recorder"]
+- !private ["P2C411EventSource", "recording"]
+- !private ["P2C411EventSource", "recordingEndedAction"]
+- ["P2C411EventSource", "shared"]
+- !private ["P2C411EventSource", "start"]
+- !private ["P2C411EventSource", "startRecording"]
+- !private ["P2C411EventSource", "stop"]
+- !private ["P2C411EventSource", "stopRecording"]
+- !private ["P2C411EventSource", "wait"]
+- ["P2C411EventSource", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "RPScreenRecorder"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activities"]
+- !private ["Ps8Hashable", "available"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "enableMicrophone"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isAvailable"]
+- !private ["Ps8Hashable", "isRecording"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "presentingViewController"]
+- !private ["Ps8Hashable", "preview"]
+- ["Ps8Hashable", "previewController"]
+- !private ["Ps8Hashable", "previewControllerDelegate"]
+- ["Ps8Hashable", "previewControllerDidFinish"]
+- !private ["Ps8Hashable", "previewFinishedAction"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "recorder"]
+- !private ["Ps8Hashable", "recording"]
+- !private ["Ps8Hashable", "recordingEndedAction"]
+- ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "startRecording"]
+- !private ["Ps8Hashable", "stop"]
+- !private ["Ps8Hashable", "stopRecording"]
+- !private ["Ps8Hashable", "wait"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "presentingViewController"]
+- !private ["PSo8NSCoding", "previewControllerDelegate"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "presentingViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "previewControllerDelegate"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "PreviewControllerFinishedAction"]
+- ["CSo8NSObject", "RPPreviewViewController"]
+- ["CSo8NSObject", "RPScreenRecorder"]
+- ["CSo8NSObject", "RecorderStoppedAction"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "activities"]
+- ["CSo8NSObject", "available"]
+- !private ["CSo8NSObject", "dismiss"]
+- ["CSo8NSObject", "enableMicrophone"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isAvailable"]
+- !private ["CSo8NSObject", "isRecording"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "presentingViewController"]
+- ["CSo8NSObject", "preview"]
+- ["CSo8NSObject", "previewController"]
+- !private ["CSo8NSObject", "previewControllerDelegate"]
+- ["CSo8NSObject", "previewControllerDidFinish"]
+- ["CSo8NSObject", "previewFinishedAction"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "recorder"]
+- ["CSo8NSObject", "recording"]
+- ["CSo8NSObject", "recordingEndedAction"]
+- ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "showPreviewInController"]
+- ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "startRecording"]
+- ["CSo8NSObject", "stop"]
+- !private ["CSo8NSObject", "stopRecording"]
+- !private ["CSo8NSObject", "wait"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "RPScreenRecorder"]
+- !private ["PSo16NSObjectProtocol", "activities"]
+- !private ["PSo16NSObjectProtocol", "available"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "enableMicrophone"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isAvailable"]
+- !private ["PSo16NSObjectProtocol", "isRecording"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "presentingViewController"]
+- !private ["PSo16NSObjectProtocol", "preview"]
+- ["PSo16NSObjectProtocol", "previewController"]
+- !private ["PSo16NSObjectProtocol", "previewControllerDelegate"]
+- ["PSo16NSObjectProtocol", "previewControllerDidFinish"]
+- !private ["PSo16NSObjectProtocol", "previewFinishedAction"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "recorder"]
+- !private ["PSo16NSObjectProtocol", "recording"]
+- !private ["PSo16NSObjectProtocol", "recordingEndedAction"]
+- ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "startRecording"]
+- !private ["PSo16NSObjectProtocol", "stop"]
+- !private ["PSo16NSObjectProtocol", "stopRecording"]
+- !private ["PSo16NSObjectProtocol", "wait"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo23RPPreviewViewController", "presentingViewController"]
+- !private ["CSo23RPPreviewViewController", "previewControllerDelegate"]
+- ["PSo31RPPreviewViewControllerDelegate", "RPScreenRecorder"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "activities"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "available"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "enableMicrophone"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "preview"]
+- ["PSo31RPPreviewViewControllerDelegate", "previewController"]
+- ["PSo31RPPreviewViewControllerDelegate", "previewControllerDidFinish"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "previewFinishedAction"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "print"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "recorder"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "recording"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "recordingEndedAction"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "start"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "stop"]
+- !private ["PSo31RPPreviewViewControllerDelegate", "wait"]
+- ["PSo31RPPreviewViewControllerDelegate", ""]
+- !private ["CSo16RPScreenRecorder", "isAvailable"]
+- !private ["CSo16RPScreenRecorder", "isRecording"]
+- ["CSo16RPScreenRecorder", "shared"]
+- !private ["CSo16RPScreenRecorder", "startRecording"]
+- !private ["CSo16RPScreenRecorder", "stopRecording"]
+- ["C2C414ScreenRecorder", "Bool"]
+- ["C2C414ScreenRecorder", "Double"]
+- ["C2C414ScreenRecorder", "PreviewControllerFinishedAction"]
+- ["C2C414ScreenRecorder", "RPPreviewViewController"]
+- ["C2C414ScreenRecorder", "RPScreenRecorder"]
+- ["C2C414ScreenRecorder", "RecorderStoppedAction"]
+- ["C2C414ScreenRecorder", "Set"]
+- ["C2C414ScreenRecorder", "String"]
+- ["C2C414ScreenRecorder", "UIViewController"]
+- ["C2C414ScreenRecorder", "Void"]
+- ["C2C414ScreenRecorder", "activities"]
+- ["C2C414ScreenRecorder", "available"]
+- ["C2C414ScreenRecorder", "deinit"]
+- ["C2C414ScreenRecorder", "enableMicrophone"]
+- ["C2C414ScreenRecorder", "init"]
+- ["C2C414ScreenRecorder", "preview"]
+- ["C2C414ScreenRecorder", "previewController"]
+- ["C2C414ScreenRecorder", "previewControllerDidFinish"]
+- ["C2C414ScreenRecorder", "previewFinishedAction"]
+- !private ["C2C414ScreenRecorder", "print"]
+- ["C2C414ScreenRecorder", "recorder"]
+- ["C2C414ScreenRecorder", "recording"]
+- ["C2C414ScreenRecorder", "recordingEndedAction"]
+- ["C2C414ScreenRecorder", "showPreviewInController"]
+- ["C2C414ScreenRecorder", "start"]
+- ["C2C414ScreenRecorder", "stop"]
+- !private ["C2C414ScreenRecorder", "wait"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "presentingViewController"]
+- !private ["PSo21UIAppearanceContainer", "previewControllerDelegate"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "presentingViewController"]
+- !private ["PSo18UIContentContainer", "previewControllerDelegate"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "presentingViewController"]
+- !private ["PSo18UIFocusEnvironment", "previewControllerDelegate"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "presentingViewController"]
+- !private ["CSo11UIResponder", "previewControllerDelegate"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "presentingViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "previewControllerDelegate"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "presentingViewController"]
+- !private ["PSo16UIStateRestoring", "previewControllerDelegate"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "presentingViewController"]
+- !private ["PSo18UITraitEnvironment", "previewControllerDelegate"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "presentingViewController"]
+- !private ["CSo16UIViewController", "previewControllerDelegate"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RPScreenRecorder"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "activities"]
+- !private ["Ps9_Hashable", "available"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "enableMicrophone"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isAvailable"]
+- !private ["Ps9_Hashable", "isRecording"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "presentingViewController"]
+- !private ["Ps9_Hashable", "preview"]
+- ["Ps9_Hashable", "previewController"]
+- !private ["Ps9_Hashable", "previewControllerDelegate"]
+- ["Ps9_Hashable", "previewControllerDidFinish"]
+- !private ["Ps9_Hashable", "previewFinishedAction"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "recorder"]
+- !private ["Ps9_Hashable", "recording"]
+- !private ["Ps9_Hashable", "recordingEndedAction"]
+- ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "start"]
+- !private ["Ps9_Hashable", "startRecording"]
+- !private ["Ps9_Hashable", "stop"]
+- !private ["Ps9_Hashable", "stopRecording"]
+- !private ["Ps9_Hashable", "wait"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "P2C411EventSource"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo23RPPreviewViewController"
+- "PSo31RPPreviewViewControllerDelegate"
+- "CSo16RPScreenRecorder"
+- "C2C414ScreenRecorder"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Users/tom.power/Developer/iOS_Projects/Gravity2/Gravity2/C4iOS/C4/C4.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/C4iOS.build/Debug-iphoneos/C4.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+interface-hash: "77abc899b4580447505a6e4932999f11"

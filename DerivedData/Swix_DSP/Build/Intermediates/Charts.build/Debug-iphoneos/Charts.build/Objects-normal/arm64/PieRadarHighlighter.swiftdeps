@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PieRadarHighlighter"
+provides-nominal:
+- "C6Charts19PieRadarHighlighter"
+provides-member:
+- ["C6Charts19PieRadarHighlighter", ""]
+provides-dynamic-lookup:
+- "closestHighlight"
+- "getHighlight"
+depends-top-level:
+- !private "/="
+- !private "<"
+- !private ">"
+- !private ">="
+- !private "??"
+- "CGFloat"
+- "CastingPrecedence"
+- "ChartHighlighter"
+- "Highlight"
+- "Int"
+- !private "PieChartView"
+- !private "PieRadarChartViewBase"
+- "PieRadarHighlighter"
+- !private "StringLiteralType"
+- !private "fatalError"
+- !private "||"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["C6Charts8Animator", "phaseY"]
+- !private ["P6Charts16AnimatorDelegate", "angleForPoint"]
+- !private ["P6Charts16AnimatorDelegate", "chartAnimator"]
+- !private ["P6Charts16AnimatorDelegate", "data"]
+- !private ["P6Charts16AnimatorDelegate", "distanceToCenter"]
+- !private ["P6Charts16AnimatorDelegate", "indexForAngle"]
+- !private ["P6Charts16AnimatorDelegate", "radius"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "angleForPoint"]
+- !private ["Ps9AnyObject", "chart"]
+- !private ["Ps9AnyObject", "chartAnimator"]
+- !private ["Ps9AnyObject", "closestHighlight"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "distanceToCenter"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "indexForAngle"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "maxEntryCountSet"]
+- !private ["Ps9AnyObject", "phaseY"]
+- !private ["Ps9AnyObject", "radius"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "angleForPoint"]
+- !private ["PSo15CALayerDelegate", "chartAnimator"]
+- !private ["PSo15CALayerDelegate", "data"]
+- !private ["PSo15CALayerDelegate", "distanceToCenter"]
+- !private ["PSo15CALayerDelegate", "indexForAngle"]
+- !private ["PSo15CALayerDelegate", "radius"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "angleForPoint"]
+- !private ["Ps7CVarArg", "chart"]
+- !private ["Ps7CVarArg", "chartAnimator"]
+- !private ["Ps7CVarArg", "closestHighlight"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "distanceToCenter"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "indexForAngle"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "maxEntryCountSet"]
+- !private ["Ps7CVarArg", "phaseY"]
+- !private ["Ps7CVarArg", "radius"]
+- ["Ps7CVarArg", ""]
+- !private ["C6Charts9ChartData", "maxEntryCountSet"]
+- !private ["P6Charts17ChartDataProvider", "angleForPoint"]
+- !private ["P6Charts17ChartDataProvider", "chartAnimator"]
+- !private ["P6Charts17ChartDataProvider", "data"]
+- !private ["P6Charts17ChartDataProvider", "distanceToCenter"]
+- !private ["P6Charts17ChartDataProvider", "indexForAngle"]
+- !private ["P6Charts17ChartDataProvider", "radius"]
+- ["C6Charts16ChartHighlighter", "CGFloat"]
+- ["C6Charts16ChartHighlighter", "Highlight"]
+- ["C6Charts16ChartHighlighter", "Int"]
+- !private ["C6Charts16ChartHighlighter", "PieChartView"]
+- !private ["C6Charts16ChartHighlighter", "PieRadarChartViewBase"]
+- !private ["C6Charts16ChartHighlighter", "chart"]
+- ["C6Charts16ChartHighlighter", "closestHighlight"]
+- !private ["C6Charts16ChartHighlighter", "fatalError"]
+- ["C6Charts16ChartHighlighter", "getHighlight"]
+- ["C6Charts16ChartHighlighter", "init"]
+- ["C6Charts16ChartHighlighter", ""]
+- !private ["C6Charts13ChartViewBase", "angleForPoint"]
+- !private ["C6Charts13ChartViewBase", "chartAnimator"]
+- !private ["C6Charts13ChartViewBase", "data"]
+- !private ["C6Charts13ChartViewBase", "distanceToCenter"]
+- !private ["C6Charts13ChartViewBase", "indexForAngle"]
+- !private ["C6Charts13ChartViewBase", "radius"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "angleForPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "chart"]
+- !private ["Ps28CustomDebugStringConvertible", "chartAnimator"]
+- !private ["Ps28CustomDebugStringConvertible", "closestHighlight"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "distanceToCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "indexForAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "maxEntryCountSet"]
+- !private ["Ps28CustomDebugStringConvertible", "phaseY"]
+- !private ["Ps28CustomDebugStringConvertible", "radius"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "angleForPoint"]
+- !private ["Ps23CustomStringConvertible", "chart"]
+- !private ["Ps23CustomStringConvertible", "chartAnimator"]
+- !private ["Ps23CustomStringConvertible", "closestHighlight"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "distanceToCenter"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "indexForAngle"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "maxEntryCountSet"]
+- !private ["Ps23CustomStringConvertible", "phaseY"]
+- !private ["Ps23CustomStringConvertible", "radius"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "angleForPoint"]
+- !private ["Ps9Equatable", "chart"]
+- !private ["Ps9Equatable", "chartAnimator"]
+- !private ["Ps9Equatable", "closestHighlight"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "distanceToCenter"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "indexForAngle"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "maxEntryCountSet"]
+- !private ["Ps9Equatable", "phaseY"]
+- !private ["Ps9Equatable", "radius"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "angleForPoint"]
+- !private ["Ps8Hashable", "chart"]
+- !private ["Ps8Hashable", "chartAnimator"]
+- !private ["Ps8Hashable", "closestHighlight"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "distanceToCenter"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "indexForAngle"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "maxEntryCountSet"]
+- !private ["Ps8Hashable", "phaseY"]
+- !private ["Ps8Hashable", "radius"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts13IChartDataSet", "entryCount"]
+- !private ["P6Charts12IHighlighter", "CGFloat"]
+- !private ["P6Charts12IHighlighter", "chart"]
+- !private ["P6Charts12IHighlighter", "closestHighlight"]
+- !private ["P6Charts12IHighlighter", "fatalError"]
+- !private ["P6Charts12IHighlighter", "init"]
+- ["P6Charts12IHighlighter", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "angleForPoint"]
+- !private ["PSo8NSCoding", "chartAnimator"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "distanceToCenter"]
+- !private ["PSo8NSCoding", "indexForAngle"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "radius"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Highlight"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "PieChartView"]
+- !private ["CSo8NSObject", "PieRadarChartViewBase"]
+- !private ["CSo8NSObject", "angleForPoint"]
+- !private ["CSo8NSObject", "chart"]
+- !private ["CSo8NSObject", "chartAnimator"]
+- ["CSo8NSObject", "closestHighlight"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "distanceToCenter"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "getHighlight"]
+- !private ["CSo8NSObject", "indexForAngle"]
+- !private ["CSo8NSObject", "maxEntryCountSet"]
+- !private ["CSo8NSObject", "phaseY"]
+- !private ["CSo8NSObject", "radius"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "angleForPoint"]
+- !private ["PSo16NSObjectProtocol", "chart"]
+- !private ["PSo16NSObjectProtocol", "chartAnimator"]
+- !private ["PSo16NSObjectProtocol", "closestHighlight"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "distanceToCenter"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "indexForAngle"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "maxEntryCountSet"]
+- !private ["PSo16NSObjectProtocol", "phaseY"]
+- !private ["PSo16NSObjectProtocol", "radius"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C6Charts8NSUIView", "angleForPoint"]
+- !private ["C6Charts8NSUIView", "chartAnimator"]
+- !private ["C6Charts8NSUIView", "data"]
+- !private ["C6Charts8NSUIView", "distanceToCenter"]
+- !private ["C6Charts8NSUIView", "indexForAngle"]
+- !private ["C6Charts8NSUIView", "radius"]
+- !private ["C6Charts21PieRadarChartViewBase", "angleForPoint"]
+- !private ["C6Charts21PieRadarChartViewBase", "chartAnimator"]
+- !private ["C6Charts21PieRadarChartViewBase", "data"]
+- !private ["C6Charts21PieRadarChartViewBase", "deinit"]
+- !private ["C6Charts21PieRadarChartViewBase", "distanceToCenter"]
+- !private ["C6Charts21PieRadarChartViewBase", "indexForAngle"]
+- !private ["C6Charts21PieRadarChartViewBase", "radius"]
+- ["C6Charts19PieRadarHighlighter", "CGFloat"]
+- ["C6Charts19PieRadarHighlighter", "Highlight"]
+- ["C6Charts19PieRadarHighlighter", "Int"]
+- !private ["C6Charts19PieRadarHighlighter", "PieChartView"]
+- !private ["C6Charts19PieRadarHighlighter", "PieRadarChartViewBase"]
+- !private ["C6Charts19PieRadarHighlighter", "chart"]
+- ["C6Charts19PieRadarHighlighter", "closestHighlight"]
+- ["C6Charts19PieRadarHighlighter", "deinit"]
+- !private ["C6Charts19PieRadarHighlighter", "fatalError"]
+- ["C6Charts19PieRadarHighlighter", "getHighlight"]
+- ["C6Charts19PieRadarHighlighter", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "angleForPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "chartAnimator"]
+- !private ["PSo29UIAccessibilityIdentification", "data"]
+- !private ["PSo29UIAccessibilityIdentification", "distanceToCenter"]
+- !private ["PSo29UIAccessibilityIdentification", "indexForAngle"]
+- !private ["PSo29UIAccessibilityIdentification", "radius"]
+- !private ["PSo12UIAppearance", "angleForPoint"]
+- !private ["PSo12UIAppearance", "chartAnimator"]
+- !private ["PSo12UIAppearance", "data"]
+- !private ["PSo12UIAppearance", "distanceToCenter"]
+- !private ["PSo12UIAppearance", "indexForAngle"]
+- !private ["PSo12UIAppearance", "radius"]
+- !private ["PSo21UIAppearanceContainer", "angleForPoint"]
+- !private ["PSo21UIAppearanceContainer", "chartAnimator"]
+- !private ["PSo21UIAppearanceContainer", "data"]
+- !private ["PSo21UIAppearanceContainer", "distanceToCenter"]
+- !private ["PSo21UIAppearanceContainer", "indexForAngle"]
+- !private ["PSo21UIAppearanceContainer", "radius"]
+- !private ["PSo17UICoordinateSpace", "angleForPoint"]
+- !private ["PSo17UICoordinateSpace", "chartAnimator"]
+- !private ["PSo17UICoordinateSpace", "data"]
+- !private ["PSo17UICoordinateSpace", "distanceToCenter"]
+- !private ["PSo17UICoordinateSpace", "indexForAngle"]
+- !private ["PSo17UICoordinateSpace", "radius"]
+- !private ["PSo13UIDynamicItem", "angleForPoint"]
+- !private ["PSo13UIDynamicItem", "chartAnimator"]
+- !private ["PSo13UIDynamicItem", "data"]
+- !private ["PSo13UIDynamicItem", "distanceToCenter"]
+- !private ["PSo13UIDynamicItem", "indexForAngle"]
+- !private ["PSo13UIDynamicItem", "radius"]
+- !private ["PSo18UIFocusEnvironment", "angleForPoint"]
+- !private ["PSo18UIFocusEnvironment", "chartAnimator"]
+- !private ["PSo18UIFocusEnvironment", "data"]
+- !private ["PSo18UIFocusEnvironment", "distanceToCenter"]
+- !private ["PSo18UIFocusEnvironment", "indexForAngle"]
+- !private ["PSo18UIFocusEnvironment", "radius"]
+- !private ["PSo11UIFocusItem", "angleForPoint"]
+- !private ["PSo11UIFocusItem", "chartAnimator"]
+- !private ["PSo11UIFocusItem", "data"]
+- !private ["PSo11UIFocusItem", "distanceToCenter"]
+- !private ["PSo11UIFocusItem", "indexForAngle"]
+- !private ["PSo11UIFocusItem", "radius"]
+- !private ["CSo11UIResponder", "angleForPoint"]
+- !private ["CSo11UIResponder", "chartAnimator"]
+- !private ["CSo11UIResponder", "data"]
+- !private ["CSo11UIResponder", "distanceToCenter"]
+- !private ["CSo11UIResponder", "indexForAngle"]
+- !private ["CSo11UIResponder", "radius"]
+- !private ["PSo30UIResponderStandardEditActions", "angleForPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "chartAnimator"]
+- !private ["PSo30UIResponderStandardEditActions", "data"]
+- !private ["PSo30UIResponderStandardEditActions", "distanceToCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "indexForAngle"]
+- !private ["PSo30UIResponderStandardEditActions", "radius"]
+- !private ["PSo18UITraitEnvironment", "angleForPoint"]
+- !private ["PSo18UITraitEnvironment", "chartAnimator"]
+- !private ["PSo18UITraitEnvironment", "data"]
+- !private ["PSo18UITraitEnvironment", "distanceToCenter"]
+- !private ["PSo18UITraitEnvironment", "indexForAngle"]
+- !private ["PSo18UITraitEnvironment", "radius"]
+- !private ["CSo6UIView", "angleForPoint"]
+- !private ["CSo6UIView", "chartAnimator"]
+- !private ["CSo6UIView", "data"]
+- !private ["CSo6UIView", "distanceToCenter"]
+- !private ["CSo6UIView", "indexForAngle"]
+- !private ["CSo6UIView", "radius"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "angleForPoint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "chartAnimator"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "data"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "distanceToCenter"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "indexForAngle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "radius"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "angleForPoint"]
+- !private ["Ps9_Hashable", "chart"]
+- !private ["Ps9_Hashable", "chartAnimator"]
+- !private ["Ps9_Hashable", "closestHighlight"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "distanceToCenter"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "indexForAngle"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "maxEntryCountSet"]
+- !private ["Ps9_Hashable", "phaseY"]
+- !private ["Ps9_Hashable", "radius"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "C6Charts8Animator"
+- !private "P6Charts16AnimatorDelegate"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "C6Charts9ChartData"
+- !private "P6Charts17ChartDataProvider"
+- "C6Charts16ChartHighlighter"
+- !private "C6Charts13ChartViewBase"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "P6Charts13IChartDataSet"
+- "P6Charts12IHighlighter"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C6Charts8NSUIView"
+- !private "C6Charts21PieRadarChartViewBase"
+- "C6Charts19PieRadarHighlighter"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Users/tom.power/Developer/iOSLibraries/Charts/Source/Supporting Files/Charts.h"
+- "/Users/tom.power/Developer/Audio_As_An_Interface/Swix_DSP/DerivedData/Swix_DSP/Build/Intermediates/Charts.build/Debug-iphoneos/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e02b4e13ec1f3bf0c025150e7304f7a0"
