@@ -11,3 +11,4 @@ The incoming audio from the microphone is buffered and an FFT is applied using t
 
 The Fourier Transform results are used to determine the gesture based on the shifts away from the fundamental frequency of the tone.
 
+![alt text](AudioUI/audiointerface.gif)
